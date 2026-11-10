@@ -1,0 +1,60 @@
+ext-l13-q02	Selector before braces identifies matching elements; values, paths and imagined equals-sign comments do not select targets. Standard qualified rule syntax, not an at-rule question.
+ext-l13-q03	Colon separates property and value, whereas semicolon separates declarations; ? and / are not substitutes.
+ext-l13-q04	style in head provides an internal stylesheet; title/table/input do not. 'Usually' in explanation accommodates parsing behavior without teaching invalid placement.
+ext-l13-q05	.css is the conventional stylesheet extension; csv/mp3/png denote other formats. The stem correctly says usually rather than requiring the suffix for HTTP stylesheets.
+ext-l13-q06	rel stylesheet declares the stylesheet link relationship; other options are CSS property names, not that link type.
+ext-l13-q07	Comma groups independent selectors for both h1 and h2; >,+,~ instead express relations and do not select both sets.
+ext-l13-q08	Inline declarations belong in style, not title/src/href. Key is consistent with lesson8's same concept.
+ext-l13-q09	A declaration pairs property and value; account credentials, USB ports and folder capacity are unrelated to CSS syntax.
+ext-l13-q11	Shared external stylesheets enable synchronized styling; CSS does not itself supply domains, accounts or the document's semantic content.
+ext-l13-q12	HTML structures content; CSS styles it. They are distinct languages, not interchangeable names or networking control languages.
+ext-l13-q13	color and border are two declarations; border's multiple shorthand components do not count as separate source declarations.
+ext-l13-t2.a	False: a paragraph src is not the stylesheet-loading mechanism; link rel=stylesheet with href is appropriate.
+ext-l13-t2.b	True: the style attribute supplies element-level inline declarations.
+ext-l13-t2.c	True: moving shared rules to the referenced themes.css aids maintenance; existing inline styles may still affect the cascade.
+ext-l13-t2.d	False: an img is not a CSS stylesheet link, nor must CSS be embedded as a body image.
+ext-l14-q02	italic directly requests italic face. Clarify 'directly' because inherit could yield italic when the parent is already italic; retain key and avoid conditional multi-answer reading.
+ext-l14-q03	font-weight sets glyph weight, not line height, text indentation or background color. Normal/bold are valid examples, not exhaustive values.
+ext-l14-q04	text-align:center centers inline text within its block; justify/right/left request distinct alignments. It does not promise to center the block itself.
+ext-l14-q05	line-height controls line-box height. Refine stem away from an unconditional baseline-distance definition, which varies with mixed inline content.
+ext-l14-q06	underline supplies an underlining decoration; overline and line-through draw elsewhere and initial does not inherently request underline.
+ext-l14-q07	text-indent controls first-line indentation in the ordinary textbook paragraph case; not weight, image width or table row count.
+ext-l14-q08	sans-serif is the generic fallback font family, not a border style, image format or color code.
+ext-l14-q09	For font-size specifically, em references parent computed font size; the stem correctly avoids the different em reference used in other properties.
+ext-l14-q11	A direct child p at 1.5em of 20px is 30px. Clarify direct parent/no other rule in the stem so intervening inheritance cannot alter the arithmetic.
+ext-l14-q12	Fallbacks handle unavailable first-choice fonts and missing glyph support; HTML readability and universal deletion/network absence are not the reason.
+ext-l14-q13	Later duplicate color wins within the same declaration block. Narrow stem to that block instead of implying source order overrides different cascade layers; red/blue do not blend.
+ext-l14-t2.a	False: underline is a text-decoration value, not a valid line-height value; the proposed repair does not implement the goal.
+ext-l14-t2.b	True: font-weight:bold applied to the word supplies bold weight without changing every word.
+ext-l14-t2.c	True: text-align:center aligns a block's inline text; this does not assert arbitrary block centering.
+ext-l14-t2.d	False: author important declarations beat normal author inline declarations; the scenario is explicit about normal inline blue and important red.
+ext-l15-q02	Conventional 8bit RGB integer channels use 0–255; 0–360 belongs to hue angles. The qualifier 'usually' avoids confusing CSS's percentage/extended numeric forms.
+ext-l15-q03	#FF0000 maximizes red and zeros green/blue; it is not green, blue or black.
+ext-l15-q04	H is hue angle on the color wheel; saturation/lightness are S/L and alpha is transparency.
+ext-l15-q05	Whitespace is the descendant combinator, including deeper descendants; it does not reverse ancestry or select prior siblings.
+ext-l15-q06	> selects direct-child F of E; parent or preceding sibling alternatives reverse the specified relation.
+ext-l15-q07	+ selects the immediately following element sibling sharing the parent; not descendants/parents. Non-element whitespace does not invalidate the relation.
+ext-l15-q08	~ selects later element siblings with the same parent, without requiring adjacency; preceding siblings/parents/root are not selected.
+ext-l15-q09	border-color changes the border color, while background-color changes the background and weight/indent control text. Border visibility also depends on its style, not claimed here.
+ext-l15-q11	strong is nested inside p, not a direct child of div; div > strong matches none in the snippet. Default color and head-only restrictions are irrelevant/false.
+ext-l15-q12	The intervening div prevents either p from matching p+p in the exact snippet; C is not immediately preceded by a p.
+ext-l15-q13	Hue0, saturation100%, lightness50% is pure red; full black would require lightness0%, not this value.
+ext-l15-t2.a	False: the first 255 is R, not B; the resulting color is red rather than blue.
+ext-l15-t2.b	False: div interrupts p adjacency, so p+p does not select the second p in this exact sibling list.
+ext-l15-t2.c	True: HSL lightness100% is white irrespective of the zero saturation/hue choice.
+ext-l15-t2.d	True: p~p selects the later p despite the intervening div because the sibling parent is shared.
+ext-l16-q02	Padding is between content and border; margin is outside, border is the edge and display sets box participation.
+ext-l16-q03	Margin is the outer spacing, unlike padding/content height/border. No guarantee of additive vertical margins is implied.
+ext-l16-q04	.canhbao matches a class token; id, tag name and title require different selector syntax.
+ext-l16-q05	#menu matches id=menu; src/alt/for are different attributes with no implicit id equivalence.
+ext-l16-q06	Fix broad block-level wording: display:table also has a block-level outer box. Explicitly request an ordinary block rather than table layout, preserving the block key.
+ext-l16-q07	2px sets thickness, solid the unbroken style, red the color; dotted/dashed/double do not satisfy the specified single solid line.
+ext-l16-q08	class tokens are whitespace-separated; commas/semicolons/plus signs instead make different single token strings.
+ext-l16-q09	[href] tests attribute presence, not tag name or class/id token. Its value need not be a particular URL.
+ext-l16-q11	For a content-box block, outside-border width is 100+20+4=124px without margin. Specify a block so non-replaced inline width exceptions cannot undermine the premise.
+ext-l16-q12	.test.warning requires both classes on the same element; whitespace/child/adjacent combinators require separate related elements.
+ext-l16-q13	Width does not set the used width of a non-replaced inline span as it does for blocks. Explicit non-replaced qualification is correct and avoids img/replaced-inline exceptions.
+ext-l16-t2.a	False: conforming id values are unique in the document; shared styling should use classes, although browsers may still match duplicate invalid ids.
+ext-l16-t2.b	True: display:block changes a span's box participation to a block without changing its tag name.
+ext-l16-t2.c	True: .ghi-chu selects every matching class token, suitable for the repeated notes.
+ext-l16-t2.d	False: the menu id requires #menu; .menu is a class selector and the given menu has no such class.

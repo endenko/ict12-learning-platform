@@ -1,0 +1,279 @@
+q1 L1 Phép thử Turing được đề xuất nhằm xem xét điều gì? | KEY: Khả năng thể hiện hành vi thông minh. | WHY: Phép thử Turing mở đầu cách đánh giá khả năng máy tính thể hiện hành vi thông minh. | OPTIONS: Khả năng thể hiện hành vi thông minh. / Khả năng lưu trữ tệp có kích thước lớn. / Khả năng cung cấp điện cho các thiết bị. / Khả năng truyền tín hiệu trên cáp quang.
+
+q10 L1 Vì sao bộ hẹn giờ bật đèn theo lịch chưa đủ để gọi là AI? | KEY: Nó chỉ lặp lại thao tác đã được ấn định. | WHY: Tự động hóa thao tác cố định không đồng nghĩa với có đặc trưng trí tuệ. | OPTIONS: Nó chỉ được lắp đặt cùng một bóng đèn. / Nó chỉ lặp lại thao tác đã được ấn định. / Nó chỉ sử dụng nguồn điện đã ổn định. / Nó chỉ hoạt động trong phạm vi gia đình.
+
+q14 L1 Thư viện cần nhập nội dung từ hàng nghìn phiếu viết tay. Nên chọn giải pháp nào? | KEY: Dùng nhận dạng chữ để tạo văn bản số. | WHY: Nhận dạng chữ viết tay phù hợp chuyển phiếu giấy thành dữ liệu có thể xử lí. | OPTIONS: Dùng bộ chia điện để cấp nguồn liên tục. / Dùng nhận dạng chữ để tạo văn bản số. / Dùng bộ định tuyến để tăng cổng mạng. / Dùng bộ hẹn giờ để bật đèn đúng lịch.
+
+a-old-10 L1 Chức năng nào thuộc ứng dụng dịch máy sử dụng AI? | KEY: Chuyển một đoạn văn bản sang ngôn ngữ khác theo yêu cầu. | WHY: Dịch máy xử lí ngôn ngữ tự nhiên để chuyển nội dung giữa các ngôn ngữ. | OPTIONS: Chuyển một trang văn bản thành tệp nén để giảm kích thước. / Chuyển một đoạn văn bản sang ngôn ngữ khác theo yêu cầu. / Chuyển một tệp văn bản sang thư mục khác theo yêu cầu. / Chuyển một trang văn bản sang máy in để tạo bản giấy.
+
+q16 L2 AI trong y tế có thể hỗ trợ trực tiếp công việc nào? | KEY: Phát hiện dấu hiệu bất thường trên ảnh. | WHY: AI cải thiện ảnh y tế, tìm cấu trúc bất thường và hỗ trợ chẩn đoán. | OPTIONS: Nối các dây điện cấp nguồn cho máy in. / Định tuyến gói dữ liệu giữa các mạng. / Sao chép toàn bộ tệp vào ổ đĩa ngoài. / Phát hiện dấu hiệu bất thường trên ảnh.
+
+q25 L2 Vì sao phản hồi tức thì có ích trong học tập cá nhân hóa? | KEY: Giúp điều chỉnh nội dung theo lỗi đang gặp. | WHY: Phản hồi kịp thời giúp nhận biết khó khăn và điều chỉnh quá trình học. | OPTIONS: Giúp điều chỉnh nội dung theo lỗi đang gặp. / Giúp xóa bỏ nhu cầu tự luyện của học sinh. / Giúp mọi học sinh có cùng một kết quả thi. / Giúp thay thế toàn bộ hoạt động của giáo viên.
+
+q29 L2 Nhóm học sinh định tải hồ sơ sức khỏe của cả lớp lên chatbot công khai. Nên làm gì trước? | KEY: Dừng tải và xem xét bảo vệ dữ liệu riêng. | WHY: Hồ sơ sức khỏe là thông tin nhạy cảm; cần bảo vệ quyền riêng tư, không tùy tiện cung cấp. | OPTIONS: Dừng tải và xem xét bảo vệ dữ liệu riêng. / Tải ngay và công bố đường dẫn cho cả trường. / Đổi tên tệp rồi tải nguyên hồ sơ lên mạng. / Nén tệp nhỏ rồi gửi cho mọi tài khoản lạ.
+
+a-old-18 L2 Trang trại có dữ liệu độ ẩm đất, thời tiết và lịch sử tưới. Giải pháp nào khai thác AI phù hợp nhất để tiết kiệm nước? | KEY: Dự đoán nhu cầu nước từ dữ liệu đo để điều chỉnh lịch tưới cây. | WHY: Mô hình dự báo dựa trên dữ liệu môi trường có thể hỗ trợ tối ưu lịch tưới, phù hợp ứng dụng AI trong nông nghiệp thông minh. | OPTIONS: Đặt máy bơm chạy cùng số phút mỗi ngày và bỏ qua các dữ liệu đo. / Tăng lượng nước tưới cho mọi khu đất và bỏ qua dự báo thời tiết. / Sao chép bảng số liệu sang ổ đĩa khác và giữ nguyên lịch tưới cũ. / Dự đoán nhu cầu nước từ dữ liệu đo để điều chỉnh lịch tưới cây.
+
+q31 L3 Khi nhận tín hiệu ở một cổng, hub xử lí theo cách nào? | KEY: Phát tín hiệu đến tất cả cổng còn lại. | WHY: Hub phát tín hiệu ra mọi cổng còn lại nên dễ gây xung đột. | OPTIONS: Chuyển tín hiệu số thành ảnh để lưu trữ. / Chỉ chuyển tín hiệu sang một mạng xa. / Phát tín hiệu đến tất cả cổng còn lại. / Chỉ chuyển tín hiệu đến đúng cổng nhận.
+
+q40 L3 Vì sao LAN nhiều máy thường ưu tiên switch thay cho hub? | KEY: Hạn chế xung đột nhờ chuyển đúng cổng. | WHY: Switch không phát tràn mọi cổng như hub nên hoạt động hiệu quả hơn. | OPTIONS: Tăng xung đột nhờ phát tín hiệu mọi cổng. / Tạo bản dịch nhờ xử lí mọi tệp văn bản. / Cấp nguồn điện nhờ kết nối mọi máy in. / Hạn chế xung đột nhờ chuyển đúng cổng.
+
+q44 L3 Phòng học có 30 máy bàn cần trao đổi dữ liệu có dây, giảm xung đột. Nên dùng gì? | KEY: Dùng switch đủ cổng để nối các máy. | WHY: Switch phù hợp LAN có nhiều máy, hạn chế xung đột so với hub. | OPTIONS: Dùng hub đủ cổng để phát ra mọi nhánh. / Dùng máy in màu để nối các máy bàn. / Dùng bộ chia điện để nối các dây mạng. / Dùng switch đủ cổng để nối các máy.
+
+q45 L3 Máy tính bàn chưa có Wi-Fi cần vào mạng không dây của lớp. Cần bổ sung gì? | KEY: Bộ mạch hoặc bộ điều hợp hỗ trợ Wi-Fi. | WHY: Máy bàn cần có bộ phận hỗ trợ Wi-Fi rồi mới kết nối WAP. | OPTIONS: Bộ mạch hoặc bộ điều hợp hỗ trợ Wi-Fi. / Bộ chuyển đổi hình ảnh hỗ trợ màn chiếu. / Bộ hộp mực in hỗ trợ in trang hai mặt. / Bộ nguồn dự phòng hỗ trợ cấp điện máy.
+
+q46 L4 Giao thức mạng là tập hợp các quy định về điều gì? | KEY: Cách giao tiếp để truyền dữ liệu qua mạng. | WHY: Giao thức quy định cách thức giao tiếp giữa các đối tượng truyền nhận dữ liệu. | OPTIONS: Cách trang trí để đổi màu vỏ máy tính. / Cách giao tiếp để truyền dữ liệu qua mạng. / Cách mua sắm để thay bàn ghế phòng máy. / Cách cấp điện để bật màn hình trong lớp.
+
+q55 L4 Các gói cùng một tệp đến sai thứ tự. Vì sao TCP vẫn khôi phục được tệp? | KEY: Các gói có số thứ tự để lắp ghép lại. | WHY: Số thứ tự hỗ trợ sắp xếp, lắp lại dữ liệu theo đúng trình tự. | OPTIONS: Các gói có thời hạn để tự xóa khỏi máy. / Các gói có mật khẩu để tăng tốc ổ đĩa. / Các gói có số thứ tự để lắp ghép lại. / Các gói có màu vỏ để phân biệt đường đi.
+
+q59 L4 Cho bảng định tuyến: 172.18.*.* qua cổng 2; mặc định qua cổng 1. Gói tới 172.18.5.9 đi đâu? | KEY: Chuyển tiếp gói dữ liệu qua cổng số 2. | WHY: Địa chỉ đích khớp nhóm 172.18.*.* nên dùng cổng 2. | OPTIONS: Chuyển tiếp gói dữ liệu qua cổng số 3. / Chuyển tiếp gói dữ liệu qua cổng số 4. / Chuyển tiếp gói dữ liệu qua cổng số 2. / Chuyển tiếp gói dữ liệu qua cổng số 1.
+
+q60 L4 Byte đầu địa chỉ IPv4 là 11000000. Giá trị thập phân tương ứng là bao nhiêu? | KEY: Giá trị của byte đầu tiên là 192. | WHY: 11000000 = 128 + 64 = 192. | OPTIONS: Giá trị của byte đầu tiên là 128. / Giá trị của byte đầu tiên là 168. / Giá trị của byte đầu tiên là 224. / Giá trị của byte đầu tiên là 192.
+
+q61 L5 Điều kiện cơ bản để hai máy chia sẻ tài nguyên qua LAN là gì? | KEY: Có kết nối mạng và có quyền truy cập. | WHY: Cần nối mạng và được chủ tài nguyên cấp quyền; không cần kết bạn hay trả phí. | OPTIONS: Có kết nối mạng và có quyền truy cập. / Có kết bạn mạng xã hội và có ảnh chung. / Có cùng màu màn hình và cùng tên tệp. / Có trả phí truy cập và có cùng bàn phím.
+
+q70 L5 Máy B mở được tệp chia sẻ nhưng không lưu thay đổi. Nguyên nhân phù hợp nhất là gì? | KEY: Máy B chỉ được cấp quyền đọc dữ liệu. | WHY: Có thể mở nhưng không sửa phù hợp với quyền Read. | OPTIONS: Máy B đang được cấp quyền quản trị mạng. / Máy B chỉ được cấp quyền đọc dữ liệu. / Máy B đã được cấp đầy đủ quyền ghi sửa. / Máy B chưa được nối vào bất kì mạng nào.
+
+q74 L5 Giáo viên muốn lớp xem tài liệu gốc nhưng không sửa. Nên cấp quyền nào? | KEY: Cấp Read cho nhóm học sinh cần xem. | WHY: Read đáp ứng đọc tài liệu và hạn chế thay đổi bản gốc. | OPTIONS: Cấp quyền sửa và xóa cho cả mạng ngoài. / Cấp Read cho nhóm học sinh cần xem. / Cấp Read/Write cho mọi tài khoản lạ. / Cấp toàn quyền cho người dùng bất kì.
+
+q75 L5 Kết thúc dự án, thư mục không cần chia sẻ nữa. Cách xử lí phù hợp là gì? | KEY: Hủy chia sẻ và kiểm tra lại từ máy khác. | WHY: Hủy chia sẻ, kiểm tra lại khả năng truy cập giúp xác nhận quyền đã thu hồi. | OPTIONS: Chép mật khẩu vào thư mục công cộng chung. / Chỉ đổi tên tệp mà vẫn giữ mọi quyền ghi. / Hủy chia sẻ và kiểm tra lại từ máy khác. / Đổi hình nền và giữ toàn quyền cho cả lớp.
+
+q76 L6 Không gian mạng được tạo ra nhờ sử dụng yếu tố nào? | KEY: Mạng máy tính và các dịch vụ liên quan. | WHY: Không gian mạng là môi trường được tạo ra nhờ các mạng máy tính. | OPTIONS: Bàn ghế phòng học và các đồ vật trang trí. / Giấy viết truyền thống và các phong bì thư. / Thiết bị cấp điện và các công tắc cơ học. / Mạng máy tính và các dịch vụ liên quan.
+
+q94 L6 Vì sao nhắn tin ngắn có thể gây hiểu nhầm ý đùa? | KEY: Thiếu giọng điệu và cử chỉ hỗ trợ diễn đạt. | WHY: Văn bản thiếu tín hiệu phi ngôn ngữ nên cảm xúc có thể bị hiểu sai. | OPTIONS: Thiếu ổ đĩa lớn để lưu thêm các thư mục. / Thiếu giọng điệu và cử chỉ hỗ trợ diễn đạt. / Thiếu dây cáp riêng để cấp nguồn máy tính. / Thiếu máy in chung để sao chép nội dung.
+
+q102 L6 Bạn nhận video hai học sinh đánh nhau kèm lời mời chia sẻ. Nên làm gì? | KEY: Không phát tán, báo người có trách nhiệm. | WHY: Không lan truyền nội dung gây tổn thương; tìm hỗ trợ có trách nhiệm. | OPTIONS: Đổi tiêu đề, kèm lời kêu gọi đám đông xem. / Không phát tán, báo người có trách nhiệm. / Phát tán ngay, kèm lời chê bai hai học sinh. / Đăng ảnh mặt, kèm thông tin riêng hai bạn.
+
+q105 L6 Bạn tức giận vì bị phản bác trên diễn đàn. Cách xử lí phù hợp nhất là gì? | KEY: Bình tĩnh, đọc kĩ và trao đổi có lập luận. | WHY: Giữ bình tĩnh, lắng nghe và phản biện lịch sự là thói quen ứng xử nhân văn. | OPTIONS: Bình tĩnh, đọc kĩ và trao đổi có lập luận. / Nóng giận, lăng mạ và công bố tin riêng. / Kích động, quy chụp và gọi đám đông vào. / Đe dọa, chụp mũ và bỏ qua mọi chứng cứ.
+
+ext-l7-q01 L7 HTML là chữ viết tắt chỉ loại ngôn ngữ nào? | KEY: Ngôn ngữ đánh dấu siêu văn bản. | WHY: HTML mô tả cấu trúc nội dung trang web bằng các thẻ đánh dấu. | OPTIONS: Ngôn ngữ đánh dấu siêu văn bản. / Ngôn ngữ truy vấn cơ sở dữ liệu. / Ngôn ngữ điều khiển máy cơ khí. / Ngôn ngữ mã hóa gói tin mạng.
+
+ext-l7-q10 L7 Trong <p>Xin <em>chào</em></p>, em có quan hệ nào với p? | KEY: em là phần tử con của p. | WHY: em được lồng trực tiếp bên trong p nên là con của p. | OPTIONS: em là phần tử cha của p. / em là phần tử con của p. / em là phần tử gốc của p. / em là phần tử trước của p.
+
+ext-l7-q14 L7 Bạn lưu mã trang thành baitap.txt và muốn mở đúng dạng trang HTML. Cần làm gì? | KEY: Lưu lại đúng tên baitap.html. | WHY: Cần lưu tệp với đuôi HTML; bảo đảm không còn đuôi .txt ẩn. | OPTIONS: Đổi tên ảnh thành baitap.png. / Lưu lại đúng tên baitap.html. / Đặt mật khẩu cho baitap.txt. / Nén tệp thành tên baitap.zip.
+
+ext-l7-q15 L7 Trang tiếng Việt bị lỗi kí tự do trình duyệt nhận sai mã. Cách sửa phù hợp là gì? | KEY: Lưu UTF-8 và khai báo charset UTF-8. | WHY: Cần thống nhất mã hóa tệp và khai báo charset, không chỉnh hình thức trang. | OPTIONS: Lưu UTF-8 và đổi tên ảnh thành GIF. / Lưu UTF-8 và thêm đường viền bảng. / Lưu UTF-8 và khai báo charset UTF-8. / Lưu UTF-8 và xóa hết thẻ đoạn văn.
+
+ext-l8-q01 L8 Cặp thẻ nào dùng để tạo một đoạn văn HTML? | KEY: Dùng cặp thẻ <p> và </p>. | WHY: p tạo đoạn văn, a tạo liên kết, b và i định dạng trong dòng. | OPTIONS: Dùng cặp thẻ <a> và </a>. / Dùng cặp thẻ <b> và </b>. / Dùng cặp thẻ <i> và </i>. / Dùng cặp thẻ <p> và </p>.
+
+ext-l8-q10 L8 Với <p>A<br>B</p>, hai chữ A và B hiển thị thế nào? | KEY: Cùng một đoạn, khác dòng. | WHY: br ngắt dòng nhưng không tạo thêm phần tử đoạn văn p. | OPTIONS: Cùng một đoạn, khác dòng. / Cùng một đoạn, cùng dòng. / Khác hai bảng, cùng cột. / Khác hai trang, cùng hàng.
+
+ext-l8-q14 L8 Muốn viết công thức H₂O mà không dùng ảnh, bạn chọn đoạn nào? | KEY: H<sub>2</sub>O. | WHY: Số 2 trong công thức hóa học là chỉ số dưới nên dùng sub. | OPTIONS: H<sub>2</sub>O. / H<sup>2</sup>O. / H<del>2</del>O. / H<ins>2</ins>O.
+
+ext-l8-q15 L8 Bạn cần đoạn văn màu xanh, cỡ 18px. Khai báo nào đáp ứng cả hai? | KEY: style="color:blue;font-size:18px". | WHY: color nhận giá trị màu; font-size nhận cỡ có đơn vị hợp lệ. | OPTIONS: style="color:18px;font-size:blue". / style="color:blue;font-size:18px". / style="color:blue;font-style:18px". / style="color:18px;font-style:blue".
+
+ext-l9-q01 L9 Thẻ nào bao quanh danh sách có thứ tự trong HTML? | KEY: Dùng <ol> để chứa các mục. | WHY: ol là danh sách có thứ tự; các mục thường dùng li. | OPTIONS: Dùng <ul> để chứa các mục. / Dùng <dl> để chứa các mục. / Dùng <ol> để chứa các mục. / Dùng <td> để chứa các mục.
+
+ext-l9-q10 L9 Với <ol start="3"><li>A</li><li>B</li></ol>, mục B mang số nào? | KEY: Mục B mang số thứ tự 4. | WHY: Danh sách bắt đầu ở 3 nên hai mục lần lượt là 3 và 4. | OPTIONS: Mục B mang số thứ tự 2. / Mục B mang số thứ tự 3. / Mục B mang số thứ tự 5. / Mục B mang số thứ tự 4.
+
+ext-l9-q14 L9 Bảng ba cột cần hàng đầu là một tiêu đề phủ hết chiều ngang. Chọn mã nào? | KEY: <tr><th colspan="3">Tên</th></tr>. | WHY: colspan 3 làm ô tiêu đề trải rộng ba cột trên cùng một hàng. | OPTIONS: <tr><th rowspan="3">Tên</th></tr>. / <tr><td colspan="1">Tên</td></tr>. / <tr><td rowspan="1">Tên</td></tr>. / <tr><th colspan="3">Tên</th></tr>.
+
+ext-l9-q15 L9 Bạn làm danh sách CLB, mỗi CLB có danh sách thành viên bên trong. Cách tổ chức nào đúng? | KEY: Đặt danh sách con trong li. | WHY: Danh sách lồng nhau đặt trong mục li tương ứng của danh sách cha. | OPTIONS: Đặt danh sách con trong li. / Đặt toàn bộ li ngoài danh sách. / Đặt từng thành viên trong tr. / Đặt danh sách con trong meta.
+
+ext-l10-q01 L10 Thuộc tính nào xác định đích đến của thẻ a? | KEY: Dùng thuộc tính href. | WHY: href chứa địa chỉ đích của siêu liên kết. | OPTIONS: Dùng thuộc tính src. / Dùng thuộc tính href. / Dùng thuộc tính alt. / Dùng thuộc tính rel.
+
+ext-l10-q10 L10 Trang index.html và tin.html cùng thư mục. href="tin.html" được hiểu thế nào? | KEY: Mở tin.html trong cùng thư mục. | WHY: Đường dẫn chỉ có tên tệp được giải từ thư mục hiện tại. | OPTIONS: Mở tin.html trong thư mục cha. / Mở tin.html tại miền bất kì. / Mở tin.html trong cùng thư mục. / Mở tin.html trong thư mục con.
+
+ext-l10-q14 L10 Từ /web/bai/a.html cần mở /web/anh/logo.png làm liên kết. Chọn href nào? | KEY: href="../anh/logo.png". | WHY: Lùi từ bai lên web rồi vào anh/logo.png. | OPTIONS: href="../../anh/logo.png". / href="./bai/anh/logo.png". / href="../anh/logo.png". / href="../bai/logo.png".
+
+ext-l10-q15 L10 Nháy liên kết #dangki không tới biểu mẫu có id="dang-ki". Cách sửa trực tiếp là gì? | KEY: Đổi href thành giá trị #dang-ki. | WHY: Mã phân đoạn trong href phải khớp chính xác id đích. | OPTIONS: Đổi src thành giá trị #dangki. / Đổi alt thành giá trị dang-ki. / Đổi tên tệp thành tên dangki. / Đổi href thành giá trị #dang-ki.
+
+ext-l11-q01 L11 Thuộc tính nào cho biết nguồn tệp ảnh trong img? | KEY: Dùng thuộc tính src. | WHY: src chỉ địa chỉ nguồn ảnh. | OPTIONS: Dùng thuộc tính src. / Dùng thuộc tính href. / Dùng thuộc tính alt. / Dùng thuộc tính type.
+
+ext-l11-q10 L11 Ảnh 1200×800 được đặt width="600" và không đặt height. Kết quả thông thường là gì? | KEY: Ảnh cao 400, giữ đúng tỉ lệ. | WHY: Chỉ đặt chiều rộng thì chiều cao tự điều chỉnh theo tỉ lệ 2/3. | OPTIONS: Ảnh cao 800, giữ đúng tỉ lệ. / Ảnh cao 400, giữ đúng tỉ lệ. / Ảnh cao 600, giữ đúng tỉ lệ. / Ảnh cao 200, giữ đúng tỉ lệ.
+
+ext-l11-q14 L11 Ảnh ở /web/img/a.png, trang ở /web/bai/tin.html. Giá trị src nào đúng? | KEY: Dùng src="../img/a.png". | WHY: Từ bai lùi lên web rồi truy cập img/a.png. | OPTIONS: Dùng src="../../img/a.png". / Dùng src="../img/a.png". / Dùng src="./bai/img/a.png". / Dùng src="../bai/a.png".
+
+ext-l11-q15 L11 Bạn cần video có nút phát, ban đầu tắt tiếng. Cặp thuộc tính nào đáp ứng? | KEY: Thêm controls và muted. | WHY: controls hiện nút điều khiển, muted tắt âm thanh ban đầu. | OPTIONS: Thêm autoplay và poster. / Thêm loop và font-size. / Thêm controls và muted. / Thêm width và charset.
+
+ext-l12-q01 L12 Phần tử nào bao quanh nhóm trường của biểu mẫu HTML? | KEY: Sử dụng phần tử form. | WHY: form nhóm các điều khiển dùng thu thập dữ liệu. | OPTIONS: Sử dụng phần tử font. / Sử dụng phần tử frame. / Sử dụng phần tử footer. / Sử dụng phần tử form.
+
+ext-l12-q10 L12 Hai radio có name khác nhau có chắc loại trừ nhau không? | KEY: Không, chúng thuộc các nhóm khác. | WHY: Nhóm radio được xác định bởi name trong cùng biểu mẫu. | OPTIONS: Không, chúng thuộc các nhóm khác. / Có, chúng luôn thuộc cùng nhóm. / Có, nếu chúng có cùng màu chữ. / Có, nếu chúng có cùng cỡ chữ.
+
+ext-l12-q14 L12 Bạn cần hai lựa chọn Nam/Nữ chỉ chọn một. Cấu hình nào phù hợp? | KEY: Hai radio dùng chung một name. | WHY: Radio cùng name tạo nhóm chọn một; các id vẫn phải riêng biệt. | OPTIONS: Hai radio dùng chung một name. / Hai checkbox dùng khác một id. / Hai textarea dùng chung một id. / Hai password dùng khác một name.
+
+ext-l12-q15 L12 Muốn nhãn Họ tên kích hoạt input id="hoten", mã label nào đúng? | KEY: <label for="hoten">Họ tên</label>. | WHY: for phải khớp id hoten của trường nhập. | OPTIONS: <label src="hoten">Họ tên</label>. / <label for="hoten">Họ tên</label>. / <label alt="hoten">Họ tên</label>. / <label rel="hoten">Họ tên</label>.
+
+ext-l13-q01 L13 CSS chủ yếu được dùng để làm gì với trang web? | KEY: Mô tả cách trình bày nội dung. | WHY: CSS mô tả hình thức trình bày các phần tử HTML. | OPTIONS: Mô tả cách định tuyến gói tin. / Mô tả cách sửa ổ đĩa máy chủ. / Mô tả cách trình bày nội dung. / Mô tả cách cấp tài khoản mạng.
+
+ext-l13-q10 L13 Quy tắc p {color:blue} tác động trực tiếp tới phần tử nào? | KEY: Các phần tử p khớp bộ chọn. | WHY: Bộ chọn p chọn các phần tử đoạn văn p. | OPTIONS: Các phần tử img có ảnh xanh. / Các phần tử title chứa chữ p. / Các phần tử a có tên miền p. / Các phần tử p khớp bộ chọn.
+
+ext-l13-q14 L13 Mười trang cần thay màu mọi đoạn văn cùng lúc. Giải pháp hợp lí là gì? | KEY: Sửa quy tắc p trong CSS chung. | WHY: Các trang dùng chung CSS ngoài có thể cập nhật từ một quy tắc. | OPTIONS: Sửa tên mọi ảnh trong thư mục. / Sửa mật khẩu máy đang soạn mã. / Sửa thuộc tính src của video. / Sửa quy tắc p trong CSS chung.
+
+ext-l13-q15 L13 Tệp styles.css cùng thư mục HTML. Dòng liên kết nào đúng? | KEY: <link rel="stylesheet" href="styles.css">. | WHY: link sử dụng href để chỉ vị trí tệp CSS ngoài. | OPTIONS: <link rel="stylesheet" href="styles.css">. / <link rel="stylesheet" src="styles.css">. / <link rel="stylesheet" alt="styles.css">. / <link rel="stylesheet" for="styles.css">.
+
+ext-l14-q01 L14 Đặc tính nào xác định kích thước chữ trong CSS? | KEY: Dùng thuộc tính font-size. | WHY: font-size thiết lập cỡ chữ. | OPTIONS: Dùng thuộc tính font-style. / Dùng thuộc tính font-size. / Dùng thuộc tính font-family. / Dùng thuộc tính font-weight.
+
+ext-l14-q10 L14 Phần tử cha có color:blue; con không khai báo màu. Màu chữ con thường là gì? | KEY: Màu xanh do kế thừa từ cha. | WHY: color là thuộc tính có tính kế thừa. | OPTIONS: Màu đỏ do đứng sau phần tử cha. / Màu đen vì CSS không kế thừa. / Màu xanh do kế thừa từ cha. / Màu vàng vì là phần tử con.
+
+ext-l14-q14 L14 Bạn cần đoạn văn giãn dòng bằng 1,5 lần cỡ chữ, không cố định pixel. Chọn gì? | KEY: Khai báo line-height:1.5. | WHY: Giá trị không đơn vị 1.5 làm chiều cao dòng tỉ lệ theo cỡ chữ. | OPTIONS: Khai báo line-height:15px. / Khai báo line-height:1.5px. / Khai báo line-height:1.5. / Khai báo line-height:150px.
+
+ext-l14-q15 L14 Với p {color:red !important} và <p style="color:blue">A</p>, không có quy tắc khác, chữ A màu gì? | KEY: Màu đỏ từ quy tắc important. | WHY: Khai báo tác giả !important thắng khai báo nội tuyến thông thường. | OPTIONS: Màu xanh từ style nội tuyến. / Màu tím từ hai màu phối hợp. / Màu đen từ mặc định trình duyệt. / Màu đỏ từ quy tắc important.
+
+ext-l15-q01 L15 Trong CSS, thuộc tính nào đặt màu nền của phần tử? | KEY: Dùng thuộc tính background-color. | WHY: background-color thiết lập màu nền. | OPTIONS: Dùng thuộc tính background-color. / Dùng thuộc tính border-color. / Dùng thuộc tính outline-color. / Dùng thuộc tính text-decoration.
+
+ext-l15-q10 L15 Hai biểu diễn rgb(255,0,0) và #FF0000 có quan hệ gì? | KEY: Cùng biểu diễn một màu đỏ. | WHY: Hai cú pháp cùng đặt R=255,G=B=0. | OPTIONS: Cùng biểu diễn một màu lục. / Cùng biểu diễn một màu đỏ. / Biểu diễn hai màu khác nhau. / Biểu diễn hai mức cỡ chữ.
+
+ext-l15-q14 L15 Chỉ muốn tô xanh strong là con trực tiếp của p. Chọn quy tắc nào? | KEY: p > strong {color:blue}. | WHY: Dùng bộ kết hợp con trực tiếp > theo đúng hướng cha p tới con strong. | OPTIONS: p + strong {color:blue}. / p > strong {color:blue}. / p ~ strong {color:blue}. / strong > p {color:blue}.
+
+ext-l15-q15 L15 Cần nền vàng nhạt nhưng giữ nguyên màu chữ. Khai báo nào phù hợp? | KEY: Dùng background-color:lightyellow. | WHY: Chỉ background-color đổi màu nền; color đổi chữ, border-color đổi viền. | OPTIONS: Dùng border-color:lightyellow. / Dùng outline-color:lightyellow. / Dùng background-color:lightyellow. / Dùng text-decoration:lightyellow.
+
+ext-l16-q01 L16 Thứ tự từ trong ra ngoài của mô hình hộp CSS là gì? | KEY: Nội dung, padding, border, margin. | WHY: Padding nằm giữa nội dung và viền; margin nằm ngoài viền. | OPTIONS: Nội dung, margin, border, padding. / Nội dung, border, margin, padding. / Nội dung, border, padding, margin. / Nội dung, padding, border, margin.
+
+ext-l16-q10 L16 Vì sao không nên dùng cùng một id cho nhiều phần tử cùng trang? | KEY: id cần định danh duy nhất. | WHY: Mỗi id cần duy nhất trong tài liệu; có thể dùng class cho nhiều phần tử. | OPTIONS: id cần định danh duy nhất. / id chỉ dành cho thẻ video. / id không thể đi kèm class. / id luôn tự tạo đường viền.
+
+ext-l16-q14 L16 Muốn chỉ các đoạn p có class="ghi-chu" nhận viền, bộ chọn nào phù hợp? | KEY: p.ghi-chu {border:1px solid}. | WHY: p.ghi-chu yêu cầu chính phần tử p mang lớp ghi-chu. | OPTIONS: p.ghi-chu {border:1px solid}. / p .ghi-chu {border:1px solid}. / p + .ghi-chu {border:1px solid}. / p > .ghi-chu {border:1px solid}.
+
+ext-l16-q15 L16 Một hộp cần đệm trong 12px nhưng không thêm lề ngoài. Chọn khai báo nào? | KEY: padding:12px; margin:0. | WHY: padding tạo đệm trong, margin 0 loại lề ngoài. | OPTIONS: padding:0; margin:12px. / padding:12px; margin:0. / border:12px; margin:0. / height:12px; margin:0.
+
+ext-l17-q01 L17 Bộ chọn a:hover phản ứng với trạng thái nào? | KEY: Con trỏ đang di chuyển trên liên kết. | WHY: :hover là lớp giả cho trạng thái con trỏ đang ở trên phần tử. | OPTIONS: Liên kết đã được truy cập trước đây. / Liên kết chưa được truy cập lần nào. / Con trỏ đang di chuyển trên liên kết. / Trang đang được xem ở chế độ máy in.
+
+ext-l17-q10 L17 Bộ chọn p.note có trọng số bao nhiêu theo SGK? | KEY: Trọng số của bộ chọn là 11. | WHY: Một thẻ p góp 1 và một lớp note góp 10. | OPTIONS: Trọng số của bộ chọn là 10. / Trọng số của bộ chọn là 01. / Trọng số của bộ chọn là 21. / Trọng số của bộ chọn là 11.
+
+ext-l17-q14 L17 Muốn liên kết đổi sang đỏ chỉ khi trỏ chuột, chọn quy tắc nào? | KEY: Dùng a:hover {color:red}. | WHY: :hover đúng trạng thái cần xử lí; :active là đang được kích hoạt. | OPTIONS: Dùng a:visited {color:red}. / Dùng a:link {color:red}. / Dùng a:active {color:red}. / Dùng a:hover {color:red}.
+
+ext-l17-q15 L17 Cho #x{color:red} và p.note{color:blue !important}. p id="x" class="note" có màu gì? | KEY: Màu xanh từ khai báo important. | WHY: Khai báo important được xét trước độ đặc hiệu trong cùng nguồn tác giả. | OPTIONS: Màu xanh từ khai báo important. / Màu đỏ từ bộ chọn định danh. / Màu tím từ phối hợp hai màu. / Màu đen theo thiết lập mặc định.
+
+ext-l18-q01 L18 Website khác một trang web riêng lẻ ở đặc điểm nào? | KEY: Gồm các trang liên quan, có liên kết. | WHY: Website là tập hợp các trang liên quan, thường có trang chủ và các trang con. | OPTIONS: Gồm duy nhất một ảnh không có chữ. / Gồm các trang liên quan, có liên kết. / Gồm toàn bộ tệp trên ổ đĩa bất kì. / Gồm toàn bộ các thiết bị mạng LAN.
+
+ext-l18-q10 L18 Vì sao giữ thanh điều hướng thống nhất giữa các trang là hữu ích? | KEY: Người xem dễ nhận biết đường đi. | WHY: Điều hướng nhất quán giúp người xem chuyển trang và định vị. | OPTIONS: Người xem tự có thêm tài khoản. / Website tự tăng dung lượng RAM. / Người xem dễ nhận biết đường đi. / Website tự loại mọi lỗi HTML.
+
+ext-l18-q14 L18 Bạn đổi tên trang thethao.html thành the-thao.html. Cần kiểm tra gì trước khi công bố? | KEY: Cập nhật các href trỏ tới trang. | WHY: Các liên kết cũ trỏ tên không còn tồn tại sẽ hỏng. | OPTIONS: Cập nhật mọi màu nền sang vàng. / Cập nhật font của mọi đoạn văn. / Cập nhật các href trỏ tới trang. / Cập nhật toàn bộ ảnh thành PNG.
+
+ext-l18-q15 L18 Muốn sửa phông cho tất cả trang CLB đang dùng style.css, cách hiệu quả là gì? | KEY: Sửa font-family trong CSS chung. | WHY: Chỉnh CSS chung cập nhật trình bày các trang đang liên kết tệp đó. | OPTIONS: Sửa đuôi tất cả tệp thành .txt. / Sửa độ phân giải máy đang xem. / Sửa âm lượng của video trang chủ. / Sửa font-family trong CSS chung.
+
+ext-l19-q01 L19 Công việc nào thuộc sửa chữa phần cứng máy tính? | KEY: Thay thanh RAM đã bị hỏng. | WHY: Thay bộ phận hỏng là sửa chữa phần cứng. | OPTIONS: Thay thanh RAM đã bị hỏng. / Thay mật khẩu trang bán hàng. / Viết nội dung quảng cáo số. / Biên tập bài giảng môn Văn.
+
+ext-l19-q10 L19 Một máy chậm vì nhiều chương trình tự khởi động. Bước xử lí hợp lí là gì? | KEY: Kiểm tra phần mềm đang khởi động. | WHY: Cần phân tích phần mềm chạy nền trước khi kết luận lỗi phần cứng. | OPTIONS: Thay màn hình vì máy khởi động. / Kiểm tra phần mềm đang khởi động. / Tăng âm lượng khi máy khởi động. / Đổi bàn phím vì máy khởi động.
+
+ext-l19-q14 L19 Máy có tiếng quạt bất thường và quá nóng. Hướng kiểm tra phù hợp là gì? | KEY: Kiểm tra quạt và hệ thống tản nhiệt. | WHY: Triệu chứng nhiệt và tiếng quạt hướng tới kiểm tra tản nhiệt, an toàn điện. | OPTIONS: Kiểm tra màu chữ ở trình soạn thảo. / Kiểm tra quạt và hệ thống tản nhiệt. / Kiểm tra cỡ ảnh ở trang chủ lớp. / Kiểm tra tên người gửi thư điện tử.
+
+ext-l19-q15 L19 Khách giao máy có dữ liệu riêng. Trước thao tác có thể xóa ổ đĩa, bạn cần làm gì? | KEY: Thống nhất với khách và sao lưu. | WHY: Cần trao đổi, xin phép và bảo vệ dữ liệu trước thao tác có nguy cơ mất dữ liệu. | OPTIONS: Tự đăng dữ liệu lên mạng xã hội. / Tự xóa hết cho nhanh công việc. / Thống nhất với khách và sao lưu. / Tự gửi dữ liệu cho người quen.
+
+ext-l20-q01 L20 Nhiệm vụ chính của chuyên viên quản trị mạng là gì? | KEY: Vận hành và duy trì hệ thống mạng. | WHY: Quản trị mạng bảo đảm mạng kết nối, hoạt động ổn định. | OPTIONS: Biên tập và xuất bản tạp chí giấy. / Thiết kế và sản xuất bo mạch điện. / Dàn dựng và biểu diễn chương trình. / Vận hành và duy trì hệ thống mạng.
+
+ext-l20-q10 L20 Một website bị rò rỉ dữ liệu do phân quyền sai. Nhóm nào cần chủ trì xử lí an toàn? | KEY: Nhóm bảo mật hệ thống thông tin. | WHY: Phân quyền, điều tra truy cập và bảo vệ dữ liệu thuộc lĩnh vực bảo mật. | OPTIONS: Nhóm bảo mật hệ thống thông tin. / Nhóm thiết kế đồng phục của trường. / Nhóm trang trí sân khấu hội trường. / Nhóm biên tập ảnh kỉ yếu của lớp.
+
+ext-l20-q14 L20 Trường cần cấp quyền tài khoản đúng vai trò và sao lưu máy chủ. Ai phù hợp nhất? | KEY: Nhân sự quản trị, bảo trì hệ thống. | WHY: Quản trị hệ thống phụ trách tài khoản, cấu hình, sao lưu và vận hành máy chủ. | OPTIONS: Nhân sự quản trị, bảo trì hệ thống. / Nhân sự biên tập tranh cổ động lớp. / Nhân sự hướng dẫn biểu diễn nhạc. / Nhân sự thiết kế trang phục đoàn.
+
+ext-l20-q15 L20 Một công ty mất mạng ở nhiều phòng cùng lúc. Bước phối hợp nào hợp lí? | KEY: Kiểm tra thiết bị lõi và nhật kí mạng. | WHY: Sự cố diện rộng cần kiểm tra các thành phần kết nối chung và nhật kí. | OPTIONS: Đổi tên tất cả tệp văn bản của lớp. / Kiểm tra thiết bị lõi và nhật kí mạng. / Gỡ mọi phông chữ trên máy người dùng. / Xóa mọi bài đăng ở trang web công ty.
+
+ext-l21-q01 L21 Mục tiêu chính của hội thảo hướng nghiệp trong bài học là gì? | KEY: Tìm hiểu nghề và định hướng học tập. | WHY: Hội thảo giúp nhận thức nghề nghiệp, yêu cầu và lựa chọn học tập. | OPTIONS: Cấp chứng chỉ nghề cho mọi học sinh. / Bảo đảm việc làm ngay sau hội thảo. / Tìm hiểu nghề và định hướng học tập. / Thay toàn bộ chương trình phổ thông.
+
+ext-l21-q10 L21 Vì sao không nên chọn nghề chỉ dựa trên mức lương trong một tin tuyển dụng? | KEY: Một tin không đại diện toàn ngành. | WHY: Cần xem yêu cầu, kinh nghiệm, thị trường, năng lực và sở thích, không chỉ một mức lương. | OPTIONS: Một tin luôn phản ánh mọi vị trí. / Lương không hề liên quan tới nghề. / Mọi nghề đều có thu nhập như nhau. / Một tin không đại diện toàn ngành.
+
+ext-l21-q14 L21 Nhóm gặp tin tuyển dụng không rõ doanh nghiệp, yêu cầu nộp phí. Nên làm gì? | KEY: Kiểm chứng đơn vị trước khi sử dụng. | WHY: Cần kiểm chứng nguồn, tránh quảng cáo hay lừa đảo tuyển dụng. | OPTIONS: Chia sẻ ngay để tăng lượng thông tin. / Nộp phí giúp cả lớp giữ vị trí làm. / Xem số lượt thích là bằng chứng đúng. / Kiểm chứng đơn vị trước khi sử dụng.
+
+ext-l21-q15 L21 Bạn thích quản trị mạng nhưng yếu tiếng Anh. Kế hoạch phù hợp là gì? | KEY: Bổ sung tiếng Anh và thực hành mạng. | WHY: Đối chiếu yêu cầu nghề để lập kế hoạch cải thiện năng lực còn thiếu. | OPTIONS: Bổ sung tiếng Anh và thực hành mạng. / Bỏ mọi môn học vì đã thích nghề này. / Chỉ học thiết kế ảnh thay kiến thức. / Chỉ chọn nơi hứa mức lương cao ngay.
+
+ext-l22-q01 L22 Cáp HDMI có thể truyền những loại tín hiệu thông dụng nào? | KEY: Truyền cả hình ảnh và âm thanh số. | WHY: HDMI mang tín hiệu hình ảnh và âm thanh số giữa thiết bị tương thích. | OPTIONS: Truyền chỉ lệnh điều khiển bàn phím. / Truyền cả hình ảnh và âm thanh số. / Truyền chỉ nguồn điện cho máy in. / Truyền chỉ địa chỉ mạng máy tính.
+
+ext-l22-q10 L22 Vì sao phải chọn đúng cổng đầu vào trên ti vi khi dùng HDMI? | KEY: Để ti vi nhận đúng nguồn tín hiệu. | WHY: Ti vi có nhiều nguồn; cần chọn cổng HDMI đang nhận tín hiệu. | OPTIONS: Để ti vi tăng số điểm ảnh vật lí. / Để ti vi đổi tín hiệu sang Bluetooth. / Để ti vi nhận đúng nguồn tín hiệu. / Để ti vi tự lắp thêm một ổ cứng mới.
+
+ext-l22-q14 L22 Điện thoại không thấy máy tính khi tìm Bluetooth. Nên kiểm tra gì trước? | KEY: Bluetooth và khả năng được phát hiện. | WHY: Kiểm tra Bluetooth, chế độ tìm thấy, khoảng cách và trạng thái ghép đôi. | OPTIONS: Màu nền và cỡ chữ của trình duyệt. / Tên tệp và độ dài tiêu đề trang web. / Bluetooth và khả năng được phát hiện. / Số cột và số hàng của bảng điểm lớp.
+
+ext-l22-q18 L22 Thiết lập lịch bật tắt đèn thông minh tạo ra khả năng nào? | KEY: Tự điều khiển theo thời gian đặt. | WHY: Thiết bị có thể thực hiện kịch bản hẹn giờ đã cấu hình. | OPTIONS: Tự sửa phần cứng của công tắc. / Tự phát điện cho thiết bị chiếu. / Tự điều khiển theo thời gian đặt. / Tự đổi toàn bộ mạng sang VGA.
+
+ext-l23-q01 L23 Một trang web thông thường gồm ba vùng nào? | KEY: Phần đầu, phần thân và phần chân. | WHY: Bài học chia trang thành header, body nội dung và footer. | OPTIONS: Phần ảnh, phần mạng và phần máy. / Phần tên, phần nguồn và phần điện. / Phần mã, phần khóa và phần đĩa. / Phần đầu, phần thân và phần chân.
+
+ext-l23-q10 L23 Vì sao cần xác định đối tượng người xem trước khi chọn nội dung? | KEY: Để đáp ứng nhu cầu và cách đọc. | WHY: Nhu cầu người xem quyết định nội dung và mức chi tiết phù hợp. | OPTIONS: Để đáp ứng nhu cầu và cách đọc. / Để chắc mọi người dùng cùng máy. / Để bỏ mọi thông tin về nguồn. / Để chỉ chọn màu theo người soạn.
+
+ext-l23-q14 L23 Làm website giới thiệu di sản cho học sinh. Cách chuẩn bị phù hợp nhất là gì? | KEY: Chọn nguồn tin cậy và ảnh được phép. | WHY: Nội dung phù hợp người xem, chính xác và tôn trọng bản quyền là yêu cầu cơ bản. | OPTIONS: Chọn nguồn tin cậy và ảnh được phép. / Chép toàn bộ từ bình luận ẩn danh. / Dùng ảnh bất kì rồi xóa tên tác giả. / Chỉ làm banner, bỏ nội dung và nguồn.
+
+ext-l23-q15 L23 Website có các mục Tự nhiên, Kinh tế và Trắc nghiệm. Bước nên làm trước khi dựng trang là gì? | KEY: Vẽ cấu trúc các trang và luồng truy cập. | WHY: Cần thiết kế bố cục và cấu trúc điều hướng trước để xây dựng nhất quán. | OPTIONS: Đổi ngay toàn bộ tên tệp thành video. / Vẽ cấu trúc các trang và luồng truy cập. / Công khai mọi thông tin đăng nhập nhóm. / Xóa toàn bộ nội dung đã được sưu tầm.
+
+ext-l24-q01 L24 Trong Google Sites, tên tệp trên Drive và tiêu đề trang có quan hệ nào? | KEY: Là hai thông tin có thể khác nhau. | WHY: Tên tệp dùng quản lí trên Drive; tiêu đề là nội dung hiển thị, có thể khác. | OPTIONS: Luôn là cùng một chuỗi bắt buộc. / Luôn chỉ gồm những kí tự chữ số. / Là hai thông tin có thể khác nhau. / Luôn phải trùng mật khẩu tài khoản.
+
+ext-l24-q10 L24 Vì sao cần kiểm tra tiêu đề trên cả giao diện điện thoại? | KEY: Khung hẹp có thể làm chữ khó đọc. | WHY: Bố cục, cỡ chữ, xuống dòng và độ tương phản cần phù hợp thiết bị. | OPTIONS: Điện thoại luôn xóa mọi ảnh nền. / Điện thoại không thể mở website. / Khung hẹp tự đổi nội dung thành SQL. / Khung hẹp có thể làm chữ khó đọc.
+
+ext-l24-q14 L24 Bạn cần công bố website cho lớp mà không chia sẻ quyền sửa. Cách nào phù hợp? | KEY: Xuất bản, cấp quyền xem theo nhu cầu. | WHY: Người xem chỉ cần quyền xem bản xuất bản, không cần quyền chỉnh sửa. | OPTIONS: Gửi tài khoản quản trị cho toàn lớp. / Thêm mọi bạn làm chủ sở hữu Drive. / Đăng công khai mật khẩu tài khoản. / Xuất bản, cấp quyền xem theo nhu cầu.
+
+ext-l24-q15 L24 Tiêu đề bị cắt trên màn hình nhỏ. Quy trình sửa phù hợp là gì? | KEY: Chỉnh cỡ hoặc bố cục rồi xem trước lại. | WHY: Điều chỉnh bố cục/cỡ chữ và kiểm tra ở các kích thước trước khi xuất bản. | OPTIONS: Chỉnh cỡ hoặc bố cục rồi xem trước lại. / Xóa quyền truy cập của máy điện thoại. / Đổi tên miền rồi bỏ qua thử nghiệm. / Cài lại hệ điều hành của máy người xem.
+
+ext-l25-q01 L25 Bảng chọn Chèn trong Google Sites dùng chủ yếu để làm gì? | KEY: Thêm các thành phần nội dung trang. | WHY: Chèn cung cấp văn bản, ảnh, khối nội dung, nội dung nhúng và dịch vụ tích hợp. | OPTIONS: Thay linh kiện bên trong máy tính. / Thêm các thành phần nội dung trang. / Đổi đường truyền của nhà cung cấp. / Cấp nguồn điện cho thiết bị mạng.
+
+ext-l25-q10 L25 Vì sao nên dùng cùng bố cục cho hai địa điểm giới thiệu tương đương? | KEY: Giúp người xem dễ so sánh thông tin. | WHY: Tính nhất quán hỗ trợ đọc và so sánh nội dung cùng loại. | OPTIONS: Giúp website tự tăng số máy truy cập. / Giúp khỏi cần kiểm tra độ đúng của tin. / Giúp người xem dễ so sánh thông tin. / Giúp mọi video tự phát dù bị chặn.
+
+ext-l25-q14 L25 Bạn đã dựng khối ảnh-văn bản cho một địa danh, cần thêm địa danh thứ hai cùng kiểu. Làm gì hợp lí? | KEY: Sao chép khối rồi thay nội dung mới. | WHY: Sao chép giữ bố cục; phải thay đúng ảnh, văn bản và liên kết của địa danh mới. | OPTIONS: Xóa khối gốc rồi bỏ mọi hình ảnh. / Tạo tài khoản mới cho mỗi địa danh. / Sao chép khối rồi thay nội dung mới. / Đổi tên miền cho từng đoạn văn bản.
+
+ext-l25-q15 L25 Vừa xóa nhầm một khối nội dung và chưa có thao tác sau. Cách khắc phục trực tiếp là gì? | KEY: Dùng Hoàn tác để phục hồi khối. | WHY: Undo là cách trực tiếp quay lại thao tác xóa vừa xảy ra. | OPTIONS: Dùng Xuất bản để phục hồi khối. / Dùng Chia sẻ để phục hồi khối. / Dùng Đổi tên để phục hồi khối. / Dùng Hoàn tác để phục hồi khối.
+
+ext-l26-q01 L26 Cấu trúc phân cấp của website thể hiện điều gì? | KEY: Quan hệ trang cha và các trang con. | WHY: Website có thể tổ chức theo cây để phân nhóm nội dung và điều hướng. | OPTIONS: Quan hệ trang cha và các trang con. / Quan hệ bộ xử lí và nguồn điện. / Quan hệ cổng mạng và tần số CPU. / Quan hệ màu nền và kiểu âm thanh.
+
+ext-l26-q10 L26 Vì sao menu quá nhiều cấp có thể gây khó sử dụng? | KEY: Người xem khó tìm tới nội dung. | WHY: Phân cấp nên rõ và vừa đủ, tránh đường truy cập quá sâu. | OPTIONS: Trình duyệt luôn từ chối mọi menu. / Người xem khó tìm tới nội dung. / Website bắt buộc xóa hết ảnh nền. / Các tệp tự đổi định dạng sang SQL.
+
+ext-l26-q14 L26 Website có mục Tây Bắc chứa hai địa danh. Cách tổ chức phù hợp là gì? | KEY: Tạo hai trang con dưới Tây Bắc. | WHY: Nhóm địa danh làm trang con của Tây Bắc thể hiện phân cấp nội dung đúng. | OPTIONS: Tạo hai mật khẩu dưới ảnh nền. / Tạo hai trang con dưới Tây Bắc. / Đặt cả hai dưới mục Liên hệ riêng. / Xóa mục Tây Bắc khỏi mọi trang.
+
+ext-l26-q15 L26 Ảnh địa danh cần dẫn tới trang chi tiết đã tạo. Quy trình phù hợp là gì? | KEY: Chọn ảnh, gắn liên kết, chọn đúng trang. | WHY: Gắn đúng liên kết cho ảnh và thử trong bản xem trước hoặc xuất bản. | OPTIONS: Chọn ảnh, đổi phông chữ, tắt quyền xem. / Chọn ảnh, xóa trang, đổi tên tài khoản. / Chọn ảnh, gắn liên kết, chọn đúng trang. / Chọn ảnh, đổi nguồn điện, lưu mật khẩu.
+
+ext-l27-q01 L27 Công cụ nào được bài học dùng để tạo phiếu khảo sát? | KEY: Dùng Google Forms tạo phiếu. | WHY: Google Forms tạo câu hỏi và thu thập phản hồi. | OPTIONS: Dùng Google Maps tạo phiếu. / Dùng Google Photos tạo phiếu. / Dùng Google Meet tạo phiếu. / Dùng Google Forms tạo phiếu.
+
+ext-l27-q10 L27 Vì sao không nên yêu cầu số căn cước khi chỉ hỏi mức hài lòng với website? | KEY: Không cần cho mục đích khảo sát này. | WHY: Chỉ thu thập dữ liệu cần thiết, minh bạch mục đích, bảo vệ riêng tư. | OPTIONS: Không cần cho mục đích khảo sát này. / Vì mọi khảo sát đều không có dữ liệu. / Vì số căn cước là thuộc tính CSS. / Vì Google Sites chỉ nhận hình ảnh.
+
+ext-l27-q14 L27 Bạn cần góp ý mở về điểm chưa tốt của website. Loại câu hỏi nào hợp lí? | KEY: Dùng câu trả lời đoạn văn bản. | WHY: Đoạn văn nhận góp ý tự do nhiều dòng, phù hợp câu hỏi mở. | OPTIONS: Dùng câu trả lời đoạn văn bản. / Dùng câu chỉ chọn một giới tính. / Dùng câu chọn một ngày sinh. / Dùng câu chọn tệp ảnh đại diện.
+
+ext-l27-q15 L27 Nhóm muốn đếm số bạn chọn mỗi mức hài lòng sau khảo sát. Cách phù hợp là gì? | KEY: Xem tổng hợp hoặc thống kê trong Sheets. | WHY: Google Forms tổng hợp phản hồi; Sheets hỗ trợ lọc và đếm dữ liệu. | OPTIONS: Đổi màu ảnh nền để tính số người chọn. / Xem tổng hợp hoặc thống kê trong Sheets. / Xóa phản hồi rồi ước lượng theo trí nhớ. / Đọc tên tệp HTML rồi suy ra các tỉ lệ.
+
+ext-l28-q01 L28 Dự án tổng hợp trong bài 28 yêu cầu tạo sản phẩm nào? | KEY: Một website hoàn chỉnh theo chủ đề. | WHY: Học sinh vận dụng các bước và công cụ tạo website hoàn chỉnh. | OPTIONS: Một bo mạch máy tính mới hoàn toàn. / Một giao thức mạng thay cho TCP/IP. / Một website hoàn chỉnh theo chủ đề. / Một hệ điều hành được viết từ đầu.
+
+ext-l28-q10 L28 Vì sao cần đọc thử website với vai trò người xem mới? | KEY: Phát hiện điều khó hiểu và khó tìm. | WHY: Người tạo có thể quen bố cục nên bỏ sót khó khăn của người mới. | OPTIONS: Tự bảo đảm mọi tài liệu đều có phép. / Tự tăng dung lượng tệp ảnh ban đầu. / Thay thế việc kiểm tra dữ liệu nguồn. / Phát hiện điều khó hiểu và khó tìm.
+
+ext-l28-q14 L28 Trước bàn giao, nhóm chỉ còn một buổi. Quy trình kiểm thử nào ưu tiên hợp lí? | KEY: Thử menu, liên kết, form và quyền xem. | WHY: Ưu tiên kiểm tra các luồng chính bằng quyền người xem trên thiết bị phù hợp. | OPTIONS: Chỉ đổi màu nền của trang đầu nhiều lần. / Chỉ tăng số ảnh mà không kiểm tra đích. / Chỉ xem bản thiết kế bằng tài khoản chủ. / Thử menu, liên kết, form và quyền xem.
+
+ext-l28-q15 L28 Bản web trên điện thoại bị tràn chữ và form khó dùng. Cách cải thiện phù hợp là gì? | KEY: Chỉnh bố cục rồi thử lại cỡ điện thoại. | WHY: Cần xử lí nguyên nhân bố cục và thao tác, kiểm tra lại rồi cập nhật bản xuất bản. | OPTIONS: Chỉnh bố cục rồi thử lại cỡ điện thoại. / Cấm mọi điện thoại truy cập trang web. / Xóa mọi câu hỏi khỏi biểu mẫu khảo sát. / Đổi tên dự án mà giữ nguyên bố cục.
+
+ext-found-q1 L101 Hàm Python nào dùng lấy số phần tử của một danh sách? | KEY: Dùng hàm len với danh sách. | WHY: len trả về độ dài danh sách; sum tính tổng, max/min tìm cực trị. | OPTIONS: Dùng hàm sum với danh sách. / Dùng hàm len với danh sách. / Dùng hàm max với danh sách. / Dùng hàm min với danh sách.
+
+ext-found-q2 L101 Cấu trúc nào dùng lặp theo từng phần tử của danh sách Python? | KEY: Dùng for x in danh_sach. | WHY: for duyệt các phần tử, if kiểm tra điều kiện. | OPTIONS: Dùng if x in danh_sach. / Dùng def x in danh_sach. / Dùng for x in danh_sach. / Dùng try x in danh_sach.
+
+ext-found-q3 L101 Python chạy s=0; sau đó for i in range(1,4): s=s+i*i. Kết quả s là bao nhiêu? | KEY: Kết quả cuối cùng bằng 14. | WHY: range(1,4) gồm 1,2,3; tổng bình phương là 1+4+9=14. | OPTIONS: Kết quả cuối cùng bằng 10. / Kết quả cuối cùng bằng 30. / Kết quả cuối cùng bằng 16. / Kết quả cuối cùng bằng 14.
+
+ext-found-q4 L101 Với a=[3,5,7], biểu thức a[1] trong Python có giá trị nào? | KEY: Giá trị phần tử là số 5. | WHY: Chỉ số danh sách bắt đầu từ 0 nên a[1] là phần tử thứ hai. | OPTIONS: Giá trị phần tử là số 5. / Giá trị phần tử là số 3. / Giá trị phần tử là số 7. / Giá trị phần tử là số 1.
+
+ext-found-q5 L101 Cần đếm số dương trong a bằng vòng lặp, biến dem ban đầu bằng 0. Lệnh tăng nào đúng khi x>0? | KEY: Thực hiện dem = dem + 1. | WHY: Mỗi số dương đóng góp một lượt đếm, không cộng giá trị phần tử. | OPTIONS: Thực hiện dem = dem + x. / Thực hiện dem = dem + 1. / Thực hiện dem = dem * 1. / Thực hiện dem = dem - 1.
+
+ext-found-q6 L101 Đếm số chẵn trong [2,5,8,9,10] bằng điều kiện x%2==0. Giá trị biến đếm cuối là gì? | KEY: Biến đếm cuối cùng bằng 3. | WHY: Có ba số chẵn là 2,8,10. | OPTIONS: Biến đếm cuối cùng bằng 2. / Biến đếm cuối cùng bằng 4. / Biến đếm cuối cùng bằng 3. / Biến đếm cuối cùng bằng 5.
+
+ext-found-q7 L111 Trong cơ sở dữ liệu quan hệ, một bản ghi thường tương ứng điều gì? | KEY: Một hàng dữ liệu trong bảng. | WHY: Bản ghi là một hàng; trường là một cột. | OPTIONS: Một cột dữ liệu trong bảng. / Một tên trường trong bảng. / Một liên kết giữa hai bảng. / Một hàng dữ liệu trong bảng.
+
+ext-found-q8 L111 Khóa chính của bảng cần đáp ứng tính chất nào? | KEY: Xác định duy nhất mỗi bản ghi. | WHY: Khóa chính định danh duy nhất bản ghi và không nhận giá trị rỗng. | OPTIONS: Xác định duy nhất mỗi bản ghi. / Có cùng giá trị mọi bản ghi. / Chỉ chứa tên của người nhập. / Chỉ chứa một hình ảnh rất nhỏ.
+
+ext-found-q9 L111 Hai học sinh cùng họ tên nhưng mã học sinh khác nhau. Vì sao mã thích hợp làm khóa chính hơn? | KEY: Mã giúp phân biệt các bản ghi. | WHY: Tên có thể trùng, mã được thiết kế duy nhất giúp định danh. | OPTIONS: Mã tự mã hóa toàn bộ dữ liệu. / Mã giúp phân biệt các bản ghi. / Mã luôn là một tệp hình ảnh. / Mã tự tạo mọi bảng liên quan.
+
+ext-found-q10 L111 Khóa ngoại thường giúp thể hiện quan hệ nào? | KEY: Tham chiếu dữ liệu ở bảng liên quan. | WHY: Khóa ngoại tham chiếu khóa ở bảng liên quan, hỗ trợ toàn vẹn tham chiếu. | OPTIONS: Mã hóa mọi giá trị của bảng dữ liệu. / Đặt màu chữ cho mọi hàng của bảng. / Tham chiếu dữ liệu ở bảng liên quan. / Sắp xếp mọi cột theo thứ tự tăng.
+
+ext-found-q11 L111 Bảng MUON(MaHS,MaSach,NgayMuon) cho phép một học sinh mượn nhiều sách. Chỉ MaHS có đủ làm khóa chính không? | KEY: Không, MaHS có thể bị lặp lại. | WHY: Một học sinh có nhiều lượt mượn nên MaHS không duy nhất. | OPTIONS: Có, MaHS luôn là số nguyên. / Có, MaHS luôn có trong bảng. / Không, vì khóa phải là họ tên. / Không, MaHS có thể bị lặp lại.
+
+ext-found-q12 L111 Cần lọc học sinh có Diem>=8 trong bảng HS. Câu SQL nào đúng? | KEY: SELECT * FROM HS WHERE Diem>=8. | WHY: WHERE lọc bản ghi theo điều kiện điểm lớn hơn hoặc bằng 8. | OPTIONS: SELECT * FROM HS WHERE Diem>=8. / SELECT * FROM HS WHERE Diem<8. / SELECT * FROM HS WHERE Diem=0. / SELECT * FROM HS WHERE Diem<>8.
+
+a-old-1 L1 Phát biểu nào mô tả đúng khái niệm trí tuệ nhân tạo (AI)? | KEY: Khả năng máy thực hiện những công việc mang tính trí tuệ. | WHY: AI hướng tới thực hiện những công việc mang tính trí tuệ như học, hiểu ngôn ngữ, suy luận và ra quyết định. | OPTIONS: Khả năng máy thực hiện những công việc mang tính trí tuệ. / Khả năng máy lưu dữ liệu trong những thiết bị dung lượng lớn. / Khả năng máy truyền dữ liệu qua những đường kết nối tốc độ cao. / Khả năng máy cấp năng lượng cho những thiết bị hoạt động.
+
+a-old-2 L1 Khả năng học của AI được thể hiện trực tiếp ở hoạt động nào? | KEY: Điều chỉnh hành vi nhờ thông tin thu được từ dữ liệu mới. | WHY: Khả năng học là nắm bắt thông tin từ dữ liệu và điều chỉnh hành vi dựa trên thông tin mới. | OPTIONS: Chép dữ liệu sang thiết bị lưu trữ đúng theo lệnh đã nhận. / Điều chỉnh hành vi nhờ thông tin thu được từ dữ liệu mới. / Bật đèn báo khi công tắc nguồn chuyển sang trạng thái mở. / In tài liệu thành nhiều bản giống hệt nội dung đã nhận.
+
+a-old-3 L1 Khả năng suy luận của AI chủ yếu dựa trên yếu tố nào? | KEY: Logic và tri thức để đưa ra những kết luận từ dữ liệu. | WHY: Suy luận là vận dụng logic và tri thức để đưa ra quyết định hoặc kết luận. | OPTIONS: Dung lượng lưu trữ để sao chép những tệp dữ liệu đầu vào. / Tốc độ đường truyền để gửi đi những tệp dữ liệu đầu vào. / Logic và tri thức để đưa ra những kết luận từ dữ liệu. / Nguồn điện ổn định để bảo quản những tệp dữ liệu đầu vào.
+
+a-old-4 L1 Khả năng nhận thức của AI được minh họa rõ nhất bởi hoạt động nào? | KEY: Xe tự lái nhận ra người đi bộ từ hình ảnh của camera. | WHY: Nhận thức là cảm nhận và hiểu môi trường qua cảm biến và dữ liệu đầu vào, chẳng hạn nhận ra người đi bộ. | OPTIONS: Máy in tạo thêm bản sao của tài liệu theo số lượng đã chọn. / Ổ cứng lưu thêm bản sao của tài liệu vào thư mục đã chọn. / Bộ hẹn giờ bật bóng đèn vào đúng thời điểm đã đặt trước. / Xe tự lái nhận ra người đi bộ từ hình ảnh của camera.
+
+a-old-5 L1 Nhiệm vụ nào trực tiếp thể hiện khả năng hiểu ngôn ngữ của AI? | KEY: Hiểu yêu cầu tìm kiếm được người dùng nói bằng tiếng Việt. | WHY: Hiểu ngôn ngữ gồm hiểu và xử lí ngôn ngữ tự nhiên dưới dạng văn bản hoặc tiếng nói. | OPTIONS: Hiểu yêu cầu tìm kiếm được người dùng nói bằng tiếng Việt. / Lưu tệp ghi âm của người dùng vào một thư mục trên máy. / Truyền tệp ghi âm của người dùng qua một mạng nội bộ. / Đổi tên tệp ghi âm của người dùng theo một mẫu cố định.
+
+a-old-6 L1 AI hẹp được thiết kế chủ yếu nhằm mục đích nào? | KEY: Thực hiện một nhiệm vụ cụ thể trong phạm vi đã xác định. | WHY: AI hẹp hay AI yếu được thiết kế cho một nhiệm vụ cụ thể như nhận dạng khuôn mặt hoặc dự báo thời tiết. | OPTIONS: Thực hiện mọi công việc trí tuệ như một người trưởng thành. / Thực hiện một nhiệm vụ cụ thể trong phạm vi đã xác định. / Thay thế mọi hoạt động xã hội mà không cần người giám sát. / Chuyển sang mọi lĩnh vực mới mà không cần dữ liệu bổ sung.
+
+a-old-7 L1 Đặc điểm nào gắn với mục tiêu phát triển AI tổng quát? | KEY: Tự thích nghi và thực hiện nhiều công việc như con người. | WHY: AI tổng quát hướng tới năng lực tự học, tự thích nghi và thực hiện nhiều công việc, không chỉ một nhiệm vụ hẹp. Đây là mục tiêu nghiên cứu, không đồng nhất với các ứng dụng hiện hành trong sách. | OPTIONS: Chỉ thực hiện một thao tác cố định trong dây chuyền lắp ráp. / Chỉ xử lí một kiểu dữ liệu trong nhiệm vụ nhận dạng ảnh. / Tự thích nghi và thực hiện nhiều công việc như con người. / Chỉ làm đúng một nhiệm vụ trong phạm vi được thiết kế.
+
+a-old-8 L1 Hệ chuyên gia MYCIN trong sách giáo khoa được xây dựng chủ yếu để làm gì? | KEY: Hỗ trợ chẩn đoán nhiễm khuẩn và đề xuất dùng kháng sinh. | WHY: MYCIN là hệ chuyên gia y học dùng luật suy diễn để hỗ trợ xác định vi khuẩn gây nhiễm trùng và đề xuất kháng sinh. | OPTIONS: Hỗ trợ nhận dạng các khuôn mặt và đề xuất cách gắn nhãn. / Hỗ trợ dịch tự động văn bản và đề xuất cách dùng từ ngữ. / Hỗ trợ phân tích luồng xe cộ và đề xuất cách phân luồng. / Hỗ trợ chẩn đoán nhiễm khuẩn và đề xuất dùng kháng sinh.
+
+a-old-9 L1 Robot Asimo là ví dụ điển hình của ứng dụng AI trong lĩnh vực nào? | KEY: Điều khiển robot thông minh tương tác với môi trường. | WHY: Asimo minh họa ứng dụng AI trong điều khiển robot, với các khả năng như đi lại, nhận dạng và giao tiếp. | OPTIONS: Điều khiển robot thông minh tương tác với môi trường. / Nén các tệp dữ liệu thành những gói dung lượng nhỏ. / Cấp nguồn điện ổn định cho thiết bị trong gia đình. / Truyền tín hiệu số giữa các thiết bị trong mạng.
+
+a-old-11 L1 Ứng dụng nhận dạng chữ viết tay có chức năng chính nào? | KEY: Chuyển hình ảnh chữ viết thành văn bản máy xử lí được. | WHY: Nhận dạng chữ viết tay chuyển hình ảnh chữ viết thành dữ liệu văn bản có thể xử lí. | OPTIONS: Chuyển dữ liệu văn bản thành âm thanh để người dùng nghe. / Chuyển dữ liệu văn bản thành bản in để người dùng đọc. / Chuyển hình ảnh chữ viết thành văn bản máy xử lí được. / Chuyển tệp chứa hình ảnh sang thư mục người dùng chọn.
+
+a-old-12 L2 Cảnh báo nào liên quan trực tiếp đến quyền riêng tư khi dùng AI? | KEY: Dữ liệu cá nhân có thể bị thu thập và sử dụng sai mục đích. | WHY: Nguy cơ về quyền riêng tư gắn với việc thu thập dữ liệu cá nhân và khả năng dữ liệu bị lạm dụng. | OPTIONS: Thiết bị xử lí có thể tiêu thụ điện khi chạy mô hình lớn. / Một số nghề nghiệp có thể thay đổi do tự động hóa công việc. / Quyết định của mô hình có thể khó giải thích cho người dùng. / Dữ liệu cá nhân có thể bị thu thập và sử dụng sai mục đích.
+
+a-old-13 L1 Ấm điện tự ngắt khi nước sôi chưa đủ để được coi là ứng dụng AI. Giải thích nào phù hợp nhất? | KEY: Nó chỉ phản ứng theo cơ chế cố định, chưa thể hiện học hay suy luận. | WHY: Tự động hóa không đồng nghĩa với AI. Cơ chế tự ngắt cố định không tự nó thể hiện những đặc trưng trí tuệ. | OPTIONS: Nó chỉ phản ứng theo cơ chế cố định, chưa thể hiện học hay suy luận. / Nó phải dùng nguồn điện liên tục, chưa thể dùng năng lượng mặt trời. / Nó chỉ có kích thước nhỏ gọn, chưa thể phục vụ nhiều người cùng lúc. / Nó phải có người đổ nước vào, chưa thể tự di chuyển trong căn bếp.
+
+a-old-14 L1 Nền tảng video điều chỉnh gợi ý dựa trên lịch sử xem của từng người. Vì sao đây là biểu hiện của khả năng học? | KEY: Hệ thống khai thác dữ liệu đã có để điều chỉnh nội dung gợi ý. | WHY: Việc rút thông tin từ lịch sử xem rồi thay đổi gợi ý theo người dùng minh họa khả năng học từ dữ liệu. | OPTIONS: Hệ thống luôn hiển thị cùng danh sách video cho mọi tài khoản. / Hệ thống khai thác dữ liệu đã có để điều chỉnh nội dung gợi ý. / Hệ thống chỉ tăng tốc đường truyền để video phát ít gián đoạn. / Hệ thống sao chép nguyên danh sách video từ một thư mục cố định.
+
+a-old-15 L2 Một hệ thống AI đưa ra quyết định nhưng người dùng khó biết căn cứ của quyết định. Tình huống này minh họa cảnh báo nào? | KEY: Nguy cơ thiếu minh bạch khi cần giải thích quyết định của AI. | WHY: Đặc tính hộp đen khiến khó hiểu quá trình ra quyết định, liên quan trực tiếp đến tính minh bạch. | OPTIONS: Nguy cơ thất nghiệp khi máy móc thay đổi cơ cấu nghề nghiệp. / Nguy cơ riêng tư khi dữ liệu cá nhân bị dùng sai mục đích. / Nguy cơ thiếu minh bạch khi cần giải thích quyết định của AI. / Nguy cơ an ninh khi kẻ xấu xâm nhập để sửa dữ liệu của AI.
+
+a-old-16 L2 Vì sao việc kẻ xấu sửa dữ liệu đầu vào của AI y tế có thể gây nguy hiểm? | KEY: Dữ liệu bị sửa có thể làm hệ thống đưa ra chẩn đoán sai. | WHY: Tấn công làm thay đổi dữ liệu hoặc mô hình có thể dẫn tới quyết định sai, gây hại trực tiếp cho người bệnh. | OPTIONS: Dữ liệu bị sửa khiến hệ thống tự chuyển thành AI tổng quát. / Dữ liệu bị sửa khiến mọi kết luận luôn dễ giải thích hơn. / Dữ liệu bị sửa có thể làm mọi thông tin cá nhân biến mất. / Dữ liệu bị sửa có thể làm hệ thống đưa ra chẩn đoán sai.
+
+a-old-17 L2 Một phòng khám thử AI hỗ trợ đọc ảnh X-quang. Trước khi áp dụng, lựa chọn nào phù hợp nhất để hạn chế rủi ro? | KEY: Thử trên dữ liệu phù hợp và để bác sĩ kiểm tra trước quyết định. | WHY: Cần đánh giá mô hình trong bối cảnh sử dụng và duy trì giám sát chuyên môn; AI hỗ trợ chứ không mặc nhiên thay thế bác sĩ. | OPTIONS: Thử trên dữ liệu phù hợp và để bác sĩ kiểm tra trước quyết định. / Dùng ngay với mọi bệnh nhân và bỏ bước bác sĩ kiểm tra kết quả. / Chỉ chọn mô hình có giao diện đẹp và bỏ bước thử nghiệm thực tế. / Đưa toàn bộ hồ sơ lên mạng và bỏ bước xin phép người liên quan.

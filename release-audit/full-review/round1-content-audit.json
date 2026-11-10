@@ -1,0 +1,25 @@
+{
+  "dateLocal": "2026-11-09 UTC+7",
+  "structural": {
+    "mcq": 468,
+    "tfGroups": 73,
+    "tfStatements": 292,
+    "exams": 45,
+    "textbookLessons": 28
+  },
+  "semantic": {
+    "mcq": 140,
+    "tfGroups": 43,
+    "tfStatements": 172,
+    "selection": "selection.json",
+    "notIndependentlyReviewedMCQ": 328,
+    "notIndependentlyReviewedTFStatements": 120
+  },
+  "textbookAttachment": "01M6RAR3WEXWP0SF6C96V030BR.pdf",
+  "all28TitlesAndPagesMatched": true,
+  "noUniversalOfficialSemesterMappingClaimed": true,
+  "historicalResultsRegraded": false,
+  "teacherCertification": false,
+  "corrections": "content-corrections.json",
+  "report": "CONTENT_AUDIT.md"
+}

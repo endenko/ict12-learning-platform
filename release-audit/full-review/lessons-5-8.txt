@@ -1,0 +1,220 @@
+
+## 5 Thực hành chia sẻ tài nguyên trên mạng p26–33
+q62 [NB] Quyền Read với thư mục chia sẻ cho phép điều gì?
+0:Đổi mọi quyền nhưng không được mở dữ liệu. | 1:Xem dữ liệu nhưng không được sửa dữ liệu. | 2:Sửa dữ liệu nhưng không được xem dữ liệu. | 3:Xóa dữ liệu nhưng không được đọc dữ liệu.
+KEY 1 WHY Read chỉ cho đọc, không cho ghi sửa. REF Bài 5 – 1. Chia sẻ tệp và thư mục trên mạng cục bộ (trang 26–33)
+q63 [NB] Quyền Read/Write với thư mục chia sẻ cho phép điều gì?
+0:Đọc và mở mọi tài khoản ngoài phạm vi mạng. | 1:Đọc và tắt mọi biện pháp bảo mật của mạng. | 2:Đọc và sửa nội dung trong phạm vi quyền. | 3:Đọc và thay mọi mật khẩu của cả hệ thống.
+KEY 2 WHY Read/Write cho đọc và ghi sửa tài nguyên được chia sẻ. REF Bài 5 – 1. Chia sẻ tệp và thư mục trên mạng cục bộ (trang 26–33)
+q64 [NB] Tùy chọn Network discovery chủ yếu phục vụ điều gì?
+0:Cho các máy trong mạng đổi hết mật khẩu. | 1:Cho các máy trong mạng xóa mọi phần mềm. | 2:Cho các máy trong mạng tăng điện áp nguồn. | 3:Cho các máy trong mạng tìm thấy máy này.
+KEY 3 WHY Network discovery giúp máy được nhìn thấy trong mạng. REF Bài 5 – 1. Chia sẻ tệp và thư mục trên mạng cục bộ (trang 26–33)
+q65 [NB] Để chọn người nhận quyền chia sẻ thư mục, dùng thao tác nào?
+0:Chọn người dùng rồi nhấn nút Add. | 1:Chọn độ sáng rồi nhấn nút Apply. | 2:Chọn khổ giấy rồi nhấn nút Print. | 3:Chọn phông chữ rồi nhấn nút Save.
+KEY 0 WHY Trong hộp chia sẻ, chọn người dùng rồi Add vào danh sách. REF Bài 5 – 1. Chia sẻ tệp và thư mục trên mạng cục bộ (trang 26–33)
+q66 [NB] Để hủy chia sẻ một thư mục trong Advanced Sharing, làm gì?
+0:Bật chế độ in trong mục Printer queue. | 1:Bỏ dấu chọn ở mục Share this folder. | 2:Đổi tên tệp trong mục Public Pictures. | 3:Đổi hình nền ở mục Personalization.
+KEY 1 WHY Bỏ chọn Share this folder rồi OK/Apply để hủy chia sẻ. REF Bài 5 – 1. Chia sẻ tệp và thư mục trên mạng cục bộ (trang 26–33)
+q67 [NB] Mạng Private trong bài được dùng chủ yếu cho đối tượng nào?
+0:Nhóm quảng cáo từ tài khoản vô danh. | 1:Nhóm thư rác từ địa chỉ chưa xác minh. | 2:Nhóm người dùng có độ tin cậy cao. | 3:Nhóm khách lạ tại sân bay công cộng.
+KEY 2 WHY Mạng riêng dành cho nhóm tin cậy, thuận lợi chia sẻ nội bộ. REF Bài 5 – 1. Chia sẻ tệp và thư mục trên mạng cục bộ (trang 26–33)
+q68 [NB] Máy tính cung cấp dịch vụ in trên mạng có vai trò gì?
+0:Nhận yêu cầu và dịch mọi tệp sang tiếng Anh. | 1:Nhận yêu cầu và cấp địa chỉ cho Internet. | 2:Nhận yêu cầu và xóa hết tài liệu trong mạng. | 3:Nhận yêu cầu và xếp vào hàng đợi để in.
+KEY 3 WHY Máy cung cấp dịch vụ in nhận yêu cầu, xếp hàng và điều khiển máy in. REF Bài 5 – 2. Chia sẻ máy in (trang 26–33)
+q69 [NB] Trong Printer properties, thẻ nào dùng thiết lập chia sẻ máy in?
+0:Thẻ Sharing dùng để chia sẻ máy in. | 1:Thẻ Security dùng để đổi khổ giấy. | 2:Thẻ General dùng để tạo tên miền. | 3:Thẻ Ports dùng để đổi màu màn hình.
+KEY 0 WHY Thẻ Sharing trong thuộc tính máy in phục vụ chia sẻ. REF Bài 5 – 2. Chia sẻ máy in (trang 26–33)
+q71 [TH] Vì sao không nên chia sẻ cả ổ đĩa cho mọi người theo mặc định?
+0:Có thể tự tạo thêm cổng mạng cho router. | 1:Có thể tự nâng tốc độ của mọi máy in. | 2:Có thể lộ hoặc bị sửa những dữ liệu riêng. | 3:Có thể tăng độ sáng của tất cả màn hình.
+KEY 2 WHY Chia sẻ quá rộng làm tăng rủi ro truy cập, sửa hoặc hỏng dữ liệu. REF Bài 5 – 1. Chia sẻ tệp và thư mục trên mạng cục bộ (trang 26–33)
+q72 [TH] Hai máy đã nối cáp nhưng không truy cập được thư mục. Nên kiểm tra gì?
+0:Độ sáng màn hình, hình nền và phông chữ. | 1:Khổ giấy mặc định, màu mực và số bản in. | 2:Tốc độ quạt tản nhiệt, màu vỏ và chân đế. | 3:Khám phá mạng, chế độ chia sẻ và quyền.
+KEY 3 WHY Kết nối vật lí cần đi kèm cấu hình chia sẻ và quyền hợp lệ. REF Bài 5 – 1. Chia sẻ tệp và thư mục trên mạng cục bộ (trang 26–33)
+q73 [TH] Vì sao chia sẻ máy in giúp tiết kiệm tài nguyên trong văn phòng?
+0:Nhiều máy cùng sử dụng một thiết bị in. | 1:Mỗi máy bắt buộc có riêng một thiết bị in. | 2:Mọi tài liệu được tự động xóa ngay khi in. | 3:Mọi máy tự tăng gấp đôi dung lượng ổ cứng.
+KEY 0 WHY Dùng chung máy in giảm số thiết bị cần mua và tránh phải chép tệp thủ công. REF Bài 5 – 2. Chia sẻ máy in (trang 26–33)
+
+## 6 Giao tiếp và ứng xử trong không gian mạng p34–38
+q77 [NB] Tình huống nào là giao tiếp trong không gian mạng?
+0:Tham dự lớp học qua hội nghị trực tuyến. | 1:Gặp bạn tại bàn ăn và trò chuyện trực tiếp. | 2:Viết lời nhắn trên giấy rồi đặt lên bàn. | 3:Đọc báo giấy tại phòng khách cùng gia đình.
+KEY 0 WHY Lớp trực tuyến dùng dịch vụ giao tiếp qua mạng. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q78 [NB] Ưu điểm thuận tiện của giao tiếp trực tuyến là gì?
+0:Có thể bảo đảm mọi tài khoản đều chân thật. | 1:Có thể trao đổi từ xa khi có kết nối mạng. | 2:Có thể trao đổi mà không cần thiết bị nào. | 3:Có thể hiểu mọi cử chỉ dù chỉ gửi chữ viết.
+KEY 1 WHY Giao tiếp trực tuyến thuận tiện khi có kết nối mạng. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q79 [NB] Họp qua mạng thay cho đi xa giúp tiết kiệm chủ yếu điều gì?
+0:Số cổng và chiều dài của bộ chuyển mạch. | 1:Khổ giấy và lượng mực của máy in màu. | 2:Thời gian và chi phí di chuyển của người. | 3:Dung lượng và kích thước của ổ đĩa cứng.
+KEY 2 WHY Giao tiếp trực tuyến giảm nhu cầu đi lại và chi phí. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q80 [NB] Một hạn chế của tin nhắn văn bản so với gặp trực tiếp là gì?
+0:Thiếu khả năng lưu lại nội dung đã viết. | 1:Thiếu khả năng truyền đi các kí tự chữ. | 2:Thiếu khả năng liên hệ người ở xa hơn. | 3:Thiếu tín hiệu về nét mặt và giọng nói.
+KEY 3 WHY Văn bản thiếu nhiều tín hiệu phi ngôn ngữ nên dễ gây hiểu nhầm. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q81 [NB] Nguy cơ riêng tư trong giao tiếp trực tuyến thể hiện thế nào?
+0:Thông tin cá nhân có thể bị lộ hoặc lạm dụng. | 1:Thời gian di chuyển có thể được giảm đáng kể. | 2:Mạng quan hệ xã hội có thể được mở rộng hơn. | 3:Công cụ liên lạc có thể được chọn đa dạng hơn.
+KEY 0 WHY Rò rỉ thông tin và tấn công bảo mật đe dọa quyền riêng tư. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q82 [NB] Điều gì có thể làm cuộc họp trực tuyến bị gián đoạn?
+0:Dùng lời động viên hoặc hỗ trợ bạn bè. | 1:Mất kết nối mạng hoặc lỗi phần mềm họp. | 2:Đọc kĩ bài viết hoặc dùng lời nói lịch sự. | 3:Tôn trọng người khác hoặc nghe ý kiến đủ.
+KEY 1 WHY Sự cố kĩ thuật là một nhược điểm của giao tiếp trực tuyến. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q83 [NB] Khả năng mở rộng kết nối xã hội nhờ mạng thể hiện ở đâu?
+0:Bắt buộc mọi người phải có mặt cùng phòng. | 1:Loại bỏ mọi công cụ trò chuyện bằng chữ. | 2:Kết nối nhiều người chung sở thích từ xa. | 3:Giới hạn liên lạc trong cùng một bàn học.
+KEY 2 WHY Mạng giúp mở rộng quan hệ theo sở thích, quan điểm hoặc nhu cầu. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q84 [NB] Công cụ nào thuộc nhóm giao tiếp trực tuyến?
+0:Thư giấy tay và phong bì chuyển phát. | 1:Bảng phấn đen và tờ giấy thông báo. | 2:Sổ ghi chép và hộp bút đặt trên bàn. | 3:Thư điện tử và hội nghị truyền hình.
+KEY 3 WHY Thư điện tử, nhắn tin, mạng xã hội, hội nghị truyền hình là các công cụ trực tuyến. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q85 [NB] Yếu tố nào thuộc ứng xử nhân văn trên mạng?
+0:Tôn trọng, lịch sự, thấu hiểu và hỗ trợ. | 1:Giễu cợt, công kích, thách thức và bêu xấu. | 2:Phán xét, kích động, đe dọa và chụp mũ. | 3:Gây hấn, áp đặt, xúc phạm và phát tán tin.
+KEY 0 WHY Sách nêu bốn yếu tố tôn trọng, lịch sự, thấu hiểu và hỗ trợ. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q86 [NB] Tôn trọng quyền riêng tư của bạn có nghĩa là gì?
+0:Không hỗ trợ bạn bè khi đang cần giúp đỡ. | 1:Không phát tán tin riêng khi chưa được phép. | 2:Không đọc kĩ bài viết trước khi trao đổi. | 3:Không bình tĩnh lắng nghe quan điểm khác.
+KEY 1 WHY Tin riêng chỉ được chia sẻ khi có sự cho phép. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q87 [NB] Lịch sự khi phản biện trên mạng là cách nào?
+0:Dùng lời mỉa mai và quy chụp đối tượng. | 1:Dùng lời đe dọa và kích động đám đông. | 2:Dùng từ đúng mực và trao đổi có căn cứ. | 3:Dùng từ thô tục và công kích người viết.
+KEY 2 WHY Lịch sự đòi hỏi dùng ngôn từ đúng mực, tránh lăng mạ. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q88 [NB] Thấu hiểu người khác trên mạng là gì?
+0:Đặt lời buộc tội để bác bỏ mọi ý kiến. | 1:Đặt điều không có để làm người khác sợ. | 2:Đặt ảnh riêng tư để gây sức ép đám đông. | 3:Đặt mình vào hoàn cảnh để hiểu khó khăn.
+KEY 3 WHY Thấu hiểu là cảm thông và hiểu khó khăn, suy nghĩ của người khác. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q89 [NB] Hỗ trợ người khác trên mạng có thể thể hiện bằng gì?
+0:Gửi lời động viên và chia sẻ cách giúp đỡ. | 1:Gửi lời chê bai và lặp lại lỗi của họ. | 2:Gửi ảnh riêng tư và kêu gọi người xem. | 3:Gửi lời kích động và thúc đẩy tranh cãi.
+KEY 0 WHY Động viên, an ủi và giúp đỡ là các biểu hiện hỗ trợ. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q90 [NB] Trước khi chia sẻ một bài viết, cần ưu tiên điều gì?
+0:Kiểm tra tiêu đề và bỏ qua nội dung gốc. | 1:Kiểm tra tính đúng và quyền riêng tư. | 2:Kiểm tra lượt thích và bỏ qua nguồn tin. | 3:Kiểm tra độ sốc và bỏ qua người bị nêu.
+KEY 1 WHY Cần đọc, kiểm chứng và tránh xâm phạm danh tiếng, quyền riêng tư. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q91 [NB] Khi không đồng ý một bài viết, hành vi phù hợp là gì?
+0:Chụp ảnh riêng tư rồi kêu gọi tẩy chay. | 1:Chuyển sang đe dọa rồi phát tán tin đồn. | 2:Đọc kĩ nội dung rồi phản hồi lịch sự. | 3:Đọc qua tiêu đề rồi xúc phạm tác giả.
+KEY 2 WHY Đọc kĩ và trao đổi tôn trọng là ứng xử nhân văn. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q92 [NB] Thói quen nào giúp cải thiện hành vi trực tuyến?
+0:Tự xóa mọi nguồn tin khác với ý mình. | 1:Tự công bố mọi tin riêng của người khác. | 2:Tự bỏ qua mọi ý kiến góp ý có căn cứ. | 3:Tự xem xét và điều chỉnh cách ứng xử.
+KEY 3 WHY Sách khuyến khích tự kiểm tra và cải thiện hành vi. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q93 [NB] Trong cuộc gọi video, nên chú ý điều gì?
+0:Trang phục lịch sự và hậu cảnh phù hợp. | 1:Trang phục gây sốc và hậu cảnh xúc phạm. | 2:Trang phục bất kì và thái độ công kích. | 3:Trang phục lố lăng và lời nói khiêu khích.
+KEY 0 WHY Cần mặc lịch sự, tránh hậu cảnh phản cảm và giữ thái độ đúng đắn. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q95 [TH] Vì sao khó đánh giá sự chân thật của tài khoản lạ?
+0:Người dùng chỉ liên lạc khi ở cùng một phòng. | 1:Người dùng luôn được người quen xác nhận. | 2:Người dùng có thể ẩn danh hoặc giả mạo tên. | 3:Người dùng luôn công khai đủ mọi giấy tờ.
+KEY 2 WHY Mạng cho phép giấu mặt, tạo bản sao không đầy đủ hoặc giả thông tin. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q96 [TH] Nhiều công cụ trực tuyến khác nhau mang lại lợi ích gì?
+0:Chọn bỏ toàn bộ biện pháp bảo vệ riêng tư. | 1:Chọn thay mọi quan hệ cá nhân bằng máy. | 2:Chọn bảo đảm không còn sự cố đường truyền. | 3:Chọn hình thức phù hợp nhu cầu liên lạc.
+KEY 3 WHY Sự đa dạng giúp chọn công cụ phù hợp; không xóa bỏ rủi ro. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q97 [TH] Học sinh học online ở xa vẫn tham gia được vì sao?
+0:Giao tiếp qua mạng giảm giới hạn địa lí. | 1:Giao tiếp qua mạng không cần kết nối nào. | 2:Giao tiếp qua mạng không cần thiết bị nào. | 3:Giao tiếp qua mạng loại bỏ mọi lỗi kĩ thuật.
+KEY 0 WHY Khi có thiết bị và kết nối, người học có thể tham gia từ xa. REF Bài 6 – 1. Giao tiếp trong không gian mạng (trang 34–38)
+q98 [TH] Vì sao gửi ảnh nhật kí riêng của bạn cho nhóm là không phù hợp?
+0:Tiết kiệm thời gian và chi phí di chuyển. | 1:Xâm phạm riêng tư dù chưa đăng công khai. | 2:Tăng độ chính xác của mọi thông tin trao đổi. | 3:Tăng khả năng bảo mật của tài khoản cá nhân.
+KEY 1 WHY Chia sẻ cho bên thứ ba khi chưa được phép vẫn xâm phạm riêng tư. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q99 [TH] Vì sao lời góp ý nên tập trung vào lập luận thay vì con người?
+0:Tránh lắng nghe và giữ thái độ khiêu khích. | 1:Tránh hỗ trợ và giữ mọi lời lăng mạ nhau. | 2:Tránh tổn thương và giữ đối thoại tôn trọng. | 3:Tránh kiểm chứng và giữ mọi thông tin sai.
+KEY 2 WHY Phản biện lịch sự, không tấn công cá nhân giúp trao đổi lành mạnh. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q100 [TH] Vì sao cần cẩn trọng với ngôn từ và cách viết trên mạng?
+0:Tránh sử dụng bất kì công cụ trực tuyến nào. | 1:Tránh trao đổi mọi quan điểm khác biệt nhau. | 2:Tránh lưu trữ bất kì nội dung học tập nào. | 3:Tránh hiểu lầm và gây kích thích đối phương.
+KEY 3 WHY Từ ngữ thiếu phù hợp có thể gây hiểu nhầm và kích động tranh cãi. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q101 [TH] Một lời an ủi chân thành có giá trị hỗ trợ như thế nào?
+0:Giúp người gặp khó khăn cảm thấy được sẻ chia. | 1:Giúp người gặp khó khăn bị lộ hết đời tư. | 2:Giúp người gặp khó khăn bị chỉ trích nhiều hơn. | 3:Giúp người gặp khó khăn bị cô lập trong nhóm.
+KEY 0 WHY Hỗ trợ không chỉ vật chất mà còn là động viên, an ủi kịp thời. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q103 [VD] Bạn thấy thông tin chưa rõ nguồn nói xấu một bạn cùng lớp. Nên xử lí thế nào?
+0:Chụp ảnh, gửi cho nhiều nhóm chưa quen. | 1:Đăng lại, gắn tên để tạo sức ép cho bạn. | 2:Kiểm chứng, không tiếp tay lan truyền tin. | 3:Chia sẻ, thêm nhận xét để tăng lượt xem.
+KEY 2 WHY Cần kiểm chứng và bảo vệ danh tiếng, riêng tư của người khác. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+q104 [VD] Trong nhóm học tập, bạn mới hiểu sai một thuật ngữ rồi hỏi lại. Nên phản hồi ra sao?
+0:Chế giễu ngay và yêu cầu bạn rời khỏi nhóm. | 1:Chụp câu hỏi và đăng kèm lời mỉa mai bạn. | 2:Gạt ý kiến và từ chối mọi hỗ trợ cho bạn. | 3:Giải thích rõ và động viên bạn tiếp tục hỏi.
+KEY 3 WHY Thấu hiểu, lịch sự và hỗ trợ giúp xây dựng môi trường học tập tích cực. REF Bài 6 – 2. Thể hiện tính nhân văn trong không gian mạng (trang 34–38)
+t17 SCENARIO Một bạn gửi ảnh nhật kí riêng của Hoa vào nhóm lớp mà chưa hỏi. Một số thành viên muốn đăng tiếp lên mạng; lớp trưởng nhắc mọi người giữ quyền riêng tư của Hoa.
+a [TH] False Chia sẻ trong nhóm kín thì không cần quan tâm sự cho phép của chủ nhật kí. WHY Gửi cho bên thứ ba vẫn cần tôn trọng riêng tư.
+b [TH] True Đề nghị không phát tán ảnh riêng thể hiện tôn trọng người bị ảnh hưởng. WHY Ngăn lan truyền thông tin riêng là hành vi tôn trọng.
+c [VD] True Người nhận ảnh nên dừng phát tán và tìm cách hỗ trợ Hoa xử lí sự việc. WHY Cần hỗ trợ người bị tổn thương, không lan truyền thêm.
+d [VD] False Để giúp Hoa, lớp nên đăng lại toàn bộ nhật kí kèm tên thật cho mọi người xem. WHY Đăng rộng làm tăng xâm phạm quyền riêng tư.
+t18 SCENARIO Trong diễn đàn học tập, Minh phản đối lời giải của Hà bằng ngôn từ gay gắt. Hà chưa đọc hết ý kiến đã định công kích lại. Một bạn đề nghị cả hai tập trung vào lập luận.
+a [TH] True Phản biện lịch sự cần dùng ngôn từ đúng mực và tránh công kích cá nhân. WHY Lịch sự và tôn trọng là yếu tố ứng xử nhân văn.
+b [TH] False Không đồng ý với lời giải cho phép xúc phạm danh dự người đã viết lời giải. WHY Bất đồng không biện minh cho xúc phạm người khác.
+c [VD] True Hà nên đọc kĩ ý kiến và đưa lí do cụ thể thay vì dùng lời đe dọa Minh. WHY Bình tĩnh, lắng nghe và phản biện có căn cứ.
+d [VD] False Nhóm nên khuyến khích châm chọc để hai bạn hiểu bài nhanh hơn và rõ hơn. WHY Châm chọc gây tổn thương và làm cuộc trao đổi thiếu lành mạnh.
+t19 SCENARIO Lan gặp một tài khoản mới nói có cùng sở thích. Tài khoản yêu cầu Lan gửi địa chỉ nhà và ảnh giấy tờ để được vào nhóm. Lan chưa biết ai đứng sau tài khoản.
+a [TH] False Người có chung sở thích trên mạng luôn cung cấp danh tính thật và đầy đủ. WHY Tài khoản có thể ẩn danh hoặc giả mạo.
+b [TH] True Yêu cầu thông tin cá nhân có thể làm phát sinh nguy cơ đối với quyền riêng tư. WHY Dữ liệu cá nhân có thể bị lộ hoặc lạm dụng.
+c [VD] False Lan nên gửi ngay ảnh giấy tờ để bảo đảm người lạ tin mình và giữ kết nối. WHY Không nên tùy tiện gửi thông tin nhạy cảm cho người lạ.
+d [VD] True Lan nên dừng cung cấp dữ liệu và trao đổi với người đáng tin để được hỗ trợ. WHY Bảo vệ dữ liệu và tìm hỗ trợ có trách nhiệm là phù hợp.
+t20 SCENARIO Nam nhận bài viết chưa rõ nguồn nói xấu một bạn. Nhóm yêu cầu Nam chia sẻ cho nhanh. Một thành viên nhắc kiểm tra tính chính xác và tránh gây tổn hại danh tiếng.
+a [TH] True Chia sẻ thông tin chưa kiểm chứng có thể gây tổn hại danh tiếng người khác. WHY Tin sai và tin đồn có thể gây tổn thương.
+b [TH] False Bài viết có nhiều lượt thích thì mọi nội dung đều đã được xác minh đúng. WHY Lượt thích không thay cho xác minh nguồn và chứng cứ.
+c [VD] True Nam nên đọc kĩ, kiểm chứng nguồn và chưa chia sẻ khi thông tin còn đáng ngờ. WHY Cần kiểm tra độ chính xác trước khi đăng hoặc chia sẻ.
+d [VD] False Nam nên thêm lời xúc phạm để người xem chú ý hơn tới bài viết đang lan truyền. WHY Thêm lời xúc phạm làm tăng tác hại, không thể hiện nhân văn.
+t21 SCENARIO Nhóm ôn tập gọi video. Một bạn mới ngại hỏi vì từng bị mỉa mai. Nhóm trưởng muốn tạo môi trường an toàn để mọi người góp ý và nhận hỗ trợ khi chưa hiểu bài.
+a [TH] False Chế giễu người hỏi là cách thể hiện sự thấu hiểu các khó khăn trong học tập. WHY Thấu hiểu là cảm thông, không châm chọc.
+b [TH] True Lời động viên chân thành có thể giúp người gặp khó khăn cảm thấy được hỗ trợ. WHY Hỗ trợ bao gồm động viên và an ủi.
+c [VD] False Nhóm nên chụp ảnh bạn đang bối rối rồi đăng công khai để buộc bạn tự tin hơn. WHY Đăng ảnh gây tổn thương và có thể xâm phạm riêng tư.
+d [VD] True Nhóm nên giải thích rõ, dùng lời lịch sự và khuyến khích bạn đặt câu hỏi mới. WHY Lịch sự, thấu hiểu và hỗ trợ giúp môi trường tích cực.
+
+## 7 HTML và cấu trúc trang web p39–45
+ext-l7-q02 [NB] Thẻ nào bao quanh nội dung hiển thị chính của trang?
+0:Cặp thẻ <head> và </head>. | 1:Cặp thẻ <body> và </body>. | 2:Cặp thẻ <title> và </title>. | 3:Cặp thẻ <style> và </style>.
+KEY 1 WHY body chứa nội dung chính hiển thị trên trang, head chứa thông tin mô tả. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q03 [NB] Phần tử nào khai báo tên trang trên thẻ trình duyệt?
+0:Phần tử body trong html. | 1:Phần tử meta trong body. | 2:Phần tử title trong head. | 3:Phần tử html trong title.
+KEY 2 WHY title trong head quy định tên trang trên tab trình duyệt. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q04 [NB] Dòng <!DOCTYPE html> có vai trò gì?
+0:Khai báo địa chỉ máy chủ DNS. | 1:Khai báo mật khẩu của trang. | 2:Khai báo màu nền toàn trang. | 3:Khai báo tài liệu thuộc HTML.
+KEY 3 WHY DOCTYPE khai báo loại tài liệu HTML, không phải phần tử nội dung. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q05 [NB] Phần mềm nào phù hợp để soạn mã HTML dạng văn bản?
+0:Dùng Notepad++ để soạn mã. | 1:Dùng Paint để vẽ các điểm. | 2:Dùng Photos để xem ảnh số. | 3:Dùng Recorder để thu âm.
+KEY 0 WHY Notepad++ là trình soạn thảo mã, hỗ trợ hiển thị cú pháp HTML. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q06 [NB] Thẻ <br> được dùng chủ yếu cho thao tác nào?
+0:Đặt tên cho thẻ trình duyệt. | 1:Ngắt dòng tại vị trí đặt thẻ. | 2:Tạo một bảng gồm nhiều cột. | 3:Chèn một tệp nhạc vào trang.
+KEY 1 WHY br là thẻ đơn tạo ngắt dòng. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q07 [NB] Cú pháp nào tạo chú thích hợp lệ trong mã HTML?
+0:Viết <!! ghi chú !!>. | 1:Viết <?! ghi chú !?>. | 2:Viết <!-- ghi chú -->. | 3:Viết <## ghi chú ##>.
+KEY 2 WHY Chú thích HTML đặt giữa <!-- và -->, không hiển thị như văn bản trang. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q08 [NB] Thẻ gốc bao bọc cây phần tử của tài liệu HTML là gì?
+0:Cặp thẻ <head> và </head>. | 1:Cặp thẻ <body> và </body>. | 2:Cặp thẻ <meta> và </meta>. | 3:Cặp thẻ <html> và </html>.
+KEY 3 WHY html là phần tử gốc, thường gồm head và body. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q09 [NB] Thuộc tính charset trong <meta charset="utf-8"> mô tả điều gì?
+0:Bảng mã dùng cho văn bản. | 1:Phông chữ dùng cho tiêu đề. | 2:Kích thước của khung ảnh. | 3:Đường dẫn của tệp âm thanh.
+KEY 0 WHY Khai báo UTF-8 giúp trình duyệt giải mã đúng văn bản, gồm tiếng Việt. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q11 [TH] Vì sao tệp HTML có thể soạn bằng trình soạn thảo văn bản thuần?
+0:Vì mã HTML được lưu dạng âm thanh. | 1:Vì mã HTML được lưu dạng ảnh nén. | 2:Vì mã HTML được lưu dạng văn bản. | 3:Vì mã HTML được lưu dạng sóng radio.
+KEY 2 WHY Tệp HTML là văn bản chứa các thẻ, không cần trình soạn thảo chuyên dụng. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q12 [TH] Cho <head><title>CLB</title></head><body><p>Chào</p></body>. Chữ CLB xuất hiện ở đâu?
+0:Trong đoạn văn của phần thân. | 1:Trong lời chú thích cuối trang. | 2:Trên nội dung ảnh của phần thân. | 3:Trên nhãn tab của trình duyệt.
+KEY 3 WHY title đặt nhãn tab; p trong body hiển thị Chào. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-q13 [TH] Vì sao thẻ <img> không cần một thẻ </img> tương ứng?
+0:Vì img thuộc nhóm phần tử rỗng. | 1:Vì img luôn thuộc phần tử head. | 2:Vì img chỉ dùng ở cuối tài liệu. | 3:Vì img thay thế phần tử gốc html.
+KEY 0 WHY img là phần tử rỗng, không bao một nội dung con giữa hai thẻ. REF Bài 7 – Cấu trúc tệp HTML và phần mềm soạn thảo (trang 39–45)
+ext-l7-t2 SCENARIO Minh lưu trang tiếng Việt dưới mã UTF-8 nhưng chưa khai báo charset. Tệp có chú thích <!-- bản nháp -->, một ảnh img và các phần tử HTML được lồng nhau.
+a [TH] True img là phần tử rỗng, không cần một thẻ đóng tương ứng. WHY img không bao nội dung con, không dùng thẻ đóng.
+b [TH] False Chú thích luôn xuất hiện như một đoạn văn trên trang. WHY Chú thích không được hiển thị như nội dung văn bản.
+c [VD] True Để xử lí mã chữ, Minh nên khai báo meta charset UTF-8. WHY Cần đồng bộ mã hóa tệp và khai báo charset.
+d [VD] False Để sửa lỗi bảng mã, Minh chỉ cần thêm chiều rộng ảnh. WHY Chiều rộng ảnh không giải quyết việc giải mã văn bản.
+
+## 8 Định dạng văn bản p46–51
+ext-l8-q02 [NB] Nhóm thẻ tiêu đề HTML gồm những thẻ nào?
+0:Các thẻ từ h1 đến h6. | 1:Các thẻ từ p1 đến p6. | 2:Các thẻ từ t1 đến t6. | 3:Các thẻ từ b1 đến b6.
+KEY 0 WHY HTML quy định sáu cấp tiêu đề h1–h6. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q03 [NB] Muốn nhấn mạnh ngữ nghĩa một từ bằng thẻ strong, cần viết gì?
+0:Đặt từ trong thẻ <strike>. | 1:Đặt từ trong thẻ <strong>. | 2:Đặt từ trong thẻ <select>. | 3:Đặt từ trong thẻ <source>.
+KEY 1 WHY strong biểu thị sự quan trọng và thường hiển thị đậm. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q04 [NB] Thẻ nào thường dùng để biểu diễn chỉ số dưới?
+0:Dùng thẻ <sup> cho chỉ số. | 1:Dùng thẻ <sum> cho chỉ số. | 2:Dùng thẻ <sub> cho chỉ số. | 3:Dùng thẻ <src> cho chỉ số.
+KEY 2 WHY sub tạo chỉ số dưới; sup tạo chỉ số trên. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q05 [NB] Thuộc tính nào cho phép khai báo CSS trực tiếp trên thẻ HTML?
+0:Dùng thuộc tính class. | 1:Dùng thuộc tính title. | 2:Dùng thuộc tính start. | 3:Dùng thuộc tính style.
+KEY 3 WHY style chứa các khai báo CSS nội tuyến. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q06 [NB] Đặc tính CSS nào thiết lập họ phông chữ?
+0:Đặc tính font-family. | 1:Đặc tính font-weight. | 2:Đặc tính font-style. | 3:Đặc tính font-size.
+KEY 0 WHY font-family chọn họ phông; các thuộc tính còn lại điều khiển đậm, nghiêng và cỡ. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q07 [NB] Cú pháp nào biểu diễn chỉ số trên của x bình phương?
+0:Viết x<sub>2</sub>. | 1:Viết x<sup>2</sup>. | 2:Viết x<del>2</del>. | 3:Viết x<ins>2</ins>.
+KEY 1 WHY sup đặt số 2 ở vị trí chỉ số trên. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q08 [NB] Thuộc tính thẻ trong HTML thường được khai báo ở đâu?
+0:Trong phần thẻ đóng của phần tử. | 1:Trong phần tên tệp của tài liệu. | 2:Trong phần thẻ mở của phần tử. | 3:Ngoài cửa sổ của trình duyệt web.
+KEY 2 WHY Thuộc tính thường có dạng tên="giá trị" trong thẻ mở. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q09 [NB] Thẻ <hr> thường biểu diễn thành phần nào?
+0:Một dòng văn bản in nghiêng. | 1:Một trường nhập số nguyên. | 2:Một khung phát tệp âm thanh. | 3:Một đường kẻ ngắt nội dung.
+KEY 3 WHY hr tạo ngắt chủ đề, thường được thể hiện bằng đường kẻ ngang. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q11 [TH] Thẻ span khác thẻ p ở đặc điểm mặc định nào?
+0:span là khối, p là nội tuyến. | 1:span là nội tuyến, p là khối. | 2:span là bảng, p là danh sách. | 3:span là ảnh, p là siêu liên kết.
+KEY 1 WHY span nhóm văn bản nội tuyến; p là phần tử đoạn dạng khối. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q12 [TH] Đoạn <p style="color:red">A</p> tác động tới yếu tố nào?
+0:Nền chữ A chuyển thành đỏ. | 1:Viền chữ A chuyển thành đỏ. | 2:Màu chữ A chuyển thành đỏ. | 3:Tên tệp A chuyển thành đỏ.
+KEY 2 WHY color quy định màu chữ, không phải màu nền hay viền. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-q13 [TH] Khi viết nhiều khai báo trong style, dấu nào ngăn cách các khai báo?
+0:Dùng dấu chấm hỏi ?. | 1:Dùng dấu gạch chéo /. | 2:Dùng dấu chấm than !. | 3:Dùng dấu chấm phẩy ;.
+KEY 3 WHY Các khai báo CSS trong style được phân cách bằng dấu chấm phẩy. REF Bài 8 – Thuộc tính thẻ; định dạng văn bản và phông chữ (trang 46–51)
+ext-l8-t2 SCENARIO Lớp biên tập bản tin gồm tiêu đề, đoạn văn và các từ cần nhấn mạnh. Một bạn định dùng nhiều khoảng trắng trong mã để tạo thụt đầu dòng và dùng span để chia từng trang.
+a [TH] True Các cấp tiêu đề h1 đến h6 biểu thị phân cấp của văn bản. WHY Các thẻ tiêu đề biểu thị cấu trúc cấp bậc.
+b [TH] False span mặc định tạo khối độc lập như một đoạn p của HTML. WHY span là nội tuyến, p là khối.
+c [VD] False Muốn nhấn mạnh một từ, lớp nên chuyển cả bài sang ảnh. WHY Có thể dùng strong hoặc em, không cần biến văn bản thành ảnh.
+d [VD] True Muốn tạo đoạn văn riêng, lớp nên đặt nội dung trong p. WHY p là phần tử đoạn văn.

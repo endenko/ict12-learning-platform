@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "base": "https://ict12-learning-platform.vercel.app",
+  "finishedAt": "2026-11-09T03:01:50.802Z",
+  "checks": [
+    "Detailed audit, private bank baselines, source archive and evidence paths remain HTTP404",
+    "Full23-step media exam serves audited wording; dedicated-audio ambiguity fixed; revised rationale appears only after submission",
+    "Wrong-question practice uses corrected canonical content, withholds rationale while active and restores post-submit explanation; old review blocked during practice",
+    "Full23-step CSS exam validates ordinary-block versus table wording and explanation with server scoring10/10",
+    "Full23-step AI exam validates corrected1955/1956 distinction and server scoring10/10",
+    "Full23-step networking exam verifies final TCP byte-sequence rationale alignment for t10.c and unchanged true key/scoring10/10",
+    "Live help accurately discloses full internal review and no independent expert certification"
+  ],
+  "examSteps": 92,
+  "practiceSteps": 1,
+  "cleanup": "TEST student locked; any temporary exam settings restored",
+  "independentExpertCertification": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "dpl_GFDykbHYVAAxTabbRN3A32HmxzNf",
+  "state": "READY",
+  "productionURL": "https://ict12-learning-platform.vercel.app",
+  "readyAt": "2026-11-09T09:55:12.214000+07:00",
+  "teamId": "team_blt8sqvJQ9ixAqMCP9WBUGga",
+  "projectId": "prj_HYmKRNUrUlr0CztIfPnBuVBRr2eR",
+  "sourceFiles": 16,
+  "changedRuntimeFiles": [
+    "public/app.js",
+    "lib/exams.json"
+  ],
+  "newSSOApprovalRequired": false,
+  "encryptedEnvironmentInherited": true,
+  "noPrivateSourceOrBackupUploaded": true,
+  "previousContentDeploymentId": "dpl_DcK68fXTqfDJv9Ks7PTmAfrFfGDr",
+  "finalRuntimeBankSHA1": "577263f2d9abf0372d0d62d8f3defb8551675a95",
+  "correctionRecords": 31
+}

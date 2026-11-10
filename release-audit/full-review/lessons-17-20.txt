@@ -1,0 +1,155 @@
+
+## 17 Các mức ưu tiên của bộ chọn p96–101
+ext-l17-q02 [NB] Bộ chọn a:visited liên quan tới điều gì?
+0:Liên kết hiện đang được trỏ chuột vào. | 1:Liên kết đang được gõ tên trên thẻ tab. | 2:Liên kết chưa được người dùng truy cập. | 3:Liên kết đã được người dùng truy cập.
+KEY 3 WHY :visited là lớp giả của liên kết đã truy cập, với hạn chế riêng tư của trình duyệt. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q03 [NB] Bộ chọn p::first-line tác động tới thành phần nào?
+0:Dòng hiển thị đầu tiên của đoạn. | 1:Kí tự hiển thị cuối cùng của đoạn. | 2:Toàn bộ dòng hiển thị trong đoạn. | 3:Toàn bộ chữ in đậm bên trong đoạn.
+KEY 0 WHY ::first-line chọn dòng đầu của phần tử. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q04 [NB] Bộ chọn p::first-letter tác động tới thành phần nào?
+0:Dòng cuối của đoạn văn. | 1:Chữ cái đầu của đoạn văn. | 2:Màu nền của toàn trang. | 3:Đường viền của bảng biểu.
+KEY 1 WHY ::first-letter định dạng chữ cái đầu. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q05 [NB] Theo cách tính trọng số SGK, một bộ chọn id đóng góp bao nhiêu?
+0:Đóng góp trọng số 010. | 1:Đóng góp trọng số 001. | 2:Đóng góp trọng số 100. | 3:Đóng góp trọng số 000.
+KEY 2 WHY SGK dùng quy ước id 100, lớp/thuộc tính/lớp giả 10, thẻ/phần tử giả 1. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q06 [NB] Một bộ chọn lớp .note có trọng số nào theo SGK?
+0:Đóng góp trọng số 01. | 1:Đóng góp trọng số 00. | 2:Đóng góp trọng số 99. | 3:Đóng góp trọng số 10.
+KEY 3 WHY Lớp có trọng số 10 trong cách biểu diễn của SGK. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q07 [NB] Trong các bộ chọn sau, bộ chọn nào có độ đặc hiệu cao nhất?
+0:Bộ chọn #main cho phần tử. | 1:Bộ chọn .main cho phần tử. | 2:Bộ chọn p.main cho phần tử. | 3:Bộ chọn div p cho phần tử.
+KEY 0 WHY id có độ đặc hiệu cao hơn lớp và các bộ chọn thẻ trong nhóm này. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q08 [NB] Kí pháp nào thường mở đầu bộ chọn phần tử giả?
+0:Dùng hai dấu chấm hỏi ??. | 1:Dùng hai dấu hai chấm ::. | 2:Dùng hai dấu gạch chéo //. | 3:Dùng hai dấu chấm phẩy ;;.
+KEY 1 WHY CSS hiện đại dùng :: cho phần tử giả, : cho lớp giả. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q09 [NB] Khi hai quy tắc cùng độ đặc hiệu và mức ưu tiên, quy tắc nào thắng?
+0:Quy tắc xuất hiện trước trong mã. | 1:Quy tắc có tên màu dài hơn cả. | 2:Quy tắc xuất hiện sau trong mã. | 3:Quy tắc có nhiều khoảng trắng.
+KEY 2 WHY Thứ tự nguồn là tiêu chí sau khi các điều kiện ưu tiên trước đó bằng nhau. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q11 [TH] Một p khớp #x và .note, cùng đặt color không important. Màu theo quy tắc nào?
+0:Theo #x vì có độ đặc hiệu cao. | 1:Theo .note vì tên lớp dài hơn. | 2:Theo quy tắc đặt ở đầu tệp. | 3:Theo màu gần cuối bảng RGB.
+KEY 0 WHY id có độ đặc hiệu cao hơn class, không dựa vào độ dài tên. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q12 [TH] Vì sao ::first-line có thể tác động tới số từ khác nhau trên hai màn hình?
+0:Vì màn hình tự thay đổi ngôn ngữ. | 1:Vì vị trí xuống dòng tùy bố cục. | 2:Vì số từ trong tệp tự bị thay đổi. | 3:Vì các phông chữ luôn bị xóa đi.
+KEY 1 WHY Độ rộng và kiểu chữ ảnh hưởng xuống dòng hiển thị. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+ext-l17-q13 [TH] Với .note{color:red} rồi p{color:blue}, p class="note" nhận màu gì?
+0:Màu xanh do thẻ đứng ở sau. | 1:Màu tím do trộn các màu lại. | 2:Màu đỏ do lớp đặc hiệu hơn. | 3:Màu đen do cả hai bị hủy.
+KEY 2 WHY Độ đặc hiệu của .note lớn hơn p nên thứ tự nguồn không đảo kết quả. REF Bài 17 – Pseudo-class; pseudo-element; trọng số và thứ tự CSS (trang 96–101)
+
+## 18 Thực hành tổng hợp thiết kế trang web p102–105
+ext-l18-q02 [NB] Phần header của bố cục website thường chứa gì?
+0:Danh sách gói tin của router. | 1:Mật khẩu của mọi người dùng. | 2:Banner và thông tin nhận diện. | 3:Các bản sao ổ đĩa hệ thống.
+KEY 2 WHY Trong dự án, phần đầu chứa banner và khẩu hiệu. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q03 [NB] Phần footer của bố cục website thường đặt thông tin nào?
+0:Thông tin riêng tư của mọi bạn. | 1:Cấu hình định tuyến của modem. | 2:Khóa bí mật của máy chủ mạng. | 3:Thông tin liên hệ và bản quyền.
+KEY 3 WHY Cuối trang thường có liên hệ, bản quyền, liên kết bổ sung. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q04 [NB] Trong dự án SGK, các trang HTML dùng chung kiểu trình bày nhờ gì?
+0:Liên kết tới một tệp CSS chung. | 1:Liên kết tới một bản nhạc chung. | 2:Liên kết tới một máy in chung. | 3:Liên kết tới một thư mục rỗng.
+KEY 0 WHY CSS chung tạo hình thức thống nhất giữa các trang. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q05 [NB] Thuộc tính CSS nào có thể đặt ảnh làm nền banner?
+0:Dùng thuộc tính background-color. | 1:Dùng thuộc tính background-image. | 2:Dùng thuộc tính border-color. | 3:Dùng thuộc tính text-decoration.
+KEY 1 WHY background-image nhận url của ảnh nền. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q06 [NB] Giá trị display nào được SGK dùng để tạo hàng bố cục linh hoạt?
+0:Khai báo display:block. | 1:Khai báo display:none. | 2:Khai báo display:flex. | 3:Khai báo display:inline.
+KEY 2 WHY Ví dụ .row dùng flex kết hợp flex-wrap để tổ chức các cột. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q07 [NB] Đơn vị % trong width:100% thường tham chiếu điều gì?
+0:Chiều cao của tệp ảnh gốc ban đầu. | 1:Số trang trong toàn bộ website. | 2:Số phần tử trong cây của tài liệu. | 3:Chiều rộng của khối chứa phần tử.
+KEY 3 WHY Chiều rộng phần trăm thường tính theo chiều rộng khối chứa. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q08 [NB] Trang index.html trong dự án thường đóng vai trò gì?
+0:Trang chủ để dẫn tới trang con. | 1:Tệp chứa bảng mã màu của CSS. | 2:Tệp nhật kí truy cập thiết bị. | 3:Tệp sao lưu mật khẩu học sinh.
+KEY 0 WHY Tên index.html thường dùng cho trang chủ của website tĩnh. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q09 [NB] Khi nháy vào ảnh CLB để mở trang chi tiết, cấu trúc nào cần có?
+0:Ảnh được đặt trong thẻ chú thích. | 1:Ảnh được đặt trong siêu liên kết. | 2:Ảnh được đổi thành tệp âm thanh. | 3:Ảnh được bỏ phần đường dẫn src.
+KEY 1 WHY Lồng img trong a có href tới trang chi tiết. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q11 [TH] Ba cột cùng width:33.333% trong một hàng thể hiện ý đồ nào?
+0:Chia hàng thành hai vùng bằng nhau. | 1:Chia hàng thành bốn vùng bằng nhau. | 2:Chia hàng thành một vùng duy nhất. | 3:Chia hàng thành ba vùng gần bằng.
+KEY 3 WHY Mỗi cột xấp xỉ một phần ba chiều rộng hàng. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q12 [TH] Vì sao cần kiểm tra liên kết sau khi di chuyển thư mục ảnh?
+0:Đường dẫn có thể không còn đúng. | 1:Trình duyệt luôn xóa tên website. | 2:Mọi màu CSS tự đổi sang màu đen. | 3:Mã HTML tự biến thành ảnh nền.
+KEY 0 WHY Đường dẫn tương đối phụ thuộc cấu trúc thư mục. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-q13 [TH] Ảnh nền banner khác img ở điểm nào?
+0:Ảnh nền là tài khoản đăng nhập. | 1:Ảnh nền là phần trình bày CSS. | 2:Ảnh nền là máy chủ chứa dữ liệu. | 3:Ảnh nền là tên mã hóa văn bản.
+KEY 1 WHY background-image phục vụ trình bày; img là phần tử nội dung có alt. REF Bài 18 – Dự án website câu lạc bộ; bố cục và tệp CSS (trang 102–105)
+ext-l18-t2 SCENARIO Ba cột khẩu hiệu của trang dùng flex, mỗi cột khoảng một phần ba hàng. Nhóm đổi tên nghethuat.html thành nghe-thuat.html rồi xem lại website trên điện thoại.
+a [TH] True Kiểm tra màn hình hẹp có thể phát hiện cột hoặc chữ khó đọc. WHY Bố cục có thể cần điều chỉnh theo kích thước.
+b [VD] False Muốn sửa liên kết hỏng, nhóm nên chỉ tăng độ dày đường viền. WHY Đường viền không sửa địa chỉ đích.
+c [TH] False Đổi tên trang luôn tự sửa mọi đường dẫn trong các tệp HTML thủ công. WHY Các href viết tay cần được kiểm tra và cập nhật.
+d [VD] True Muốn các trang cùng đổi phông, nên sửa font-family trong CSS chung. WHY Một quy tắc chung có thể cập nhật nhiều trang.
+
+## 19 Dịch vụ sửa chữa và bảo trì máy tính p106–109
+ext-l19-q02 [NB] Công việc nào thuộc bảo trì phần mềm máy tính?
+0:Lau bề mặt vỏ máy bằng khăn. | 1:Cập nhật bản vá hệ điều hành. | 2:Thay chân đế của màn hình. | 3:Gắn lại chân vít vỏ máy tính.
+KEY 1 WHY Cập nhật hệ điều hành giúp sửa lỗi và tăng an toàn. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q03 [NB] Driver có vai trò chính nào trong máy tính?
+0:Giúp người dùng thiết kế biểu trưng. | 1:Giúp ổ cắm cấp nguồn điện liên tục. | 2:Giúp hệ điều hành giao tiếp thiết bị. | 3:Giúp màn hình tự tăng kích thước.
+KEY 2 WHY Driver là phần mềm hỗ trợ hệ điều hành điều khiển thiết bị. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q04 [NB] Kĩ năng giao tiếp có ích gì với người sửa máy tính?
+0:Tăng thêm dung lượng mọi ổ đĩa máy. | 1:Thay thế toàn bộ kiến thức kĩ thuật. | 2:Tự tạo bản quyền mọi phần mềm máy. | 3:Hiểu và giải thích lỗi cho khách.
+KEY 3 WHY Giao tiếp giúp thu thập triệu chứng và hướng dẫn người sử dụng. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q05 [NB] Bảo trì máy tính hướng tới mục đích nào?
+0:Duy trì hoạt động ổn định của máy. | 1:Tạo hỏng hóc để thay thiết bị mới. | 2:Xóa dữ liệu sau mỗi lần sử dụng. | 3:Thay toàn bộ máy theo từng tuần.
+KEY 0 WHY Bảo trì phòng ngừa lỗi và duy trì hoạt động ổn định, an toàn. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q06 [NB] Một kiến thức phần cứng cần có của người sửa máy là gì?
+0:Kĩ thuật sáng tác thơ hiện đại. | 1:Chức năng và cách lắp linh kiện. | 2:Quy tắc biên dịch ngôn ngữ SQL. | 3:Phương pháp diễn xuất sân khấu.
+KEY 1 WHY Cần hiểu cấu tạo, chức năng và thao tác với linh kiện. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q07 [NB] Công việc nào liên quan hỗ trợ người dùng sau sửa chữa?
+0:Đăng hồ sơ khách lên diễn đàn mạng. | 1:Thu mọi mật khẩu để sử dụng riêng. | 2:Hướng dẫn sử dụng các phần mềm. | 3:Xóa hóa đơn dịch vụ vừa cung cấp.
+KEY 2 WHY Hỗ trợ người dùng là một nhóm việc trong nghề sửa chữa và bảo trì. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q08 [NB] Ngành học nào liên quan gần tới sửa chữa, bảo trì máy tính?
+0:Kĩ thuật chế biến thực phẩm lạnh. | 1:Quản trị dịch vụ nhà hàng lớn. | 2:Thiết kế trang phục biểu diễn. | 3:Kĩ thuật sửa chữa, lắp ráp máy.
+KEY 3 WHY SGK nêu kĩ thuật sửa chữa, lắp ráp máy tính và công nghệ kĩ thuật máy tính. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q09 [NB] Vì sao khả năng tự học cần thiết với nghề sửa máy?
+0:Thiết bị và công nghệ luôn đổi. | 1:Mọi sự cố đều giống nhau mãi. | 2:Mọi máy đều dùng một linh kiện. | 3:Mọi phần mềm đều hết cập nhật.
+KEY 0 WHY Công nghệ phát triển đòi hỏi cập nhật kiến thức và kĩ năng liên tục. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q11 [TH] Vì sao nên xác định nguyên nhân trước khi thay linh kiện?
+0:Để có thể bỏ hết dữ liệu khách. | 1:Để không cần kiểm tra lại máy. | 2:Tránh thay sai và gây tốn chi phí. | 3:Để khỏi cần trao đổi với khách.
+KEY 2 WHY Chẩn đoán giúp chọn biện pháp đúng và tiết kiệm. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q12 [TH] Sao lưu dữ liệu trước khi cài lại hệ điều hành có ý nghĩa gì?
+0:Bảo đảm mọi linh kiện không hỏng. | 1:Bảo đảm Internet luôn hoạt động. | 2:Thay thế giấy phép của phần mềm. | 3:Giảm nguy cơ mất dữ liệu của khách.
+KEY 3 WHY Cài lại có thể ghi đè dữ liệu; sao lưu là biện pháp bảo vệ cần thiết. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-q13 [TH] Vì sao cần dùng phần mềm có nguồn gốc rõ ràng khi bảo trì?
+0:Giảm nguy cơ mã độc và vi phạm. | 1:Tăng ngay số cổng USB của máy. | 2:Thay được mọi linh kiện bị hỏng. | 3:Loại bỏ nhu cầu cập nhật bản vá.
+KEY 0 WHY Nguồn hợp pháp, tin cậy giúp giảm rủi ro bảo mật và bản quyền. REF Bài 19 – Công việc; kiến thức, kĩ năng; nhu cầu nhân lực (trang 106–109)
+ext-l19-t2 SCENARIO Sau khi cài lại hệ điều hành, máy không nhận máy in. Một bạn gợi ý kiểm tra driver, cập nhật hợp lệ rồi hướng dẫn khách dùng; bạn khác muốn cài phần mềm trôi nổi để tiết kiệm thời gian.
+a [TH] True Hướng dẫn người dùng thuộc công việc hỗ trợ trong dịch vụ sửa máy. WHY Nghề còn bao gồm hỗ trợ và giải thích sử dụng.
+b [VD] False Để an toàn, nên cài ngay driver từ quảng cáo không rõ nguồn. WHY Cần tải từ nguồn chính hãng hoặc tin cậy.
+c [VD] True Muốn xử lí lỗi nhận thiết bị, nên kiểm tra kết nối và driver. WHY Cần kiểm tra kết nối, cấu hình và phần mềm điều khiển phù hợp.
+d [TH] False Driver chỉ là một linh kiện cấp nguồn nằm bên trong máy in. WHY Driver là phần mềm hỗ trợ giao tiếp với thiết bị.
+
+## 20 Nhóm nghề quản trị thuộc ngành Công nghệ thông tin p110–112
+ext-l20-q02 [NB] Chuyên viên bảo mật hệ thống thông tin tập trung vào việc gì?
+0:Bảo vệ dữ liệu trước truy cập trái phép. | 1:Thay toàn bộ ảnh nền của các trang. | 2:Viết toàn bộ kịch bản quảng cáo lớp. | 3:Bán mọi thông tin cá nhân của khách.
+KEY 0 WHY Bảo mật bảo vệ dữ liệu và hệ thống khỏi các rủi ro an toàn thông tin. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q03 [NB] Quản trị và bảo trì hệ thống thường bao gồm việc nào?
+0:Thiết kế mẫu đồng phục học sinh. | 1:Cài đặt và duy trì hệ thống máy. | 2:Dạy kĩ năng dựng cảnh sân khấu. | 3:Trang trí phòng triển lãm tranh.
+KEY 1 WHY Nhóm nghề này bảo đảm hệ thống phần cứng, phần mềm hoạt động ổn định. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q04 [NB] Firewall được dùng chủ yếu để làm gì?
+0:Tăng độ sáng của màn hình máy. | 1:Cấp nguồn điện cho mọi thiết bị. | 2:Kiểm soát lưu lượng qua mạng. | 3:Tạo phông chữ cho mọi trang web.
+KEY 2 WHY Tường lửa áp dụng quy tắc cho phép hoặc chặn lưu lượng. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q05 [NB] IDS là hệ thống thường có chức năng nào?
+0:Thiết kế bố cục cho trang bán hàng. | 1:Chuyển đổi mọi tệp ảnh sang âm thanh. | 2:Sao chép khóa bí mật cho mọi máy. | 3:Phát hiện dấu hiệu xâm nhập mạng.
+KEY 3 WHY IDS theo dõi và phát hiện dấu hiệu xâm nhập, hỗ trợ bảo mật. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q06 [NB] Kĩ năng đọc tài liệu tiếng Anh giúp người quản trị điều gì?
+0:Cập nhật tài liệu kĩ thuật quốc tế. | 1:Thay thế mọi công cụ giám sát mạng. | 2:Không cần học thêm công nghệ mới. | 3:Tự sửa được mọi bộ nguồn bị cháy.
+KEY 0 WHY Nhiều tài liệu và công nghệ mới được công bố bằng tiếng Anh. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q07 [NB] Ngành học nào liên quan trực tiếp nhóm nghề quản trị mạng?
+0:Thiết kế thời trang và may công nghiệp. | 1:Mạng máy tính và truyền thông dữ liệu. | 2:Chế biến thực phẩm và dinh dưỡng học. | 3:Kĩ thuật sân khấu và diễn xuất phim.
+KEY 1 WHY SGK nêu quản trị mạng, an ninh mạng, mạng máy tính và truyền thông dữ liệu. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q08 [NB] Một biện pháp giảm tác hại khi dữ liệu hệ thống hỏng là gì?
+0:Chia sẻ mật khẩu qua nhóm công khai. | 1:Tắt toàn bộ bản vá của hệ thống. | 2:Sao lưu và thử khôi phục dữ liệu. | 3:Dùng chung tài khoản cho mọi người.
+KEY 2 WHY Sao lưu và kiểm tra khôi phục hỗ trợ tính sẵn sàng của hệ thống. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q09 [NB] Vì sao nhu cầu nhân lực quản trị tăng trong chuyển đổi số?
+0:Mọi hệ thống số không cần bảo trì. | 1:Mọi tổ chức đều bỏ kết nối mạng. | 2:Mọi ứng dụng không dùng dữ liệu. | 3:Nhiều tổ chức dùng hệ thống số hơn.
+KEY 3 WHY Hệ thống số mở rộng kéo theo nhu cầu vận hành, bảo mật và bảo trì. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q11 [TH] Khả năng chịu áp lực quan trọng với quản trị hệ thống vì sao?
+0:Sự cố chỉ xảy ra trong giờ nghỉ. | 1:Sự cố cần xử lí kịp thời, chính xác. | 2:Sự cố luôn hết khi thay ảnh nền. | 3:Sự cố không ảnh hưởng người dùng.
+KEY 1 WHY Hệ thống thường phục vụ nhiều người, đòi hỏi phản ứng chính xác trước sự cố. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q12 [TH] Quản trị mạng và bảo mật có quan hệ như thế nào?
+0:Không liên quan vì dùng thiết bị khác. | 1:Luôn đồng nhất, không phân biệt việc. | 2:Có phối hợp để mạng ổn định, an toàn. | 3:Chỉ liên quan khi không có Internet.
+KEY 2 WHY Công việc có trọng tâm khác nhau nhưng cần phối hợp vận hành và bảo vệ mạng. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-q13 [TH] Vì sao IoT làm tăng yêu cầu bảo mật hệ thống?
+0:Giảm mọi nguy cơ về dữ liệu cá nhân. | 1:Loại bỏ mọi kết nối tới Internet. | 2:Chỉ thay đổi tên của tệp ảnh nền. | 3:Thêm nhiều thiết bị và điểm truy cập.
+KEY 3 WHY Số thiết bị kết nối lớn tạo thêm bề mặt cần bảo vệ. REF Bài 20 – Quản trị mạng; bảo mật; quản trị, bảo trì hệ thống (trang 110–112)
+ext-l20-t2 SCENARIO Một doanh nghiệp chuyển nhiều dịch vụ lên môi trường số và bổ sung thiết bị IoT. Nhóm quản trị được yêu cầu sao lưu, cập nhật bản vá và phân quyền theo công việc.
+a [VD] False Để dễ vận hành, nên để tất cả nhân viên dùng chung tài khoản chủ. WHY Tài khoản chung đặc quyền tăng nguy cơ và khó truy trách nhiệm.
+b [TH] True Sao lưu hỗ trợ việc khôi phục dữ liệu khi hệ thống gặp sự cố. WHY Cần sao lưu và thử khả năng khôi phục.
+c [TH] False Thêm thiết bị IoT làm mọi yêu cầu an toàn thông tin tự biến mất. WHY Số thiết bị và điểm truy cập tăng có thể làm tăng rủi ro.
+d [VD] True Để giảm rủi ro, nên cấp quyền vừa đủ theo nhiệm vụ của mỗi người. WHY Phân quyền phù hợp hạn chế tác hại khi tài khoản bị lạm dụng.

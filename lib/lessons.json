@@ -1,0 +1,188 @@
+[
+  {
+    "topic": "A",
+    "id": 1,
+    "title": "Làm quen với trí tuệ nhân tạo",
+    "pages": "5–8"
+  },
+  {
+    "topic": "A",
+    "id": 2,
+    "title": "Trí tuệ nhân tạo trong khoa học và đời sống",
+    "pages": "9–13"
+  },
+  {
+    "topic": "B",
+    "id": 3,
+    "title": "Một số thiết bị mạng thông dụng",
+    "pages": "14–20"
+  },
+  {
+    "topic": "B",
+    "id": 4,
+    "title": "Giao thức mạng",
+    "pages": "21–25"
+  },
+  {
+    "topic": "B",
+    "id": 5,
+    "title": "Thực hành chia sẻ tài nguyên trên mạng",
+    "pages": "26–33"
+  },
+  {
+    "topic": "C",
+    "id": 6,
+    "title": "Giao tiếp và ứng xử trong không gian mạng",
+    "pages": "34–38"
+  },
+  {
+    "topic": "D",
+    "id": 7,
+    "title": "HTML và cấu trúc trang web",
+    "pages": "39–45"
+  },
+  {
+    "topic": "D",
+    "id": 8,
+    "title": "Định dạng văn bản",
+    "pages": "46–51"
+  },
+  {
+    "topic": "D",
+    "id": 9,
+    "title": "Tạo danh sách, bảng",
+    "pages": "52–56"
+  },
+  {
+    "topic": "D",
+    "id": 10,
+    "title": "Tạo liên kết",
+    "pages": "57–61"
+  },
+  {
+    "topic": "D",
+    "id": 11,
+    "title": "Chèn tệp đa phương tiện và khung nội tuyến vào trang web",
+    "pages": "62–66"
+  },
+  {
+    "topic": "D",
+    "id": 12,
+    "title": "Tạo biểu mẫu",
+    "pages": "67–70"
+  },
+  {
+    "topic": "D",
+    "id": 13,
+    "title": "Khái niệm, vai trò của CSS",
+    "pages": "71–75"
+  },
+  {
+    "topic": "D",
+    "id": 14,
+    "title": "Định dạng văn bản bằng CSS",
+    "pages": "76–82"
+  },
+  {
+    "topic": "D",
+    "id": 15,
+    "title": "Tạo màu cho chữ và nền",
+    "pages": "83–88"
+  },
+  {
+    "topic": "D",
+    "id": 16,
+    "title": "Định dạng khung",
+    "pages": "89–95"
+  },
+  {
+    "topic": "D",
+    "id": 17,
+    "title": "Các mức ưu tiên của bộ chọn",
+    "pages": "96–101"
+  },
+  {
+    "topic": "D",
+    "id": 18,
+    "title": "Thực hành tổng hợp thiết kế trang web",
+    "pages": "102–105"
+  },
+  {
+    "topic": "E",
+    "id": 19,
+    "title": "Dịch vụ sửa chữa và bảo trì máy tính",
+    "pages": "106–109"
+  },
+  {
+    "topic": "E",
+    "id": 20,
+    "title": "Nhóm nghề quản trị thuộc ngành Công nghệ thông tin",
+    "pages": "110–112"
+  },
+  {
+    "topic": "E",
+    "id": 21,
+    "title": "Hội thảo hướng nghiệp",
+    "pages": "113–117"
+  },
+  {
+    "topic": "F",
+    "id": 22,
+    "title": "Thực hành kết nối các thiết bị số",
+    "pages": "118–125"
+  },
+  {
+    "topic": "G",
+    "id": 23,
+    "title": "Chuẩn bị xây dựng trang web",
+    "pages": "126–133"
+  },
+  {
+    "topic": "G",
+    "id": 24,
+    "title": "Xây dựng phần đầu trang web",
+    "pages": "134–138"
+  },
+  {
+    "topic": "G",
+    "id": 25,
+    "title": "Xây dựng phần thân và chân trang web",
+    "pages": "139–143"
+  },
+  {
+    "topic": "G",
+    "id": 26,
+    "title": "Liên kết và thanh điều hướng",
+    "pages": "144–146"
+  },
+  {
+    "topic": "G",
+    "id": 27,
+    "title": "Biểu mẫu trên trang web",
+    "pages": "147–150"
+  },
+  {
+    "topic": "G",
+    "id": 28,
+    "title": "Thực hành tổng hợp",
+    "pages": "151–155"
+  },
+  {
+    "topic": "N10",
+    "id": 101,
+    "title": "Ôn nền lớp 10 · Lập trình Python",
+    "pages": "Kiến thức tiền đề THPT"
+  },
+  {
+    "topic": "N11",
+    "id": 111,
+    "title": "Ôn nền lớp 11 · Cơ sở dữ liệu quan hệ",
+    "pages": "Kiến thức tiền đề THPT"
+  },
+  {
+    "topic": "N11",
+    "id": 112,
+    "title": "Ôn nền lớp 11 · Tạo và khai thác cơ sở dữ liệu",
+    "pages": "Kiến thức tiền đề THPT"
+  }
+]

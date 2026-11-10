@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "description": "Local regression tooling only; never in runtime deployment",
+  "devDependencies": { "playwright": "1.65.0" }
+}

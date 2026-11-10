@@ -1,0 +1,13 @@
+{
+  "name": "ict12-platform",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/unit.js",
+    "dev": "node dev.js"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

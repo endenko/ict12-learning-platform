@@ -1,0 +1,44 @@
+{
+  "dateLocal": "2026-11-09 UTC+7",
+  "structural": {
+    "mcq": 468,
+    "tfGroups": 73,
+    "tfStatements": 292,
+    "exams": 45,
+    "textbookLessons": 28
+  },
+  "semantic": {
+    "mcq": 468,
+    "tfGroups": 73,
+    "tfStatements": 292,
+    "method": "internal per-item semantic review, not independent expert certification",
+    "previousRound": {
+      "mcq": 140,
+      "tfStatements": 172,
+      "selection": "selection.json"
+    },
+    "completionRound": {
+      "mcq": 328,
+      "tfGroups": 30,
+      "tfStatements": 120,
+      "ledger": "full-review/item-ledger.jsonl"
+    },
+    "notInternallyReviewedMCQ": 0,
+    "notInternallyReviewedTFStatements": 0,
+    "independentExpertCertification": false
+  },
+  "textbookAttachment": "01M6RAR3WEXWP0SF6C96V030BR.pdf",
+  "all28TitlesAndPagesMatched": true,
+  "noUniversalOfficialSemesterMappingClaimed": true,
+  "historicalResultsRegraded": 0,
+  "teacherCertification": false,
+  "corrections": "content-corrections.json",
+  "report": "CONTENT_AUDIT.md",
+  "completionCorrections": "full-review/corrections.json",
+  "fullReviewReport": "full-review/REVIEW_REPORT.md",
+  "sources": "full-review/sources.json",
+  "difficultyCalibration": "author-assigned instructional levels; not psychometrically calibrated",
+  "knownUnresolvedWrongKeys": [],
+  "completionFollowup": "full-review/followup-semantic-review.json",
+  "completionCorrectionRecords": 31
+}

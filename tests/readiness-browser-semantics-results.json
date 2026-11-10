@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "checks": [
+    "Actual Chromium HTML title/p elements, 1.5em of20px=30px, ordinary ID specificity over p.note, stationary hover, rowspan2, independent checkboxes and same-name radio exclusivity"
+  ],
+  "questionIds": [
+    "ext-l7-t1",
+    "ext-l9-t1",
+    "ext-l12-t1",
+    "ext-l14-t1",
+    "ext-l17-t1",
+    "ext-l17-q01"
+  ]
+}

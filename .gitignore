@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+ADMIN_CREDENTIALS.txt
+DB_SECRET.txt
+private-backups/

@@ -1,0 +1,96 @@
+{
+  "teamId": "team_blt8sqvJQ9ixAqMCP9WBUGga",
+  "forceNew": "1",
+  "requestBody": {
+    "name": "ict12-learning-platform",
+    "project": "ict12-learning-platform",
+    "target": "production",
+    "files": [
+      {
+        "file": "package.json",
+        "sha": "a2b8df90e2266543f0c66a1ea267602e17e89183",
+        "size": 221
+      },
+      {
+        "file": "vercel.json",
+        "sha": "d9ba17d03422f335bc9dbca53fc145c4d6a486f0",
+        "size": 718
+      },
+      {
+        "file": "public/index.html",
+        "sha": "d6a3547b839b196491564fca08583013c35d9979",
+        "size": 1386
+      },
+      {
+        "file": "public/app.js",
+        "sha": "a670740a3131cc73838653d20fa50f09d83c4198",
+        "size": 71695
+      },
+      {
+        "file": "public/base.css",
+        "sha": "fb81727507a57ad266366e15dc3391b27d1e8db1",
+        "size": 9902
+      },
+      {
+        "file": "public/style.css",
+        "sha": "fd31b2d5c1448eead889f177cfd9dc2fcffecf1e",
+        "size": 16279
+      },
+      {
+        "file": "api/index.js",
+        "sha": "a7043a5c7a0d50f6f6b7c6beedaa7f5ceffacfd6",
+        "size": 22633
+      },
+      {
+        "file": "lib/db.js",
+        "sha": "e07d3f479c6539e77085f508cce22237bcb0a029",
+        "size": 1534
+      },
+      {
+        "file": "lib/engine.js",
+        "sha": "4e7d54cc28464abf92958a1c1177091686973e65",
+        "size": 4219
+      },
+      {
+        "file": "lib/exams.json",
+        "sha": "577263f2d9abf0372d0d62d8f3defb8551675a95",
+        "size": 1047955
+      },
+      {
+        "file": "lib/lessons.json",
+        "sha": "7ac24612c853f6b95357df207f72f90a57ee02f0",
+        "size": 3801
+      },
+      {
+        "file": "lib/features.js",
+        "sha": "591fa97d6744523066ca8b14b23151e9a78b399e",
+        "size": 4379
+      },
+      {
+        "file": "lib/xlsx.js",
+        "sha": "b2a3bfd5d876c60debb5458c187075516f230d22",
+        "size": 3424
+      },
+      {
+        "file": "server.js",
+        "sha": "15e5b65881e5955ac8ab1d84a597834c6a48be9d",
+        "size": 2992
+      },
+      {
+        "file": "lib/curriculum.js",
+        "sha": "6112c38185d37f0289f84ee71f22ab5d5be03c19",
+        "size": 4309
+      },
+      {
+        "file": "lib/legacy-exams-v2.json",
+        "sha": "046ab114ef7321558edb653ae1d8028fb1f39695",
+        "size": 1035955
+      }
+    ],
+    "projectSettings": {
+      "framework": null,
+      "outputDirectory": "public",
+      "nodeVersion": "24.x"
+    }
+  }
+}
