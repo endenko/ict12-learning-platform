@@ -1,0 +1,56 @@
+ext-l17-q02	:visited refers to a visited hyperlink, not hover or an unvisited link; browser privacy limits permitted styling and history disclosure as the explanation notes.
+ext-l17-q03	::first-line targets the first formatted line, not the whole paragraph, its last character or bold subset. Paragraph block context is appropriate.
+ext-l17-q04	::first-letter targets the initial typographic letter (potentially adjacent punctuation), not a last line/background/border. Introductory description is adequate.
+ext-l17-q05	The question expressly uses SGK's pedagogical 100/10/1 convention; id contributes100. Real CSS compares specificity components, not unlimited decimal carrying; do not generalize the shorthand beyond the book examples.
+ext-l17-q06	The class .note contributes10 in the explicitly named SGK convention; the other values are not its textbook category weight.
+ext-l17-q07	#main has specificity(1,0,0), above .main(0,1,0),p.main(0,1,1),div p(0,0,2). Key concerns specificity itself, not all cascade precedence.
+ext-l17-q08	Double-colon notation denotes modern pseudo-elements; legacy single-colon support for some old pseudo-elements does not invalidate 'usually'.
+ext-l17-q09	Source order breaks a tie only after earlier cascade factors are equal, as both stem and rationale state; whitespace/name length are not tie-breakers.
+ext-l17-q11	Correct specificity comparison needs equal earlier cascade factors. Replace underspecified standalone #x/.note contest with two ordinary rules in one style block and no other declarations.
+ext-l17-q12	First-line membership depends on line wrapping, width and font metrics, not modification of the underlying words or language. Correct responsive-layout reasoning.
+ext-l17-q13	The class rule wins over the type selector among the two normal rules. Make explicit these are the only rules in one style block, not an unconditional result across layers/origins.
+ext-l18-q02	Project header uses identity/banner/slogan rather than router packets, shared credentials or disk backups. Explicitly usual project structure, not mandatory contents of every header element.
+ext-l18-q03	Contact/copyright is common footer content; confidential profiles, routing configuration and secret keys should not be public footer data.
+ext-l18-q04	A common stylesheet supplies shared presentation; music/printers/empty folders do not. Matches the SGK multi-page project.
+ext-l18-q05	background-image can use url(...) for the banner image; background-color/border-color/text-decoration do not embed that background resource.
+ext-l18-q06	The book's .row uses flex and wrapping; block/none/inline do not implement that named flexible-row example. Scope to the SGK example avoids claiming flex is the only layout technology.
+ext-l18-q07	Percentage width ordinarily references containing-block width, not source-image height, page count or DOM element count. Qualified 'usually' is appropriate.
+ext-l18-q08	index.html conventionally serves the static project's entry/home page; the filename does not inherently become CSS/log/password storage.
+ext-l18-q09	Wrapping img in an anchor with the destination href creates the requested image link; removing src or changing to sound does not.
+ext-l18-q11	Three widths of33.333% express roughly equal thirds; stem asks design intent, not a guarantee that padding/flex sizing can never change used geometry.
+ext-l18-q12	Moving image folders can invalidate paths, so references must be checked; no automatic conversion of HTML or CSS colors follows.
+ext-l18-q13	CSS background imagery is presentation while img is a document content element with alt support; accounts/servers/character encodings are category errors.
+ext-l18-t2.a	True: narrow-viewport testing can reveal readability/column problems; not a claim that any desktop flex row is already responsive.
+ext-l18-t2.b	False: border thickness does not repair a renamed target URL.
+ext-l18-t2.c	False: manually written hrefs are not universally rewritten by renaming files; they need verification/update.
+ext-l18-t2.d	True: shared font-family rules can update all linked pages subject to ordinary cascade; 'should' expresses appropriate maintenance intent.
+ext-l19-q02	Operating-system patching is software maintenance; wiping a case, replacing a stand and tightening screws concern physical hardware.
+ext-l19-q03	Drivers mediate OS/device communication; logo design, mains supply and physical screen growth are unrelated. Correct software-versus-hardware distinction.
+ext-l19-q04	Communication collects symptoms and explains faults/remedies; it does not replace technical knowledge or create hardware/storage/licensing.
+ext-l19-q05	Maintenance aims for stable/safe operation and prevention; deliberate damage, routine erasure and weekly total replacement contradict that aim.
+ext-l19-q06	Component functions and safe assembly are relevant hardware knowledge; poetry, SQL compilation and stage performance are not the requested hardware competency.
+ext-l19-q07	Guiding software use is legitimate aftercare; disclosing client records, hoarding passwords and deleting invoices are not sound support practices.
+ext-l19-q08	Computer repair/assembly training is directly related to the career; food/hospitality/costume specialties are not direct alternatives. Introductory career scope.
+ext-l19-q09	Changing devices/software require ongoing learning; universal unchanging faults/components and end of updates are false.
+ext-l19-q11	Diagnosis reduces unnecessary/wrong replacements and cost; it does not justify deleting data or omitting customer communication/post-repair checks.
+ext-l19-q12	A backup reduces risk from reinstall/overwrite; it does not guarantee hardware/network health or supply software licenses.
+ext-l19-q13	Trustworthy lawful software reduces malware/licensing risk; it neither replaces failed hardware nor removes future patch needs. 'Reduces', not absolute safety guarantee.
+ext-l19-t2.a	True: user instruction is an ordinary support duty in the repair/maintenance service.
+ext-l19-t2.b	False: unknown advertising is not a trustworthy driver source; use the vendor or another validated source.
+ext-l19-t2.c	True: connectivity and matching drivers are appropriate first checks for the post-reinstall printer problem, without claiming these exhaust all causes.
+ext-l19-t2.d	False: a driver is software, not an internal power component of the printer.
+ext-l20-q02	Information security protects data/systems against unauthorized access; wallpaper/advertising/data sale are not its professional purpose.
+ext-l20-q03	Installing and sustaining hardware/software systems fits administration/maintenance; clothing, stagecraft and exhibits do not.
+ext-l20-q04	Firewall rules permit/block network traffic; not display brightness, power supply or font creation. Does not imply a firewall alone prevents every attack.
+ext-l20-q05	IDS detects suspicious intrusion indicators; automatic prevention is not promised. Layout/conversion/secret copying are not the defined function.
+ext-l20-q06	English supports access to international technical documentation; it does not replace tools, eliminate learning or guarantee electrical repair ability.
+ext-l20-q07	Computer networking/data communications directly supports network administration; food, fashion and performance majors are not equally relevant in the named list.
+ext-l20-q08	Backups plus recovery testing mitigate corruption impact; shared credentials and disabled patching increase risk. A conceptual best practice, not a claim this platform passed a destructive restore drill.
+ext-l20-q09	Wider digital-system adoption creates operational/security staffing needs; claims of no maintenance/network/data contradict the premise. Not a numeric labor-market forecast.
+ext-l20-q11	Services used by many people need timely accurate incident response; the other choices deny impact or offer cosmetic repairs.
+ext-l20-q12	Networking and security have distinct emphases but cooperate; neither total identity nor no relationship is justified.
+ext-l20-q13	More connected IoT devices can expand attack surface; they do not inherently remove Internet/data risk or merely rename wallpapers.
+ext-l20-t2.a	False: universal privileged-account sharing harms least privilege and accountability, even if superficially convenient.
+ext-l20-t2.b	True: backups support recovery; this does not guarantee restoration without tested procedures and suitable copies.
+ext-l20-t2.c	False: additional connected devices do not make security requirements vanish and may add exposure.
+ext-l20-t2.d	True: task-based minimum permissions reduce potential account-abuse impact; no absolute no-breach guarantee.

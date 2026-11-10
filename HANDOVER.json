@@ -1,0 +1,929 @@
+{
+  "deployment": "LIVE_VERIFIED: full-bank internal content completion; final production22 browser checks +92 exam/1 practice steps PASS; zero uncaught JS errors",
+  "projectPath": "/workspace/ict12-platform",
+  "oldSite": "https://ict12-chu-de-a-learning-quizz.vercel.app/",
+  "oldSiteHTTP": 200,
+  "supabaseProject": "endenko’s Project",
+  "supabaseRef": "afhgfdkozdwtjdsvldzj",
+  "schema": "ict12_private",
+  "adminCredentialsPath": "/workspace/ict12-platform/ADMIN_CREDENTIALS.txt",
+  "adminCredentialsMode": "600",
+  "adminLoginRoute": "/admin",
+  "runtime": "https://ict12-learning-platform.vercel.app",
+  "tests": {
+    "unit": "passed all 12 exam sets",
+    "e2e": {
+      "base": "http://localhost:3000",
+      "student": "test_ict12_41383903",
+      "checks": [
+        "admin login",
+        "admin creates student by CSV",
+        "student login and lesson dashboard",
+        "lesson-1 full 23 steps, score 0.00",
+        "personal weak-lesson recommendations and explanations",
+        "combined-ABC full 81 steps, score 10.00",
+        "three focus-loss violations logged and server auto-submit",
+        "student persisted attempt history",
+        "390px mobile layout without page overflow",
+        "admin result filters and CSV export",
+        "admin per-question statistics, class weaknesses and violation timestamps",
+        "server honors show-answers toggle",
+        "student denied administrator API",
+        "test account clearly marked, locked and existing sessions revoked"
+      ],
+      "jsErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      ],
+      "testStudentState": "locked; name TÀI KHOẢN KIỂM THỬ – KHÔNG DÙNG, class TEST"
+    },
+    "api": {
+      "checks": [
+        "closed exam rejects new attempts",
+        "current-question response contains no key, explanation or future statements",
+        "second simultaneous active attempt rejected",
+        "concurrent duplicate answers cannot overwrite each other",
+        "server deadline expires two unanswered steps regardless of client clock",
+        "going back to previous question rejected",
+        "attempt limit enforced on server",
+        "student role cannot read admin data",
+        "persistent login throttle activates after eight failures",
+        "student cannot inspect another student attempt"
+      ],
+      "student": "test_security_41419640"
+    },
+    "finalSmoke": {
+      "checks": [
+        "final backend login",
+        "batched CSV import",
+        "duplicate and invalid-row validation",
+        "edit student name/class UI",
+        "lock test account UI"
+      ],
+      "jsErrors": [],
+      "testStudent": "test_final_41662449",
+      "state": "locked"
+    },
+    "security": {
+      "wrongSecretDenied": 401,
+      "privateDocumentsNotExposed": 404,
+      "publicFrontendContainsNoKeys": true
+    },
+    "cleanup": {
+      "testAccounts": 6,
+      "allLocked": true,
+      "ids": [
+        "test_ict12_41165344",
+        "test_ict12_41383903",
+        "test_security_41419640",
+        "test_final_41574839",
+        "test_final_41632481",
+        "test_final_41662449"
+      ]
+    },
+    "production": {
+      "base": "https://ict12-learning-platform.vercel.app",
+      "scope": "Public HTTPS production smoke test",
+      "student": "test_fullbook_64763228",
+      "checks": [
+        "28 lessons grouped under seven topics A–G",
+        "seven topic exams, three combinations, four term exams marked proposed",
+        "three THPT mocks grouped separately with official-versus-training timing disclosure",
+        "lesson-7 full 23 steps, score 10.00",
+        "Production quiz submitted, persisted and analyzed"
+      ],
+      "jsErrors": [],
+      "success": true,
+      "testAccount": "clearly marked TEST, locked"
+    },
+    "productionAdminVerification": {
+      "base": "https://ict12-learning-platform.vercel.app",
+      "temporaryStudent": "test_fullbook_64763228",
+      "locked": true,
+      "attemptVisibleToAdmin": true,
+      "score": 10,
+      "examCount": 45,
+      "logout": true
+    },
+    "readiness": {
+      "local": "tests/readiness-local-results.json",
+      "finalCompatibility": "tests/readiness-local-final-smoke-results.json",
+      "unit": "tests/readiness-unit-results.json",
+      "database": "tests/readiness-db-runtime-results.json",
+      "semantics": [
+        "tests/readiness-semantics-results.json",
+        "tests/readiness-browser-semantics-results.json"
+      ],
+      "preservation": "tests/readiness-preservation-results.json",
+      "recovery": "tests/readiness-backup-results.json",
+      "production": "tests/readiness-production-results.json",
+      "productionFinalCompatibility": "tests/readiness-production-final-smoke-results.json",
+      "liveAssetHashes": "tests/readiness-live-artifact-results.json",
+      "excel": "tests/readiness-excel-results.json",
+      "privateSecurity": "tests/readiness-db-security-results.json"
+    }
+  },
+  "content": {
+    "exams": [
+      {
+        "id": "topic-A",
+        "mcq": 18,
+        "tf": 2,
+        "levels": {
+          "NB": 12,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 5,
+          "1": 5,
+          "2": 4,
+          "3": 4
+        },
+        "topics": {
+          "A": 18
+        }
+      },
+      {
+        "id": "topic-B",
+        "mcq": 18,
+        "tf": 2,
+        "levels": {
+          "NB": 12,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 5,
+          "1": 5,
+          "2": 4,
+          "3": 4
+        },
+        "topics": {
+          "B": 18
+        }
+      },
+      {
+        "id": "topic-C",
+        "mcq": 18,
+        "tf": 2,
+        "levels": {
+          "NB": 12,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 5,
+          "1": 5,
+          "2": 4,
+          "3": 4
+        },
+        "topics": {
+          "C": 18
+        }
+      },
+      {
+        "id": "lesson-1",
+        "mcq": 15,
+        "tf": 2,
+        "levels": {
+          "NB": 9,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 3
+        },
+        "topics": {
+          "A": 15
+        }
+      },
+      {
+        "id": "lesson-2",
+        "mcq": 15,
+        "tf": 2,
+        "levels": {
+          "NB": 9,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 3
+        },
+        "topics": {
+          "A": 15
+        }
+      },
+      {
+        "id": "lesson-3",
+        "mcq": 15,
+        "tf": 2,
+        "levels": {
+          "NB": 9,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 3
+        },
+        "topics": {
+          "B": 15
+        }
+      },
+      {
+        "id": "lesson-4",
+        "mcq": 15,
+        "tf": 2,
+        "levels": {
+          "NB": 9,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 3
+        },
+        "topics": {
+          "B": 15
+        }
+      },
+      {
+        "id": "lesson-5",
+        "mcq": 15,
+        "tf": 2,
+        "levels": {
+          "NB": 9,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 3
+        },
+        "topics": {
+          "B": 15
+        }
+      },
+      {
+        "id": "lesson-6",
+        "mcq": 15,
+        "tf": 2,
+        "levels": {
+          "NB": 9,
+          "TH": 4,
+          "VD": 2
+        },
+        "answers": {
+          "0": 4,
+          "1": 4,
+          "2": 4,
+          "3": 3
+        },
+        "topics": {
+          "C": 15
+        }
+      },
+      {
+        "id": "combined-AB",
+        "mcq": 45,
+        "tf": 9,
+        "levels": {
+          "NB": 30,
+          "TH": 10,
+          "VD": 5
+        },
+        "answers": {
+          "0": 12,
+          "1": 11,
+          "2": 11,
+          "3": 11
+        },
+        "topics": {
+          "A": 22,
+          "B": 23
+        }
+      },
+      {
+        "id": "combined-BC",
+        "mcq": 45,
+        "tf": 9,
+        "levels": {
+          "NB": 30,
+          "TH": 10,
+          "VD": 5
+        },
+        "answers": {
+          "0": 12,
+          "1": 11,
+          "2": 11,
+          "3": 11
+        },
+        "topics": {
+          "B": 22,
+          "C": 23
+        }
+      },
+      {
+        "id": "combined-ABC",
+        "mcq": 45,
+        "tf": 9,
+        "levels": {
+          "NB": 30,
+          "TH": 10,
+          "VD": 5
+        },
+        "answers": {
+          "0": 12,
+          "1": 11,
+          "2": 11,
+          "3": 11
+        },
+        "topics": {
+          "A": 15,
+          "B": 15,
+          "C": 15
+        }
+      }
+    ],
+    "uniqueMCQ": 123,
+    "uniqueTF": 23,
+    "mcqMaxOptionLengthRatio": 1.1470588235294117,
+    "tfMaxStatementLengthRatio": 1.1176470588235294,
+    "source": "Kết nối tri thức – Tin học 12, định hướng ICT, Bài 1–6, trang 5–38. A/B/C là nhãn thuận tiện cho Chủ đề 1/2/3 của sách.",
+    "historicalBase": true
+  },
+  "authorizationURL": null,
+  "authorizationExpiresAt": null,
+  "limitations": [
+    "Browser deterrence cannot prevent all screenshots, AI use or external devices.",
+    "Private JSONB document storage is school-sized, not load-tested at large scale.",
+    "No scheduled background expiration; elapsed attempts reconcile on next student/admin request."
+  ],
+  "expandedContent": {
+    "imported": true,
+    "validation": {
+      "status": "PASS",
+      "exams": 45,
+      "textbookLessons": 28,
+      "prerequisiteLessons": 3,
+      "mcq": 468,
+      "tf": 73,
+      "groups": {
+        "lesson": 28,
+        "topic": 7,
+        "combinations": 3,
+        "termsProposed": 4,
+        "thptMocks": 3
+      },
+      "maxMCQOptionLengthRatio": 1.15,
+      "maxTFStatementLengthRatio": 1.1454545454545455,
+      "semesterMapping": "đề xuất, giáo viên cần xác nhận",
+      "thptMockFormat": {
+        "mcq": 24,
+        "tf": 4,
+        "officialMinutes": 50,
+        "trainingSecondsPerStep": 40,
+        "trainingTotalSeconds": 1600,
+        "matrix": "40/30/30 là ma trận biên soạn, không phải quy định cố định đã xác minh"
+      },
+      "examsSummary": [
+        {
+          "id": "topic-A",
+          "title": "Chủ đề A · Máy tính và xã hội tri thức",
+          "mcq": 18,
+          "tf": 2
+        },
+        {
+          "id": "topic-B",
+          "title": "Chủ đề B · Mạng máy tính và Internet",
+          "mcq": 18,
+          "tf": 2
+        },
+        {
+          "id": "topic-C",
+          "title": "Chủ đề C · Đạo đức, pháp luật và văn hóa trong môi trường số",
+          "mcq": 18,
+          "tf": 2
+        },
+        {
+          "id": "lesson-1",
+          "title": "Bài 1 · Làm quen với trí tuệ nhân tạo",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-2",
+          "title": "Bài 2 · Trí tuệ nhân tạo trong khoa học và đời sống",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-3",
+          "title": "Bài 3 · Một số thiết bị mạng thông dụng",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-4",
+          "title": "Bài 4 · Giao thức mạng",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-5",
+          "title": "Bài 5 · Thực hành chia sẻ tài nguyên trên mạng",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-6",
+          "title": "Bài 6 · Giao tiếp và ứng xử trong không gian mạng",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "combined-AB",
+          "title": "Giữa kỳ · A + B",
+          "mcq": 45,
+          "tf": 9
+        },
+        {
+          "id": "combined-BC",
+          "title": "Giữa kỳ · B + C",
+          "mcq": 45,
+          "tf": 9
+        },
+        {
+          "id": "combined-ABC",
+          "title": "Giữa kỳ · A + B + C",
+          "mcq": 45,
+          "tf": 9
+        },
+        {
+          "id": "lesson-7",
+          "title": "Bài 7 · HTML và cấu trúc trang web",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-8",
+          "title": "Bài 8 · Định dạng văn bản",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-9",
+          "title": "Bài 9 · Tạo danh sách, bảng",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-10",
+          "title": "Bài 10 · Tạo liên kết",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-11",
+          "title": "Bài 11 · Chèn tệp đa phương tiện và khung nội tuyến vào trang web",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-12",
+          "title": "Bài 12 · Tạo biểu mẫu",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-13",
+          "title": "Bài 13 · Khái niệm, vai trò của CSS",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-14",
+          "title": "Bài 14 · Định dạng văn bản bằng CSS",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-15",
+          "title": "Bài 15 · Tạo màu cho chữ và nền",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-16",
+          "title": "Bài 16 · Định dạng khung",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-17",
+          "title": "Bài 17 · Các mức ưu tiên của bộ chọn",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-18",
+          "title": "Bài 18 · Thực hành tổng hợp thiết kế trang web",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-19",
+          "title": "Bài 19 · Dịch vụ sửa chữa và bảo trì máy tính",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-20",
+          "title": "Bài 20 · Nhóm nghề quản trị thuộc ngành Công nghệ thông tin",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-21",
+          "title": "Bài 21 · Hội thảo hướng nghiệp",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-22",
+          "title": "Bài 22 · Thực hành kết nối các thiết bị số",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-23",
+          "title": "Bài 23 · Chuẩn bị xây dựng trang web",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-24",
+          "title": "Bài 24 · Xây dựng phần đầu trang web",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-25",
+          "title": "Bài 25 · Xây dựng phần thân và chân trang web",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-26",
+          "title": "Bài 26 · Liên kết và thanh điều hướng",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-27",
+          "title": "Bài 27 · Biểu mẫu trên trang web",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "lesson-28",
+          "title": "Bài 28 · Thực hành tổng hợp",
+          "mcq": 15,
+          "tf": 2
+        },
+        {
+          "id": "topic-D",
+          "title": "Chủ đề D · Giải quyết vấn đề với sự trợ giúp của máy tính",
+          "mcq": 18,
+          "tf": 2
+        },
+        {
+          "id": "topic-E",
+          "title": "Chủ đề E · Hướng nghiệp với Tin học",
+          "mcq": 18,
+          "tf": 2
+        },
+        {
+          "id": "topic-F",
+          "title": "Chủ đề F · Máy tính và xã hội tri thức · Kết nối thiết bị số",
+          "mcq": 18,
+          "tf": 2
+        },
+        {
+          "id": "topic-G",
+          "title": "Chủ đề G · Ứng dụng tin học · Phần mềm tạo trang web",
+          "mcq": 18,
+          "tf": 2
+        },
+        {
+          "id": "midterm-1",
+          "title": "Giữa kỳ 1 · Bài 1–7",
+          "mcq": 45,
+          "tf": 9
+        },
+        {
+          "id": "final-1",
+          "title": "Cuối kỳ 1 · Bài 1–14",
+          "mcq": 45,
+          "tf": 9
+        },
+        {
+          "id": "midterm-2",
+          "title": "Giữa kỳ 2 · Bài 15–21",
+          "mcq": 45,
+          "tf": 9
+        },
+        {
+          "id": "final-2",
+          "title": "Cuối kỳ 2 · Bài 15–28",
+          "mcq": 45,
+          "tf": 9
+        },
+        {
+          "id": "thpt-ict-01",
+          "title": "Thi thử tốt nghiệp THPT · Tin học ICT · Đề 01 (luyện 40s/ý)",
+          "mcq": 24,
+          "tf": 4
+        },
+        {
+          "id": "thpt-ict-02",
+          "title": "Thi thử tốt nghiệp THPT · Tin học ICT · Đề 02 (luyện 40s/ý)",
+          "mcq": 24,
+          "tf": 4
+        },
+        {
+          "id": "thpt-ict-03",
+          "title": "Thi thử tốt nghiệp THPT · Tin học ICT · Đề 03 (luyện 40s/ý)",
+          "mcq": 24,
+          "tf": 4
+        }
+      ]
+    },
+    "browserTest": {
+      "base": "http://localhost:3000",
+      "student": "test_fullbook_45994862",
+      "checks": [
+        "28 lessons grouped under seven topics A–G",
+        "seven topic exams, three combinations, four term exams marked proposed",
+        "three THPT mocks grouped separately with official-versus-training timing disclosure",
+        "lesson-7 full 23 steps, score 10.00",
+        "thpt-ict-01 full 40 steps, score 10.00",
+        "new lesson and THPT attempts saved and analyzed"
+      ],
+      "jsErrors": [],
+      "success": true,
+      "testAccount": "clearly marked TEST, locked"
+    },
+    "unitTest": {
+      "examsChecked": 45,
+      "grading": "pass",
+      "tfPartialScoring": "pass",
+      "optionLengths": "pass",
+      "serverExpiry": "pass",
+      "noDuplicateStems": "pass"
+    },
+    "sourceManifest": "deploy-request.json",
+    "sourceManifestHashes": "deployment-source-validation.json"
+  },
+  "renderFallback": {
+    "status": "not-needed: Vercel production deployed",
+    "Vercel": "authorized and deployed",
+    "RenderWorkspaceCandidate": {
+      "name": "Learning, Improve myself",
+      "id": "tea-dbkr6nei0phs73b32kb0",
+      "confirmed": false
+    },
+    "repositoryWriteToolsAvailable": false,
+    "localAdapter": "http://localhost:3001",
+    "sourceArchive": "ict12-render-source.zip",
+    "pendingServiceConfiguration": "render-create-request.pending.json",
+    "details": "RENDER_HANDOVER.md",
+    "localBrowserTest": {
+      "base": "http://localhost:3001",
+      "scope": "LOCAL adapter test only; not a public production deployment",
+      "student": "test_fullbook_60904503",
+      "checks": [
+        "28 lessons grouped under seven topics A–G",
+        "seven topic exams, three combinations, four term exams marked proposed",
+        "three THPT mocks grouped separately with official-versus-training timing disclosure",
+        "lesson-7 full 23 steps, score 10.00",
+        "Render Node adapter: lesson attempt saved and analyzed"
+      ],
+      "jsErrors": [],
+      "success": true,
+      "testAccount": "clearly marked TEST, locked"
+    },
+    "routingTest": {
+      "/healthz": 200,
+      "/admin": 200,
+      "/lib/exams.json": 404,
+      "/.env": 404,
+      "/ADMIN_CREDENTIALS.txt": 404
+    }
+  },
+  "productionURL": "https://ict12-learning-platform.vercel.app",
+  "projectId": "prj_HYmKRNUrUlr0CztIfPnBuVBRr2eR",
+  "deploymentId": "dpl_AY2mZsDyPat47XCDxG74JfYqTm5i",
+  "adminLoginURL": "https://ict12-learning-platform.vercel.app/admin",
+  "lastUpdated": "2026-11-09T09:28:47.693855+07:00",
+  "upgradeV2": {
+    "status": "HISTORICAL v2: superseded by completionRelease; keep old deployment as rollback reference",
+    "deployedAt": "2026-11-09T00:12:21.765300+07:00",
+    "productionURL": "https://ict12-learning-platform.vercel.app",
+    "deploymentId": "dpl_FEy9AiRCdqQYjCHKdEQejoJZBKpy",
+    "features": [
+      "responsive UI",
+      "leaderboard with admin visibility toggle",
+      "badges and progress charts",
+      "classes and timed assignments",
+      "filtered XLSX and per-question sheet",
+      "wrong-answer review and remedial quizzes"
+    ],
+    "migration": "ict12_classes_assignments_progress_upgrade applied; existing records preserved",
+    "localTests": "18 Playwright checks PASS, zero JS errors; 45-exam grading and new unit/security PASS",
+    "localServer": "http://localhost:3005",
+    "manifest": "deploy-upload-request.json",
+    "uploads": "upgrades/uploads/*.base64 (all 14 uploaded)",
+    "credentials": "Existing admin password verified unchanged; no admin credential update",
+    "caveats": [
+      "Leaderboard defaults hidden and excludes TEST/locked/practice.",
+      "One class/student; assignment schedule snapshotted on start; strict deadline, late attempts close without accepted score.",
+      "Explanations already existed for all 468 MCQ + 292 TF statements; coverage checked and textbook samples reviewed, retained rather than regenerated.",
+      "School-sized JSONB analytics remain unpaginated; browser anti-cheat is deterrence, not absolute prevention."
+    ],
+    "productionTests": "tests/upgrade-production-e2e-results.json",
+    "productionSecurity": "tests/upgrade-security-results.json",
+    "productionChecks": 18,
+    "productionJsErrors": [],
+    "testAccount": "test_upgrade_157906965 locked; test assignments disabled",
+    "verifiedAt": "2026-11-09T00:13:12.601122+07:00"
+  },
+  "completionRelease": {
+    "status": "LIVE_VERIFIED",
+    "updatedAt": "2026-11-09T09:28:47.693855+07:00",
+    "productionURL": "https://ict12-learning-platform.vercel.app",
+    "standaloneNoRepository": true,
+    "runtimeFiles": 16,
+    "manifest": "deploy-upload-request.json",
+    "uploadManifest": "release-audit/upload-manifest.json",
+    "localServer": "http://localhost:3006",
+    "localBrowserChecks": 22,
+    "localJsErrors": [],
+    "tests": {
+      "local": "tests/readiness-local-results.json",
+      "finalCompatibility": "tests/readiness-local-final-smoke-results.json",
+      "unit": "tests/readiness-unit-results.json",
+      "database": "tests/readiness-db-runtime-results.json",
+      "semantics": [
+        "tests/readiness-semantics-results.json",
+        "tests/readiness-browser-semantics-results.json"
+      ],
+      "preservation": "tests/readiness-preservation-results.json",
+      "recovery": "tests/readiness-backup-results.json",
+      "production": "tests/readiness-production-results.json",
+      "productionFinalCompatibility": "tests/readiness-production-final-smoke-results.json",
+      "liveAssetHashes": "tests/readiness-live-artifact-results.json",
+      "excel": "tests/readiness-excel-results.json",
+      "privateSecurity": "tests/readiness-db-security-results.json"
+    },
+    "migrations": [
+      "ict12_release_atomic_limits_assignment_guards",
+      "ict12_assignment_snapshot_defense",
+      "ict12_cas_conflict_http_status"
+    ],
+    "contentAudit": "release-audit/CONTENT_AUDIT.md",
+    "semanticReview": {
+      "mcq": 140,
+      "tfGroups": 43,
+      "tfStatements": 172,
+      "notIndependentlyReviewedMCQ": 328,
+      "notIndependentlyReviewedTFStatements": 120
+    },
+    "securityAndRecovery": "release-audit/SECURITY_RECOVERY.md",
+    "existingCredentialsAndAcceptedResults": "verified unchanged against private baseline",
+    "legacyContent": "lib/legacy-exams-v2.json protects old unsnapshotted active/closed attempts; keys remain private",
+    "operatorBackup": "private verified snapshot exists; receipts are box-only, never archive/upload",
+    "caveats": [
+      "Teacher semantic certification is not claimed for the unreviewed remainder; version-specific third-party UI may differ.",
+      "40s sequential training is not an exact 50-minute THPT simulator.",
+      "Browser deterrence cannot guarantee screenshot/device/AI blocking.",
+      "School-sized unpaginated JSONB analytics not load-certified; no destructive production DB recovery drill or new paid PITR.",
+      "Existing unrelated shared public-schema/Auth advisor warnings were not modified."
+    ],
+    "productionVerification": "PASS: final same-URL HTTPS suite and post-release compatibility/hash/Excel checks",
+    "deployedAt": "2026-11-09T09:22:55.838000+07:00",
+    "deploymentId": "dpl_AY2mZsDyPat47XCDxG74JfYqTm5i",
+    "productionBrowserChecks": 22,
+    "productionJsErrors": [],
+    "newSSOApprovalRequired": false,
+    "testCleanup": "TEST users locked, TEST assignments disabled, teacher settings restored; original passwords/results untouched",
+    "sourceArchive": "ict12-release-ready-source.zip",
+    "policies": {
+      "semesterMapping": "Explicit recommended defaults, editable school plan; no universal official semester claim",
+      "assignmentDeadline": "Strict server+DB close; unfinished closes with teacher-only draft and no accepted score",
+      "disabledAssignment": "Blocks new starts under that assignment; when base exam stays open, free practice becomes available again",
+      "attemptLimit": "Per exam code across assignments, teacher may increase for retakes; no silent resets",
+      "history": "Original scope/title/content snapshot retained; accepted scores and old password hashes unchanged",
+      "privacy": "Student ranking pseudonyms only, no account IDs/names/classes; TEST excluded from default analytics/exports"
+    },
+    "historicalPhase": true,
+    "supersededBy": "contentCompletion (current full-bank review and deployment)"
+  },
+  "contentCompletion": {
+    "status": "LIVE_VERIFIED",
+    "updatedAt": "2026-11-09T10:02:56.314317+07:00",
+    "reviewedThisRound": {
+      "mcq": 328,
+      "tfGroups": 30,
+      "tfStatements": 120
+    },
+    "cumulativeInternalReview": {
+      "mcq": 468,
+      "tfGroups": 73,
+      "tfStatements": 292,
+      "independentExpertCertification": false
+    },
+    "corrections": {
+      "records": 31,
+      "mcq": 28,
+      "tfRecords": 3,
+      "changedKeys": 0,
+      "historicalResultsRegraded": 0
+    },
+    "evidence": "release-audit/full-review/item-ledger.jsonl",
+    "report": "release-audit/full-review/REVIEW_REPORT.md",
+    "reproduce": "python3 release-audit/full-review/apply-corrections.py",
+    "productionState": "Final same-URL production deployment READY; fresh separate post-deploy regression and targeted browser runs passed",
+    "caveats": [
+      "Internal review only, not independent expert certification",
+      "Introductory distractors and authorial difficulty labels not empirically calibrated",
+      "Third-party UI can differ from textbook screenshots; current Forms publication/access clarified",
+      "No large-load certification or destructive production restore drill"
+    ],
+    "deploymentId": "dpl_GFDykbHYVAAxTabbRN3A32HmxzNf",
+    "productionURL": "https://ict12-learning-platform.vercel.app",
+    "newSSOApprovalRequired": false,
+    "deployedAt": "2026-11-09T09:55:12.214000+07:00",
+    "newDatabaseMigrations": 0,
+    "localVerification": {
+      "fullBrowserChecks": 22,
+      "jsErrors": [],
+      "targetedContentExamSteps": 92,
+      "wrongPracticeSteps": 1,
+      "contentBrowserSemanticsCases": 20,
+      "allExamSets": 45,
+      "tfGradingCases": 365,
+      "resultFiles": [
+        "tests/readiness-local-results.json",
+        "tests/content-local-live-results.json",
+        "tests/content-audit-unit-results.json",
+        "tests/content-audit-browser-results.json"
+      ],
+      "fullSuiteScopeNote": "Local22-check baseline was before final t10.c rationale-only refinement; final31-patch bank reran local92+1 and all unit/semantic fixtures. Fresh production22 suite ran entirely after final deployment."
+    },
+    "additionalCrossBankConsistencyEvidence": "release-audit/full-review/followup-semantic-review.json",
+    "engineeringCheck": "release-audit/full-review/ENGINEERING_CHECK.md",
+    "testHarnessBoundaryInvestigation": "tests/content-production-deadline-boundary-harness-failure.json (accepted server finish113ms before close; corrected test uses observed serverNow)",
+    "productionVerifiedAt": "2026-11-09T10:02:56.314317+07:00",
+    "productionBrowserChecks": 22,
+    "productionJsErrors": [],
+    "productionContentExamSteps": 92,
+    "productionWrongPracticeSteps": 1,
+    "sourceArchive": "ict12-release-ready-source.zip",
+    "sourceArchiveAudience": "Private operator source/evidence; contains answer banks, never a student public download",
+    "existingPasswordsAndAcceptedResults": "Both original18-user/22-result and pre-content30-user/57-result private baselines verified unchanged; no records or hashes printed",
+    "testCleanup": "TEST students locked, TEST assignments disabled, all teacher settings restored; labels/history retained, no deletion",
+    "productionVerification": {
+      "contentIntegrity": "tests/content-audit-unit-results.json",
+      "contentBrowserSemantics": "tests/content-audit-browser-results.json",
+      "localTargeted": "tests/content-local-live-results.json",
+      "productionTargeted": "tests/content-production-live-results.json",
+      "fullProductionBrowser": "tests/readiness-production-results.json",
+      "compatibility": "tests/readiness-production-final-smoke-results.json",
+      "liveAssets": "tests/readiness-live-artifact-results.json",
+      "nativeExcel": "tests/readiness-excel-results.json",
+      "preContentPreservation": "tests/content-preservation-results.json",
+      "originalPreservation": "tests/readiness-preservation-results.json",
+      "dbIntegration": "tests/readiness-db-runtime-results.json"
+    },
+    "strictDeadlineTestProof": {
+      "serverObservedAfterCloseMs": 2073,
+      "lateSubmitAndAnswerHTTP": 403,
+      "applicationGracePeriod": false
+    }
+  },
+  "currentAuthoritativeRelease": "contentCompletion; older completionRelease and earlier sections retained as explicitly superseded historical phases"
+}

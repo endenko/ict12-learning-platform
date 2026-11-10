@@ -1,0 +1,155 @@
+
+## 9 Tạo danh sách, bảng p52–56
+ext-l9-q02 [NB] Mỗi mục trong danh sách ul thường dùng thẻ nào?
+0:Dùng thẻ <tr> cho mỗi mục. | 1:Dùng thẻ <th> cho mỗi mục. | 2:Dùng thẻ <dt> cho mỗi mục. | 3:Dùng thẻ <li> cho mỗi mục.
+KEY 3 WHY li biểu diễn mục của danh sách có thứ tự hoặc không thứ tự. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q03 [NB] Nhóm thẻ nào tạo danh sách mô tả thuật ngữ?
+0:Bộ thẻ dl, dt và dd. | 1:Bộ thẻ ol, tr và td. | 2:Bộ thẻ ul, th và tr. | 3:Bộ thẻ li, p và hr.
+KEY 0 WHY dl chứa danh sách mô tả; dt là thuật ngữ, dd là mô tả. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q04 [NB] Thẻ nào tạo một hàng trong bảng HTML?
+0:Dùng <td> tạo hàng bảng. | 1:Dùng <tr> tạo hàng bảng. | 2:Dùng <th> tạo hàng bảng. | 3:Dùng <ol> tạo hàng bảng.
+KEY 1 WHY tr là hàng, td là ô dữ liệu, th là ô tiêu đề. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q05 [NB] Thẻ nào biểu diễn một ô tiêu đề bảng?
+0:Thẻ <tr> biểu diễn ô này. | 1:Thẻ <li> biểu diễn ô này. | 2:Thẻ <th> biểu diễn ô này. | 3:Thẻ <dl> biểu diễn ô này.
+KEY 2 WHY th dành cho ô tiêu đề, thường được in đậm và căn giữa mặc định. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q06 [NB] Thuộc tính nào gộp ô theo chiều ngang của bảng?
+0:Dùng thuộc tính rowspan. | 1:Dùng thuộc tính colstart. | 2:Dùng thuộc tính rowstart. | 3:Dùng thuộc tính colspan.
+KEY 3 WHY colspan xác định số cột một ô trải rộng. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q07 [NB] Thuộc tính nào gộp ô theo chiều dọc của bảng?
+0:Dùng thuộc tính rowspan. | 1:Dùng thuộc tính colspan. | 2:Dùng thuộc tính rowstart. | 3:Dùng thuộc tính colstart.
+KEY 0 WHY rowspan xác định số hàng một ô trải qua. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q08 [NB] Thẻ caption trong table dùng để tạo gì?
+0:Nội dung một ô dữ liệu bảng. | 1:Tên hoặc chú thích của bảng. | 2:Đường dẫn tệp chứa mẫu bảng. | 3:Số lượng các cột trong bảng.
+KEY 1 WHY caption là tiêu đề hay chú thích của bảng. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q09 [NB] Để danh sách đánh số La Mã hoa, thuộc tính nào phù hợp?
+0:Đặt type="A" trong ol. | 1:Đặt type="a" trong ol. | 2:Đặt type="I" trong ol. | 3:Đặt type="1" trong ol.
+KEY 2 WHY type I cho số La Mã viết hoa; A/a là chữ cái và 1 là số Ả Rập. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q11 [TH] Một hàng có <td colspan="2">A</td><td>B</td> chiếm bao nhiêu cột lưới?
+0:Hàng đó chiếm ba cột. | 1:Hàng đó chiếm hai cột. | 2:Hàng đó chiếm bốn cột. | 3:Hàng đó chiếm một cột.
+KEY 0 WHY Ô A chiếm hai cột, ô B chiếm một nên tổng là ba. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q12 [TH] Khi ô hàng đầu có rowspan="2", hàng kế tiếp cần lưu ý gì?
+0:Thêm ô vào vị trí đã gộp. | 1:Bỏ ô đã bị chiếm vị trí. | 2:Xóa mọi ô của hàng dưới. | 3:Đổi mọi ô sang thẻ tiêu đề.
+KEY 1 WHY Ô gộp đã chiếm vị trí ở hàng tiếp theo, không tạo thêm ô chồng vị trí. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-q13 [TH] Vì sao bảng phù hợp cho thời khóa biểu hơn một đoạn văn dài?
+0:Vì bảng tự phát âm nội dung. | 1:Vì bảng luôn thay thế mã CSS. | 2:Vì dễ đối chiếu theo hàng cột. | 3:Vì bảng tự tạo tài khoản mạng.
+KEY 2 WHY Dữ liệu có cấu trúc hai chiều được biểu diễn rõ theo hàng, cột. REF Bài 9 – Tạo danh sách; thiết lập bảng; thực hành (trang 52–56)
+ext-l9-t2 SCENARIO Trang giới thiệu CLB cần danh sách nhóm, danh sách thành viên từng nhóm và bảng lịch học. Một ô đã dùng rowspan="2" để chỉ người phụ trách hai buổi.
+a [VD] True Để đặt tên bảng, nhóm có thể thêm caption trong table. WHY caption cung cấp tên hay chú thích bảng.
+b [TH] False Một thẻ tr thường biểu diễn một cột thay vì một hàng. WHY tr biểu diễn hàng.
+c [TH] True Danh sách lồng có thể đặt trong mục li của danh sách cha. WHY Cấu trúc lồng trong li phản ánh nhóm và thành viên.
+d [VD] False Để tránh lệch bảng, cần thêm ô trùng vị trí đã được gộp. WHY Hàng sau bỏ vị trí đã do ô rowspan chiếm.
+
+## 10 Tạo liên kết p57–61
+ext-l10-q02 [NB] Thẻ nào tạo một siêu liên kết trong HTML?
+0:Dùng cặp thẻ <p> và </p>. | 1:Dùng cặp thẻ <b> và </b>. | 2:Dùng cặp thẻ <a> và </a>. | 3:Dùng cặp thẻ <i> và </i>.
+KEY 2 WHY a kết hợp href tạo siêu liên kết. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q03 [NB] Kí hiệu ../ trong đường dẫn tương đối thường chỉ đâu?
+0:Thư mục con của thư mục hiện tại. | 1:Tệp đầu của thư mục hiện tại. | 2:Tệp cuối của thư mục hiện tại. | 3:Thư mục cha của thư mục hiện tại.
+KEY 3 WHY Hai dấu chấm biểu diễn thư mục cấp trên. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q04 [NB] Muốn liên kết tới phần tử id="lich" cùng trang, href nhận giá trị nào?
+0:Đặt giá trị href="#lich". | 1:Đặt giá trị href="/lich". | 2:Đặt giá trị href="@lich". | 3:Đặt giá trị href="?lich".
+KEY 0 WHY Dấu # mở đầu mã định danh phân đoạn trong cùng tài liệu. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q05 [NB] Đường dẫn nào là URL tuyệt đối?
+0:../chude/tinmoi/tin-01.html. | 1:https://example.org/tin.html. | 2:chude/tinmoi/tin-001.html. | 3:./chude/tinmoi/tin-01.html.
+KEY 1 WHY URL tuyệt đối có giao thức và tên miền, không phụ thuộc thư mục trang hiện tại. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q06 [NB] Trong <a href="gioithieu.html">Giới thiệu</a>, phần nào người dùng thường nháy vào?
+0:Tên tệp gioithieu trong thư mục. | 1:Nội dung nằm trong thuộc tính href. | 2:Dòng chữ Giới thiệu của liên kết. | 3:Dấu ngoặc ở phần đầu của thẻ mở.
+KEY 2 WHY Nội dung nằm giữa hai thẻ a là vùng liên kết hiển thị. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q07 [NB] Muốn một ảnh trở thành liên kết, cần lồng thẻ như thế nào?
+0:Đặt thẻ a ở bên trong img. | 1:Đặt thẻ img ở bên trong hr. | 2:Đặt thẻ a ở bên trong meta. | 3:Đặt thẻ img ở bên trong a.
+KEY 3 WHY Nội dung của a có thể là hình ảnh img. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q08 [NB] Giá trị target nào thường mở liên kết trong thẻ hoặc cửa sổ mới?
+0:Dùng giá trị target="_blank". | 1:Dùng giá trị target="_self". | 2:Dùng giá trị target="_parent". | 3:Dùng giá trị target="_top".
+KEY 0 WHY _blank yêu cầu một ngữ cảnh duyệt mới, thường là tab mới. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q09 [NB] Thành phần nào đánh dấu vị trí đích cho liên kết nội trang?
+0:Thuộc tính src của phần tử. | 1:Thuộc tính id của phần tử. | 2:Thuộc tính alt của phần tử. | 3:Thuộc tính rel của phần tử.
+KEY 1 WHY id định danh phần tử; href #id dẫn tới vị trí tương ứng. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q11 [TH] Vì sao dùng đường dẫn tương đối cho các trang trong cùng website?
+0:Tự làm tăng tốc độ bộ xử lí. | 1:Tự mã hóa mọi tệp trang web. | 2:Luôn bắt buộc kết nối Internet. | 3:Dễ chuyển cả thư mục website.
+KEY 3 WHY Đường dẫn tương đối giữ quan hệ thư mục khi di chuyển toàn bộ cấu trúc website. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q12 [TH] Trang /lop/baitap/a.html dùng href="../index.html". Đích được tìm ở đâu?
+0:Mở tệp tại /lop/index.html. | 1:Mở tệp tại /lop/baitap.html. | 2:Mở tệp tại /lop/tin/index.html. | 3:Mở tệp tại /index/lop.html.
+KEY 0 WHY Lùi một thư mục từ /lop/baitap rồi tìm index.html trong /lop. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-q13 [TH] Khác biệt chính giữa href="#muc1" và href="tin.html#muc1" là gì?
+0:Màu chữ xanh hoặc màu chữ đỏ. | 1:Đích cùng trang hoặc trang khác. | 2:Mở ở màn hình hoặc mở ở máy in. | 3:Mã hóa UTF-8 hoặc mã hóa ASCII.
+KEY 1 WHY Dạng thứ nhất là phân đoạn cùng tài liệu; dạng thứ hai trỏ phân đoạn trong tin.html. REF Bài 10 – Siêu văn bản; đường dẫn; liên kết trong trang web (trang 57–61)
+ext-l10-t2 SCENARIO Mai chuyển cả thư mục website sang máy khác, giữ nguyên cây thư mục. Các trang dùng liên kết tương đối tới nhau và một liên kết tuyệt đối https://example.org.
+a [TH] True URL tuyệt đối có giao thức và địa chỉ máy chủ đích cụ thể. WHY Đường dẫn tuyệt đối không phụ thuộc vị trí trang hiện tại.
+b [VD] True Nếu đổi tên một trang, Mai nên cập nhật các liên kết tới nó. WHY Tên đích thay đổi có thể làm liên kết cũ hỏng.
+c [TH] False Giữ nguyên cây thư mục làm mọi liên kết tương đối luôn hỏng. WHY Quan hệ thư mục giữ nguyên nên liên kết tương đối có thể vẫn đúng.
+d [VD] False Để mở trang cùng thư mục, Mai phải nhập mật khẩu vào href. WHY href chỉ cần đường dẫn phù hợp, không nhập mật khẩu.
+
+## 11 Chèn tệp đa phương tiện và khung nội tuyến vào trang web p62–66
+ext-l11-q02 [NB] Thuộc tính alt trong thẻ img có ý nghĩa gì?
+0:Cung cấp mật khẩu truy cập ảnh. | 1:Cung cấp văn bản thay thế ảnh. | 2:Cung cấp tốc độ tải ảnh mạng. | 3:Cung cấp ngày tạo tệp ảnh số.
+KEY 1 WHY alt mô tả ảnh khi không tải được hoặc cho công nghệ hỗ trợ. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q03 [NB] Thẻ nào chèn nội dung âm thanh vào trang web?
+0:Sử dụng phần tử video. | 1:Sử dụng phần tử image. | 2:Sử dụng phần tử audio. | 3:Sử dụng phần tử table.
+KEY 2 WHY audio nhúng âm thanh, video nhúng hình động có âm thanh. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q04 [NB] Thuộc tính controls của audio/video yêu cầu điều gì?
+0:Hiện tất cả mã nguồn của tệp. | 1:Hiện mật khẩu truy cập máy chủ. | 2:Hiện số lần tải trang trước đó. | 3:Hiện các nút điều khiển phát.
+KEY 3 WHY controls cho phép trình duyệt hiển thị điều khiển phát, dừng, âm lượng. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q05 [NB] Thẻ nào tạo khung nội tuyến chứa một tài liệu khác?
+0:Sử dụng phần tử iframe. | 1:Sử dụng phần tử figure. | 2:Sử dụng phần tử source. | 3:Sử dụng phần tử footer.
+KEY 0 WHY iframe nhúng trang hay tài nguyên web khác vào trang hiện tại. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q06 [NB] Hai thuộc tính nào thường thiết lập kích thước ảnh?
+0:Dùng color và border. | 1:Dùng width và height. | 2:Dùng src và autoplay. | 3:Dùng title và charset.
+KEY 1 WHY width và height quy định chiều rộng, chiều cao. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q07 [NB] Thuộc tính poster của thẻ video dùng làm gì?
+0:Chỉ bản nhạc nền khi phát video. | 1:Chỉ tên thư mục lưu tệp phim. | 2:Chỉ ảnh đại diện trước khi phát. | 3:Chỉ mật khẩu mở khóa đoạn phim.
+KEY 2 WHY poster là URL ảnh đại diện của video. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q08 [NB] Thẻ source bên trong video cho phép khai báo điều gì?
+0:Các người xem có tài khoản khác. | 1:Các tiêu đề có phông chữ khác. | 2:Các bảng điểm có số hàng khác. | 3:Các nguồn phim có định dạng khác.
+KEY 3 WHY Có thể đưa nhiều nguồn để trình duyệt chọn định dạng hỗ trợ. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q09 [NB] Muốn video lặp lại sau khi phát xong, dùng thuộc tính nào?
+0:Đặt thuộc tính loop. | 1:Đặt thuộc tính muted. | 2:Đặt thuộc tính poster. | 3:Đặt thuộc tính width.
+KEY 0 WHY loop yêu cầu phát lặp; muted tắt tiếng. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q11 [TH] Vì sao đặt cả width và height không đúng tỉ lệ gốc có thể không phù hợp?
+0:Có thể làm mã HTML biến thành SQL. | 1:Có thể làm video biến thành bảng. | 2:Có thể làm hình ảnh hiển thị méo. | 3:Có thể làm mất tên miền của trang.
+KEY 2 WHY Kích thước không cùng tỉ lệ co giãn khác nhau theo hai chiều, gây méo ảnh. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q12 [TH] Bạn đặt autoplay nhưng video không tự phát. Nhận định nào đúng?
+0:Mã HTML luôn bị xóa khỏi máy. | 1:Mọi video phải đổi sang tệp GIF. | 2:Mạng LAN luôn cấm truyền video. | 3:Trình duyệt có thể chặn tự phát.
+KEY 3 WHY Chính sách trình duyệt có thể hạn chế autoplay, nhất là khi có âm thanh. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-q13 [TH] iframe khác liên kết a ở cách sử dụng nào?
+0:Nhúng nội dung trong trang hiện tại. | 1:Đổi mọi hình ảnh thành văn bản thuần. | 2:Tải toàn bộ website về thư mục gốc. | 3:Đổi giao thức mạng sang Bluetooth.
+KEY 0 WHY iframe hiển thị tài liệu nhúng; a thường điều hướng tới đích khi được kích hoạt. REF Bài 11 – Chèn ảnh, âm thanh, video và iframe (trang 62–66)
+ext-l11-t2 SCENARIO Trang học ngoại ngữ có audio, video với nhiều source và một iframe nhúng tài liệu ngoài. Trình duyệt chặn video tự phát có tiếng dù mã có autoplay.
+a [VD] False Để sửa ảnh bị méo, nên đổi width và height tùy ý độc lập. WHY Cần giữ tỉ lệ, không đặt hai chiều thiếu tương ứng.
+b [TH] False Có autoplay thì mọi trình duyệt đều phải tự phát có tiếng. WHY Chính sách trình duyệt có thể chặn autoplay.
+c [TH] True Nhiều source cho phép cung cấp các định dạng video khác nhau. WHY Trình duyệt có thể chọn nguồn được hỗ trợ.
+d [VD] True Muốn người học tự bật bài nghe, nên thêm controls cho audio. WHY controls cung cấp thao tác phát và dừng.
+
+## 12 Tạo biểu mẫu p67–70
+ext-l12-q02 [NB] Để nhập mật khẩu có kí tự hiển thị được che, chọn loại input nào?
+0:Dùng type="password". | 1:Dùng type="checkbox". | 2:Dùng type="number". | 3:Dùng type="button".
+KEY 0 WHY password che cách hiển thị kí tự, không tự mã hóa đường truyền. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q03 [NB] Loại input nào phù hợp cho việc chọn nhiều sở thích độc lập?
+0:Dùng type="password". | 1:Dùng type="checkbox". | 2:Dùng type="number". | 3:Dùng type="submit".
+KEY 1 WHY checkbox cho phép các lựa chọn độc lập, có thể chọn nhiều. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q04 [NB] Loại input nào phù hợp để chọn một trong các phương án cùng nhóm?
+0:Dùng type="image". | 1:Dùng type="email". | 2:Dùng type="radio". | 3:Dùng type="range".
+KEY 2 WHY Các radio cùng name tạo nhóm lựa chọn loại trừ nhau. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q05 [NB] Phần tử nào nhập đoạn văn bản nhiều dòng?
+0:Sử dụng thẻ select. | 1:Sử dụng thẻ legend. | 2:Sử dụng thẻ option. | 3:Sử dụng thẻ textarea.
+KEY 3 WHY textarea nhận nội dung văn bản nhiều dòng. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q06 [NB] Cặp phần tử nào tạo hộp chọn thả xuống?
+0:Dùng select và option. | 1:Dùng legend và fieldset. | 2:Dùng source và video. | 3:Dùng caption và table.
+KEY 0 WHY select chứa các option biểu diễn các phương án lựa chọn. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q07 [NB] Thuộc tính nào liên kết label với id của trường nhập?
+0:Thuộc tính src của label. | 1:Thuộc tính for của label. | 2:Thuộc tính alt của label. | 3:Thuộc tính rel của label.
+KEY 1 WHY for của label khớp id của điều khiển. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q08 [NB] Thuộc tính name của input chủ yếu có vai trò gì khi gửi form?
+0:Đặt màu cho chữ đang được gõ. | 1:Đặt cỡ cho khung của trường. | 2:Đặt tên cho dữ liệu được gửi. | 3:Đặt đường dẫn cho ảnh nền.
+KEY 2 WHY Dữ liệu thường được gửi thành cặp name và giá trị. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q09 [NB] Phần tử legend trong fieldset biểu diễn điều gì?
+0:Địa chỉ để gửi toàn bộ dữ liệu. | 1:Loại mã hóa của tệp âm thanh. | 2:Màu đường viền của trình duyệt. | 3:Chú thích cho nhóm trường nhập.
+KEY 3 WHY legend là tiêu đề của nhóm điều khiển fieldset. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q11 [TH] Khi nháy label có for khớp id của input, điều gì thường xảy ra?
+0:Tất cả dữ liệu trong biểu mẫu bị xóa. | 1:Điều khiển tương ứng được kích hoạt. | 2:Trang tự đổi thành tệp mã nguồn CSS. | 3:Mọi hình ảnh trong trang web bị ẩn.
+KEY 1 WHY Liên kết label–input cải thiện khả năng thao tác và tiếp cận. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q12 [TH] Đặt type="password" có đồng nghĩa dữ liệu đã được bảo mật khi truyền không?
+0:Có, mọi dữ liệu tự thành mã hóa. | 1:Có, mọi dữ liệu tự được sao lưu. | 2:Không, cần bảo vệ đường truyền. | 3:Không, vì máy chủ không nhận chữ.
+KEY 2 WHY Che kí tự trên màn hình không thay thế HTTPS hay cơ chế bảo mật máy chủ. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)
+ext-l12-q13 [TH] Vì sao nút submit chưa đủ để có hệ thống lưu đăng kí hoàn chỉnh?
+0:Cần mọi chữ đổi sang in đậm. | 1:Cần mọi ảnh chuyển thành SVG. | 2:Cần tên tệp chứa đủ 20 kí tự. | 3:Cần xử lí và nơi lưu dữ liệu.
+KEY 3 WHY HTML tạo giao diện; lưu và kiểm tra dữ liệu cần thành phần xử lí phù hợp. REF Bài 12 – Biểu mẫu; input; label; select; textarea; fieldset (trang 67–70)

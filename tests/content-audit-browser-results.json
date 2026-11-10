@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "completedAt": "2026-11-09T02:56:59.743Z",
+  "browser": "Actual Chromium",
+  "checks": [
+    "video can support an audio-only WAV MIME type; dedicated-audio wording avoids multiple valid choices",
+    "font-style inherit can become italic",
+    "font-style inherit can instead be normal",
+    "direct-child font-size1.5em of20px=30px",
+    "intervening40px parent would instead make1.5em=60px",
+    "later duplicate declaration in one block wins blue",
+    "same-cascade ID specificity beats class/type",
+    "later cascade layer can beat earlier ID despite lower specificity",
+    "display:block is the ordinary block layout",
+    "display:table remains a distinct table layout, not the ordinary block answer",
+    "content-box border-edge width100+20+4=124",
+    "colspan2 plus one cell gives three grid columns",
+    "intervening div prevents p+p selection",
+    "p~p still selects the later p",
+    "HSL0,100%,50% is RGB red",
+    "HSL lightness100% is white",
+    "URL resolution of parent index matches textbook arithmetic",
+    "a generic absolute mailto URL need not have a hostname",
+    "on tin.html, a named file fragment can be same-document (old stem ambiguity)",
+    "from specified index.html the two target documents differ"
+  ],
+  "semanticCases": 20,
+  "scope": "Executable corroboration of HTML/CSS/URL correction assumptions; not networking hardware or third-party UI certification"
+}

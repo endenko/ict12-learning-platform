@@ -1,0 +1,519 @@
+[
+  {
+    "kind": "mcq",
+    "id": "q2",
+    "reason": "Historical precision, Dartmouth official history",
+    "before": {
+      "options": [
+        "Đánh dấu sự ra đời của cáp quang.",
+        "Đánh dấu sự ra đời của thuật ngữ AI.",
+        "Đánh dấu sự ra đời của mạng Internet.",
+        "Đánh dấu sự ra đời của thư điện tử."
+      ],
+      "explanation": "Hội thảo Dartmouth là dấu mốc ra đời thuật ngữ AI."
+    },
+    "after": {
+      "options": [
+        "Đánh dấu sự ra đời của cáp quang.",
+        "Đánh dấu sự hình thành lĩnh vực AI.",
+        "Đánh dấu sự ra đời của mạng Internet.",
+        "Đánh dấu sự ra đời của thư điện tử."
+      ],
+      "explanation": "Hội thảo Dartmouth năm 1956 là cột mốc hình thành AI thành một lĩnh vực nghiên cứu. Thuật ngữ đã xuất hiện trong đề xuất cho hội thảo năm 1955; không nên đồng nhất hai mốc này."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q32",
+    "reason": "Known-unicast premise prevents broadcast/unknown-unicast alternative",
+    "before": {
+      "question": "Switch chuyển dữ liệu trong LAN dựa trên cách nào?",
+      "explanation": "Switch xác định cổng của thiết bị nhận để thiết lập kênh truyền."
+    },
+    "after": {
+      "question": "Với khung unicast có MAC đích đã học, thao tác tra bảng MAC của switch nhằm mục đích gì?",
+      "explanation": "Tra bảng MAC giúp xác định cổng nối tới thiết bị nhận. Nếu cổng đích khác cổng nhận, switch chuyển khung tới cổng đích; khung quảng bá hoặc chưa biết MAC đích có thể được phát ra nhiều cổng khác."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q39",
+    "reason": "Avoid GSM2G conflation with every cellular generation",
+    "before": {
+      "explanation": "Modem GSM 3G/4G/5G có khe SIM để truy cập Internet qua mạng di động."
+    },
+    "after": {
+      "explanation": "SIM nhận diện thuê bao để modem di động truy cập mạng của nhà cung cấp. Modem và SIM phải phù hợp dịch vụ, chuẩn mạng được hỗ trợ; không nên gọi mọi chuẩn 3G/4G/5G là GSM."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q49",
+    "reason": "Error detection does not itself mandate retransmission",
+    "before": {
+      "explanation": "Máy nhận dùng mã kiểm tra để phát hiện lỗi và yêu cầu gửi lại khi cần."
+    },
+    "after": {
+      "explanation": "Mã kiểm tra giúp phát hiện dữ liệu bị lỗi khi truyền. Riêng FCS của Ethernet dùng để phát hiện khung lỗi, không tự yêu cầu truyền lại; việc khôi phục hoặc truyền lại phụ thuộc giao thức, chẳng hạn TCP."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q54",
+    "reason": "TCP byte-stream sequence precision",
+    "before": {
+      "question": "Đánh số thứ tự các gói dữ liệu thuộc vai trò nào của TCP?",
+      "explanation": "Các gói có thể đến khác thứ tự nên TCP đánh số để lắp lại."
+    },
+    "after": {
+      "question": "TCP dùng số thứ tự dữ liệu chủ yếu để phục vụ việc gì ở nơi nhận?",
+      "explanation": "Số thứ tự giúp TCP khôi phục đúng thứ tự dòng dữ liệu dù các đoạn đến khác thứ tự. Chính xác hơn, số thứ tự TCP đếm các byte dữ liệu, không đơn thuần là số thứ tự của từng gói."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q57",
+    "reason": "Default route must exist",
+    "before": {
+      "question": "Router không có mục khớp địa chỉ đích trong bảng định tuyến tĩnh thì sao?",
+      "explanation": "Sách mô tả cổng mặc định dùng khi địa chỉ đích không có trong bảng."
+    },
+    "after": {
+      "question": "Router có tuyến mặc định hợp lệ nhưng không có tuyến cụ thể hơn khớp đích. Nó thường làm gì?",
+      "explanation": "Nếu không có tuyến cụ thể hơn khớp địa chỉ đích, router có thể dùng tuyến mặc định đã cấu hình. Nếu không có tuyến phù hợp, kể cả tuyến mặc định, gói có thể bị loại bỏ."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q58",
+    "reason": "Routing is conditional rather than an absolute delivery guarantee",
+    "before": {
+      "question": "Vì sao gói đi qua nhiều router vẫn đến được LAN đích?",
+      "explanation": "Router liên tiếp hướng dẫn dữ liệu dựa trên địa chỉ và bảng định tuyến."
+    },
+    "after": {
+      "question": "Trong mạng được định tuyến đúng, router chuyển gói qua từng chặng về LAN đích dựa vào đâu?",
+      "explanation": "Mỗi router dựa vào địa chỉ IP đích và bảng định tuyến để chọn chặng kế tiếp. Cơ chế này hỗ trợ chuyển gói về mạng đích, không bảo đảm gói luôn tới nếu mạng lỗi hoặc thiếu tuyến."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q65",
+    "reason": "Windows textbook sharing-dialog context",
+    "before": {
+      "question": "Để chọn người nhận quyền chia sẻ thư mục, dùng thao tác nào?"
+    },
+    "after": {
+      "question": "Trong hộp thoại chia sẻ Specific people của Windows theo bài học, thêm người nhận quyền bằng cách nào?"
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q98",
+    "reason": "Consent condition made explicit",
+    "before": {
+      "question": "Vì sao gửi ảnh nhật kí riêng của bạn cho nhóm là không phù hợp?"
+    },
+    "after": {
+      "question": "Vì sao gửi ảnh nhật kí riêng của bạn cho nhóm khi chưa được bạn cho phép là không phù hợp?"
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "q100",
+    "reason": "Clear Vietnamese de-escalation wording",
+    "before": {
+      "options": [
+        "Tránh sử dụng bất kì công cụ trực tuyến nào.",
+        "Tránh trao đổi mọi quan điểm khác biệt nhau.",
+        "Tránh lưu trữ bất kì nội dung học tập nào.",
+        "Tránh hiểu lầm và gây kích thích đối phương."
+      ],
+      "explanation": "Từ ngữ thiếu phù hợp có thể gây hiểu nhầm và kích động tranh cãi."
+    },
+    "after": {
+      "options": [
+        "Tránh sử dụng bất kì công cụ trực tuyến nào.",
+        "Tránh trao đổi mọi quan điểm khác biệt nhau.",
+        "Tránh lưu trữ bất kì nội dung học tập nào.",
+        "Tránh hiểu lầm và làm căng thẳng đối thoại."
+      ],
+      "explanation": "Ngôn từ đúng mực giúp tránh hiểu lầm và giảm căng thẳng khi trao đổi; không có nghĩa phải né tránh mọi ý kiến khác biệt."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l9-q11",
+    "reason": "Exclude inherited rowspans from simple grid arithmetic",
+    "before": {
+      "question": "Một hàng có <td colspan=\"2\">A</td><td>B</td> chiếm bao nhiêu cột lưới?"
+    },
+    "after": {
+      "question": "Không có ô gộp từ hàng trước. Hàng <td colspan=\"2\">A</td><td>B</td> chiếm bao nhiêu cột lưới?"
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l10-q05",
+    "reason": "Scope absolute URL explanation to HTTP/HTTPS",
+    "before": {
+      "explanation": "URL tuyệt đối có giao thức và tên miền, không phụ thuộc thư mục trang hiện tại."
+    },
+    "after": {
+      "explanation": "Trong các lựa chọn, https://example.org/tin.html là URL web tuyệt đối có giao thức và máy chủ; các lựa chọn khác là đường dẫn tương đối. Với URL thuộc giao thức khác, cấu trúc có thể khác."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l10-q13",
+    "reason": "Name current page so tin.html is certainly another document",
+    "before": {
+      "question": "Khác biệt chính giữa href=\"#muc1\" và href=\"tin.html#muc1\" là gì?",
+      "explanation": "Dạng thứ nhất là phân đoạn cùng tài liệu; dạng thứ hai trỏ phân đoạn trong tin.html."
+    },
+    "after": {
+      "question": "Đang ở index.html, href=\"#muc1\" khác href=\"tin.html#muc1\" chủ yếu ở đâu?",
+      "explanation": "Từ index.html, #muc1 trỏ tới phân đoạn cùng tài liệu; tin.html#muc1 trỏ tới phân đoạn trong tài liệu tin.html khác với trang hiện tại."
+    }
+  },
+  {
+    "kind": "tf",
+    "id": "ext-l10-t2",
+    "reason": "Scope hostname claim to the given HTTPS example",
+    "before": {
+      "statements": [
+        {
+          "label": "a",
+          "level": "TH",
+          "answer": true,
+          "text": "URL tuyệt đối có giao thức và địa chỉ máy chủ đích cụ thể.",
+          "explanation": "Đường dẫn tuyệt đối không phụ thuộc vị trí trang hiện tại."
+        },
+        {
+          "label": "b",
+          "level": "VD",
+          "answer": true,
+          "text": "Nếu đổi tên một trang, Mai nên cập nhật các liên kết tới nó.",
+          "explanation": "Tên đích thay đổi có thể làm liên kết cũ hỏng."
+        },
+        {
+          "label": "c",
+          "level": "TH",
+          "answer": false,
+          "text": "Giữ nguyên cây thư mục làm mọi liên kết tương đối luôn hỏng.",
+          "explanation": "Quan hệ thư mục giữ nguyên nên liên kết tương đối có thể vẫn đúng."
+        },
+        {
+          "label": "d",
+          "level": "VD",
+          "answer": false,
+          "text": "Để mở trang cùng thư mục, Mai phải nhập mật khẩu vào href.",
+          "explanation": "href chỉ cần đường dẫn phù hợp, không nhập mật khẩu."
+        }
+      ]
+    },
+    "after": {
+      "statements": [
+        {
+          "label": "a",
+          "level": "TH",
+          "answer": true,
+          "text": "URL https://example.org có giao thức HTTPS và tên máy chủ cụ thể.",
+          "explanation": "URL HTTPS trong tình huống này có giao thức và máy chủ rõ ràng, không phụ thuộc thư mục hiện tại. Không suy rộng rằng mọi kiểu URL tuyệt đối đều phải có tên máy chủ."
+        },
+        {
+          "label": "b",
+          "level": "VD",
+          "answer": true,
+          "text": "Nếu đổi tên một trang, Mai nên cập nhật các liên kết tới nó.",
+          "explanation": "Tên đích thay đổi có thể làm liên kết cũ hỏng."
+        },
+        {
+          "label": "c",
+          "level": "TH",
+          "answer": false,
+          "text": "Giữ nguyên cây thư mục làm mọi liên kết tương đối luôn hỏng.",
+          "explanation": "Quan hệ thư mục giữ nguyên nên liên kết tương đối có thể vẫn đúng."
+        },
+        {
+          "label": "d",
+          "level": "VD",
+          "answer": false,
+          "text": "Để mở trang cùng thư mục, Mai phải nhập mật khẩu vào href.",
+          "explanation": "href chỉ cần đường dẫn phù hợp, không nhập mật khẩu."
+        }
+      ]
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l11-q03",
+    "reason": "Video also supports audio; ask for dedicated audio element",
+    "before": {
+      "question": "Thẻ nào chèn nội dung âm thanh vào trang web?",
+      "explanation": "audio nhúng âm thanh, video nhúng hình động có âm thanh."
+    },
+    "after": {
+      "question": "Thẻ HTML chuyên dùng để nhúng âm thanh, thay vì tạo vùng phát video, là thẻ nào?",
+      "explanation": "audio là phần tử chuyên dùng cho nội dung âm thanh. video cũng có thể phát nguồn chỉ có tiếng, nên câu hỏi phân biệt phần tử chuyên dùng chứ không khẳng định video không phát được âm thanh."
+    }
+  },
+  {
+    "kind": "tf",
+    "id": "ext-l11-t2",
+    "reason": "Ground image-distortion statement in scenario",
+    "before": {
+      "scenario": "Trang học ngoại ngữ có audio, video với nhiều source và một iframe nhúng tài liệu ngoài. Trình duyệt chặn video tự phát có tiếng dù mã có autoplay."
+    },
+    "after": {
+      "scenario": "Trang học ngoại ngữ có audio, video với nhiều source và một iframe nhúng tài liệu ngoài. Ảnh minh họa bị kéo méo vì đặt kích thước sai tỉ lệ. Trình duyệt chặn video tự phát có tiếng dù mã có autoplay."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l14-q02",
+    "reason": "Inherited italic otherwise could be another conditional valid answer",
+    "before": {
+      "question": "Giá trị nào của font-style làm chữ nghiêng?",
+      "explanation": "italic làm chữ nghiêng."
+    },
+    "after": {
+      "question": "Giá trị nào của font-style trực tiếp yêu cầu chữ nghiêng, không phụ thuộc kiểu chữ của cha?",
+      "explanation": "italic trực tiếp yêu cầu kiểu chữ nghiêng. inherit nhận giá trị từ phần tử cha nên chỉ nghiêng nếu cha có kiểu nghiêng phù hợp."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l14-q05",
+    "reason": "Line box rather than an unconditional baseline-distance definition",
+    "before": {
+      "question": "Thuộc tính nào quy định khoảng cách giữa các đường cơ sở dòng?"
+    },
+    "after": {
+      "question": "Thuộc tính CSS nào quy định chiều cao hộp dòng của văn bản?"
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l14-q11",
+    "reason": "Make font-size inheritance parent explicit",
+    "before": {
+      "question": "body có font-size:20px, p con có font-size:1.5em. Cỡ chữ p là bao nhiêu?",
+      "explanation": "Với font-size, 1.5em = 1.5 × 20px = 30px."
+    },
+    "after": {
+      "question": "Chỉ có body {font-size:20px} và p {font-size:1.5em}. p là con trực tiếp của body. Cỡ chữ p là bao nhiêu?",
+      "explanation": "Với font-size của p, 1em dựa vào cỡ chữ tính toán của cha body là 20px. Vì vậy 1.5 × 20px = 30px khi không có quy tắc khác ghi đè."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l14-q13",
+    "reason": "Source-order comparison within one block, not arbitrary CSS layers",
+    "before": {
+      "question": "Trong cùng nguồn và cùng bộ chọn, khai báo color:red rồi color:blue không !important. Màu nào có hiệu lực?",
+      "explanation": "Khi các điều kiện ưu tiên khác bằng nhau, khai báo sau được chọn."
+    },
+    "after": {
+      "question": "Trong một khối khai báo CSS có color:red; color:blue; cả hai không !important. Màu nào được chọn giữa hai khai báo?",
+      "explanation": "Hai khai báo cùng thuộc tính trong một khối và cùng mức ưu tiên: khai báo hợp lệ xuất hiện sau được chọn, nên là blue. Không trộn màu; các yếu tố cascade khác vẫn cần xét nếu có quy tắc khác."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l16-q06",
+    "reason": "display:table also has block-level outer display",
+    "before": {
+      "question": "Giá trị display nào làm phần tử tham gia bố cục dạng khối?",
+      "explanation": "block tạo hộp dạng khối."
+    },
+    "after": {
+      "question": "Giá trị display nào tạo hộp khối thông thường, không dùng bố cục bảng?",
+      "explanation": "block tạo hộp khối thông thường. table cũng có hộp ngoài dạng khối nhưng dùng bố cục bảng, nên không đáp ứng yêu cầu cụ thể trong câu hỏi."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l16-q11",
+    "reason": "Ensure specified width applies to a block",
+    "before": {
+      "question": "Theo content-box, width:100px; padding:10px; border:2px solid; không margin. Rộng ngoài viền là bao nhiêu?"
+    },
+    "after": {
+      "question": "Hộp khối content-box có width:100px; padding:10px; border:2px solid; không margin. Rộng ngoài viền là bao nhiêu?"
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l17-q11",
+    "reason": "Equal earlier cascade factors",
+    "before": {
+      "question": "Một p khớp #x và .note, cùng đặt color không important. Màu theo quy tắc nào?",
+      "explanation": "id có độ đặc hiệu cao hơn class, không dựa vào độ dài tên."
+    },
+    "after": {
+      "question": "Chỉ có #x {color:red} và .note {color:blue} trong cùng một thẻ style. Một p khớp cả hai nhận màu theo quy tắc nào?",
+      "explanation": "Hai quy tắc tác giả thông thường trong cùng một style, không có quy tắc khác: #x đặc hiệu hơn .note nên được chọn. Không suy rộng rằng id luôn thắng mọi nguồn hoặc lớp cascade."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l17-q13",
+    "reason": "Equal earlier cascade factors",
+    "before": {
+      "question": "Với .note{color:red} rồi p{color:blue}, p class=\"note\" nhận màu gì?",
+      "explanation": "Độ đặc hiệu của .note lớn hơn p nên thứ tự nguồn không đảo kết quả."
+    },
+    "after": {
+      "question": "Chỉ có .note{color:red} rồi p{color:blue} trong cùng thẻ style. p class=\"note\" nhận màu gì?",
+      "explanation": "Trong hai quy tắc thông thường cùng style này, .note đặc hiệu hơn p nên p có màu đỏ dù quy tắc p ở sau. Thứ tự nguồn chỉ phân định khi các yếu tố ưu tiên trước đó bằng nhau."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l21-q11",
+    "reason": "Official same-institution notices, not recency alone",
+    "before": {
+      "question": "Hai website ghi chỉ tiêu tuyển sinh khác năm. Cách đối chiếu nào đúng?"
+    },
+    "after": {
+      "question": "Hai thông báo tuyển sinh chính thức của cùng trường ghi chỉ tiêu khác năm. Cách đối chiếu nào đúng?"
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l22-q11",
+    "reason": "Factually accurate display-mode distractors, no whole-PC shutdown claim",
+    "before": {
+      "options": [
+        "Chọn Duplicate để nhân đôi hình.",
+        "Chọn PC screen only để tắt ti vi.",
+        "Chọn Second screen only để tắt máy.",
+        "Chọn Extend để mở rộng màn hình."
+      ],
+      "explanation": "Extend tạo vùng làm việc riêng trên từng màn hình."
+    },
+    "after": {
+      "options": [
+        "Chọn Duplicate để hai màn hình giống nhau.",
+        "Chọn PC screen only chỉ dùng màn hình máy.",
+        "Chọn Second screen only chỉ dùng màn phụ.",
+        "Chọn Extend để dùng hai vùng làm việc riêng."
+      ],
+      "explanation": "Extend tạo vùng làm việc trên hai màn hình để sắp xếp nội dung riêng. PC screen only và Second screen only chỉ dùng một màn hình; chúng không có nghĩa tắt nguồn toàn bộ máy tính."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l22-q15",
+    "reason": "Specify HDMI before recommending HDMI input",
+    "before": {
+      "question": "Đã nối laptop với ti vi đúng cáp, ti vi chọn sai nguồn. Cách xử lí trực tiếp là gì?"
+    },
+    "after": {
+      "question": "Đã nối laptop với ti vi bằng cáp HDMI đúng cổng nhưng ti vi chọn sai nguồn. Cách xử lí trực tiếp là gì?"
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l24-q02",
+    "reason": "Explicit textbook version scope for third-party tool",
+    "before": {
+      "question": "Google Sites lưu bản thiết kế website của người dùng ở đâu?"
+    },
+    "after": {
+      "question": "Theo Google Sites được mô tả trong SGK, bản thiết kế website của người dùng được quản lí ở đâu?"
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l27-q09",
+    "reason": "Current Forms publishing is separate from Sites publishing",
+    "before": {
+      "explanation": "Cần công bố/cập nhật thay đổi và kiểm tra quyền truy cập biểu mẫu."
+    },
+    "after": {
+      "explanation": "Sau khi nhúng, cần cập nhật bản xuất bản Google Sites. Với Google Forms hiện hành, biểu mẫu cũng phải được xuất bản và cấp quyền phản hồi phù hợp; xuất bản site không tự mở quyền Forms."
+    }
+  },
+  {
+    "kind": "mcq",
+    "id": "ext-l27-q11",
+    "reason": "Current granular responder permissions and publication",
+    "before": {
+      "explanation": "Thiết lập đối tượng phản hồi và đăng nhập ảnh hưởng khả năng gửi."
+    },
+    "after": {
+      "explanation": "Cần kiểm tra Forms đã xuất bản, đối tượng có quyền phản hồi và yêu cầu đăng nhập. Quyền xem Google Sites không tự cấp quyền gửi biểu mẫu; thiết lập có thể khác ảnh chụp trong SGK."
+    }
+  },
+  {
+    "kind": "tf",
+    "id": "t10",
+    "reason": "Cross-bank final consistency: align existing t10.c rationale with q54 and RFC9293 byte sequence numbers; key unchanged",
+    "before": {
+      "statements": [
+        {
+          "label": "a",
+          "level": "TH",
+          "answer": false,
+          "text": "Địa chỉ IP tự dùng cổng ứng dụng để bảo đảm mọi gói tải tệp không bị mất.",
+          "explanation": "IP không bảo đảm truyền đủ gói; TCP dùng cổng ở tầng giao vận để phân phối dữ liệu cho ứng dụng."
+        },
+        {
+          "label": "b",
+          "level": "TH",
+          "answer": false,
+          "text": "IP tự bảo đảm đủ mọi gói, đúng thứ tự và chuyển đến đúng ứng dụng.",
+          "explanation": "IP lập địa chỉ và định tuyến nhưng không bảo đảm đủ/thứ tự gói; TCP cung cấp truyền byte tin cậy ở tầng giao vận cho ứng dụng."
+        },
+        {
+          "label": "c",
+          "level": "VD",
+          "answer": true,
+          "text": "Để khôi phục tệp, nơi nhận cần lắp ghép gói dựa trên số thứ tự tương ứng.",
+          "explanation": "TCP đánh số các gói để ráp đúng dữ liệu."
+        },
+        {
+          "label": "d",
+          "level": "VD",
+          "answer": false,
+          "text": "Khi phát hiện mất gói, nên bỏ cơ chế gửi lại để vẫn bảo đảm tệp đầy đủ.",
+          "explanation": "Cần xác nhận và gửi lại khi thất lạc, sai sót."
+        }
+      ]
+    },
+    "after": {
+      "statements": [
+        {
+          "label": "a",
+          "level": "TH",
+          "answer": false,
+          "text": "Địa chỉ IP tự dùng cổng ứng dụng để bảo đảm mọi gói tải tệp không bị mất.",
+          "explanation": "IP không bảo đảm truyền đủ gói; TCP dùng cổng ở tầng giao vận để phân phối dữ liệu cho ứng dụng."
+        },
+        {
+          "label": "b",
+          "level": "TH",
+          "answer": false,
+          "text": "IP tự bảo đảm đủ mọi gói, đúng thứ tự và chuyển đến đúng ứng dụng.",
+          "explanation": "IP lập địa chỉ và định tuyến nhưng không bảo đảm đủ/thứ tự gói; TCP cung cấp truyền byte tin cậy ở tầng giao vận cho ứng dụng."
+        },
+        {
+          "label": "c",
+          "level": "VD",
+          "answer": true,
+          "text": "Để khôi phục tệp, nơi nhận cần lắp ghép gói dựa trên số thứ tự tương ứng.",
+          "explanation": "TCP dùng số thứ tự byte để khôi phục dòng dữ liệu theo đúng thứ tự, kể cả khi các đoạn đến khác thứ tự; không nên hiểu là chỉ đánh số từng gói."
+        },
+        {
+          "label": "d",
+          "level": "VD",
+          "answer": false,
+          "text": "Khi phát hiện mất gói, nên bỏ cơ chế gửi lại để vẫn bảo đảm tệp đầy đủ.",
+          "explanation": "Cần xác nhận và gửi lại khi thất lạc, sai sót."
+        }
+      ]
+    }
+  }
+]

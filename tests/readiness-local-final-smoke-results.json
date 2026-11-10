@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "base": "http://localhost:3006",
+  "checks": [
+    "Final bank/teacher mapping loaded and lesson semester metadata effective",
+    "All release TEST accounts locked and TEST assignments disabled",
+    "Default admin analytics excludes TEST evidence, explicit class filtering remains available",
+    "Prior v2 unsnapshotted closed draft displays its original bank/keys, not revised wording",
+    "Original A-only site still HTTP200; never redeployed or changed"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "baselineUsers": 18,
+  "baselinePasswordsUnchanged": true,
+  "baselineAcceptedResults": 22,
+  "baselineAcceptedResultsUnchanged": true,
+  "note": "Only counts/booleans reported; private snapshot and password hashes never printed"
+}

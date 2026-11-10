@@ -1,0 +1,70 @@
+q2	Fix historical precision: 1956 Dartmouth marks establishment of the research field; the proposal already used the term in 1955. Other choices describe unrelated inventions, not alternative AI origins.
+q3	History-based recommendations infer preferences from data, not electricity, cabling or file duplication; the learning answer is uniquely relevant. NB recognition appropriate.
+q4	Detecting pedestrians from camera imagery is visual perception; copying, power switching and file transport do not recognize scene objects. NB recognition appropriate.
+q5	Narrow AI is specialized, unlike all three alternatives claiming universal human-like knowledge; explanation correctly distinguishes scope rather than hardware.
+q6	MYCIN is a rule-based medical expert system, not backup, operating system or router software; does not require machine learning to count as AI.
+q7	Handwriting recognition maps visual character images to machine-processable text; alternatives change modalities or power without character recognition.
+q8	Voice-language requests are a common assistant interface; question says usually, not exclusively, so text-only assistants do not invalidate the key.
+q9	Translation directly operates on natural language; copying files and carrying bits do not establish language processing. 'Understand' is functional, not a claim of human cognition.
+q11	Inference derives conclusions from rules/knowledge; the other three options merely add power/storage/network capacity. TH compares capabilities appropriately.
+q12	The combined task requires visual perception of a sign and language generation for its description; none of the other options invokes both.
+q13	Rule-based reasoning is enough for the MYCIN example; high hardware capacity or bandwidth alone does not imply intelligence. TH explanation aligns.
+q15	Selecting speech-language processing for spoken Vietnamese questions is a simple application of requirements; key correct. VD is introductory, distractors are deliberately easy, not calibrated high difficulty.
+q17	Transaction-fraud detection fits finance/banking; traffic, farming and medical-image alternatives belong to other domains, making the requested match unique.
+q18	Personalization adapts content to individual progress; ignoring feedback or imposing identical immutable material contradicts that function.
+q19	Environmental data used to predict agricultural outcomes is the AI application; modulation, printer sharing and IP assignment are unrelated networking functions.
+q20	Generative AI produces new content; copying, storing and transmitting existing data are not generation. Does not assert output is original/correct in every case.
+q21	The qualified loss of some jobs is plausible; universal instant replacement and universal income gains are unjustified, while cable power is irrelevant.
+q22	Collection/misuse of personal data is the privacy risk; physical cable/device appearance changes are not privacy breaches.
+q23	Black-box terminology concerns explainability, not file storage or fixed timers; explanation does not imply all AI models are equally opaque.
+q24	Stem explicitly asks according to the textbook; AGI is described as a research goal, avoiding a time-sensitive claim of universally settled 2026 capability.
+q26	Driving combines environmental perception and action/decision reasoning; alternatives omit required sensing or describe unrelated printer tasks.
+q27	Potential patient harm justifies professional oversight; neither infallible data nor offline-only/backup-only claims is valid. Key and safety rationale align.
+q28	Fluent language behavior alone is insufficient evidence of broad intelligence; other choices incorrectly deny data dependence or substitute wiring/power.
+q30	Discordant AI diagnosis needs data checking and clinician judgement; changing observations, blind acceptance and public disclosure are unsafe. Simple scenario application, not medical advice.
+q32	Fix missing known-unicast premise: an ordinary switch can also flood broadcast/unknown-unicast traffic, making the generic contrast with option0 too absolute.
+q33	A WAP provides wireless client access into the local network; it is neither a translator, power supply nor DNS server.
+q34	Router routing/forwarding across networks is unique among storage, hub repeating and printing. Acknowledges logical routing function, not only standalone appliance shape.
+q35	Scoped to textbook modulation/demodulation model, the digital/analog conversion answer is correct; payload meaning is not changed merely by changing signal representation.
+q36	RJ45-style 8P8C Ethernet connector is the textbook term for UTP networking; HDMI, audio and power connectors are not alternatives for this described cable.
+q37	LAN ports face the local network, contrasting WAN-facing connectivity; unrelated physical power/display/storage alternatives cannot satisfy it.
+q38	Wi-Fi is radio transmission; fluid, pneumatic and DC-power descriptions are not its radio medium. NB recall with uniquely correct option.
+q39	SIM is the relevant cellular modem component. Fix rationale that conflated GSM specifically with every 3G/4G/5G standard; preserve the textbook's broad device label.
+q41	A physical link alone need not establish IP configuration/routing/upstream access; display brightness and file naming cannot repair missing logical configuration.
+q42	A Wi-Fi router integrates routing and wireless AP functions; unlike a plain WAP it is not limited to layer-2 access. Other options are not network-device functions.
+q43	Signal modulation and network-layer routing are distinct; combined home gateways may implement both but do not make the conceptual functions identical.
+q47	SMTP sends/submits/relays mail, whereas POP3/IMAP retrieve/access it; DNS and routing choices are distinct protocols. Explanation aligns with textbook p21.
+q48	The specified textbook Ethernet MAC address is 48bits/6bytes; other byte lengths are incorrect. Stem's textbook scope avoids claiming every address family uses this size.
+q49	Key correctly identifies error detection. Fix rationale: a frame check value alone does not mandate retransmission, particularly Ethernet FCS; recovery depends on the protocol.
+q50	IPv4 address is 32bits/4bytes; 16/48/64bit distractors confuse other sizes. Dotted decimal representation is valid and scope-correct.
+q51	IP addressing/forwarding is distinct from printing, file naming and font selection. Does not claim IP itself provides reliable delivery.
+q52	TCP destination ports demultiplex to the receiving application endpoint; GUI colors, icon size and shortcut position do not participate.
+q53	DNS supports resolving human-readable domain names into address records; other proposed substitutions have no name-resolution meaning.
+q54	Fix byte-stream precision: TCP sequence numbers order data bytes, not merely ordinal packet IDs. Reword stem around sequence numbers while retaining reassembly purpose and the same key.
+q56	The textbook host-versus-application distinction is correct for IP/TCP layering; nonsensical paper/power/printing alternatives cannot be valid endpoints.
+q57	Fix missing prerequisite: only a configured usable default route can be chosen when no more-specific route matches; otherwise the packet can be discarded.
+q58	Make correct-routing configuration explicit; each hop selects forwarding from destination/routing information, not payload translation or address deletion, without guaranteeing delivery in a broken network.
+t2.a	False: obstacle recognition is perception, not adding storage. The scenario explicitly supplies a camera and detection function.
+t2.b	True: understanding a spoken question and generating a spoken answer require language processing in this described assistant, not merely playback.
+t2.c	False: removing the only described camera while leaving motion logic unchanged removes obstacle information; the recommendation cannot justify collision reduction.
+t2.d	True: support for an additional visitors' language requires corresponding language capability; scenario applies an identified functional requirement.
+t3.a	True: deriving conclusions from expert facts/rules is inference, exactly the mechanism stated for MYCIN.
+t3.b	False: a fixed bell timer follows a schedule rather than reasoning over medical knowledge; automation alone is not equivalent capability.
+t3.c	True: tracing rules to a conclusion demonstrates reasoning; straightforward VD instructional design, not a claim of learned statistical inference.
+t3.d	False: recognizing handwriting needs character-recognition capability, not additional router ports. Very easy application distractor but no ambiguity.
+t5.a	False: fluent responses alone do not demonstrate general intelligence; no conflict with the scenario's narrow study-assistant function.
+t5.b	True: exposing personal profiles can increase privacy/misuse risk; 'can' avoids claiming a breach is inevitable for every tool.
+t5.c	True: conflict with the book calls for reliable cross-checking/teacher reasoning, not unconditional preference for either source without analysis.
+t5.d	False: sharing other people's complete profiles without permission is not a justified privacy practice; explanation aligns.
+t6.a	True: unexplained model decisions are an explainability/transparency concern, independent of whether a specific prediction is correct.
+t6.b	False: unauthorized model changes can alter clinically relevant outputs, not merely wallpaper; explanation captures patient-safety consequences.
+t6.c	False: unexplained outputs do not justify removing clinician checks; high-stakes decisions need supervision.
+t6.d	True: suspected tampering warrants investigation and model/data protection; applied cybersecurity response matches scenario.
+a-old-19.a	True: Vietnamese question answering exemplifies NLP; no claim that this proves general intelligence.
+a-old-19.b	False: personalized practice is a narrow task and is insufficient to establish AGI; reasoning distinguishes task performance from generality.
+a-old-19.c	False: known fallible generated solutions need checking against reliable reasoning/teachers; blind acceptance is unjustified.
+a-old-19.d	True: collection minimization and access permissions reduce profile-data misuse; neither promises absolute anonymity nor changes answers.
+a-old-20.a	False: detecting pest symptoms entails interpreting visual input, not just scheduled image storage as claimed.
+a-old-20.b	True: environmental-data irrigation prediction is the specified agricultural AI use; accurate textbook application.
+a-old-20.c	True: after sensor replacement and anomalous outputs, validate sensor/data against reality before automatic irrigation; sound applied diagnosis.
+a-old-20.d	False: identifiable worker images require purpose, lawful sharing basis and protection; unrestricted original-image transfer is not justified.

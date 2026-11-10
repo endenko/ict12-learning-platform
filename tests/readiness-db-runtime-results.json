@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "checks": [
+    "Twelve concurrent RPC calls: exactly five admitted, seven rejected with bounded Retry-After",
+    "RPC denies a wrong shared secret even when a configured API key is present",
+    "Independent DB guard rejects late attempt insertion even without assignmentId; nothing inserted",
+    "DB rejects removing assignment/deadline snapshot from a closed TEST record; data and version unchanged"
+  ]
+}
