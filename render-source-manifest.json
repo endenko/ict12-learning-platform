@@ -1,0 +1,20 @@
+{
+  "files": [
+    "package.json",
+    "server.js",
+    "vercel.json",
+    "api/index.js",
+    "lib/db.js",
+    "lib/engine.js",
+    "lib/exams.json",
+    "lib/lessons.json",
+    "public/index.html",
+    "public/app.js",
+    "public/base.css",
+    "public/style.css",
+    ".gitignore",
+    "RENDER_HANDOVER.md"
+  ],
+  "visibilityRequired": "PRIVATE",
+  "noSecrets": true
+}

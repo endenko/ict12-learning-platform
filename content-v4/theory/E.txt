@@ -1,0 +1,299 @@
+=== 19
+@goals
+- Nêu được công việc chính của nghề sửa chữa và bảo trì máy tính.
+- Biết những kiến thức, kĩ năng, phẩm chất cần có của người làm nghề.
+- Nhận biết nhu cầu nhân lực của nghề trong xã hội.
+@sec Công việc của nghề
+| Nhóm công việc | Ví dụ |
+| Lắp ráp, nâng cấp phần cứng | Lắp máy mới, thêm RAM, thay ổ HDD bằng SSD |
+| Cài đặt phần mềm | Cài hệ điều hành, trình điều khiển (driver), ứng dụng, phần mềm diệt virus |
+| Chẩn đoán, sửa chữa | Tìm nguyên nhân máy không khởi động, màn hình xanh (BSOD), quá nhiệt |
+| Bảo trì định kì | Vệ sinh bụi, tra keo tản nhiệt, cập nhật phần mềm, kiểm tra ổ đĩa |
+| Sao lưu, khôi phục dữ liệu | Sao lưu dữ liệu khách hàng, cứu dữ liệu khi ổ hỏng |
+:::note **Bảo trì phòng ngừa** (định kì) giúp hạn chế hỏng hóc do bụi, nhiệt, phần mềm cũ – tiết kiệm hơn sửa chữa khi đã hỏng.
+@sec Quy trình chẩn đoán sự cố
+:::flow Tiếp nhận, ghi nhận triệu chứng > Kiểm tra nguyên nhân đơn giản (nguồn, cáp, RAM) > Thử nghiệm, thay thế từng bộ phận > Sửa chữa > Kiểm tra lại, bàn giao, ghi hồ sơ
+- Đi từ nguyên nhân **dễ, rẻ** đến phức tạp.
+- Sao lưu và bảo vệ dữ liệu của khách trước khi xử lí.
+- Ghi hồ sơ sửa chữa giúp minh bạch với khách và chẩn đoán nhanh lần sau.
+@sec Kiến thức, kĩ năng và phẩm chất
+- **Kiến thức:** cấu tạo máy tính (CPU, RAM, ổ cứng HDD/SSD, bo mạch chủ, nguồn PSU, GPU), hệ điều hành, mạng, phần mềm.
+- **Kĩ năng:** sử dụng dụng cụ, chẩn đoán, tự học công nghệ mới, giao tiếp với khách hàng, đọc tài liệu tiếng Anh.
+- **An toàn:** ngắt điện trước khi tháo máy, chống **tĩnh điện** (vòng đeo tay chống tĩnh điện).
+- **Đạo đức nghề:** trung thực, tôn trọng **quyền riêng tư** dữ liệu của khách.
+@sec Nhu cầu nhân lực
+Số lượng máy tính, thiết bị số ở gia đình, trường học, doanh nghiệp tăng nhanh nên nhu cầu kĩ thuật viên hỗ trợ, bảo trì luôn lớn. Có thể học nghề tại trường cao đẳng, trung cấp, trung tâm đào tạo hoặc ngành Kĩ thuật máy tính ở đại học.
+@remember
+- Nghề gồm: lắp ráp, cài đặt, chẩn đoán – sửa chữa, bảo trì, sao lưu – khôi phục dữ liệu.
+- Chẩn đoán từ nguyên nhân đơn giản; an toàn điện và chống tĩnh điện.
+- Trung thực, bảo vệ quyền riêng tư dữ liệu khách hàng.
+@mistakes
+- Tháo máy khi còn cắm điện => Luôn ngắt nguồn và chống tĩnh điện trước.
+- Cài lại hệ điều hành ngay khi máy chậm => Kiểm tra nguyên nhân đơn giản trước (ổ đầy, mã độc, phần mềm khởi động).
+- Tự ý xem, sao chép dữ liệu cá nhân của khách => Vi phạm đạo đức và pháp luật.
+@terms
+- Bảo trì định kì :: Kiểm tra, vệ sinh, cập nhật thường xuyên để phòng hỏng hóc.
+- BSOD :: Màn hình xanh báo lỗi nghiêm trọng của Windows.
+- Driver :: Trình điều khiển giúp hệ điều hành làm việc với thiết bị.
+- Tĩnh điện :: Điện tích tích tụ có thể làm hỏng linh kiện.
+- SSD :: Ổ lưu trữ dùng bộ nhớ flash, nhanh hơn HDD.
+- PSU :: Bộ nguồn cấp điện cho các linh kiện.
+@cards
+- Kể 3 công việc của nghề sửa chữa, bảo trì máy tính. :: Lắp ráp, cài đặt phần mềm, chẩn đoán sửa lỗi (bảo trì, khôi phục dữ liệu…).
+- Vì sao nên bảo trì định kì? :: Phòng ngừa hỏng do bụi, nhiệt, phần mềm cũ; tiết kiệm chi phí.
+- Nguyên tắc chẩn đoán sự cố? :: Đi từ nguyên nhân đơn giản, rẻ đến phức tạp.
+- Việc đầu tiên khi tháo máy? :: Ngắt điện, chống tĩnh điện.
+- SSD hơn HDD ở điểm nào? :: Nhanh hơn, bền va đập hơn (bộ nhớ flash).
+- PSU là gì? :: Bộ nguồn cấp điện cho máy tính.
+- Phẩm chất đạo đức quan trọng của nghề? :: Trung thực, tôn trọng quyền riêng tư của khách.
+- Vì sao nhu cầu nhân lực nghề này lớn? :: Thiết bị số tăng nhanh ở mọi nơi.
+@check
+? Máy tính không lên hình. Bước kiểm tra hợp lí đầu tiên là:
++ Kiểm tra dây nguồn, cáp màn hình và RAM.
+- Thay ngay bo mạch chủ mới.
+- Cài lại hệ điều hành.
+- Mua máy mới.
+= Bắt đầu từ nguyên nhân đơn giản.
+? Việc nào thuộc bảo trì định kì?
++ Vệ sinh bụi và thay keo tản nhiệt CPU.
+- Thay màn hình bị vỡ.
+- Cứu dữ liệu từ ổ hỏng.
+- Lắp ráp máy mới cho khách.
+= Bảo trì định kì nhằm phòng ngừa.
+? Khi sửa máy cho khách, kĩ thuật viên phát hiện nhiều ảnh cá nhân. Ứng xử đúng?
++ Không xem, không sao chép; chỉ xử lí phần việc được yêu cầu.
+- Sao chép giữ làm kỉ niệm.
+- Đăng lên mạng xã hội.
+- Gửi cho bạn bè xem.
+= Tôn trọng quyền riêng tư là yêu cầu đạo đức, pháp lí.
+? Vật dụng giúp tránh tĩnh điện khi lắp linh kiện?
++ Vòng đeo tay chống tĩnh điện.
+- Găng tay len.
+- Máy sấy tóc.
+- Băng dính.
+= Tĩnh điện có thể làm hỏng linh kiện.
+
+=== 20
+@goals
+- Biết các nghề trong nhóm nghề quản trị thuộc ngành Công nghệ thông tin: quản trị mạng, quản trị hệ thống, quản trị cơ sở dữ liệu, an ninh mạng.
+- Nêu được công việc, yêu cầu kiến thức, kĩ năng của người quản trị.
+- Hiểu một số biện pháp bảo mật cơ bản: phân quyền, mật khẩu mạnh, xác thực hai yếu tố, sao lưu.
+@sec Các nghề quản trị
+| Nghề | Công việc chính |
+| Quản trị mạng | Thiết kế, lắp đặt, cấu hình, giám sát hạ tầng mạng (router, switch, tường lửa, VPN) |
+| Quản trị hệ thống | Vận hành máy chủ, hệ điều hành, tài khoản người dùng, cập nhật bản vá, sao lưu |
+| Quản trị cơ sở dữ liệu | Cài đặt, phân quyền, sao lưu, phục hồi, tối ưu CSDL |
+| An ninh mạng | Phát hiện, phòng chống tấn công, xử lí sự cố an ninh |
+@sec Bảo mật và an toàn hệ thống
+- **Phân quyền theo vai trò** và nguyên tắc **đặc quyền tối thiểu**; thu hồi quyền ngay khi nhân viên nghỉ việc.
+- **Mật khẩu mạnh** + **xác thực hai yếu tố (2FA)**: lộ mật khẩu vẫn khó bị đăng nhập.
+- **Cập nhật bản vá** để sửa lỗ hổng bảo mật.
+- **Sao lưu** thường xuyên, lưu bản sao **tách biệt** (khác nơi), **kiểm thử khôi phục** – chống ransomware, cháy nổ.
+- **VPN** tạo kênh mã hóa khi truy cập mạng nội bộ từ xa; **UPS** chống mất dữ liệu khi mất điện.
+- Theo dõi **nhật kí (log)** để phát hiện bất thường; đào tạo người dùng nhận biết **phishing**.
+:::flow Phòng ngừa (phân quyền, vá lỗi) > Giám sát (log, cảnh báo) > Phản ứng sự cố > Khôi phục (sao lưu)
+@sec Yêu cầu đối với người quản trị
+- Kiến thức về mạng, hệ điều hành, CSDL, an toàn thông tin; chứng chỉ nghề phổ biến như CCNA (mạng).
+- Kĩ năng xử lí sự cố bình tĩnh, giao tiếp, làm việc nhóm, tự học liên tục.
+- Trách nhiệm, trung thực, giữ bí mật thông tin của tổ chức.
+@remember
+- Nhóm nghề quản trị: mạng, hệ thống, cơ sở dữ liệu, an ninh mạng.
+- Biện pháp: đặc quyền tối thiểu, mật khẩu mạnh + 2FA, vá lỗi, sao lưu tách biệt và kiểm thử, VPN, log.
+- Người quản trị cần kiến thức rộng, bình tĩnh xử lí sự cố, trung thực, bảo mật.
+@mistakes
+- Lưu bản sao lưu cùng máy chủ gốc => Cháy nổ, ransomware có thể hỏng cả hai; cần lưu tách biệt.
+- Sao lưu nhưng chưa bao giờ thử khôi phục => Bản sao lưu có thể hỏng mà không biết.
+- Cấp quyền quản trị cho mọi nhân viên => Chỉ cấp quyền cần thiết cho công việc.
+@terms
+- Quản trị mạng :: Vận hành, giám sát hạ tầng mạng của tổ chức.
+- Đặc quyền tối thiểu :: Chỉ cấp quyền vừa đủ cho công việc.
+- 2FA :: Xác thực hai yếu tố (mật khẩu + mã/thiết bị).
+- Ransomware :: Mã độc mã hóa dữ liệu để đòi tiền chuộc.
+- Phishing :: Lừa đảo giả mạo để đánh cắp thông tin.
+- VPN :: Mạng riêng ảo, tạo kênh kết nối mã hóa.
+- Log :: Nhật kí ghi lại sự kiện của hệ thống.
+@cards
+- Kể 4 nghề trong nhóm quản trị CNTT. :: Quản trị mạng, quản trị hệ thống, quản trị CSDL, an ninh mạng.
+- Nguyên tắc đặc quyền tối thiểu? :: Chỉ cấp quyền vừa đủ cho công việc.
+- 2FA giúp gì khi lộ mật khẩu? :: Kẻ gian vẫn cần yếu tố thứ hai nên khó đăng nhập.
+- Vì sao cần lưu bản sao lưu tách biệt? :: Để khôi phục khi máy chủ gốc bị cháy hoặc ransomware.
+- Ransomware là gì? :: Mã độc khóa/mã hóa dữ liệu đòi tiền chuộc.
+- VPN dùng để làm gì? :: Truy cập mạng nội bộ từ xa qua kênh mã hóa.
+- Log giúp gì cho quản trị viên? :: Phát hiện bất thường, điều tra sự cố.
+- CCNA là gì? :: Chứng chỉ phổ biến về quản trị mạng.
+@check
+? Một nhân viên nghỉ việc. Người quản trị hệ thống nên làm gì ngay?
++ Thu hồi, khóa quyền truy cập của tài khoản đó.
+- Giữ nguyên để nhân viên còn dùng.
+- Cấp thêm quyền quản trị.
+- Đăng mật khẩu lên nhóm chung.
+= Thu hồi quyền để tránh truy cập trái phép.
+? Công ty bị ransomware mã hóa dữ liệu. Biện pháp giúp khôi phục mà không trả tiền chuộc?
++ Có bản sao lưu tách biệt đã được kiểm thử.
+- Tắt màn hình.
+- Đổi hình nền máy chủ.
+- Gỡ chuột và bàn phím.
+= Sao lưu tách biệt là cơ sở để phục hồi.
+? Việc nào là của quản trị cơ sở dữ liệu?
++ Phân quyền, sao lưu và tối ưu truy vấn CSDL.
+- Lắp đặt cáp mạng tại phòng họp.
+- Thiết kế logo công ty.
+- Sửa máy in bị kẹt giấy.
+= Quản trị CSDL lo cài đặt, phân quyền, sao lưu, tối ưu.
+? Email yêu cầu "xác minh tài khoản gấp" kèm đường link lạ là dấu hiệu của:
++ Phishing (lừa đảo giả mạo).
+- Cập nhật bản vá.
+- Sao lưu định kì.
+- VPN.
+= Phishing dụ người dùng tiết lộ thông tin.
+
+=== 21
+@goals
+- Biết cách tổ chức một hội thảo hướng nghiệp về các nghề trong lĩnh vực Tin học.
+- Thu thập, đánh giá, tổng hợp được thông tin nghề nghiệp từ nguồn tin cậy.
+- Trình bày, giao lưu và đánh giá được kết quả hội thảo.
+@sec Các bước tổ chức hội thảo
+:::flow Xác định mục tiêu, chủ đề > Lập kế hoạch, phân công > Thu thập thông tin > Chuẩn bị nội dung, khách mời > Tổ chức > Đánh giá, rút kinh nghiệm
+- **Mục tiêu, chủ đề** quyết định các bước tiếp theo (vd: "Nghề trong ngành Công nghệ thông tin").
+- **Kế hoạch** cần đủ: thời gian, địa điểm, đối tượng, chương trình, phân công, thiết bị, kinh phí.
+- **Thư mời** khách (người làm nghề, cựu học sinh) rõ ràng, lịch sự.
+@sec Thu thập và đánh giá thông tin nghề nghiệp
+- Ưu tiên **nguồn chính thức**: website trường đại học, cao đẳng; cơ quan nhà nước về lao động, việc làm; doanh nghiệp uy tín.
+- **Đối chiếu nhiều nguồn**, ghi rõ nguồn và thời điểm để người nghe đánh giá độ tin cậy, tính cập nhật.
+- Cảnh giác các "trung tâm" thu phí giữ chỗ, hứa hẹn việc làm lương cao – dấu hiệu lừa đảo.
+| Thông tin cần tìm | Ví dụ |
+| Mô tả công việc | Lập trình viên, kĩ thuật viên, quản trị mạng… |
+| Yêu cầu kiến thức, kĩ năng | Toán, lập trình, tiếng Anh, làm việc nhóm |
+| Nơi đào tạo | Trường đại học, cao đẳng, trung cấp |
+| Nhu cầu và thu nhập | Số liệu thị trường lao động có nguồn rõ ràng |
+@sec Trình bày và đánh giá
+- Bài trình bày có trọng tâm, minh họa bằng bảng, biểu đồ, trình chiếu; có phần **hỏi đáp** để người nghe hiểu sâu.
+- **MC** dẫn dắt, kết nối các phần, điều phối thời gian.
+- Thu **phản hồi** (phiếu khảo sát), so sánh trước – sau, viết báo cáo tổng kết, rút kinh nghiệm.
+@remember
+- Mục tiêu → kế hoạch → thông tin → nội dung → tổ chức → đánh giá.
+- Thông tin nghề lấy từ nguồn chính thức, đối chiếu, ghi nguồn và thời điểm.
+- Có hỏi đáp, MC điều phối, thu phản hồi để rút kinh nghiệm.
+@mistakes
+- Dùng thông tin từ một bài đăng mạng xã hội không rõ nguồn => Ưu tiên nguồn chính thức, đối chiếu nhiều nguồn.
+- Chọn nghề chỉ theo xu hướng hoặc bạn bè => Cân bằng sở thích, năng lực và nhu cầu thị trường.
+- Kết thúc hội thảo mà không thu phản hồi => Phản hồi giúp đánh giá và cải tiến.
+@terms
+- Hội thảo hướng nghiệp :: Sự kiện giới thiệu, giao lưu về nghề nghiệp, giúp học sinh định hướng.
+- Kế hoạch :: Văn bản nêu mục tiêu, thời gian, nội dung, phân công, nguồn lực.
+- Nguồn chính thức :: Nguồn từ cơ quan, tổ chức có thẩm quyền, uy tín.
+- Phản hồi :: Ý kiến người tham dự sau hoạt động.
+@cards
+- Bước đầu tiên khi tổ chức hội thảo? :: Xác định mục tiêu, chủ đề.
+- Kế hoạch hội thảo cần có gì? :: Thời gian, địa điểm, đối tượng, chương trình, phân công, thiết bị.
+- Nguồn thông tin nghề đáng tin cậy? :: Website trường, cơ quan nhà nước, doanh nghiệp uy tín.
+- Vì sao cần ghi nguồn và thời điểm? :: Để người nghe đánh giá độ tin cậy và tính cập nhật.
+- Vai trò của MC? :: Dẫn dắt, kết nối các phần, điều phối thời gian.
+- Dấu hiệu lừa đảo tuyển sinh, việc làm? :: Thu phí giữ chỗ, hứa lương cao bất thường.
+- Chọn nghề cần cân bằng những yếu tố nào? :: Sở thích, năng lực, nhu cầu thị trường.
+- Sau hội thảo cần làm gì? :: Thu phản hồi, viết báo cáo tổng kết, rút kinh nghiệm.
+@check
+? Nguồn nào đáng tin cậy nhất về chỉ tiêu tuyển sinh ngành CNTT của một trường đại học?
++ Website chính thức của trường đó.
+- Bình luận ẩn danh trên diễn đàn.
+- Tin nhắn quảng cáo không rõ người gửi.
+- Lời đồn của bạn bè.
+= Nguồn chính thức, cập nhật.
+? Phần hỏi đáp trong hội thảo giúp gì?
++ Người nghe hiểu sâu hơn và giải đáp thắc mắc cụ thể.
+- Kéo dài thời gian cho đủ giờ.
+- Thay thế hoàn toàn phần trình bày.
+- Không có tác dụng.
+= Hỏi đáp giúp hiểu sâu.
+? Cách đánh giá hiệu quả hội thảo hợp lí?
++ Dùng phiếu khảo sát trước – sau và tổng hợp phản hồi.
+- Đếm số ghế trong hội trường.
+- Hỏi ý kiến của riêng ban tổ chức.
+- Không cần đánh giá.
+= So sánh trước – sau để đo hiệu quả.
+? Một trung tâm yêu cầu nộp phí "giữ chỗ việc làm" trước. Đây có thể là:
++ Dấu hiệu lừa đảo.
+- Quy định bắt buộc của nhà nước.
+- Cách tuyển dụng chuẩn của mọi công ty.
+- Học bổng.
+= Thu phí giữ chỗ là dấu hiệu lừa đảo phổ biến.
+
+=== 22
+@goals
+- Kết nối được máy tính với màn hình ngoài, máy chiếu và chọn chế độ hiển thị phù hợp.
+- Kết nối, ghép đôi được thiết bị qua Bluetooth.
+- Biết điều khiển thiết bị thông minh qua mạng và các lưu ý an toàn.
+@sec Kết nối màn hình, máy chiếu
+| Cổng | Đặc điểm |
+| VGA | Tín hiệu **analog**, chỉ truyền hình ảnh |
+| HDMI | Tín hiệu **số**, truyền cả hình ảnh và âm thanh |
+| DisplayPort | Tín hiệu số, chất lượng cao, phổ biến trên máy tính |
+| USB-C | Nhiều cổng hỗ trợ xuất hình (DisplayPort Alt Mode) |
+- Nếu cổng không khớp (vd máy chỉ có HDMI, máy chiếu chỉ có VGA) cần **bộ chuyển đổi** số – analog.
+- Trên máy chiếu chọn đúng **nguồn vào** (Source/Input); chỉnh **focus** nếu hình mờ.
+- Phím tắt Windows **Win + P** chọn chế độ hiển thị:
+| Chế độ | Ý nghĩa |
+| PC screen only | Chỉ màn hình máy tính |
+| Duplicate | Nhân bản – hai màn hình giống nhau (thuyết trình) |
+| Extend | Mở rộng – hai màn hình thành một vùng làm việc lớn |
+| Second screen only | Chỉ dùng màn hình ngoài |
+:::note Hình bị lệch, tràn viền thường do **độ phân giải** không khớp – chỉnh trong Display settings. Âm thanh không ra loa máy chiếu: chọn đúng **thiết bị đầu ra** âm thanh.
+@sec Kết nối Bluetooth
+:::flow Bật Bluetooth hai thiết bị > Đặt thiết bị ở chế độ ghép đôi > Settings › Bluetooth & devices › Add device > Đối chiếu mã ghép đôi > Kết nối
+- Bluetooth là kết nối **không dây tầm ngắn** (khoảng 10 m), dùng cho tai nghe, chuột, loa, truyền tệp nhỏ.
+- Thiết bị đã ghép đôi được ghi nhớ cho lần sau.
+- Tắt chế độ hiển thị/khám phá khi không dùng để tránh thiết bị lạ ghép đôi.
+- Chiếu không dây (screen mirroring, cast) thường yêu cầu các thiết bị **cùng mạng Wi-Fi**.
+@sec Điều khiển thiết bị thông minh
+- Thiết bị nhà thông minh (đèn, ổ cắm, camera, điều hòa) kết nối Wi-Fi và được điều khiển qua **ứng dụng** trên điện thoại; lệnh đi qua máy chủ của hãng trên Internet nên có thể điều khiển **từ xa**.
+- Có thể **lập lịch** bật/tắt, nhận thông báo, tạo kịch bản tự động.
+- **An toàn:** đổi mật khẩu mặc định, dùng mật khẩu mạnh + 2FA cho tài khoản ứng dụng, cập nhật firmware; tài khoản bị chiếm có thể bị điều khiển thiết bị trái phép.
+@remember
+- VGA analog chỉ có hình; HDMI/DisplayPort số, HDMI có cả tiếng. Win + P chọn Duplicate/Extend.
+- Bluetooth: tầm ngắn, cần ghép đôi và đối chiếu mã.
+- Thiết bị thông minh điều khiển qua ứng dụng, Internet; bảo vệ tài khoản và cập nhật thường xuyên.
+@mistakes
+- Dùng Duplicate khi muốn xem ghi chú riêng lúc thuyết trình => Dùng Extend để hai màn hình khác nhau.
+- Cắm HDMI mà máy chiếu vẫn báo "No signal" => Chọn đúng Source/Input trên máy chiếu.
+- Để mật khẩu mặc định cho camera thông minh => Đổi mật khẩu mạnh, bật 2FA.
+@terms
+- HDMI :: Chuẩn kết nối số truyền hình ảnh và âm thanh.
+- VGA :: Chuẩn kết nối analog chỉ truyền hình ảnh.
+- Duplicate / Extend :: Nhân bản / mở rộng màn hình.
+- Bluetooth :: Công nghệ kết nối không dây tầm ngắn.
+- Ghép đôi (pairing) :: Thiết lập kết nối tin cậy giữa hai thiết bị Bluetooth.
+- Nhà thông minh :: Thiết bị gia dụng kết nối mạng, điều khiển qua ứng dụng.
+@cards
+- Cổng nào truyền cả hình và tiếng dạng số? :: HDMI.
+- VGA truyền tín hiệu loại nào? :: Analog, chỉ hình ảnh.
+- Phím tắt chọn chế độ màn hình trong Windows? :: Win + P.
+- Duplicate là gì? :: Hai màn hình hiển thị giống nhau.
+- Extend là gì? :: Mở rộng thành vùng làm việc lớn trên hai màn hình.
+- Tầm hoạt động điển hình của Bluetooth? :: Khoảng 10 m (tầm ngắn).
+- Máy chiếu báo "No signal" nên làm gì? :: Chọn đúng nguồn vào Source/Input, kiểm tra cáp.
+- Bảo vệ thiết bị nhà thông minh thế nào? :: Đổi mật khẩu mặc định, 2FA, cập nhật firmware.
+@check
+? Giáo viên muốn trình chiếu slide lên máy chiếu nhưng xem ghi chú riêng trên laptop. Chọn chế độ:
++ Extend.
+- Duplicate.
+- PC screen only.
+- Tắt màn hình.
+= Extend cho hai màn hình nội dung khác nhau.
+? Laptop chỉ có cổng HDMI, máy chiếu chỉ có cổng VGA. Cần:
++ Bộ chuyển đổi HDMI sang VGA.
+- Cáp USB in ấn.
+- Tai nghe Bluetooth.
+- Không thể kết nối.
+= Cần chuyển tín hiệu số sang analog.
+? Kết nối tai nghe không dây với laptop phổ biến nhất dùng:
++ Bluetooth.
+- VGA.
+- RJ45.
+- DisplayPort.
+= Bluetooth cho thiết bị tầm ngắn.
+? Vì sao có thể bật đèn ở nhà khi đang ở trường?
++ Lệnh từ ứng dụng đi qua Internet tới thiết bị thông minh.
+- Bluetooth có tầm hàng chục km.
+- Đèn tự đọc suy nghĩ.
+- Nhờ cáp VGA dài.
+= Điều khiển từ xa qua máy chủ, Internet.

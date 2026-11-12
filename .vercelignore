@@ -1,0 +1,12 @@
+.env
+*.txt
+schema*.sql
+source
+scripts
+setup.js
+make-*.py
+admin-seed.json
+testing-tools
+tests
+*.png
+*.log

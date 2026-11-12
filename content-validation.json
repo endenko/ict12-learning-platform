@@ -1,0 +1,241 @@
+{
+  "exams": [
+    {
+      "id": "topic-A",
+      "mcq": 18,
+      "tf": 2,
+      "levels": {
+        "NB": 12,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 5,
+        "1": 5,
+        "2": 4,
+        "3": 4
+      },
+      "topics": {
+        "A": 18
+      }
+    },
+    {
+      "id": "topic-B",
+      "mcq": 18,
+      "tf": 2,
+      "levels": {
+        "NB": 12,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 5,
+        "1": 5,
+        "2": 4,
+        "3": 4
+      },
+      "topics": {
+        "B": 18
+      }
+    },
+    {
+      "id": "topic-C",
+      "mcq": 18,
+      "tf": 2,
+      "levels": {
+        "NB": 12,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 5,
+        "1": 5,
+        "2": 4,
+        "3": 4
+      },
+      "topics": {
+        "C": 18
+      }
+    },
+    {
+      "id": "lesson-1",
+      "mcq": 15,
+      "tf": 2,
+      "levels": {
+        "NB": 9,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 3
+      },
+      "topics": {
+        "A": 15
+      }
+    },
+    {
+      "id": "lesson-2",
+      "mcq": 15,
+      "tf": 2,
+      "levels": {
+        "NB": 9,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 3
+      },
+      "topics": {
+        "A": 15
+      }
+    },
+    {
+      "id": "lesson-3",
+      "mcq": 15,
+      "tf": 2,
+      "levels": {
+        "NB": 9,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 3
+      },
+      "topics": {
+        "B": 15
+      }
+    },
+    {
+      "id": "lesson-4",
+      "mcq": 15,
+      "tf": 2,
+      "levels": {
+        "NB": 9,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 3
+      },
+      "topics": {
+        "B": 15
+      }
+    },
+    {
+      "id": "lesson-5",
+      "mcq": 15,
+      "tf": 2,
+      "levels": {
+        "NB": 9,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 3
+      },
+      "topics": {
+        "B": 15
+      }
+    },
+    {
+      "id": "lesson-6",
+      "mcq": 15,
+      "tf": 2,
+      "levels": {
+        "NB": 9,
+        "TH": 4,
+        "VD": 2
+      },
+      "answers": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 3
+      },
+      "topics": {
+        "C": 15
+      }
+    },
+    {
+      "id": "combined-AB",
+      "mcq": 45,
+      "tf": 9,
+      "levels": {
+        "NB": 30,
+        "TH": 10,
+        "VD": 5
+      },
+      "answers": {
+        "0": 12,
+        "1": 11,
+        "2": 11,
+        "3": 11
+      },
+      "topics": {
+        "A": 22,
+        "B": 23
+      }
+    },
+    {
+      "id": "combined-BC",
+      "mcq": 45,
+      "tf": 9,
+      "levels": {
+        "NB": 30,
+        "TH": 10,
+        "VD": 5
+      },
+      "answers": {
+        "0": 12,
+        "1": 11,
+        "2": 11,
+        "3": 11
+      },
+      "topics": {
+        "B": 22,
+        "C": 23
+      }
+    },
+    {
+      "id": "combined-ABC",
+      "mcq": 45,
+      "tf": 9,
+      "levels": {
+        "NB": 30,
+        "TH": 10,
+        "VD": 5
+      },
+      "answers": {
+        "0": 12,
+        "1": 11,
+        "2": 11,
+        "3": 11
+      },
+      "topics": {
+        "A": 15,
+        "B": 15,
+        "C": 15
+      }
+    }
+  ],
+  "uniqueMCQ": 123,
+  "uniqueTF": 23,
+  "mcqMaxOptionLengthRatio": 1.1470588235294117,
+  "tfMaxStatementLengthRatio": 1.1176470588235294,
+  "source": "Kết nối tri thức – Tin học 12, định hướng ICT, Bài 1–6, trang 5–38. A/B/C là nhãn thuận tiện cho Chủ đề 1/2/3 của sách."
+}

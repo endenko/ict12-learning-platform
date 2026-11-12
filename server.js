@@ -5,8 +5,8 @@ for(const name of ['SUPABASE_URL','SUPABASE_KEY','DB_SECRET'])if(!process.env[na
 if(process.env.NODE_ENV==='production'&&process.env.LOCAL_DEV)throw Error('LOCAL_DEV must not be enabled in production');
 const handler=require('./api/index'),configuration=require('./vercel.json');
 const securityHeaders=configuration.headers[0].headers;
-const assets=new Map([['/','index.html'],['/admin','index.html'],['/admin/','index.html'],['/index.html','index.html'],['/app.js','app.js'],['/base.css','base.css'],['/style.css','style.css']]);
-const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8'};
+const assets=new Map([['/','index.html'],['/admin','index.html'],['/admin/','index.html'],['/index.html','index.html'],['/app.js','app.js'],['/base.css','base.css'],['/style.css','style.css'],['/ui.js','ui.js'],['/theme.css','theme.css'],['/portal.js','portal.js'],['/portal.css','portal.css'],['/learn.js','learn.js'],['/learn.css','learn.css'],['/theory.json','theory.json']]);
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8'};
 const server=http.createServer(async(req,res)=>{
  for(const h of securityHeaders)res.setHeader(h.key,h.value);
  res.status=s=>{res.statusCode=s;return res};res.json=x=>{res.setHeader('Content-Type','application/json; charset=utf-8');res.end(JSON.stringify(x))};

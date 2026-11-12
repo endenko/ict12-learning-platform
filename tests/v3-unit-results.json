@@ -1,0 +1,22 @@
+{
+ "at": "2026-11-12T14:27:43.619Z",
+ "passed": 16,
+ "checks": [
+  "Rating thresholds follow Giỏi ≥8, Khá ≥6.5, Đạt ≥5, Chưa đạt",
+  "Trend slope detects improvement and decline",
+  "Student report: averages exclude practice, trend, rating, remarks in Vietnamese",
+  "Mastery heatmap covers lessons 1–28 with accuracy",
+  "Frequently missed questions + misconceptions (same wrong option twice)",
+  "Self view hides teacher-only sections (notes, violation log, missed answers)",
+  "Time-per-question stats: average, fast wrong answers, timeouts",
+  "Assignment completion: on time / late / missing / open",
+  "Item analysis: p-value, discrimination, distractor frequencies, flags",
+  "Class analytics: ranking ties, histogram, pass rate, at-risk reasons",
+  "Class comparison and teacher summary are neutral activity metrics",
+  "Roster: XLSX (inline + shared strings) and CSV with headers, Vietnamese usernames, strong passwords",
+  "Real Excel shared-strings XLSX is readable",
+  "Portal scoping helper: teacher only in-scope for own class names, never admins/teachers",
+  "Every teacher-reachable write goes through scoped_put (static audit of lib/portal.js)",
+  "Migration is additive: no DROP TABLE / DELETE / TRUNCATE, keeps all old collections"
+ ]
+}

@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "base": "https://ict12-learning-platform.vercel.app",
-  "checks": [
-    "All four live public assets match final source hashes and contain no configured server/admin secret values",
-    "Production CSP and frame protection intact",
-    "Anonymous production admin request denied with no-store response"
-  ]
-}

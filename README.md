@@ -1,5 +1,64 @@
 # Learning Quizz — Tin học 12 ICT
 
+## v4 — Tự học lý thuyết, video bài giảng & tiến độ học (12/11/2026, UTC+7)
+
+**Học sinh** có tab mới **Học lý thuyết** (ngay sau "Bài học"):
+- **Lộ trình học**: 28 bài theo 7 chủ đề, vòng tiến độ tổng, nút "Tiếp tục: Bài N", ôn thẻ đến hạn, tìm kiếm toàn bộ lý thuyết (không dấu vẫn tìm được, ví dụ `giao thuc`, `colspan`). Trang chủ "Bài học" có thẻ **Lộ trình học** theo chủ đề.
+- **Trang bài học** (mục lục bên trái, thanh tiến độ đọc, bài trước/sau): mục tiêu, các mục lý thuyết có tiêu đề, ví dụ, bảng, sơ đồ (CSS), ví dụ HTML/CSS **chạy trực tiếp** trong khung cách li, hộp **Ghi nhớ**, **Lỗi thường gặp**, **Thuật ngữ**.
+- **Video bài giảng**: video của giáo viên lớp mình (ưu tiên) + danh sách chung đã kiểm tra; bấm mới tải (youtube-nocookie). Tự đánh dấu "đã xem" sau 60 giây hoặc bấm "Đánh dấu đã xem".
+- **Thẻ ghi nhớ** (lật thẻ, Đã thuộc / Chưa thuộc, lặp lại ngắt quãng 1-3-7-16-35 ngày; thẻ chưa thuộc quay lại sau 10 phút), **Kiểm tra nhanh** 4 câu/bài (không tính điểm, phản hồi + giải thích ngay), **Luyện đề bài này** (mở danh sách đề của bài).
+- **Thực hành HTML/CSS** (Bài 7–18 – chủ đề D trong nền tảng này): sửa mã, xem kết quả ngay trong `iframe sandbox=""` (không chạy JavaScript), lưu trên máy.
+- Hoàn thành bài khi **đọc ≥ 80% và trả lời hết câu kiểm tra nhanh**. % bài = 40% đọc + 20% thẻ đã thuộc (hộp ≥ 3) + 25% câu đúng + 15% video (nếu bài có video).
+
+**Giáo viên** – mục **✦ Tự học & tài liệu** trong cổng giáo viên:
+- **Tiến độ tự học** theo lớp: bản đồ nhiệt 28 bài, từng học sinh (tiến độ, bài hoàn thành, thẻ, câu đúng, **học lý thuyết trước khi luyện đề**), bấm tên → báo cáo chi tiết có mục "Tự học lý thuyết".
+- **Giao học lý thuyết**: "Học lý thuyết Bài N" cho lớp, có hạn; học sinh thấy cùng mục "Bài được giao"; thống kê đúng hạn / muộn / chưa xong.
+- **Tài liệu bài học**: soạn văn bản (đậm, nghiêng, tiêu đề, danh sách, liên kết) + link PDF/Drive cho các lớp của mình. Nội dung **được làm sạch trên máy chủ** (`lib/sanitize.js`: danh sách thẻ cho phép, chỉ `href` http/https/mailto) và làm sạch lần nữa khi hiển thị.
+- **Video bài giảng**: dán link YouTube/Vimeo → máy chủ kiểm tra qua oEmbed (tồn tại + cho phép nhúng) → thêm, sắp xếp, xóa, lưu (tối đa 8/bài). Admin quản lí danh sách chung.
+
+**Nội dung:** 28 bài lý thuyết (87 mục, 224 thẻ ghi nhớ, 112 câu kiểm tra nhanh, 150 thuật ngữ, 13 ví dụ HTML/CSS chạy trực tiếp) – nguồn `content-v4/theory/*.txt`, build bằng `python3 content-v4/build-theory.py` → `public/theory.json` + `lib/theory-index.json`. Video: 56 video tiếng Việt (2/bài, 0 bài thiếu) tìm bằng `content-v4/videos/find-videos.py`, đều được kiểm tra oEmbed 200 và tiêu đề khớp số bài; nạp bằng `node --env-file=.env scripts/seed-videos.js` (kiểm tra lại oEmbed, không ghi đè danh sách admin đã sửa).
+
+**Bảo mật & dữ liệu:** migration bổ sung `migrations/v4-learning.sql` (Supabase `ict12_v4_learning`): thêm collection progress / materials / videos / studytasks + chỉ mục ownerId; `scoped_check` thêm nhánh kiểm tra sở hữu cho tài liệu, video, nhiệm vụ (giáo viên chỉ ghi vào lớp của mình, không sửa danh sách chung). Không xóa/sửa dữ liệu cũ. CSP chỉ thêm `frame-src` youtube-nocookie/player.vimeo và ảnh `i.ytimg.com`.
+
+**Kiểm thử v4:** `node tests/v4-unit.js` (14) · `TEST_BASE=… TEST_TAG=… node --env-file=.env tests/v4-e2e.js` (desktop + mobile 390 px + dark mode; 24 bước + 18 kiểm tra cách li API/DB) · `tests/v4-regression.js` (luồng giao bài/làm bài v2–v3 + "đã học lý thuyết trước khi luyện đề"). Nếu không có mật khẩu admin trong môi trường, test tự tạo tài khoản giáo viên TEST trực tiếp trong DB và tự khóa sau khi chạy.
+
+## v3 — Cổng giáo viên & đánh giá chi tiết (12/11/2026, UTC+7)
+
+**Vai trò:** `admin` (quản trị toàn trường) · `teacher` (giáo viên, chỉ thấy lớp của mình) · `student`.
+
+### Admin tạo tài khoản giáo viên đầu tiên
+1. Đăng nhập `/admin` bằng tài khoản `admin` (mật khẩu không đổi).
+2. Mở tab **★ Cổng giáo viên** → mục **Giáo viên** ở thanh bên.
+3. Ô "Tạo tài khoản giáo viên": mỗi dòng `Họ tên, tên đăng nhập (tuỳ chọn), email (tuỳ chọn)` → **Tạo tài khoản**. Hệ thống tạo mật khẩu ngẫu nhiên, **chỉ hiển thị một lần** → bấm **Tải CSV** hoặc **In phiếu tài khoản** để trao cho giáo viên.
+4. Tại cùng màn hình: **Đặt lại MK** (mật khẩu mới hiển thị một lần, phiên cũ bị đăng xuất), **Khóa / Mở khóa**.
+5. Lớp cũ (do admin tạo trước v3) có thể giao cho giáo viên: mục **Lớp học** → chọn "Giáo viên phụ trách" trên thẻ lớp. Admin cũng có thể tạo lớp và chọn giáo viên phụ trách ngay khi tạo.
+
+Giáo viên đăng nhập ở trang chủ hoặc `/admin` và được đưa thẳng vào **cổng giáo viên** (thanh điều hướng bên trái; trên điện thoại là thanh cuộn ngang).
+
+### Chức năng giáo viên
+- **Lớp học:** tạo lớp (tên duy nhất toàn trường, ví dụ `12A1-2026`), lưu trữ/mở lại; **nhập học sinh** từ Excel `.xlsx`/CSV (cột "Họ tên", tuỳ chọn "Tài khoản") hoặc dán danh sách → xem trước → tạo tài khoản; tên đăng nhập tự sinh (ví dụ `anhnv.12a1`), mật khẩu ngẫu nhiên, tải CSV/in phiếu.
+- **Học sinh:** tìm/lọc, trạng thái trực tuyến/đang làm bài, đặt lại mật khẩu, khóa, chuyển lớp (chỉ giữa các lớp của mình).
+- **Đánh giá chi tiết từng học sinh** (giáo viên + admin): biểu đồ điểm theo thời gian, % đúng theo chủ đề, bản đồ thành thạo Bài 1–28, điểm mạnh/yếu, câu hay sai & nhầm lẫn thường gặp, thời gian mỗi câu (TB, trung vị, sai trong <3 giây, hết giờ — ghi nhận từ v3), nhật ký chống gian lận, lịch sử bài làm + xem chi tiết từng câu, tình trạng bài giao (đúng hạn / làm bù sau hạn / thiếu / đang mở), **mức đánh giá Giỏi ≥ 8,0 · Khá 6,5–<8,0 · Đạt 5,0–<6,5 · Chưa đạt < 5,0** (TB 10 bài kiểm tra gần nhất, không tính luyện tập), **nhận xét tiếng Việt tự động** + gợi ý ôn tập, **ghi chú riêng** của giáo viên (học sinh không thấy), **In / Lưu PDF**.
+- **Học sinh tự xem** tab "Báo cáo của tôi" (bản rút gọn: không có ghi chú GV, nhật ký vi phạm chi tiết hay đáp án câu sai).
+- **Phân tích lớp:** điểm TB, phân bố điểm, tỉ lệ đạt, xếp mức, chủ đề/bài yếu nhất, xu hướng theo tháng, HS cần quan tâm (điểm < 5, đang giảm, thiếu bài, không hoạt động > 14 ngày, nhiều vi phạm), bảng xếp hạng, **phân tích câu hỏi** (độ khó p, độ phân biệt D theo nhóm 27%, tần suất chọn từng phương án, cảnh báo phương án không ai chọn), so sánh các lớp, **xuất Excel** (4 trang tính).
+- **Giao bài:** chọn lớp + đề (ngân hàng hoặc đề tự tạo), giờ mở/đóng, số lượt tối đa (1–20), hiện đáp án (ngay sau khi nộp / sau khi đóng / không).
+- **Tạo đề:** chọn từng câu từ ngân hàng (lọc bài, mức độ, loại, từ khóa) hoặc **ngẫu nhiên theo ma trận** (bài × NB/TH/VD + số câu Đ/S). Đề của giáo viên chỉ hiện với học sinh lớp được giao.
+- **Ngân hàng câu hỏi riêng:** nhập theo định dạng `N|Câu hỏi|Đúng|Sai1|Sai2|Sai3|Giải thích|Bài` (và `TF|…`), chỉ người tạo thấy.
+- **Thông báo** cho lớp (hiện trên trang chủ học sinh) · **Trực tuyến**: ai đang online / đang làm bài (tự làm mới 15 giây).
+
+### Đánh giá giáo viên (admin)
+Mục **Giáo viên** → bấm tên giáo viên: số lớp/học sinh, bài đã giao, đề tự tạo, tỉ lệ HS tham gia 30 ngày, tỉ lệ hoàn thành đúng hạn, điểm TB các lớp và thay đổi theo tháng, bảng các lớp, nhật ký hoạt động. Đây là **tổng quan trung lập** để hỗ trợ, không phải điểm xếp loại giáo viên.
+
+### Phân quyền & bảo mật
+- Mọi kiểm tra quyền ở **máy chủ** (`lib/portal.js`): giáo viên chỉ đọc lớp có `ownerId` = mình, học sinh thuộc các lớp đó, bài làm/vi phạm/bài giao/thông báo của các lớp đó; dữ liệu khác trả 404.
+- Mọi thao tác **ghi** của giáo viên đi qua RPC `scoped_put`: Postgres kiểm tra lại quyền sở hữu (`ict12_private.scoped_check`, lỗi 42501) — kể cả khi API có lỗi. Không thể tạo lớp trùng tên lớp của tài khoản đang có (chặn chiếm quyền học sinh qua tên lớp).
+- Khóa service-role không được dùng; ứng dụng vẫn chỉ gọi RPC bằng khóa công khai + bí mật máy chủ. Migration chỉ bổ sung: `migrations/v3-teacher.sql`, `migrations/v3-teacher-2.sql` (không xóa/sửa dữ liệu, giữ nguyên mọi tài khoản và mật khẩu admin).
+- Kiểm thử cách li: `tests/v3-e2e.js` dùng 2 giáo viên thật, kiểm tra ~28 hành vi chéo (API 404/400 + từ chối ở cơ sở dữ liệu).
+
+### Kiểm thử v3
+`node tests/v3-unit.js` (16) · `TEST_BASE=… TEST_TAG=… node --env-file=.env tests/v3-e2e.js` (Playwright, desktop + mobile 390 px, tự khóa tài khoản TEST và lưu trữ lớp TEST sau khi chạy).
+Production deployment: `dpl_8AZjSzTHonTY9y3RfLhJgs27ZB6v` (READY, alias ict12-learning-platform.vercel.app) — v3 e2e production 20 checks + 27 isolation checks PASS; v2 e2e production 22/22 PASS; test accounts locked, TEST classes archived (`tests/v3-cleanup-results.json`).
+
 ## Bản hoàn thiện có kiểm chứng — 09/11/2026 (UTC+7)
 
 Đã triển khai cùng URL https://ict12-learning-platform.vercel.app ; production22 Playwright checks PASS,0 lỗi JS không bắt, không cần duyệt SSO mới. Chi tiết `DEPLOYMENT.md`.
@@ -127,3 +186,15 @@ Thiết kế document nhỏ gọn phù hợp lớp/trường quy mô vừa. Các
 Kiểm thử mở rộng: `tests/expanded-e2e-results.json` PASS: 28 bài/7 nhóm, 4 đề học kỳ có nhãn đề xuất, 3 đề THPT; hoàn thành Bài 7 đủ 23 lượt và đề THPT 01 đủ 40 lượt, đều 10/10; lưu và phân tích kết quả; 0 lỗi JavaScript. Tài khoản kiểm thử lớp TEST đã khóa. `tests/expanded-unit-results.json` kiểm tra đủ 45 đề PASS.
 
 Render fallback: xem `RENDER_HANDOVER.md`. Adapter Node production đã kiểm thử tại localhost:3001 (đăng nhập quản trị/học sinh, làm đủ 23 lượt Bài 7 đạt 10/10, lưu kết quả, 0 lỗi JavaScript; tài khoản TEST đã khóa). Vẫn chưa có public deployment vì thiếu nguồn Git có thể xuất bản và workspace Render được xác nhận. `npm start` dành cho production với biến môi trường được cung cấp; `npm run dev` cho box local.
+
+
+## v2 upgrade (2026-11-11)
+- Content: 790 new MC + 50 new Đ/S (lib/mcq-v3.json, lib/tf-v3.json; authoring in content-v3/, build with `python3 content-v3/build.py`, QA with `python3 content-v3/qa.py`).
+- Lesson variants: Bài 1–13 → v2–v5 (5 sets each), Bài 14–28 → v2–v4 (4 sets each); 97 new lesson sets, ~15 TN + 2 Đ/S, pairwise overlap ≤4 questions.
+- GK/CK: midterm-1, final-1, midterm-2, final-2 each have -v2..-v5 (5 sets per term). THPT 2025-format mocks: thpt-ict-01..10 (24 TN + 4 Đ/S). Total exams: 165.
+- Questions and options are still shuffled per attempt server-side; 40 s/step and no going back are unchanged.
+- Features: random mixed practice (topic/lesson/level), bookmarks + bookmark practice, retry-wrong, per-lesson mastery grid, lesson/exam search and filters, admin bulk import (tab "Nhập câu hỏi", closed by default, archive = soft-delete).
+- UI: public/theme.css (design system + dark mode + mobile + reduced motion) and public/ui.js (overrides app.js renderers).
+- Tests: tests/v2-unit.js (12/12), tests/v2-e2e.js (22/22 against local, preview and production; TEST_BASE / TEST_TAG env).
+- Production deployment: dpl_DY7yywiT8qTEJBMYw1hPZo9HTYMW (preview dpl_5KfnkMSGLevXivgLLrmXZztJNEtA).
+- Anti-cheat option lengths (2026-11-11 follow-up): all 790 new MC items now meet max/min option length <= 1.15 (was 438 failing); the key is the unique longest option in 13.2% of items (was 41.8%); 'pick the longest' scores 24.7% (was 50.0%) and 'pick the shortest' 22.1% (was 9.8%), near the 25% chance level. The strict 1.15 test in tests/unit.js again applies to every item, new ones included. Named-term items fixed: Win+P Extend/Duplicate (L22) and Google Forms question types (L27). Production deployment: dpl_CQdDRghEH4bUjsAzpEkpvbBEP5CY (previous v2: dpl_DY7yywiT8qTEJBMYw1hPZo9HTYMW).

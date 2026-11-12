@@ -1,0 +1,262 @@
+=== 13
+@goals
+- Hiểu CSS là gì và vai trò của CSS trong thiết kế web.
+- Viết được quy tắc CSS: bộ chọn, thuộc tính, giá trị.
+- Biết ba cách đưa CSS vào trang: nội tuyến, bên trong, bên ngoài.
+@sec CSS là gì? Vì sao cần CSS?
+**CSS** (Cascading Style Sheets – bảng định kiểu xếp chồng) dùng để **định dạng, trình bày** trang web: màu sắc, phông chữ, khoảng cách, bố cục…
+- HTML lo **cấu trúc, nội dung**; CSS lo **hình thức trình bày** → tách biệt, dễ bảo trì.
+- Một tệp CSS có thể dùng cho **nhiều trang**, sửa một lần thay đổi toàn website, giao diện nhất quán.
+@sec Cấu trúc một quy tắc CSS
+:::code css
+h1 {
+  color: navy;        /* thuộc tính: giá trị; */
+  font-size: 32px;
+}
+:::end
+:::flow Bộ chọn (h1) > { thuộc tính: giá trị; } > Áp dụng cho mọi h1
+- **Bộ chọn (selector):** chọn phần tử cần định dạng (tên thẻ, `.class`, `#id`…).
+- **Khối khai báo** trong `{ }` gồm các cặp `thuộc tính: giá trị;`.
+- Chú thích CSS viết trong `/* … */`.
+@sec Ba cách thiết lập CSS
+| Cách | Viết ở đâu | Phạm vi |
+| Nội tuyến (inline) | Thuộc tính `style` trong thẻ: `<p style="color:red">` | Một phần tử |
+| Bên trong (internal) | Thẻ `<style>` trong `<head>` | Một trang |
+| Bên ngoài (external) | Tệp .css riêng, liên kết bằng `<link rel="stylesheet" href="style.css">` | Nhiều trang |
+:::code html live
+<style>
+  p { color: #2563eb; font-family: Arial, sans-serif; }
+  .note { background: #fef3c7; padding: 6px; }
+</style>
+<h2>Ba cách dùng CSS</h2>
+<p>Đoạn này lấy màu từ CSS bên trong.</p>
+<p class="note">Đoạn này dùng thêm class note.</p>
+<p style="color: crimson">Đoạn này dùng CSS nội tuyến nên màu đỏ.</p>
+:::end
+:::note Khi nhiều nguồn CSS cùng định dạng một phần tử, CSS **nội tuyến** thường được ưu tiên hơn CSS bên trong và bên ngoài (xem thêm Bài 17).
+@remember
+- CSS định dạng trình bày; HTML mô tả cấu trúc.
+- Quy tắc CSS: bộ chọn { thuộc tính: giá trị; }.
+- Ba cách: inline (style=""), internal (<style>), external (<link> tới tệp .css) – external dùng chung cho nhiều trang.
+@mistakes
+- Quên dấu chấm phẩy giữa các khai báo => Mỗi cặp thuộc tính: giá trị kết thúc bằng `;`.
+- Dùng dấu `=` thay cho `:` (color=red) => Viết đúng `color: red;`.
+- Đặt `<link>` tới tệp CSS trong `<body>` hoặc sai đường dẫn => Đặt trong `<head>` và kiểm tra đường dẫn.
+@terms
+- CSS :: Bảng định kiểu xếp chồng, dùng định dạng trang web.
+- Bộ chọn :: Phần chỉ ra phần tử được áp dụng quy tắc.
+- Khai báo :: Cặp thuộc tính: giá trị.
+- CSS nội tuyến :: CSS viết trong thuộc tính style của thẻ.
+- CSS bên trong :: CSS viết trong thẻ <style> của trang.
+- CSS bên ngoài :: CSS viết trong tệp .css riêng.
+@cards
+- CSS là viết tắt của gì? :: Cascading Style Sheets.
+- Vai trò chính của CSS? :: Định dạng, trình bày trang web; tách hình thức khỏi nội dung.
+- Cấu trúc một quy tắc CSS? :: bộ chọn { thuộc tính: giá trị; }
+- Thẻ dùng để viết CSS bên trong trang? :: <style> (trong <head>).
+- Liên kết tệp CSS bên ngoài? :: <link rel="stylesheet" href="style.css">.
+- CSS nội tuyến viết ở đâu? :: Thuộc tính style của thẻ.
+- Cách CSS nào dùng chung được cho nhiều trang? :: CSS bên ngoài (tệp .css).
+- Chú thích trong CSS viết thế nào? :: /* chú thích */
+@check
+? Website có 20 trang cần cùng một giao diện. Cách dùng CSS hiệu quả nhất?
++ Viết một tệp CSS bên ngoài và liên kết vào mọi trang.
+- Viết style nội tuyến cho từng thẻ.
+- Chép thẻ <style> vào từng trang.
+- Không dùng CSS.
+= CSS bên ngoài dùng chung, sửa một lần.
+? Quy tắc CSS nào viết đúng?
++ p { color: blue; }
+- p ( color = blue )
+- <p color:blue>
+- p: { blue color }
+= Cú pháp: bộ chọn { thuộc tính: giá trị; }.
+? Mã nào là CSS nội tuyến?
++ <h2 style="color: green">
+- <style> h2 { color: green } </style>
+- <link rel="stylesheet" href="a.css">
+- h2 { color: green }
+= Inline CSS nằm trong thuộc tính style.
+? Thẻ <link> tới tệp CSS nên đặt ở đâu?
++ Trong phần <head>.
+- Cuối thẻ </html>.
+- Trong thẻ <title>.
+- Trong <table>.
+= link stylesheet đặt trong head.
+
+=== 14
+@goals
+- Định dạng được phông chữ: họ phông, cỡ chữ, độ đậm, kiểu chữ.
+- Định dạng được dòng văn bản: căn lề, thụt đầu dòng, khoảng cách dòng, trang trí chữ.
+- Hiểu tính kế thừa trong CSS.
+@sec Định dạng phông chữ
+| Thuộc tính | Ý nghĩa | Ví dụ |
+| `font-family` | Họ phông (nên có phông dự phòng) | `font-family: Arial, Helvetica, sans-serif;` |
+| `font-size` | Cỡ chữ: px, em, rem, % | `font-size: 18px;` |
+| `font-weight` | Độ đậm: normal, bold, 100–900 | `font-weight: bold;` |
+| `font-style` | Kiểu chữ: normal, italic | `font-style: italic;` |
+:::note Đặt nhiều phông cách nhau dấu phẩy: nếu máy không có phông đầu, trình duyệt dùng phông tiếp theo. Tên phông có dấu cách đặt trong ngoặc kép: `"Times New Roman"`.
+@sec Định dạng dòng văn bản
+| Thuộc tính | Ý nghĩa |
+| `text-align` | Căn lề: left, right, center, justify |
+| `text-indent` | Thụt đầu dòng đầu tiên |
+| `line-height` | Khoảng cách giữa các dòng |
+| `text-decoration` | Gạch chân, gạch ngang: underline, line-through, none |
+| `text-transform` | Đổi chữ hoa/thường: uppercase, lowercase, capitalize |
+| `letter-spacing` | Khoảng cách giữa các kí tự |
+:::code html live
+<style>
+  body { font-family: Arial, sans-serif; }
+  h2 { text-align: center; text-transform: uppercase; letter-spacing: 2px; }
+  p  { text-indent: 24px; line-height: 1.6; text-align: justify; }
+  a  { text-decoration: none; font-weight: bold; }
+</style>
+<h2>Câu lạc bộ Tin học</h2>
+<p>Câu lạc bộ sinh hoạt vào chiều thứ Năm hằng tuần. Các bạn được học thiết kế web, lập trình và tham gia các dự án thực tế.</p>
+<p>Xem lịch tại <a href="#">trang hoạt động</a>.</p>
+:::end
+@sec Tính kế thừa
+Nhiều thuộc tính văn bản (color, font-family, font-size, line-height…) được **kế thừa** từ phần tử cha xuống phần tử con. Định dạng `body { font-family: Arial; }` sẽ áp dụng cho toàn trang, trừ khi phần tử con được định dạng lại.
+:::stack body (font-family: Arial) | div → kế thừa Arial | p, span → kế thừa Arial
+- Thuộc tính về hộp (margin, padding, border, background) thường **không** kế thừa.
+- Đơn vị `em` tính theo cỡ chữ của phần tử cha; `rem` tính theo cỡ chữ của phần tử gốc html.
+@remember
+- font-family, font-size, font-weight, font-style định dạng phông chữ.
+- text-align, text-indent, line-height, text-decoration, text-transform định dạng dòng văn bản.
+- Thuộc tính văn bản được kế thừa từ cha sang con.
+@mistakes
+- Không có phông dự phòng => Luôn thêm họ phông chung cuối danh sách (serif, sans-serif).
+- Dùng text-align để căn giữa cả khối ảnh/hộp => text-align căn nội dung dòng bên trong phần tử.
+- Muốn bỏ gạch chân liên kết bằng font-style => Dùng `text-decoration: none`.
+@terms
+- font-family :: Họ phông chữ.
+- font-size :: Cỡ chữ.
+- line-height :: Khoảng cách dòng.
+- text-indent :: Thụt lề dòng đầu.
+- Kế thừa :: Phần tử con nhận giá trị thuộc tính từ phần tử cha.
+- em / rem :: Đơn vị tương đối theo cỡ chữ cha / gốc.
+@cards
+- Thuộc tính đổi họ phông? :: font-family.
+- In nghiêng bằng CSS? :: font-style: italic.
+- In đậm bằng CSS? :: font-weight: bold.
+- Căn đều hai bên? :: text-align: justify.
+- Thụt đầu dòng 20px? :: text-indent: 20px.
+- Bỏ gạch chân liên kết? :: text-decoration: none.
+- Chuyển chữ thành in hoa? :: text-transform: uppercase.
+- Kế thừa trong CSS là gì? :: Phần tử con nhận một số thuộc tính (màu, phông…) từ phần tử cha.
+@check
+? Muốn mọi chữ trong trang dùng phông Arial, cách gọn nhất là:
++ body { font-family: Arial, sans-serif; }
+- Viết style cho từng thẻ p.
+- h1 { font-family: Arial; }
+- img { font-family: Arial; }
+= Thuộc tính phông được kế thừa từ body.
+? Thuộc tính tăng khoảng cách giữa các dòng?
++ line-height
+- letter-spacing
+- text-indent
+- font-weight
+= line-height điều chỉnh khoảng cách dòng.
+? Kết quả của h3 { text-transform: capitalize; } với "tin học mười hai"?
++ Tin Học Mười Hai
+- TIN HỌC MƯỜI HAI
+- tin học mười hai
+- Tin học mười hai
+= capitalize viết hoa chữ cái đầu mỗi từ.
+? Vì sao nên viết font-family: "Roboto", Arial, sans-serif?
++ Để có phông dự phòng nếu máy không có phông đầu tiên.
+- Để chữ đậm hơn.
+- Để trang tải nhanh hơn gấp ba.
+- Vì CSS bắt buộc ba phông.
+= Danh sách phông giúp dự phòng.
+
+=== 15
+@goals
+- Biết cách biểu diễn màu trong CSS: tên màu, mã hex, rgb(), rgba(), hsl().
+- Định dạng được màu chữ, màu nền, ảnh nền.
+- Sử dụng được một số bộ chọn quan hệ (con cháu, con trực tiếp, anh em).
+@sec Biểu diễn màu
+| Cách viết | Ví dụ | Ghi chú |
+| Tên màu | `red`, `navy`, `white` | Khoảng 140 tên chuẩn |
+| Mã hex | `#ff0000`, `#f00` | 2 chữ số hệ 16 cho mỗi kênh R, G, B |
+| rgb() | `rgb(255, 0, 0)` | Mỗi kênh 0–255 |
+| rgba() | `rgba(0, 0, 0, 0.5)` | Thêm độ trong suốt alpha 0–1 |
+| hsl() | `hsl(220, 90%, 50%)` | Sắc độ 0–360°, độ bão hòa, độ sáng |
+:::flow R (đỏ) + G (lục) + B (lam) > rgb(255,255,255) = trắng > rgb(0,0,0) = đen
+@sec Màu chữ và nền
+- `color`: màu chữ.
+- `background-color`: màu nền.
+- `background-image: url("anh.jpg")`, `background-repeat`, `background-size: cover`, `background-position`.
+- `opacity`: độ trong suốt của cả phần tử (0–1).
+:::code html live
+<style>
+  .the { background-color: #1e3a8a; color: #fff; padding: 12px; border-radius: 8px; }
+  .the h3 { color: hsl(45, 100%, 60%); margin: 0 0 6px; }
+  .mo { background: rgba(255,255,255,.15); padding: 6px; }
+  ul > li { color: #16a34a; }
+  h3 + p { font-style: italic; }
+</style>
+<div class="the">
+  <h3>Thẻ thành viên</h3>
+  <p>Đoạn ngay sau h3 (h3 + p) in nghiêng.</p>
+  <p class="mo">Nền trắng mờ bằng rgba.</p>
+</div>
+<ul><li>Mục con trực tiếp của ul có màu xanh lá</li></ul>
+:::end
+:::note Cần **độ tương phản** đủ lớn giữa màu chữ và màu nền để dễ đọc (chữ tối trên nền sáng hoặc ngược lại).
+@sec Bộ chọn quan hệ
+| Bộ chọn | Ý nghĩa |
+| `div p` | Mọi p là **con cháu** nằm trong div |
+| `div > p` | p là **con trực tiếp** của div |
+| `h3 + p` | p **liền sau** h3 (anh em kế cận) |
+| `h3 ~ p` | Mọi p **đứng sau** h3 cùng cha |
+| `h1, h2` | Nhóm bộ chọn – áp dụng cho cả h1 và h2 |
+@remember
+- Màu: tên, #hex, rgb(), rgba() có độ trong suốt, hsl().
+- color là màu chữ; background-color là màu nền; background-image cho ảnh nền.
+- Bộ chọn quan hệ: con cháu (dấu cách), con trực tiếp (>), liền sau (+), đứng sau (~).
+@mistakes
+- Dùng `color` để đổi màu nền => Màu nền dùng `background-color`.
+- Viết mã hex thiếu dấu # (ff0000) => Viết đầy đủ `#ff0000`.
+- Nhầm `div p` với `div > p` => Dấu cách chọn mọi con cháu; dấu > chỉ chọn con trực tiếp.
+@terms
+- RGB :: Hệ màu cộng từ ba kênh đỏ, lục, lam.
+- Mã hex :: Cách viết màu bằng số hệ 16, ví dụ #1e3a8a.
+- Alpha :: Độ trong suốt của màu (0 trong suốt – 1 đặc).
+- HSL :: Hệ màu theo sắc độ, độ bão hòa, độ sáng.
+- Bộ chọn con cháu :: Bộ chọn dạng "A B".
+- Bộ chọn con :: Bộ chọn dạng "A > B".
+@cards
+- Thuộc tính đổi màu chữ? :: color.
+- Thuộc tính đổi màu nền? :: background-color.
+- #000000 là màu gì? :: Đen.
+- rgb(255, 255, 255) là màu gì? :: Trắng.
+- rgba khác rgb ở điểm nào? :: Có thêm kênh alpha (độ trong suốt).
+- Bộ chọn "ul > li" chọn gì? :: li là con trực tiếp của ul.
+- Bộ chọn "h2 + p" chọn gì? :: Phần tử p liền sau h2.
+- Ảnh nền phủ kín khối? :: background-size: cover.
+@check
+? Mã màu nào là màu đỏ thuần?
++ #ff0000
+- #00ff00
+- #0000ff
+- #ffffff
+= Kênh R = ff (255), G = B = 0.
+? Muốn nền đen trong suốt 50% dùng:
++ background-color: rgba(0, 0, 0, 0.5);
+- color: black 50%;
+- background-color: rgb(0, 0, 0, 50);
+- opacity-color: black;
+= rgba với alpha 0.5.
+? Bộ chọn nào chỉ chọn các thẻ p là con trực tiếp của .khung?
++ .khung > p
+- .khung p
+- .khung + p
+- p > .khung
+= Dấu > chọn con trực tiếp.
+? Chữ màu vàng nhạt trên nền trắng khó đọc vì:
++ Độ tương phản giữa chữ và nền thấp.
+- Thiếu thẻ <title>.
+- Phông chữ quá nhỏ gọn.
+- Dùng CSS bên ngoài.
+= Cần đủ tương phản để dễ đọc.

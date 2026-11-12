@@ -1,0 +1,30 @@
+#Hệ màu RGB/HSL; màu chữ, nền; bộ chọn quan hệ
+N|Mã màu #00FF00 biểu diễn màu nào?|Màu xanh lá.|Màu đỏ tươi.|Màu xanh lam.|Màu tím than.|Kênh G = FF tối đa, R, B = 0: xanh lá.
+N|Mã màu #000000 biểu diễn màu nào?|Màu đen.|Màu xám.|Màu đỏ.|Màu lam.|Cả ba kênh bằng 0 cho màu đen.
+N|Mã màu #FFFFFF biểu diễn màu nào?|Màu trắng.|Màu đỏ cam.|Màu xám đá.|Màu đỏ tía.|Ba kênh tối đa cho màu trắng.
+N|Mã màu dạng #RRGGBB dùng hệ đếm nào?|Hệ cơ số 16.|Hệ cơ số 10.|Hệ cơ số 2.|Hệ cơ số 8.|Mỗi cặp kí tự là số hexa 00–FF.
+N|Trong rgb(0, 0, 255), màu thu được là gì?|Màu xanh lam.|Màu xanh lá.|Màu đỏ tươi.|Màu vàng cam.|Chỉ kênh B tối đa nên là xanh lam.
+N|Trong HSL, chữ S biểu diễn đại lượng nào?|Độ bão hòa màu.|Độ sáng của màu.|Sắc độ của màu.|Độ trong suốt.|S (saturation) là độ bão hòa.
+N|Trong HSL, chữ L biểu diễn đại lượng nào?|Độ sáng màu.|Độ bão hòa.|Sắc độ màu.|Độ dày nét.|L (lightness) là độ sáng.
+N|Trong HSL, sắc độ H = 120 thường tương ứng với màu nào?|Màu xanh lá.|Màu đỏ tươi.|Màu xanh lam.|Màu vàng cam.|Trên vòng màu: 0 đỏ, 120 xanh lá, 240 xanh lam.
+N|Trong HSL, khi L = 100% thì màu thu được là gì?|Màu trắng.|Màu xám đá.|Màu đỏ tía.|Màu nâu đỏ.|Độ sáng 100% luôn là trắng.
+N|Giá trị rgba(0, 0, 0, 0.5) có thành phần a biểu diễn điều gì?|Độ trong suốt (alpha) của màu.|Độ sáng tối đa của màu đen.|Độ bão hòa của chính màu đen.|Góc sắc độ trên vòng tròn màu.|Kênh alpha 0–1 quy định độ mờ đục.
+N|Khai báo nào đặt màu nền xám nhạt cho phần tử?|background-color: lightgray;|foreground-color: lightgray;|font-background: lightgray;|outline-color: lightgray;|background-color đặt màu nền.
+N|Bộ chọn "ul li" chọn những phần tử nào?|Mọi li nằm trong ul, ở mọi cấp.|Chỉ li là con trực tiếp của ul.|Chỉ li đầu tiên trong trang.|Phần tử ul nằm bên trong li.|Khoảng trắng là bộ chọn hậu duệ.
+N|Bộ chọn "h2 + p" chọn phần tử nào?|p liền sau h2, cùng cha.|Mọi p nằm bên trong h2.|Mọi h2 nằm ngay sau một p.|p bất kì trong cùng trang.|+ chọn anh em liền kề phía sau.
+N|Mỗi kênh màu trong mã #RRGGBB có bao nhiêu giá trị khác nhau?|256 giá trị.|100 giá trị.|16 giá trị.|255 giá trị.|00–FF tương ứng 0–255, tức 256 giá trị.
+T|Mã #808080 cho màu gì và vì sao?|Màu xám, vì ba kênh bằng nhau ở mức giữa.|Màu đỏ, vì kênh R luôn đứng đầu mã màu.|Màu trắng, vì cả ba kênh đều khác số 0.|Màu lam, vì có chữ số 8 được lặp lại nhiều.|Ba kênh bằng nhau cho màu xám; 80 ≈ 128.
+T|rgb(255, 255, 0) cho màu gì?|Màu vàng.|Màu tím.|Màu hồng.|Màu cam.|Trộn ánh sáng đỏ và xanh lá tối đa ra vàng.
+T|hsl(240, 100%, 50%) cho màu gì?|Màu xanh lam.|Màu đỏ tươi.|Màu xanh lá.|Màu vàng cam.|H = 240 là lam, S tối đa, L 50% là màu thuần.
+T|Giảm L trong HSL từ 50% xuống 20% (giữ H, S) thì màu thay đổi thế nào?|Cùng sắc độ nhưng tối hơn.|Chuyển sang một sắc độ khác.|Sáng hơn và gần màu trắng.|Trở nên trong suốt hơn trước.|L giảm làm màu tối đi.
+T|Vì sao cần độ tương phản tốt giữa màu chữ và màu nền?|Giúp người đọc nhìn rõ nội dung.|Giúp trang web tải nhanh gấp đôi.|Giúp ảnh trong trang web nét hơn.|Giúp các liên kết tự đổi màu sắc.|Tương phản kém làm khó đọc, nhất là với người thị lực yếu.
+T|Cho <div><p>A</p><span><p>B</p></span></div>. Bộ chọn div > p chọn gì?|Chỉ đoạn A.|Chỉ đoạn B.|Cả hai đoạn.|Không chọn.|A là con trực tiếp của div; B là cháu.
+T|Cho <h2>X</h2><p>A</p><p>B</p> cùng cha. Bộ chọn h2 ~ p chọn gì?|Cả A và B.|Chỉ đoạn A.|Chỉ đoạn B.|Chỉ mục X.|~ chọn mọi anh em p đứng sau h2.
+V|Muốn nền trang màu xanh lam nhạt và chữ màu xanh đậm, khai báo nào phù hợp?|body { background-color: #e6f0ff; color: #003366; }|body { color: #e6f0ff; background: text #003366; }|body { font-color: #003366; bg-color: #e6f0ff; }|body { background-text: #e6f0ff; color-text: #003366; }|background-color cho nền, color cho chữ.
+V|Muốn chỉ các li thuộc danh sách có class="menu" màu trắng, chọn mẫu nào?|.menu li { color: white; }|li .menu { color: white; }|#menu li { color: white; }|menu.li { color: white; }|Bộ chọn hậu duệ: phần tử có lớp menu chứa li.
+V|Cần ô cảnh báo nền đỏ với độ mờ đục (alpha) 0,3 để thấy ảnh nền phía sau. Chọn giá trị nào?|rgba(255, 0, 0, 0.3)|rgb(255, 0, 0, 0.30)|#FF0000 opacity 30%|hsl(0, 100%, 50%, 30)|rgba với alpha 0.3.
+V|Chỉ đoạn p đứng ngay sau mỗi h3 cần in nghiêng. Bộ chọn nào phù hợp?|h3 + p|p + h3|h3 > p|p ~ h3|+ chọn p liền kề sau h3.
+N|Tên màu nào có thể dùng trực tiếp làm giá trị màu trong CSS?|color: red;|color: rot;|color: rojo;|color: màu1;|CSS hỗ trợ tên màu tiếng Anh như red, blue.
+T|Vì sao rgb(255,0,0) và #FF0000 cho cùng một màu?|FF ở hệ 16 bằng 255 ở hệ 10.|Hai cách cùng gọi tên red.|Trình duyệt luôn đổi về đỏ.|Mã # tự động cộng thêm 255.|Cùng giá trị kênh R tối đa, G, B bằng 0.
+TF|Trang CLB có CSS: body { background-color: #FFFFFF; color: rgb(51,51,51) } .menu > a { color: hsl(240,100%,50%) } h2 + p { font-weight: bold }.|T|Nền trang có màu trắng.|#FFFFFF là trắng.|T|Các liên kết là con trực tiếp của phần tử lớp menu có màu xanh lam.|hsl(240,...) là lam; > chọn con trực tiếp.|F|Mọi đoạn p đứng sau h2 trong cùng cha đều được in đậm.|+ chỉ chọn p liền kề.|F|Muốn chữ thân trang đậm hơn về màu, cần tăng giá trị các kênh rgb(51,51,51).|Tăng kênh làm màu sáng hơn, không đậm hơn.
+TF|Nhóm chọn màu nút bấm: nền hsl(0, 100%, 50%), chữ #FFFFFF; khi tạm khóa dùng nền rgba(128, 128, 128, 0.5).|T|Nền nút bình thường là màu đỏ thuần.|H = 0, S 100%, L 50%.|T|Màu chữ của nút là màu trắng.|#FFFFFF là trắng.|F|Nền nút khi khóa là màu xám đục hoàn toàn, không nhìn xuyên được.|Alpha 0,5 bán trong suốt.|F|Muốn nút đỏ tối hơn, nhóm nên tăng L lên 80%.|Tăng L làm sáng hơn; cần giảm L.

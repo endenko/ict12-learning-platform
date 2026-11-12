@@ -1,0 +1,398 @@
+{
+ "checkedAt": "2026-11-12T21:08:33+0700",
+ "method": "YouTube search + oEmbed 200 + title match (lesson number and >=60% title words)",
+ "lessons": {
+  "1": [
+   {
+    "id": "W5sviVD_ALg",
+    "title": "Tin học 12 Bài 1: Làm quen với Trí tuệ nhân tạo - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "aqxYioHAlU0",
+    "title": "Tin Học 12 - Bài 1. Làm quen với trí tuệ nhân tạo",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "2": [
+   {
+    "id": "KCVS9hsRpx4",
+    "title": "Tin học 12 Bài 2: Trí tuệ nhân tạo trong khoa học và đời sống - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "j37Epq7btJI",
+    "title": "Tin Học 12 - Bài 2. Trí tuệ nhân tạo trong khoa học và đời sống",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "3": [
+   {
+    "id": "IOxQ2cdUlms",
+    "title": "Tin học 12 Bài 3: Một số thiết bị mạng thông dụng - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "c9YPBCBOc0k",
+    "title": "Giảng bài 3: Một số thiết bị mạng thông dụng | Bài giảng Tin học ứng dụng 12 Kết nối",
+    "author": "Tech12h - Kênh học tập tốt nhất",
+    "provider": "youtube"
+   }
+  ],
+  "4": [
+   {
+    "id": "ksxk5JmgXDU",
+    "title": "Tin học 12 Bài 4: Giao thức mạng - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "cISjL3ByG5U",
+    "title": "Tin Học 12 - Bài 4. Giao thức mạng",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "5": [
+   {
+    "id": "YuWoCc7_64c",
+    "title": "Tin học 12 Bài 5: Thực hành chia sẻ tài nguyên trên mạng - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "j0Tc1zbTuuw",
+    "title": "Tin học 12 - Bài 5: Thực hành chia sẻ tài nguyên trên mạng",
+    "author": "Vinh Nguyễn",
+    "provider": "youtube"
+   }
+  ],
+  "6": [
+   {
+    "id": "a0plZs4F9Y8",
+    "title": "Tin học 12 Bài 6: Giao tiếp và ứng xử trong không gian mạng - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "KYGgjlvt2pE",
+    "title": "Tin Học 12 - Bài 6. Giao tiếp và ứng xử trong không gian mạng",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "7": [
+   {
+    "id": "HP26y1QL-Z8",
+    "title": "Tin học 12 Bài 7: HTML và cấu trúc trang web - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "-Ag9weZk8Rw",
+    "title": "Tin Học 12 - Bài 7. HTML và cấu trúc trang web",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "8": [
+   {
+    "id": "zQP4Ykr_vEE",
+    "title": "Tin học 12 Bài 8: Định dạng văn bản - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "pdyRpUYuBvs",
+    "title": "Tin Học 12 - Bài 8. Định dạng văn bản",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "9": [
+   {
+    "id": "dkJar4h-hhU",
+    "title": "Tin học 12 Bài 9: Tạo danh sách, bảng - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "1xAkwz2ZgIE",
+    "title": "Tin Học 12 - Bài 9. Tạo danh sách, bảng",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "10": [
+   {
+    "id": "Mr0sFQnesA4",
+    "title": "Tin học 12 Bài 10: Tạo liên kết - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "NUAvCm4Ig4Q",
+    "title": "Tin Học 12 - Bài 10. Tạo liên kết",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "11": [
+   {
+    "id": "Im9uM6yDAB4",
+    "title": "Tin học 12 Bài 11: Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web - Kết nối tri thức",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "XK4bpa54TKI",
+    "title": "Tin Học 12 - Bài 11. Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "12": [
+   {
+    "id": "i6RJLlpwwEM",
+    "title": "Tin học 12 Bài 12: Tạo biểu mẫu - Kết nối tri thức (SGK Mới 2026)",
+    "author": "VietJack THPT Official",
+    "provider": "youtube"
+   },
+   {
+    "id": "g6mMu-gRPM8",
+    "title": "Tin Học 12 - Bài 12. Tạo biểu mẫu",
+    "author": "IT-Master",
+    "provider": "youtube"
+   }
+  ],
+  "13": [
+   {
+    "id": "vCUtu7U0EKk",
+    "title": "Tin Học 12 - Bài 13. Khái niệm, vai trò của CSS",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "jNUJdHKIaiI",
+    "title": "Tin Học 12   Bài 13  Khái niệm, vai trò của CSS",
+    "author": "Vung Nguyen Van",
+    "provider": "youtube"
+   }
+  ],
+  "14": [
+   {
+    "id": "J1OeaaB_DdY",
+    "title": "Tin Học 12 - Bài 14. Định dạng văn bản bằng CSS",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "kWH6kxscVBs",
+    "title": "Tin Học 12   Bài 14  Định dạng văn bản bằng CSS",
+    "author": "Vung Nguyen Van",
+    "provider": "youtube"
+   }
+  ],
+  "15": [
+   {
+    "id": "zHPn0yDN_tY",
+    "title": "Tin Học 12 - Bài 15. Tạo màu cho chữ và nền",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "1DzXjakqmYM",
+    "title": "Tin Học 12   Bài 15  Tạo màu cho chữ và nền",
+    "author": "Vung Nguyen Van",
+    "provider": "youtube"
+   }
+  ],
+  "16": [
+   {
+    "id": "ZfdtSQ57Iqg",
+    "title": "Tin Học 12 - Bài 16. Định dạng khung",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "HwE9t3RhNJM",
+    "title": "Tin Học 12 - Bài 16: Định dạng khung | TVT Channel",
+    "author": "TVT Channel",
+    "provider": "youtube"
+   }
+  ],
+  "17": [
+   {
+    "id": "pE5krdeyg_U",
+    "title": "Tin Học 12 - Bài 17. Các mức ưu tiên của bộ chọn",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "MZXo2oPNnRs",
+    "title": "Tin Học 12 - Bài 17: Các mức ưu tiên của bộ chọn | TVT Channel",
+    "author": "TVT Channel",
+    "provider": "youtube"
+   }
+  ],
+  "18": [
+   {
+    "id": "3orOTbRSE3s",
+    "title": "Tin Học 12 - Bài 18: Thực hành tổng hợp thiết kế trang web",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "bsQK7Jwdk6M",
+    "title": "Tin Học 12   Bài 18  Thực hành tổng hợp thiết kế trang web",
+    "author": "Vung Nguyen Van",
+    "provider": "youtube"
+   }
+  ],
+  "19": [
+   {
+    "id": "QFGJ6qLaxxA",
+    "title": "Tin Học 12 - Bài 19: Dịch vụ sửa chữa và bảo trì máy tính",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "J1Ib6_4Nujw",
+    "title": "[TIN HỌC 12] BÀI 19. DỊCH VỤ SỬA CHỮA VÀ BÀO TRÌ MÁY TÍNH",
+    "author": "Nguyễn Xuân Hồng IT",
+    "provider": "youtube"
+   }
+  ],
+  "20": [
+   {
+    "id": "V3rnG09XLU8",
+    "title": "Tin Học 12 - Bài 20: Nhóm nghề quản trị thuộc ngành Công nghệ thông tin",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "4a3IQ_tmc2c",
+    "title": "Tin Học 12   Bài 20  Nhóm nghề quản trị thuộc ngành Công nghệ thông tin",
+    "author": "Vung Nguyen Van",
+    "provider": "youtube"
+   }
+  ],
+  "21": [
+   {
+    "id": "QRqgdl9hiYE",
+    "title": "Tin Học 12 - Bài 21: Hội thảo hướng nghiệp",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "UEQzQx9v7c0",
+    "title": "Tin Học 12   Bài 21  Hội thảo hướng nghiệp",
+    "author": "Vung Nguyen Van",
+    "provider": "youtube"
+   }
+  ],
+  "22": [
+   {
+    "id": "Rcryg9CHnhM",
+    "title": "Tin học 12 - Tin học ứng dụng - Bài 22: Thực hành kết nối các thiết bị số",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "L47GKG7sVXg",
+    "title": "Tin Học 12   Bài 22  Thực hành kết nối các thiết bị số",
+    "author": "Qua Trần",
+    "provider": "youtube"
+   }
+  ],
+  "23": [
+   {
+    "id": "grNdxntaLEA",
+    "title": "Tin học 12 - Tin học ứng dụng - Bài 23: Chuẩn bị xây dựng trang web",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "ClB7AvSwQAU",
+    "title": "Tin Học 12   Bài 23  Chuẩn bị xây dựng trang web",
+    "author": "Qua Trần",
+    "provider": "youtube"
+   }
+  ],
+  "24": [
+   {
+    "id": "zvwI35zYve4",
+    "title": "Tin học 12 - Tin học ứng dụng - Bài 24: Xây dựng phần đầu trang web",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "Sf5qDuU8q3s",
+    "title": "Tin Học 12 - Bài 24. Xây dựng phần đầu trang web | TVT Channel",
+    "author": "TVT Channel",
+    "provider": "youtube"
+   }
+  ],
+  "25": [
+   {
+    "id": "mhFFxI94CkQ",
+    "title": "Tin học 12 - Tin học ứng dụng - Bài 25: Xây dựng phần thân và chân trang web",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "Nteodj7bzg4",
+    "title": "Tin học 12 KNTT Chủ đề 7 Bài 25 Xây dựng phần thân và chân trang web",
+    "author": "Võ Anh Khoa",
+    "provider": "youtube"
+   }
+  ],
+  "26": [
+   {
+    "id": "wdBUE-oQu90",
+    "title": "Tin Học 12   Bài 26  Liên kết và thanh điều hướng",
+    "author": "Qua Trần",
+    "provider": "youtube"
+   },
+   {
+    "id": "MXnS9EsZeVI",
+    "title": "TIN 12 KNTT   BÀI 26  LIÊN KẾT VÀ THANH ĐIỀU HƯỚNG",
+    "author": "Thầy Thi - Tin Học",
+    "provider": "youtube"
+   }
+  ],
+  "27": [
+   {
+    "id": "siKFHI-GE5c",
+    "title": "Tin học 12 - Tin học ứng dụng - Bài 27: Biểu mẫu trên trang web",
+    "author": "IT-Master",
+    "provider": "youtube"
+   },
+   {
+    "id": "ki0y6fj5MgE",
+    "title": "Tin Học 12 - Bài 27. Biểu mẫu trên trang web | TVT Channel",
+    "author": "TVT Channel",
+    "provider": "youtube"
+   }
+  ],
+  "28": [
+   {
+    "id": "SIID6aJeR6M",
+    "title": "Tin Học 12 - Bài 28. Thực hành tổng hợp  | TVT Channel",
+    "author": "TVT Channel",
+    "provider": "youtube"
+   },
+   {
+    "id": "Vk-d7vYuTHw",
+    "title": "Tin Học 12   Bài 28  Thực hành tổng hợp",
+    "author": "Qua Trần",
+    "provider": "youtube"
+   }
+  ]
+ }
+}

@@ -1,0 +1,338 @@
+=== 7
+@goals
+- Biết HTML là ngôn ngữ đánh dấu siêu văn bản dùng để tạo trang web.
+- Nắm được khái niệm thẻ, phần tử, thuộc tính và cấu trúc cơ bản của tệp HTML.
+- Tạo, lưu và xem được một trang web đơn giản bằng phần mềm soạn thảo và trình duyệt.
+@sec HTML là gì?
+**HTML** (HyperText Markup Language – ngôn ngữ đánh dấu siêu văn bản) dùng các **thẻ** để mô tả cấu trúc và nội dung của trang web. Trình duyệt đọc tệp HTML và hiển thị thành trang web.
+- **Thẻ** được viết trong cặp dấu `< >`, ví dụ `<p>`. Đa số thẻ có thẻ mở và thẻ đóng: `<p>...</p>`.
+- Một số thẻ **rỗng** không có thẻ đóng: `<br>`, `<img>`, `<hr>`, `<meta>`.
+- **Phần tử** = thẻ mở + nội dung + thẻ đóng.
+- **Thuộc tính** đặt trong thẻ mở, dạng `tên="giá trị"`, ví dụ `<html lang="vi">`.
+@sec Cấu trúc cơ bản của tệp HTML
+:::code html live
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang đầu tiên</title>
+</head>
+<body>
+  <h1>Xin chào!</h1>
+  <p>Đây là trang web đầu tiên của em.</p>
+</body>
+</html>
+:::end
+| Thành phần | Vai trò |
+| `<!DOCTYPE html>` | Khai báo tài liệu dùng chuẩn HTML5 |
+| `<html>` | Phần tử gốc chứa toàn bộ trang |
+| `<head>` | Thông tin về trang: bảng mã, tiêu đề, liên kết CSS (không hiển thị trong nội dung) |
+| `<title>` | Tiêu đề hiện trên thanh/tab trình duyệt |
+| `<body>` | Nội dung hiển thị của trang |
+:::stack html | head (meta, title) + body (h1, p, …)
+@sec Soạn thảo và xem trang web
+- Có thể soạn bằng **Notepad**, **Sublime Text**, **Visual Studio Code**… Lưu tệp với phần mở rộng **.html** (hoặc .htm), bảng mã **UTF-8** để hiển thị đúng tiếng Việt.
+- Mở tệp bằng trình duyệt (Chrome, Edge, Firefox…) để xem. Sau khi sửa, lưu lại và nhấn F5 để tải lại.
+:::note Các phần tử phải lồng nhau đúng thứ tự: mở sau thì đóng trước, ví dụ `<p><b>…</b></p>`.
+@remember
+- HTML dùng thẻ để mô tả cấu trúc trang web; thẻ thường có thẻ mở và thẻ đóng.
+- Cấu trúc chuẩn: <!DOCTYPE html>, html, head (meta charset, title), body.
+- Lưu tệp .html với bảng mã UTF-8 và xem bằng trình duyệt.
+@mistakes
+- Đặt nội dung hiển thị trong `<head>` => Nội dung hiển thị phải nằm trong `<body>`.
+- Lưu tệp thành `index.html.txt` => Phải đúng phần mở rộng .html.
+- Đóng thẻ sai thứ tự: `<p><b>…</p></b>` => Thẻ mở sau phải đóng trước: `<p><b>…</b></p>`.
+- Quên `<meta charset="UTF-8">` khiến tiếng Việt lỗi phông => Khai báo bảng mã UTF-8.
+@terms
+- HTML :: Ngôn ngữ đánh dấu siêu văn bản dùng tạo trang web.
+- Thẻ (tag) :: Kí hiệu trong cặp < > dùng đánh dấu nội dung.
+- Phần tử (element) :: Thẻ mở, nội dung và thẻ đóng.
+- Thuộc tính (attribute) :: Thông tin bổ sung trong thẻ mở dạng tên="giá trị".
+- Thẻ rỗng :: Thẻ không có nội dung và thẻ đóng, ví dụ <br>, <img>.
+@cards
+- HTML là viết tắt của gì? :: HyperText Markup Language – ngôn ngữ đánh dấu siêu văn bản.
+- Phần nội dung hiển thị của trang web nằm trong thẻ nào? :: <body>.
+- Thẻ nào tạo tiêu đề trên tab trình duyệt? :: <title> (nằm trong <head>).
+- <!DOCTYPE html> dùng để làm gì? :: Khai báo tài liệu theo chuẩn HTML5.
+- Kể 3 thẻ rỗng. :: <br>, <img>, <hr> (hoặc <meta>).
+- Thuộc tính được viết ở đâu? :: Trong thẻ mở, dạng tên="giá trị".
+- Bảng mã nên dùng để hiển thị đúng tiếng Việt? :: UTF-8 (<meta charset="UTF-8">).
+- Phần mở rộng của tệp trang web? :: .html (hoặc .htm).
+@check
+? Thẻ nào chứa nội dung được hiển thị trên trang web?
++ <body>
+- <head>
+- <title>
+- <meta>
+= Nội dung hiển thị nằm trong <body>.
+? Cách lồng thẻ nào đúng?
++ <p><b>Chào</b></p>
+- <p><b>Chào</p></b>
+- <b><p>Chào</b></p>
+- </p>Chào<p>
+= Thẻ mở sau phải đóng trước.
+? Trong <html lang="vi">, phần lang="vi" là gì?
++ Thuộc tính của thẻ html.
+- Một thẻ rỗng.
+- Nội dung hiển thị.
+- Một phần tử con.
+= Thuộc tính viết trong thẻ mở dạng tên="giá trị".
+? Tiếng Việt trên trang bị lỗi kí tự. Nên kiểm tra điều gì?
++ Khai báo <meta charset="UTF-8"> và lưu tệp bảng mã UTF-8.
+- Đổi tên tệp thành .txt.
+- Xóa thẻ <body>.
+- Thêm nhiều thẻ <br>.
+= UTF-8 hiển thị đúng tiếng Việt.
+
+=== 8
+@goals
+- Sử dụng được các thẻ tiêu đề, đoạn văn, xuống dòng, đường kẻ ngang.
+- Định dạng được chữ đậm, nghiêng, gạch chân, chỉ số trên/dưới, đánh dấu.
+- Hiểu ý nghĩa của thẻ ngữ nghĩa (strong, em) và các thực thể kí tự.
+@sec Tiêu đề và đoạn văn
+- Thẻ tiêu đề **`<h1>` đến `<h6>`**: h1 lớn và quan trọng nhất, h6 nhỏ nhất. Mỗi trang nên có một `<h1>`.
+- `<p>`: đoạn văn (trình duyệt tự thêm khoảng cách trên, dưới).
+- `<br>`: xuống dòng trong đoạn; `<hr>`: đường kẻ ngang phân cách.
+- `<pre>`: giữ nguyên khoảng trắng, xuống dòng như khi gõ.
+:::note Trình duyệt **gộp nhiều dấu cách và dấu xuống dòng** trong mã HTML thành một dấu cách. Muốn xuống dòng phải dùng `<br>` hoặc `<p>`.
+@sec Định dạng chữ
+| Thẻ | Tác dụng | Ví dụ |
+| `<b>` / `<strong>` | Chữ đậm (strong: nhấn mạnh quan trọng) | **quan trọng** |
+| `<i>` / `<em>` | Chữ nghiêng (em: nhấn mạnh ngữ điệu) | *nhấn mạnh* |
+| `<u>` | Gạch chân | |
+| `<sup>` | Chỉ số trên | x<sup>2</sup> → x² |
+| `<sub>` | Chỉ số dưới | H<sub>2</sub>O → H₂O |
+| `<mark>` | Đánh dấu nổi bật | |
+| `<del>` / `<s>` | Gạch ngang (nội dung bị xóa) | |
+:::code html live
+<h1>Nước và công thức</h1>
+<p>Công thức hóa học của nước là H<sub>2</sub>O.</p>
+<p>Diện tích hình vuông: S = a<sup>2</sup>.</p>
+<p><strong>Lưu ý:</strong> nộp bài <em>trước</em> thứ Sáu.<br>Giá cũ: <del>50.000đ</del> <mark>35.000đ</mark></p>
+<hr>
+<p>&lt;p&gt; là thẻ đoạn văn &copy; 2026</p>
+:::end
+@sec Thực thể kí tự
+Một số kí tự đặc biệt phải viết bằng **thực thể** (entity) để không bị hiểu nhầm là mã HTML:
+| Kí tự | Thực thể |
+| < | `&lt;` |
+| > | `&gt;` |
+| & | `&amp;` |
+| dấu cách không ngắt | `&nbsp;` |
+| © | `&copy;` |
+@remember
+- h1–h6 cho tiêu đề (h1 quan trọng nhất), p cho đoạn văn, br xuống dòng, hr kẻ ngang.
+- strong/em mang nghĩa nhấn mạnh; b/i chỉ định dạng hình thức.
+- sup chỉ số trên, sub chỉ số dưới; dùng &lt; &gt; &amp; để hiển thị kí tự đặc biệt.
+@mistakes
+- Nhấn Enter nhiều lần trong mã để xuống dòng => Trình duyệt bỏ qua; phải dùng `<br>` hoặc `<p>`.
+- Dùng `<h1>` chỉ để làm chữ to => Thẻ tiêu đề thể hiện cấu trúc; cỡ chữ nên chỉnh bằng CSS.
+- Nhầm sup và sub khi viết H₂O => Chỉ số dưới dùng `<sub>`.
+@terms
+- Thẻ tiêu đề :: Các thẻ h1–h6 thể hiện cấp tiêu đề.
+- Thẻ ngữ nghĩa :: Thẻ thể hiện ý nghĩa nội dung, ví dụ strong, em.
+- Thực thể kí tự :: Cách viết kí tự đặc biệt như &lt; &amp; &nbsp;.
+- Chỉ số trên/dưới :: Chữ nhỏ ở trên (sup) hoặc dưới (sub) dòng.
+@cards
+- Thẻ tiêu đề lớn nhất? :: <h1>.
+- Thẻ tạo đoạn văn? :: <p>.
+- Thẻ xuống dòng? :: <br> (thẻ rỗng).
+- Thẻ tạo đường kẻ ngang? :: <hr>.
+- Viết x² bằng thẻ nào? :: x<sup>2</sup>.
+- Viết H₂O bằng thẻ nào? :: H<sub>2</sub>O.
+- Khác nhau giữa <strong> và <b>? :: strong mang nghĩa quan trọng (ngữ nghĩa); b chỉ in đậm hình thức.
+- Hiển thị kí tự < trên trang viết thế nào? :: &lt;
+@check
+? Muốn hiển thị CO₂ cần viết mã nào?
++ CO<sub>2</sub>
+- CO<sup>2</sup>
+- CO<br>2
+- CO<h2>2</h2>
+= Chỉ số dưới dùng thẻ sub.
+? Gõ 5 dấu cách liên tiếp giữa hai từ trong mã HTML thì trình duyệt hiển thị thế nào?
++ Chỉ một dấu cách.
+- Đủ 5 dấu cách.
+- Báo lỗi.
+- Xuống dòng.
+= Trình duyệt gộp các khoảng trắng liên tiếp.
+? Thẻ nào phù hợp để nhấn mạnh một nội dung quan trọng theo ngữ nghĩa?
++ <strong>
+- <u>
+- <hr>
+- <sup>
+= strong biểu thị nội dung quan trọng.
+? Để hiển thị chữ "<p>" trên trang web thay vì tạo đoạn văn, cần viết:
++ &lt;p&gt;
+- <p>
+- <<p>>
+- "p"
+= Dùng thực thể &lt; và &gt;.
+
+=== 9
+@goals
+- Tạo được danh sách có thứ tự, không thứ tự và danh sách lồng nhau.
+- Tạo được bảng với hàng, cột, ô tiêu đề; gộp ô bằng colspan, rowspan.
+@sec Danh sách
+- **Danh sách không thứ tự** `<ul>`: mỗi mục là `<li>`, hiển thị dấu chấm tròn.
+- **Danh sách có thứ tự** `<ol>`: đánh số tự động. Thuộc tính `type` (1, A, a, I, i) đổi kiểu số; `start` chọn số bắt đầu.
+- **Danh sách mô tả** `<dl>` gồm thuật ngữ `<dt>` và mô tả `<dd>`.
+- Có thể **lồng** danh sách: đặt `<ul>`/`<ol>` bên trong một `<li>`.
+:::code html live
+<h3>Môn học</h3>
+<ul>
+  <li>Tin học
+    <ol type="a">
+      <li>HTML</li>
+      <li>CSS</li>
+    </ol>
+  </li>
+  <li>Toán</li>
+</ul>
+<ol start="3"><li>Bước ba</li><li>Bước bốn</li></ol>
+:::end
+@sec Bảng
+| Thẻ | Ý nghĩa |
+| `<table>` | Bảng |
+| `<tr>` | Một hàng (table row) |
+| `<th>` | Ô tiêu đề (chữ đậm, căn giữa) |
+| `<td>` | Ô dữ liệu (table data) |
+| `<caption>` | Tiêu đề của bảng |
+| `colspan="n"` | Gộp n cột |
+| `rowspan="n"` | Gộp n hàng |
+:::code html live
+<table border="1">
+  <caption>Thời khóa biểu</caption>
+  <tr><th>Tiết</th><th>Thứ 2</th><th>Thứ 3</th></tr>
+  <tr><td>1</td><td>Tin học</td><td rowspan="2">Toán</td></tr>
+  <tr><td>2</td><td>Văn</td></tr>
+  <tr><td colspan="3">Sinh hoạt lớp</td></tr>
+</table>
+:::end
+:::note Bảng được xây dựng **theo hàng**: mỗi `<tr>` chứa các ô `<td>`/`<th>`. Khi gộp ô, hàng bị gộp sẽ có ít ô hơn.
+@remember
+- ul: danh sách dấu chấm; ol: danh sách số (type, start); li: mục danh sách.
+- table > tr > th/td; caption là tiêu đề bảng.
+- colspan gộp cột, rowspan gộp hàng.
+@mistakes
+- Đặt `<li>` ngoài `<ul>`/`<ol>` => Mỗi `<li>` phải nằm trong một danh sách.
+- Nhầm colspan với rowspan => colspan gộp theo chiều ngang (cột), rowspan gộp theo chiều dọc (hàng).
+- Không bớt ô ở hàng bị gộp => Hàng có ô bị rowspan chiếm phải bớt số `<td>` tương ứng.
+@terms
+- ul :: Danh sách không thứ tự.
+- ol :: Danh sách có thứ tự.
+- li :: Một mục của danh sách.
+- tr / td / th :: Hàng / ô dữ liệu / ô tiêu đề của bảng.
+- colspan / rowspan :: Thuộc tính gộp cột / gộp hàng.
+@cards
+- Thẻ tạo danh sách không thứ tự? :: <ul>.
+- Thẻ tạo danh sách có thứ tự? :: <ol>.
+- Mỗi mục danh sách dùng thẻ nào? :: <li>.
+- Đánh số bắt đầu từ 5 trong danh sách có thứ tự? :: <ol start="5">.
+- Đánh số kiểu A, B, C? :: <ol type="A">.
+- Thẻ tạo một hàng của bảng? :: <tr>.
+- Khác nhau giữa th và td? :: th là ô tiêu đề (đậm, căn giữa); td là ô dữ liệu.
+- Gộp 2 cột thành một ô? :: colspan="2".
+@check
+? Muốn danh sách đánh số kiểu i, ii, iii cần viết:
++ <ol type="i">
+- <ul type="i">
+- <ol start="i">
+- <li type="ul">
+= type="i" cho số La Mã thường.
+? Thuộc tính nào gộp 3 hàng thành một ô?
++ rowspan="3"
+- colspan="3"
+- border="3"
+- start="3"
+= rowspan gộp theo chiều dọc (hàng).
+? Cấu trúc nào đúng của bảng?
++ <table><tr><td>…</td></tr></table>
+- <table><td><tr>…</tr></td></table>
+- <tr><table><td>…</td></table></tr>
+- <td><tr><table>…</table></tr></td>
+= Bảng gồm các hàng tr, mỗi hàng chứa ô td.
+? Thẻ nào dùng làm tiêu đề cho cả bảng?
++ <caption>
+- <th>
+- <title>
+- <h7>
+= caption là tiêu đề của bảng.
+
+=== 10
+@goals
+- Hiểu khái niệm siêu văn bản và siêu liên kết.
+- Tạo được liên kết đến trang web khác, đến tệp trong website và đến vị trí trong cùng trang.
+- Phân biệt đường dẫn tuyệt đối và đường dẫn tương đối.
+@sec Siêu văn bản và thẻ a
+**Siêu văn bản** là văn bản có chứa liên kết tới các tài nguyên khác. Liên kết được tạo bằng thẻ `<a>` với thuộc tính `href` chỉ địa chỉ đích:
+:::code html live
+<p><a href="https://moet.gov.vn" target="_blank">Bộ Giáo dục và Đào tạo</a></p>
+<p><a href="#bai-tap">Đến phần bài tập</a></p>
+<p><a href="mailto:gv@truong.edu.vn">Gửi thư cho giáo viên</a></p>
+<h3 id="bai-tap">Bài tập</h3>
+<p>Nội dung bài tập…</p>
+:::end
+- `target="_blank"`: mở liên kết trong tab mới.
+- `title`: chú thích hiện khi di chuột.
+- Có thể dùng ảnh làm liên kết: `<a href="…"><img src="logo.png" alt="Logo"></a>`.
+@sec Đường dẫn tuyệt đối và tương đối
+| Loại | Đặc điểm | Ví dụ |
+| Tuyệt đối | Đầy đủ giao thức, tên miền | `https://example.com/tin/bai1.html` |
+| Tương đối | Tính từ vị trí tệp hiện tại | `bai1.html`, `images/logo.png`, `../index.html` |
+- `thu-muc/tep.html`: tệp trong thư mục con.
+- `../tep.html`: đi lên **một cấp** thư mục cha.
+:::stack website/ | index.html · lienhe.html | baihoc/bai1.html → "../index.html" quay về trang chủ
+@sec Liên kết trong cùng trang
+- Đặt `id` cho phần tử đích: `<h3 id="bai-tap">`.
+- Tạo liên kết với dấu `#`: `<a href="#bai-tap">`.
+- Liên kết tới vị trí ở trang khác: `<a href="bai1.html#bai-tap">`.
+- `mailto:` mở trình soạn thư; `tel:` gọi điện trên điện thoại.
+@remember
+- Liên kết: <a href="địa chỉ">nội dung</a>; target="_blank" mở tab mới.
+- Đường dẫn tuyệt đối có đầy đủ địa chỉ; tương đối tính từ tệp hiện tại ("../" lên một cấp).
+- Liên kết trong trang dùng id ở đích và href="#id".
+@mistakes
+- Viết `href="www.abc.com"` cho trang ngoài => Cần đầy đủ giao thức: `https://www.abc.com`.
+- Quên dấu # khi liên kết trong trang => Phải viết `href="#id"`.
+- Dùng đường dẫn tuyệt đối tới ổ đĩa máy mình (C:\...) => Khi đưa lên mạng sẽ hỏng; dùng đường dẫn tương đối.
+@terms
+- Siêu văn bản :: Văn bản chứa các liên kết đến tài nguyên khác.
+- Siêu liên kết :: Phần tử cho phép chuyển tới tài nguyên khác khi nháy chuột.
+- href :: Thuộc tính chỉ địa chỉ đích của liên kết.
+- Đường dẫn tuyệt đối :: Địa chỉ đầy đủ gồm giao thức và tên miền.
+- Đường dẫn tương đối :: Địa chỉ tính từ vị trí tệp hiện tại.
+- Anchor (neo) :: Vị trí đích trong trang được đánh dấu bằng id.
+@cards
+- Thẻ tạo liên kết? :: <a>.
+- Thuộc tính chỉ địa chỉ đích? :: href.
+- Mở liên kết trong tab mới? :: target="_blank".
+- "../index.html" nghĩa là gì? :: Tệp index.html ở thư mục cha (lên một cấp).
+- Liên kết tới phần tử có id="lienhe" trong cùng trang? :: <a href="#lienhe">.
+- Liên kết mở trình soạn thư? :: href="mailto:địa-chỉ-email".
+- Ví dụ đường dẫn tuyệt đối? :: https://example.com/bai1.html.
+- Làm ảnh thành liên kết? :: Đặt <img> bên trong <a>.
+@check
+? Tệp bai1.html nằm trong thư mục baihoc. Từ bai1.html liên kết về index.html ở thư mục gốc, viết:
++ <a href="../index.html">
+- <a href="baihoc/index.html">
+- <a href="/baihoc/../../index">
+- <a href="#index.html">
+= ../ đi lên một cấp thư mục.
+? Liên kết đến phần tử <section id="gioithieu"> trong cùng trang:
++ <a href="#gioithieu">
+- <a href="gioithieu">
+- <a id="gioithieu">
+- <a href=".gioithieu">
+= Dùng # trước id.
+? Đường dẫn nào là tuyệt đối?
++ https://vi.wikipedia.org/wiki/HTML
+- images/anh.png
+- ../trangchu.html
+- bai2.html
+= Đường dẫn tuyệt đối có giao thức và tên miền.
+? Thuộc tính nào làm liên kết mở trong tab mới?
++ target="_blank"
+- href="_new"
+- title="tab"
+- alt="blank"
+= target="_blank" mở tab mới.
