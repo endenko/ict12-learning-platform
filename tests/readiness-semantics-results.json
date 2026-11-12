@@ -1,7 +1,0 @@
-{
-  "success": true,
-  "checks": [
-    "Python prerequisite len, iteration, range-exclusive sum-of-squares, zero-based indexing and even counter executed",
-    "SQLite predicates, composite unique/non-null key, foreign-key orphan rejection, class join/count and revenue multiplication executed"
-  ]
-}

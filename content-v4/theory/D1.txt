@@ -1,0 +1,181 @@
+=== 11
+@goals
+- Chèn được ảnh vào trang web với các thuộc tính src, alt, width, height.
+- Chèn được âm thanh, video bằng thẻ audio, video.
+- Nhúng được trang web, bản đồ, video trực tuyến bằng khung nội tuyến iframe.
+@sec Chèn ảnh
+:::code html live
+<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='90'%3E%3Crect width='160' height='90' fill='%2360a5fa'/%3E%3Ctext x='80' y='52' font-size='18' text-anchor='middle' fill='white'%3EẢnh minh họa%3C/text%3E%3C/svg%3E" alt="Ảnh minh họa màu xanh" width="160" height="90">
+<p>Ảnh hỏng sẽ hiện chữ thay thế:</p>
+<img src="khong-ton-tai.png" alt="Logo câu lạc bộ Tin học">
+:::end
+| Thuộc tính | Ý nghĩa |
+| `src` | Đường dẫn tới tệp ảnh (bắt buộc) |
+| `alt` | Văn bản thay thế khi ảnh không hiển thị; hỗ trợ người khiếm thị và công cụ tìm kiếm |
+| `width`, `height` | Chiều rộng, chiều cao (pixel) |
+| `title` | Chú thích hiện khi di chuột |
+:::note Nếu chỉ đặt `width`, trình duyệt tự tính `height` để **giữ đúng tỉ lệ** ảnh. Các định dạng phổ biến: JPG, PNG, GIF, SVG, WebP.
+@sec Chèn âm thanh và video
+- `<audio src="bai-hat.mp3" controls></audio>`: chèn âm thanh (MP3, WAV, OGG).
+- `<video src="phim.mp4" width="400" controls></video>`: chèn video (MP4, WebM, OGG).
+- Thuộc tính thường dùng: **controls** (hiện thanh điều khiển), **autoplay** (tự phát), **loop** (lặp lại), **muted** (tắt tiếng), **poster** (ảnh đại diện của video).
+- Có thể dùng nhiều `<source>` để trình duyệt chọn định dạng hỗ trợ được.
+:::code html
+<video width="400" controls poster="anh-bia.jpg">
+  <source src="gioi-thieu.mp4" type="video/mp4">
+  <source src="gioi-thieu.webm" type="video/webm">
+  Trình duyệt không hỗ trợ video.
+</video>
+:::end
+@sec Khung nội tuyến iframe
+`<iframe>` hiển thị **một trang web khác bên trong trang hiện tại**, thường dùng để nhúng video YouTube, bản đồ Google Maps, biểu mẫu Google Forms.
+:::code html
+<iframe src="https://www.youtube-nocookie.com/embed/MÃ_VIDEO"
+        width="560" height="315" title="Video bài giảng"
+        allowfullscreen></iframe>
+:::end
+- Các trang lớn cung cấp sẵn mã nhúng (Chia sẻ → Nhúng/Embed) để sao chép.
+- Nên đặt `title` mô tả nội dung khung để hỗ trợ khả năng tiếp cận.
+@remember
+- img: src (bắt buộc), alt (văn bản thay thế), width/height.
+- audio, video + controls; autoplay, loop, muted, poster; dùng source cho nhiều định dạng.
+- iframe nhúng trang web khác (YouTube, bản đồ, biểu mẫu) vào trang.
+@mistakes
+- Bỏ trống thuộc tính alt => alt giúp người khiếm thị và hiện khi ảnh lỗi; nên mô tả ngắn gọn.
+- Quên `controls` nên video không có nút phát => Thêm thuộc tính controls.
+- Đặt cả width và height sai tỉ lệ làm ảnh méo => Chỉ đặt một chiều hoặc giữ đúng tỉ lệ.
+@terms
+- img :: Thẻ rỗng chèn ảnh.
+- alt :: Văn bản thay thế cho ảnh.
+- audio / video :: Thẻ chèn âm thanh / video.
+- controls :: Thuộc tính hiện thanh điều khiển phát.
+- iframe :: Khung nội tuyến hiển thị trang khác trong trang hiện tại.
+- Mã nhúng :: Đoạn mã iframe do trang nguồn cung cấp để nhúng nội dung.
+@cards
+- Thuộc tính bắt buộc của <img>? :: src.
+- alt dùng để làm gì? :: Văn bản thay thế khi ảnh không hiện; hỗ trợ người khiếm thị.
+- Hiện thanh điều khiển cho video? :: Thuộc tính controls.
+- Thuộc tính đặt ảnh đại diện cho video? :: poster.
+- Video lặp lại liên tục? :: Thuộc tính loop.
+- Thẻ nhúng bản đồ, video YouTube vào trang? :: <iframe>.
+- Vì sao dùng nhiều <source> trong <video>? :: Để trình duyệt chọn định dạng nó hỗ trợ.
+- Chỉ đặt width cho ảnh thì height thế nào? :: Tự tính theo tỉ lệ gốc.
+@check
+? Ảnh không tải được, người xem vẫn biết đó là logo trường nhờ thuộc tính nào?
++ alt
+- src
+- width
+- loop
+= alt cung cấp văn bản thay thế.
+? Muốn video tự phát và tắt tiếng, dùng các thuộc tính:
++ autoplay muted
+- loop poster
+- src alt
+- href target
+= autoplay tự phát, muted tắt tiếng.
+? Thẻ nào phù hợp để nhúng bản đồ Google Maps vào trang?
++ <iframe>
+- <audio>
+- <table>
+- <ol>
+= iframe nhúng trang khác vào trang hiện tại.
+? Mã nào chèn tệp âm thanh có nút điều khiển?
++ <audio src="nhac.mp3" controls></audio>
+- <img src="nhac.mp3">
+- <a audio="nhac.mp3">
+- <video alt="nhac.mp3">
+= audio + controls.
+
+=== 12
+@goals
+- Hiểu vai trò của biểu mẫu (form) trên trang web.
+- Tạo được biểu mẫu với các điều khiển: ô nhập, mật khẩu, nút chọn, hộp kiểm, danh sách chọn, vùng văn bản, nút gửi.
+- Sử dụng được label, fieldset, legend và các thuộc tính name, value, required.
+@sec Biểu mẫu là gì?
+**Biểu mẫu** dùng để thu thập thông tin từ người dùng (đăng kí, đăng nhập, khảo sát…). Thẻ `<form>` chứa các điều khiển nhập liệu.
+- `action`: địa chỉ chương trình xử lí dữ liệu gửi đến.
+- `method`: cách gửi – **get** (dữ liệu hiện trên URL) hoặc **post** (gửi trong thân yêu cầu, phù hợp dữ liệu nhạy cảm).
+- Mỗi điều khiển cần thuộc tính **name** để dữ liệu được gửi đi dưới dạng cặp name=value.
+@sec Các điều khiển nhập liệu
+| Mã | Điều khiển |
+| `<input type="text">` | Ô nhập một dòng |
+| `<input type="password">` | Ô mật khẩu (ẩn kí tự) |
+| `<input type="radio">` | Nút chọn – chỉ chọn **một** trong nhóm cùng name |
+| `<input type="checkbox">` | Hộp kiểm – chọn **nhiều** |
+| `<input type="email">`, `number`, `date` | Ô nhập có kiểm tra định dạng |
+| `<select><option>` | Danh sách thả xuống |
+| `<textarea>` | Vùng nhập nhiều dòng |
+| `<input type="submit">` / `<button>` | Nút gửi |
+| `<input type="reset">` | Nút xóa dữ liệu đã nhập |
+:::code html live
+<form action="#" method="post">
+  <fieldset>
+    <legend>Đăng kí câu lạc bộ</legend>
+    <label for="ten">Họ tên:</label>
+    <input id="ten" name="hoten" type="text" required><br>
+    Giới tính:
+    <label><input type="radio" name="gt" value="nam"> Nam</label>
+    <label><input type="radio" name="gt" value="nu"> Nữ</label><br>
+    Sở thích:
+    <label><input type="checkbox" name="st" value="web"> Web</label>
+    <label><input type="checkbox" name="st" value="ai"> AI</label><br>
+    Lớp: <select name="lop"><option>12A1</option><option>12A2</option></select><br>
+    <textarea name="ghichu" rows="2" cols="30" placeholder="Ghi chú"></textarea><br>
+    <input type="submit" value="Gửi"> <input type="reset" value="Nhập lại">
+  </fieldset>
+</form>
+:::end
+@sec Nhãn và nhóm điều khiển
+- `<label for="id">` gắn nhãn với điều khiển có `id` tương ứng; nháy vào nhãn sẽ chọn điều khiển.
+- `<fieldset>` nhóm các điều khiển liên quan, `<legend>` là tiêu đề của nhóm.
+- Thuộc tính hữu ích: `required` (bắt buộc nhập), `placeholder` (gợi ý mờ), `checked` (chọn sẵn), `selected` (option chọn sẵn), `maxlength`.
+:::note Các nút radio cùng nhóm phải có **cùng name**, nếu không người dùng sẽ chọn được nhiều nút.
+@remember
+- form (action, method get/post) chứa các điều khiển; mỗi điều khiển cần name.
+- radio chọn một (cùng name), checkbox chọn nhiều, select danh sách, textarea nhiều dòng.
+- label for gắn nhãn; fieldset + legend nhóm điều khiển; required bắt buộc nhập.
+@mistakes
+- Đặt name khác nhau cho các radio cùng câu hỏi => Phải cùng name để chỉ chọn được một.
+- Dùng type="text" cho mật khẩu => Dùng type="password".
+- Gửi mật khẩu bằng method get => Dùng post để dữ liệu không hiện trên URL.
+@terms
+- form :: Biểu mẫu thu thập dữ liệu người dùng.
+- action / method :: Nơi xử lí dữ liệu / cách gửi (get, post).
+- input :: Thẻ rỗng tạo nhiều loại điều khiển nhập liệu qua type.
+- radio / checkbox :: Nút chọn một / hộp kiểm chọn nhiều.
+- label :: Nhãn gắn với điều khiển.
+- fieldset / legend :: Khung nhóm điều khiển / tiêu đề nhóm.
+@cards
+- Thẻ tạo biểu mẫu? :: <form>.
+- method="get" và "post" khác nhau thế nào? :: get gửi dữ liệu trên URL; post gửi trong thân yêu cầu.
+- Chọn một trong nhiều phương án dùng gì? :: <input type="radio"> cùng name.
+- Chọn nhiều phương án dùng gì? :: <input type="checkbox">.
+- Vùng nhập nhiều dòng? :: <textarea>.
+- Danh sách thả xuống? :: <select> với các <option>.
+- Bắt buộc phải nhập một ô? :: Thuộc tính required.
+- fieldset và legend dùng để làm gì? :: Nhóm điều khiển liên quan và đặt tiêu đề nhóm.
+@check
+? Câu hỏi "Em học lớp nào?" có 12 lựa chọn, muốn giao diện gọn nên dùng:
++ <select> với các <option>
+- 12 ô <textarea>
+- <input type="password">
+- <fieldset> rỗng
+= Danh sách thả xuống gọn khi có nhiều lựa chọn.
+? Ba nút radio cho câu hỏi giới tính nhưng chọn được cả ba. Lỗi do đâu?
++ Các nút không cùng thuộc tính name.
+- Thiếu thẻ <table>.
+- Thiếu thuộc tính alt.
+- Dùng method="post".
+= Radio cùng nhóm phải cùng name.
+? Ô nhập email có kiểm tra định dạng dùng:
++ <input type="email">
+- <input type="text" alt="email">
+- <email>
+- <textarea type="email">
+= type="email" kiểm tra định dạng địa chỉ.
+? Nháy vào chữ "Họ tên" sẽ đưa con trỏ vào ô nhập nhờ:
++ <label for="..."> gắn với id của ô nhập
+- Thẻ <legend>
+- Thuộc tính placeholder
+- Thẻ <b>
+= label for liên kết nhãn với điều khiển.

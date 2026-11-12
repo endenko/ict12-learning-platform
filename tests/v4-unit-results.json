@@ -1,0 +1,63 @@
+{
+ "at": "2026-11-12T14:32:01.126Z",
+ "passed": 14,
+ "total": 14,
+ "results": [
+  {
+   "name": "Theory: 28 lessons with goals, ≥2 sections, Ghi nhớ, mistakes, glossary, ≥6 cards, 3–5 checks",
+   "ok": true
+  },
+  {
+   "name": "Theory: every check has 4 distinct options, a valid answer and an explanation; server index matches",
+   "ok": true
+  },
+  {
+   "name": "Theory: HTML/CSS lessons (7–18) have live code examples; titles match lessons.json",
+   "ok": true
+  },
+  {
+   "name": "Theory: no executable script in examples (previews are sandboxed anyway)",
+   "ok": true
+  },
+  {
+   "name": "Sanitizer: 25 XSS vectors produce no script, handlers, iframes, styles or dangerous URLs",
+   "ok": true
+  },
+  {
+   "name": "Sanitizer: keeps allowed formatting, forces safe links, balances tags, escapes text, caps size",
+   "ok": true
+  },
+  {
+   "name": "Video URL parsing: accepts YouTube/Vimeo forms, rejects others and malformed ids",
+   "ok": true
+  },
+  {
+   "name": "Video verification (live oEmbed): seeded video accepted, non-existent id rejected",
+   "ok": true
+  },
+  {
+   "name": "Seed videos: every item was oEmbed-verified and its title names the lesson number",
+   "ok": true
+  },
+  {
+   "name": "Progress maths: summary weights, completion rule, task status, studied-before-exam",
+   "ok": true
+  },
+  {
+   "name": "Migration v4 is additive (no DROP TABLE/DELETE/TRUNCATE/UPDATE of rows) and keeps all v3 collections + checks",
+   "ok": true
+  },
+  {
+   "name": "CSP allows only privacy-enhanced YouTube + Vimeo frames and YouTube thumbnails; scripts stay self-only",
+   "ok": true
+  },
+  {
+   "name": "Front-end: learn.js uses sandboxed previews, nocookie embeds, and never injects un-cleaned teacher HTML",
+   "ok": true
+  },
+  {
+   "name": "Deploy manifest lists the v4 runtime files",
+   "ok": true
+  }
+ ]
+}

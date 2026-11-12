@@ -1,0 +1,14 @@
+{
+ "base": "http://localhost:3000",
+ "started": "2026-11-12T14:35:37.280Z",
+ "checks": [
+  "v3 regression: teacher creates class, imports student, assigns built-in \"Bài 3\" exam",
+  "All student tabs render (incl. \"Học lý thuyết\") without JS errors",
+  "Student read Bài 3 theory in the reader (100% saved)",
+  "v2/v3 regression: student completed the assigned Bài 3 exam (23 questions, server-graded)",
+  "Teacher report links theory to exams: \"✓ đã đọc lý thuyết trước khi làm\" for the Bài 3 attempt; class view 1/1 lượt",
+  "Cleanup: test teacher + student locked, class archived (logins rejected)"
+ ],
+ "jsErrors": [],
+ "finished": "2026-11-12T14:37:41.056Z"
+}

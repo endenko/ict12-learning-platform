@@ -1,5 +1,17 @@
 # Production deployment
 
+## v4 — self-study theory, videos, learning progress · 2026-11-12 (UTC+7)
+- Database: `migrations/v4-learning.sql` (additive; applied to Supabase afhgfdkozdwtjdsvldzj as migration `ict12_v4_learning`). New collections: progress, materials, videos, studytasks; index on data->>'ownerId'; scoped_check ownership branches for materials/videos/studytasks.
+- Seed videos (idempotent, re-verifies oEmbed, skips admin-edited lessons): `node --env-file=.env scripts/seed-videos.js` → 28 lessons, 56 videos.
+- Deploy files: prepare-deploy.py adds lib/learn.js, lib/sanitize.js, lib/theory-index.json, public/learn.js, public/learn.css, public/theory.json. vercel.json CSP adds frame-src/child-src https://www.youtube-nocookie.com https://player.vimeo.com and img-src https://i.ytimg.com.
+- Production deployment: `dpl_6mgJqKw1rT9ULsxJ9CUwAtBy9Aid` (READY, alias ict12-learning-platform.vercel.app). Production: v4 e2e 24 checks + 18 isolation PASS, v4 regression 6/6 PASS; test data locked/archived (`tests/v4-cleanup-results.json`).
+
+## v3 — teacher portal · 2026-11-12 (UTC+7)
+- Database: apply `migrations/v3-teacher.sql` then `migrations/v3-teacher-2.sql` (additive; already applied to Supabase project afhgfdkozdwtjdsvldzj as migrations `ict12_v3_teacher_portal` and `ict12_v3_teacher_class_name_guard`). New collections: notes, announcements, questions, activity, presence. New RPC actions: `list_in`, `scoped_put`.
+- Deploy files: `scripts/prepare-deploy.py` now includes lib/report.js, lib/roster.js, lib/portal.js, public/portal.js, public/portal.css.
+- First teacher: admin → ★ Cổng giáo viên → Giáo viên → create (see README "Admin tạo tài khoản giáo viên đầu tiên").
+- Production deployment: `dpl_8AZjSzTHonTY9y3RfLhJgs27ZB6v` (READY, alias ict12-learning-platform.vercel.app) — v3 e2e production 20 checks + 27 isolation checks PASS; v2 e2e production 22/22 PASS; test accounts locked, TEST classes archived (`tests/v3-cleanup-results.json`).
+
 ## Current authoritative release — full-bank completion · 2026-11-09T10:02:56.314317+07:00 (UTC+7)
 
 - LIVE_VERIFIED: https://ict12-learning-platform.vercel.app ; deployment `dpl_GFDykbHYVAAxTabbRN3A32HmxzNf` READY, same project/team/alias, no SSO approval required.16 runtime files; only public help/server-side exam bank changed. No DB migration this round.
@@ -55,3 +67,15 @@
 - Baseline original passwords and accepted result payloads unchanged; private RLS/privileges verified, no active unsnapshotted attempt. Original A-only project untouched.
 - Final source manifest16 files; source archive `ict12-release-ready-source.zip` excludes env, credentials, private backups and student datasets. Private operator snapshot receipts remain box-only. Do not upload them.
 - Honest limits: semantic audit140 MCQ +172 TF statements (not the entire bank); no large-load certification or destructive production DB restore drill; anti-cheat is browser deterrence only. See audit/runbook for precise scope and shared-project warning boundary.
+
+
+## v2 upgrade (2026-11-11)
+- Content: 790 new MC + 50 new Đ/S (lib/mcq-v3.json, lib/tf-v3.json; authoring in content-v3/, build with `python3 content-v3/build.py`, QA with `python3 content-v3/qa.py`).
+- Lesson variants: Bài 1–13 → v2–v5 (5 sets each), Bài 14–28 → v2–v4 (4 sets each); 97 new lesson sets, ~15 TN + 2 Đ/S, pairwise overlap ≤4 questions.
+- GK/CK: midterm-1, final-1, midterm-2, final-2 each have -v2..-v5 (5 sets per term). THPT 2025-format mocks: thpt-ict-01..10 (24 TN + 4 Đ/S). Total exams: 165.
+- Questions and options are still shuffled per attempt server-side; 40 s/step and no going back are unchanged.
+- Features: random mixed practice (topic/lesson/level), bookmarks + bookmark practice, retry-wrong, per-lesson mastery grid, lesson/exam search and filters, admin bulk import (tab "Nhập câu hỏi", closed by default, archive = soft-delete).
+- UI: public/theme.css (design system + dark mode + mobile + reduced motion) and public/ui.js (overrides app.js renderers).
+- Tests: tests/v2-unit.js (12/12), tests/v2-e2e.js (22/22 against local, preview and production; TEST_BASE / TEST_TAG env).
+- Production deployment: dpl_DY7yywiT8qTEJBMYw1hPZo9HTYMW (preview dpl_5KfnkMSGLevXivgLLrmXZztJNEtA).
+- Anti-cheat option lengths (2026-11-11 follow-up): all 790 new MC items now meet max/min option length <= 1.15 (was 438 failing); the key is the unique longest option in 13.2% of items (was 41.8%); 'pick the longest' scores 24.7% (was 50.0%) and 'pick the shortest' 22.1% (was 9.8%), near the 25% chance level. The strict 1.15 test in tests/unit.js again applies to every item, new ones included. Named-term items fixed: Win+P Extend/Duplicate (L22) and Google Forms question types (L27). Production deployment: dpl_CQdDRghEH4bUjsAzpEkpvbBEP5CY (previous v2: dpl_DY7yywiT8qTEJBMYw1hPZo9HTYMW).

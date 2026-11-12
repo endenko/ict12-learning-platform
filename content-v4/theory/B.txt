@@ -1,0 +1,149 @@
+=== 5
+@goals
+- Thực hiện được việc chia sẻ thư mục, tệp trong mạng cục bộ và cấp quyền phù hợp.
+- Truy cập được tài nguyên chia sẻ qua Network và đường dẫn UNC.
+- Chia sẻ và sử dụng được máy in dùng chung trong mạng LAN.
+@sec Chuẩn bị trước khi chia sẻ
+- Các máy phải **cùng kết nối một mạng LAN**.
+- Đặt cấu hình mạng là **Private** (mạng riêng); với mạng **Public** Windows hạn chế khám phá và chia sẻ.
+- Bật **Network discovery** (khám phá mạng) và **File and printer sharing** (chia sẻ tệp và máy in) trong Advanced sharing settings.
+:::flow Cùng mạng LAN > Mạng Private > Bật khám phá mạng > Bật chia sẻ tệp, máy in
+@sec Chia sẻ thư mục và cấp quyền
+- Nháy chuột phải thư mục → **Properties** → thẻ **Sharing** → **Advanced Sharing** → đánh dấu **Share this folder**, đặt **Share name**.
+- Nháy **Permissions** để chọn người dùng (tài khoản cụ thể hoặc **Everyone**) và cấp quyền.
+| Quyền | Được phép |
+| Read | Xem, mở, sao chép tệp; không sửa, xóa |
+| Change | Đọc, sửa, tạo, xóa tệp; không thay đổi quyền |
+| Full Control | Toàn quyền, kể cả thay đổi quyền của người khác |
+:::note Nguyên tắc: chỉ cấp **quyền tối thiểu cần thiết**. Thư mục tài liệu tham khảo chỉ nên cho Read; thư mục nộp bài mới cần quyền ghi.
+@sec Truy cập tài nguyên chia sẻ
+- Mở **File Explorer → Network** để thấy các máy trong mạng.
+- Hoặc gõ đường dẫn **UNC** vào thanh địa chỉ: `\\tên-máy\tên-chia-sẻ`, ví dụ `\\MAYGV\TaiLieu`.
+- Có thể **Map network drive** (gán kí tự ổ đĩa, vd Z:) để mở nhanh thư mục chia sẻ.
+- Thấy máy nhưng không mở được thư mục → thường do **thiếu quyền** hoặc sai tài khoản.
+@sec Chia sẻ máy in
+- Trên máy đang nối trực tiếp với máy in (máy chủ in): **Settings → Bluetooth & devices → Printers & scanners** → chọn máy in → **Printer properties** → thẻ Sharing → đánh dấu **Share this printer**, đặt tên.
+- Máy khác thêm máy in qua `\\tên-máy\tên-máy-in` hoặc Add device.
+- Máy chủ in phải **bật và kết nối mạng**; các lệnh in được xếp vào **hàng đợi in**.
+@remember
+- Cần cùng LAN, mạng Private, bật Network discovery và File and printer sharing.
+- Quyền chia sẻ: Read < Change < Full Control; cấp quyền tối thiểu cần thiết.
+- Đường dẫn UNC: \\tên-máy\tên-chia-sẻ; máy chủ in phải bật để in qua mạng.
+@mistakes
+- Cấp Full Control cho Everyone để "cho tiện" => Dễ bị sửa, xóa dữ liệu; chỉ cấp quyền cần thiết.
+- Nghĩ bỏ chia sẻ sẽ xóa dữ liệu => Bỏ chia sẻ chỉ dừng truy cập qua mạng, dữ liệu vẫn còn.
+- Tắt máy chủ in rồi thắc mắc máy khác không in được => Lệnh in qua mạng phải đi qua máy chủ in.
+@terms
+- Chia sẻ tài nguyên :: Cho phép máy khác trong mạng dùng tệp, thư mục, máy in của máy mình.
+- Share name :: Tên thư mục chia sẻ mà người dùng trên mạng nhìn thấy.
+- Đường dẫn UNC :: Dạng \\tên-máy\tên-chia-sẻ chỉ tới tài nguyên trong LAN.
+- Everyone :: Nhóm đại diện cho mọi người dùng truy cập qua mạng.
+- Máy chủ in :: Máy tính nối trực tiếp với máy in và chia sẻ nó cho mạng.
+@cards
+- Ba điều kiện để chia sẻ trong Windows? :: Cùng LAN, mạng Private, bật Network discovery + File and printer sharing.
+- Quyền Read cho phép gì? :: Xem, mở, sao chép; không sửa, xóa.
+- Quyền Change khác Full Control ở điểm nào? :: Change không được thay đổi quyền của người khác.
+- Đường dẫn UNC có dạng nào? :: \\tên-máy\tên-chia-sẻ
+- Map network drive là gì? :: Gán kí tự ổ đĩa cho thư mục chia sẻ để mở nhanh.
+- Thẻ nào trong Properties dùng để chia sẻ thư mục? :: Thẻ Sharing (Advanced Sharing).
+- Vì sao máy chủ in phải luôn bật? :: Lệnh in qua mạng đi qua máy chủ in và hàng đợi của nó.
+- Nguyên tắc cấp quyền khi chia sẻ? :: Cấp quyền tối thiểu cần thiết.
+@check
+? Thầy giáo muốn học sinh chỉ xem và sao chép tài liệu, không được sửa. Nên cấp quyền gì?
++ Read.
+- Full Control.
+- Change.
+- Không cần cấp quyền.
+= Read cho phép đọc, sao chép nhưng không sửa, xóa.
+? Đường dẫn nào truy cập đúng thư mục chia sẻ "BaiTap" trên máy "PC01"?
++ \\PC01\BaiTap
+- //BaiTap/PC01
+- C:\PC01\BaiTap
+- http:BaiTap.PC01
+= Đường dẫn UNC có dạng \\tên-máy\tên-chia-sẻ.
+? Máy A thấy máy B trong Network nhưng mở thư mục chia sẻ thì bị từ chối. Nguyên nhân thường gặp?
++ Tài khoản của máy A chưa được cấp quyền.
+- Máy A chưa cắm chuột.
+- Màn hình máy B bị tắt.
+- Thư mục có quá nhiều ảnh.
+= Thấy máy nhưng không mở được thường do thiếu quyền truy cập.
+? Khi kết nối Wi-Fi ở quán cà phê, Windows đặt mạng là Public. Điều gì xảy ra?
++ Windows hạn chế khám phá và chia sẻ để bảo vệ máy.
+- Mọi người trong quán xem được thư mục của bạn.
+- Máy tự chia sẻ máy in.
+- Tốc độ mạng tăng gấp đôi.
+= Mạng Public hạn chế chia sẻ để an toàn.
+
+=== 6
+@goals
+- Nhận biết được những nét đặc thù của giao tiếp trong không gian mạng.
+- Biết ứng xử văn minh, an toàn, tôn trọng người khác trên mạng.
+- Thể hiện được tính nhân văn khi tham gia không gian mạng.
+@sec Đặc điểm giao tiếp trong không gian mạng
+- **Nhanh và rộng:** thông tin lan truyền rất nhanh tới nhiều người.
+- **Khó xóa bỏ:** nội dung đã đăng có thể bị chụp lại, lưu trữ lâu dài ("dấu chân số").
+- **Thiếu tín hiệu phi ngôn ngữ:** không thấy nét mặt, giọng điệu nên dễ hiểu lầm.
+- **Có thể ẩn danh:** một số người lợi dụng để nói lời thiếu trách nhiệm.
+:::note Hãy nghĩ trước khi đăng: Nội dung này có đúng không? Có cần thiết không? Có làm tổn thương ai không?
+@sec Quy tắc ứng xử
+| Nên | Không nên |
+| Dùng ngôn từ lịch sự, tôn trọng | Xúc phạm, miệt thị, bình luận ác ý |
+| Kiểm chứng thông tin trước khi chia sẻ | Chia sẻ tin giả, tin chưa xác thực |
+| Tôn trọng quyền riêng tư, bản quyền | Đăng ảnh, thông tin cá nhân người khác khi chưa được phép |
+| Bảo vệ tài khoản, thông tin cá nhân | Chia sẻ mật khẩu, mã OTP |
+| Báo cáo nội dung xấu, bắt nạt | Hùa theo đám đông công kích người khác |
+Ở Việt Nam, Luật An ninh mạng và Bộ Quy tắc ứng xử trên mạng xã hội đưa ra các chuẩn mực mà người dùng cần tuân thủ.
+@sec Tính nhân văn trong không gian mạng
+- Lan tỏa thông tin tích cực, hữu ích; khen ngợi điều tốt.
+- **Không bắt nạt trên mạng (cyberbullying)**; lên tiếng bảo vệ, hỗ trợ người bị bắt nạt và báo cho người lớn, nhà trường.
+- Tham gia các hoạt động thiện nguyện, kêu gọi giúp đỡ có kiểm chứng.
+- Cảm thông với khác biệt, tranh luận văn minh, tập trung vào vấn đề chứ không công kích cá nhân.
+:::flow Dừng lại > Kiểm chứng > Cân nhắc cảm xúc người khác > Mới đăng / chia sẻ
+@remember
+- Thông tin trên mạng lan nhanh và khó xóa – hãy cân nhắc trước khi đăng.
+- Ứng xử lịch sự, trung thực, tôn trọng quyền riêng tư và bản quyền.
+- Không bắt nạt trên mạng; hỗ trợ và báo cáo khi thấy hành vi xấu.
+@mistakes
+- Nghĩ dùng nick ảo thì nói gì cũng được => Hành vi trên mạng vẫn phải chịu trách nhiệm trước pháp luật.
+- Chia sẻ tin "nóng" ngay vì nhiều người đã chia sẻ => Số lượt chia sẻ không chứng minh tin là thật.
+- Im lặng hoặc hùa theo khi bạn bị bắt nạt trên mạng => Hãy hỗ trợ bạn và báo cho thầy cô, cha mẹ.
+@terms
+- Không gian mạng :: Môi trường kết nối thông tin qua Internet, mạng máy tính.
+- Dấu chân số :: Dấu vết dữ liệu một người để lại khi hoạt động trên mạng.
+- Bắt nạt trên mạng :: Hành vi đe dọa, chế giễu, quấy rối người khác qua mạng.
+- Tin giả :: Thông tin sai sự thật được lan truyền.
+- Tính nhân văn :: Thái độ tôn trọng, yêu thương, giúp đỡ con người.
+@cards
+- Vì sao giao tiếp qua mạng dễ hiểu lầm? :: Thiếu nét mặt, giọng điệu (tín hiệu phi ngôn ngữ).
+- Dấu chân số là gì? :: Dấu vết dữ liệu để lại khi hoạt động trên mạng, khó xóa bỏ.
+- Trước khi chia sẻ một tin, cần làm gì? :: Kiểm chứng nguồn tin đáng tin cậy.
+- Cyberbullying là gì? :: Bắt nạt trên mạng.
+- Khi thấy bạn bị bắt nạt trên mạng nên làm gì? :: Không hùa theo, hỗ trợ bạn, báo cáo nội dung và báo người lớn.
+- Có được đăng ảnh người khác khi chưa xin phép? :: Không – cần tôn trọng quyền riêng tư.
+- Tranh luận văn minh nghĩa là gì? :: Tập trung vào vấn đề, không công kích cá nhân.
+- Có nên chia sẻ mã OTP cho người tự xưng là nhân viên ngân hàng? :: Không bao giờ.
+@check
+? Bạn thấy một bài đăng kêu gọi quyên góp nhưng không rõ nguồn gốc. Nên làm gì?
++ Kiểm chứng thông tin từ nguồn chính thức trước khi chia sẻ hay ủng hộ.
+- Chia sẻ ngay cho nhiều người.
+- Chuyển tiền ngay để kịp thời.
+- Bình luận chế giễu người đăng.
+= Cần kiểm chứng để tránh tiếp tay cho lừa đảo.
+? Hành vi nào thể hiện tính nhân văn trên mạng?
++ Động viên, bảo vệ một bạn đang bị chế giễu.
+- Ghép ảnh chế bạn cùng lớp.
+- Đăng thông tin cá nhân của người khác.
+- Bình luận gay gắt để thắng tranh luận.
+= Hỗ trợ người bị bắt nạt là hành vi nhân văn.
+? Vì sao nên cân nhắc trước khi đăng một nội dung?
++ Vì nội dung có thể lan nhanh và bị lưu lại lâu dài.
+- Vì đăng bài làm hỏng máy tính.
+- Vì mạng xã hội tính phí mỗi bài đăng.
+- Vì nội dung tự động bị xóa sau 1 phút.
+= Thông tin trên mạng lan nhanh và khó xóa bỏ.
+? Bình luận nào là văn minh khi không đồng ý ý kiến người khác?
++ "Mình nghĩ khác vì số liệu này đã cũ, bạn xem nguồn mới nhé."
+- "Bạn thật ngu ngốc."
+- "Ai đồng ý với bạn thì cũng kém."
+- Gửi hàng loạt biểu tượng chế giễu.
+= Tranh luận văn minh tập trung vào vấn đề, có dẫn chứng.

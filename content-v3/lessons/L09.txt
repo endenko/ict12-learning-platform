@@ -1,0 +1,34 @@
+#Tạo danh sách; thiết lập bảng; thực hành
+N|Thẻ nào tạo danh sách không có thứ tự (gạch đầu dòng)?|Thẻ <ul>.|Thẻ <ol>.|Thẻ <tr>.|Thẻ <td>.|ul (unordered list) tạo danh sách dạng kí hiệu đầu dòng.
+N|Thẻ nào tạo danh sách có thứ tự được đánh số?|Thẻ <ol>.|Thẻ <ul>.|Thẻ <th>.|Thẻ <hr>.|ol (ordered list) tạo danh sách đánh số.
+N|Mỗi mục trong danh sách ul hoặc ol được tạo bằng thẻ nào?|Thẻ <li>.|Thẻ <td>.|Thẻ <dl>.|Thẻ <tr>.|li (list item) là một mục của danh sách.
+N|Thuộc tính type="A" trong thẻ ol cho kết quả đánh số nào?|A, B, C, D, ...|1, 2, 3, 4, ...|a, b, c, d, ...|I, II, III, ...|type="A" đánh số bằng chữ in hoa.
+N|Thuộc tính type="i" trong thẻ ol cho kiểu đánh số nào?|Số La Mã viết thường.|Chữ cái viết thường.|Số tự nhiên 1, 2, 3.|Số La Mã viết in hoa.|type="i" đánh số i, ii, iii.
+N|Thuộc tính nào của ol cho phép bắt đầu đánh số từ 5?|start="5"|begin="5"|from="5"|first="5"|start xác định số bắt đầu của danh sách có thứ tự.
+N|Thẻ <thead> trong bảng thường dùng để nhóm phần nào?|Các hàng tiêu đề của bảng.|Các ô cuối cùng của bảng.|Tên tệp chứa bảng dữ liệu.|Đường viền ngoài của bảng.|thead nhóm phần đầu bảng, tbody nhóm phần thân.
+N|Thẻ nào tạo một ô dữ liệu trong hàng của bảng?|Thẻ <td>.|Thẻ <tr>.|Thẻ <ul>.|Thẻ <hr>.|td (table data) tạo ô dữ liệu.
+N|Thẻ <th> khác thẻ <td> ở điểm nào?|th là ô tiêu đề, mặc định in đậm, căn giữa.|th là hàng của bảng, td là cột của bảng.|th chỉ dùng trong head, td dùng trong body.|th tạo danh sách, td tạo đường kẻ ngang.|th (table header) là ô tiêu đề.
+N|Thẻ nào đặt tên (chú thích) cho bảng?|Thẻ <caption>.|Thẻ <summary>.|Thẻ <header>.|Thẻ <legend>.|caption đặt ngay sau thẻ mở table để ghi tên bảng.
+N|Thuộc tính colspan="2" trên ô td có tác dụng gì?|Gộp ô chiếm hai cột.|Gộp ô chiếm hai hàng.|Tạo thêm hai bảng mới.|Kẻ đôi đường viền ô.|colspan gộp ô theo chiều ngang (cột).
+N|Thuộc tính rowspan="3" trên ô td có tác dụng gì?|Ô chiếm ba hàng theo chiều dọc.|Ô chiếm ba cột theo chiều ngang.|Bảng có thêm ba hàng trống mới.|Đường viền ô dày ba điểm ảnh.|rowspan gộp ô theo chiều dọc (hàng).
+N|Toàn bộ bảng HTML được bao bởi cặp thẻ nào?|<table> và </table>|<tabl> và </tabl>|<grid> và </grid>|<sheet> và </sheet>|table là phần tử bao ngoài của bảng.
+N|Thuộc tính border="1" trong thẻ table dùng để làm gì?|Hiển thị đường viền cho bảng.|Gộp tất cả ô thành một ô lớn.|Đánh số thứ tự cho các hàng.|Căn giữa nội dung của các ô.|border đặt độ dày đường viền bảng.
+N|Danh sách mô tả (thuật ngữ và giải nghĩa) dùng thẻ bao ngoài nào?|Thẻ <dl>.|Thẻ <ul>.|Thẻ <ol>.|Thẻ <tl>.|dl chứa dt (thuật ngữ) và dd (mô tả).
+N|Trong danh sách mô tả, thẻ <dd> dùng để ghi gì?|Phần mô tả của thuật ngữ.|Tên gọi của cả danh sách.|Số thứ tự của thuật ngữ.|Đường kẻ ngăn giữa các mục.|dt ghi thuật ngữ, dd ghi phần mô tả.
+T|Danh sách lồng nhau được tạo bằng cách nào?|Đặt một ul hoặc ol bên trong một li.|Đặt hai thẻ ul cạnh nhau liên tiếp.|Đặt các thẻ li bên ngoài mọi thẻ ul.|Đặt thẻ ol vào bên trong phần head.|Danh sách con nằm trong một mục li của danh sách cha.
+T|Bảng có 3 thẻ tr, mỗi tr có 4 thẻ td (không gộp ô). Bảng có kích thước nào?|3 hàng và 4 cột.|4 hàng và 3 cột.|3 hàng và 3 cột.|7 hàng và 1 cột.|Số tr là số hàng, số td mỗi hàng là số cột.
+T|Hàng đầu dùng th cho các tên cột. Lợi ích chính là gì?|Phân biệt ô tiêu đề với ô dữ liệu.|Làm bảng tự sắp xếp theo thứ tự tên.|Làm bảng tự tính tổng các cột số.|Ẩn hàng đầu khi in trang ra giấy.|th đánh dấu ngữ nghĩa ô tiêu đề, hiển thị nổi bật.
+T|Vì sao nên dùng ol cho các bước hướng dẫn cài đặt phần mềm?|Các bước cần đúng thứ tự thực hiện.|ol hiển thị chữ to hơn so với ul.|ol tự động thêm hình minh họa vào.|ol bắt buộc dùng cho mọi danh sách.|Thứ tự bước quan trọng nên dùng danh sách có thứ tự.
+T|Hàng thứ nhất có một ô colspan="3", hàng thứ hai có ba ô td. Ô colspan nằm thế nào?|Trải rộng trên cả ba cột.|Chỉ nằm ở cột đầu bên trái.|Chỉ nằm ở cột cuối bên phải.|Nằm bên dưới hàng thứ hai.|colspan="3" làm ô chiếm cả ba cột.
+T|Một hàng có ô rowspan="2". Hàng ngay sau cần bớt bao nhiêu ô td?|Bớt một ô ở cột đó.|Bớt hai ô ở hàng đó.|Không cần bớt ô nào.|Bớt toàn bộ các ô.|Ô gộp đã chiếm chỗ ở hàng dưới nên hàng dưới bớt một ô.
+T|Đoạn <ol start="3"><li>A</li><li>B</li></ol> hiển thị số nào trước B?|Số 4.|Số 2.|Số 3.|Số 1.|Đánh số bắt đầu từ 3: A là 3, B là 4.
+T|Mã <ol type="I"><li>Mở đầu</li><li>Nội dung</li></ol> đánh số mục thứ hai là gì?|Kí hiệu II.|Kí hiệu ii.|Kí hiệu B.|Kí hiệu 2.|type="I" dùng số La Mã in hoa.
+V|Cần bảng điểm 5 học sinh, mỗi em 3 cột: Họ tên, Toán, Tin, có hàng tiêu đề. Cần bao nhiêu thẻ tr?|6 thẻ tr.|5 thẻ tr.|3 thẻ tr.|8 thẻ tr.|1 hàng tiêu đề + 5 hàng dữ liệu = 6 hàng.
+V|Bảng thời khóa biểu có ô "Sinh hoạt" kéo dài cả 6 cột của hàng. Dùng thuộc tính nào?|colspan="6" cho ô đó.|rowspan="6" cho ô đó.|border="6" cho bảng.|start="6" cho ô đó.|Gộp ngang 6 cột dùng colspan.
+V|Muốn liệt kê nguyên liệu nấu ăn không cần thứ tự, nên dùng cấu trúc nào?|ul chứa các mục li.|ol chứa các mục td.|dl chứa các mục td.|dl chứa các mục tr.|Danh sách không thứ tự dùng ul với li.
+V|Muốn mục lục dạng 1, 2, 3 và mỗi mục có các ý a, b, c, chọn cấu trúc nào?|ol bên ngoài, ol type="a" lồng trong li.|ul bên ngoài, ul type="a" đặt ở cuối trang.|table bên ngoài, mỗi ý là một hàng tr riêng.|dl bên ngoài, mỗi ý là một ô td riêng biệt.|Danh sách lồng: ol cấp 1, ol type="a" trong từng li.
+V|Môn Tin chiếm hai hàng liên tiếp ở cột đầu của thời khóa biểu. Dùng gì?|rowspan="2" cho ô Tin.|colspan="2" cho ô Tin.|start="2" cho ô Tin.|border="2" cho ô Tin.|Gộp dọc hai hàng dùng rowspan.
+N|Thẻ <caption> phải được đặt ở vị trí nào?|Ngay sau thẻ mở table.|Ngay trước thẻ mở html.|Bên trong thẻ td cuối.|Bên trong thẻ head đầu.|caption đặt ngay sau <table>.
+T|Vì sao không đặt trực tiếp chữ vào giữa <ul> và <li> mà không có li?|Nội dung danh sách phải nằm trong li.|Chữ sẽ tự chuyển thành một ô bảng mới.|Trình duyệt sẽ xóa toàn bộ trang web.|ul chỉ chứa được các hình ảnh động thôi.|Con trực tiếp hợp lệ của ul/ol là li.
+TF|Cô giáo yêu cầu tạo thời khóa biểu: hàng đầu là các thứ trong tuần, ô "Chào cờ" gộp ngang 5 cột, cột đầu có tiết "Tin" kéo dài 2 tiết. Bạn Hùng dùng table với border="1".|T|Hàng các thứ trong tuần nên dùng th để làm ô tiêu đề.|th đánh dấu ô tiêu đề.|F|Ô "Chào cờ" gộp ngang 5 cột cần dùng rowspan="5".|Gộp ngang dùng colspan.|T|Với ô Tin kéo dài 2 tiết, Hùng có thể dùng rowspan="2".|Gộp dọc hai hàng.|F|Để đặt tên bảng, Hùng nên thêm thẻ title vào trong table.|Tên bảng dùng caption.
+TF|Trang hướng dẫn của Mai có: <ol type="A" start="2"><li>Tải</li><li>Cài</li></ol> và <ul><li>Win<ul><li>Bản 10</li></ul></li></ul>.|T|Mục "Tải" được đánh dấu bằng chữ B.|type="A" và start="2" bắt đầu từ B.|T|Danh sách con "Bản 10" được lồng trong một mục li.|ul con nằm trong li Win.|F|Để đánh số La Mã in hoa, Mai cần đổi type thành "i".|La Mã in hoa là type="I".|F|Để các bước có số 1, 2, 3, Mai nên đổi ol thành ul.|ul không đánh số; ol type="1".

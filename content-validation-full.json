@@ -1,0 +1,298 @@
+{
+  "status": "PASS",
+  "exams": 45,
+  "textbookLessons": 28,
+  "prerequisiteLessons": 3,
+  "mcq": 468,
+  "tf": 73,
+  "groups": {
+    "lesson": 28,
+    "topic": 7,
+    "combinations": 3,
+    "termsProposed": 4,
+    "thptMocks": 3
+  },
+  "maxMCQOptionLengthRatio": 1.15,
+  "maxTFStatementLengthRatio": 1.1454545454545455,
+  "semesterMapping": "đề xuất, giáo viên cần xác nhận",
+  "thptMockFormat": {
+    "mcq": 24,
+    "tf": 4,
+    "officialMinutes": 50,
+    "trainingSecondsPerStep": 40,
+    "trainingTotalSeconds": 1600,
+    "matrix": "40/30/30 là ma trận biên soạn, không phải quy định cố định đã xác minh"
+  },
+  "examsSummary": [
+    {
+      "id": "topic-A",
+      "title": "Chủ đề A · Máy tính và xã hội tri thức",
+      "mcq": 18,
+      "tf": 2
+    },
+    {
+      "id": "topic-B",
+      "title": "Chủ đề B · Mạng máy tính và Internet",
+      "mcq": 18,
+      "tf": 2
+    },
+    {
+      "id": "topic-C",
+      "title": "Chủ đề C · Đạo đức, pháp luật và văn hóa trong môi trường số",
+      "mcq": 18,
+      "tf": 2
+    },
+    {
+      "id": "lesson-1",
+      "title": "Bài 1 · Làm quen với trí tuệ nhân tạo",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-2",
+      "title": "Bài 2 · Trí tuệ nhân tạo trong khoa học và đời sống",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-3",
+      "title": "Bài 3 · Một số thiết bị mạng thông dụng",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-4",
+      "title": "Bài 4 · Giao thức mạng",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-5",
+      "title": "Bài 5 · Thực hành chia sẻ tài nguyên trên mạng",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-6",
+      "title": "Bài 6 · Giao tiếp và ứng xử trong không gian mạng",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "combined-AB",
+      "title": "Giữa kỳ · A + B",
+      "mcq": 45,
+      "tf": 9
+    },
+    {
+      "id": "combined-BC",
+      "title": "Giữa kỳ · B + C",
+      "mcq": 45,
+      "tf": 9
+    },
+    {
+      "id": "combined-ABC",
+      "title": "Giữa kỳ · A + B + C",
+      "mcq": 45,
+      "tf": 9
+    },
+    {
+      "id": "lesson-7",
+      "title": "Bài 7 · HTML và cấu trúc trang web",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-8",
+      "title": "Bài 8 · Định dạng văn bản",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-9",
+      "title": "Bài 9 · Tạo danh sách, bảng",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-10",
+      "title": "Bài 10 · Tạo liên kết",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-11",
+      "title": "Bài 11 · Chèn tệp đa phương tiện và khung nội tuyến vào trang web",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-12",
+      "title": "Bài 12 · Tạo biểu mẫu",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-13",
+      "title": "Bài 13 · Khái niệm, vai trò của CSS",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-14",
+      "title": "Bài 14 · Định dạng văn bản bằng CSS",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-15",
+      "title": "Bài 15 · Tạo màu cho chữ và nền",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-16",
+      "title": "Bài 16 · Định dạng khung",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-17",
+      "title": "Bài 17 · Các mức ưu tiên của bộ chọn",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-18",
+      "title": "Bài 18 · Thực hành tổng hợp thiết kế trang web",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-19",
+      "title": "Bài 19 · Dịch vụ sửa chữa và bảo trì máy tính",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-20",
+      "title": "Bài 20 · Nhóm nghề quản trị thuộc ngành Công nghệ thông tin",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-21",
+      "title": "Bài 21 · Hội thảo hướng nghiệp",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-22",
+      "title": "Bài 22 · Thực hành kết nối các thiết bị số",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-23",
+      "title": "Bài 23 · Chuẩn bị xây dựng trang web",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-24",
+      "title": "Bài 24 · Xây dựng phần đầu trang web",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-25",
+      "title": "Bài 25 · Xây dựng phần thân và chân trang web",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-26",
+      "title": "Bài 26 · Liên kết và thanh điều hướng",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-27",
+      "title": "Bài 27 · Biểu mẫu trên trang web",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "lesson-28",
+      "title": "Bài 28 · Thực hành tổng hợp",
+      "mcq": 15,
+      "tf": 2
+    },
+    {
+      "id": "topic-D",
+      "title": "Chủ đề D · Giải quyết vấn đề với sự trợ giúp của máy tính",
+      "mcq": 18,
+      "tf": 2
+    },
+    {
+      "id": "topic-E",
+      "title": "Chủ đề E · Hướng nghiệp với Tin học",
+      "mcq": 18,
+      "tf": 2
+    },
+    {
+      "id": "topic-F",
+      "title": "Chủ đề F · Máy tính và xã hội tri thức · Kết nối thiết bị số",
+      "mcq": 18,
+      "tf": 2
+    },
+    {
+      "id": "topic-G",
+      "title": "Chủ đề G · Ứng dụng tin học · Phần mềm tạo trang web",
+      "mcq": 18,
+      "tf": 2
+    },
+    {
+      "id": "midterm-1",
+      "title": "Giữa kỳ 1 · Bài 1–7",
+      "mcq": 45,
+      "tf": 9
+    },
+    {
+      "id": "final-1",
+      "title": "Cuối kỳ 1 · Bài 1–14",
+      "mcq": 45,
+      "tf": 9
+    },
+    {
+      "id": "midterm-2",
+      "title": "Giữa kỳ 2 · Bài 15–21",
+      "mcq": 45,
+      "tf": 9
+    },
+    {
+      "id": "final-2",
+      "title": "Cuối kỳ 2 · Bài 15–28",
+      "mcq": 45,
+      "tf": 9
+    },
+    {
+      "id": "thpt-ict-01",
+      "title": "Thi thử tốt nghiệp THPT · Tin học ICT · Đề 01 (luyện 40s/ý)",
+      "mcq": 24,
+      "tf": 4
+    },
+    {
+      "id": "thpt-ict-02",
+      "title": "Thi thử tốt nghiệp THPT · Tin học ICT · Đề 02 (luyện 40s/ý)",
+      "mcq": 24,
+      "tf": 4
+    },
+    {
+      "id": "thpt-ict-03",
+      "title": "Thi thử tốt nghiệp THPT · Tin học ICT · Đề 03 (luyện 40s/ý)",
+      "mcq": 24,
+      "tf": 4
+    }
+  ]
+}

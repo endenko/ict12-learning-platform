@@ -1,9 +1,0 @@
-{
-  "legacyBankSHA1": "046ab114ef7321558edb653ae1d8028fb1f39695",
-  "round1BanksSHA256": {
-    "mcq": "9970871e8c54cb058dafe6a16e3f2f81e5da47d50a7bfa0d9cfaf3dc8b5042f1",
-    "tf": "03befe15d2f0cb48046d54eaf44e2f685696fc9e8a217e09e4b826bb126d9b95",
-    "exams": "c7a722d9f6f708ba830fdec9b09278f0783b96b1130060d9d0ea831eca30e42a"
-  },
-  "beforeDeploymentId": "dpl_AY2mZsDyPat47XCDxG74JfYqTm5i"
-}

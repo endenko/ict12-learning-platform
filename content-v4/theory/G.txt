@@ -1,0 +1,442 @@
+=== 23
+@goals
+- Xác định được mục tiêu, đối tượng người xem và nội dung của website.
+- Xây dựng được sơ đồ cấu trúc (sơ đồ trang) và phác thảo bố cục (wireframe).
+- Lựa chọn thiết kế mĩ thuật phù hợp và chuẩn bị, tổ chức tư liệu.
+@sec Mục tiêu và đối tượng
+- **Mục tiêu** định hướng toàn bộ nội dung: vd website câu lạc bộ để giới thiệu hoạt động và tuyển thành viên.
+- **Đối tượng người xem** (lứa tuổi, nhu cầu, thiết bị sử dụng) quyết định cách trình bày: học sinh thường xem trên điện thoại → giao diện gọn, chữ rõ.
+@sec Sơ đồ trang (sitemap)
+Sơ đồ trang thể hiện **cấu trúc phân cấp** của các trang, với **trang chủ** ở gốc:
+:::stack Trang chủ | Giới thiệu · Hoạt động · Thành viên · Liên hệ | Hoạt động › Sự kiện 2026 · Thư viện ảnh
+- Các mục chính đặt ngang cấp dưới trang chủ; nhãn mục ngắn gọn, rõ nghĩa.
+- Có thể vẽ sơ đồ bằng giấy bút, phần mềm vẽ sơ đồ tư duy hoặc trình chiếu.
+@sec Phác thảo bố cục và thiết kế mĩ thuật
+:::flow Đầu trang (logo, tiêu đề, menu) > Phần thân (nội dung chính) > Chân trang (liên hệ, bản quyền)
+- **Wireframe** (khung bố cục) phác nhanh vị trí các khối, chưa cần màu sắc chi tiết.
+- **Màu sắc hài hòa** (2–3 màu chủ đạo), đủ tương phản; **phông chữ** dễ đọc; **bố cục nhất quán** giữa các trang.
+- **Logo** đơn giản, nổi bật, dễ nhớ.
+@sec Chuẩn bị tư liệu
+- Văn bản chính xác, súc tích, ghi rõ nguồn.
+- Ảnh, video chất lượng tốt, có quyền sử dụng; **tối ưu dung lượng ảnh** để trang tải nhanh.
+- Tổ chức tư liệu trong thư mục theo cấu trúc site (vd mỗi trang một thư mục trên Google Drive).
+@remember
+- Mục tiêu và đối tượng quyết định nội dung, cách trình bày.
+- Sơ đồ trang thể hiện cấu trúc phân cấp; wireframe phác thảo bố cục.
+- Màu hài hòa, tương phản tốt, bố cục nhất quán; tư liệu chính xác, có nguồn, ảnh tối ưu.
+@mistakes
+- Bắt tay làm site ngay khi chưa có mục tiêu, sơ đồ => Dễ lan man, phải sửa nhiều.
+- Dùng quá nhiều màu, chữ màu nhạt trên nền sáng => Chọn ít màu, đủ tương phản.
+- Chèn ảnh dung lượng rất lớn => Trang chậm; cần chọn lọc, nén ảnh.
+@terms
+- Sơ đồ trang (sitemap) :: Sơ đồ thể hiện cấu trúc phân cấp các trang của website.
+- Wireframe :: Bản phác thảo khung bố cục trang.
+- Đối tượng người xem :: Nhóm người website hướng tới.
+- Thiết kế mĩ thuật :: Lựa chọn màu sắc, phông chữ, hình ảnh, bố cục.
+- Tư liệu :: Văn bản, hình ảnh, video dùng cho website.
+@cards
+- Yếu tố định hướng toàn bộ nội dung website? :: Mục tiêu của website.
+- Sơ đồ trang thể hiện điều gì? :: Cấu trúc phân cấp các trang, gốc là trang chủ.
+- Wireframe là gì? :: Bản phác thảo khung bố cục trang.
+- Ba phần chính của một trang? :: Đầu trang, phần thân, chân trang.
+- Nguyên tắc chọn màu? :: Hài hòa, 2–3 màu chủ đạo, đủ tương phản.
+- Vì sao cần tối ưu ảnh? :: Để trang tải nhanh.
+- Người xem chủ yếu dùng điện thoại thì cần gì? :: Giao diện gọn, chữ rõ, dễ chạm.
+- Tư liệu văn bản cần đảm bảo gì? :: Chính xác, súc tích, rõ nguồn.
+@check
+? Website câu lạc bộ dành cho học sinh, phần lớn xem bằng điện thoại. Thiết kế phù hợp?
++ Giao diện gọn, chữ rõ, ít khối rườm rà.
+- Bảng rất rộng, chữ nhỏ.
+- Nhiều ảnh dung lượng lớn tự chạy.
+- Chữ vàng nhạt trên nền trắng.
+= Thiết kế phù hợp thiết bị và lứa tuổi người xem.
+? Công cụ nào thể hiện cấu trúc phân cấp các trang?
++ Sơ đồ trang.
+- Bảng màu.
+- Favicon.
+- Phông chữ.
+= Sơ đồ trang thể hiện cấu trúc phân cấp.
+? Ảnh chụp 12 MB đưa thẳng lên trang gây ra:
++ Trang tải chậm.
+- Trang đẹp hơn mà không có hạn chế.
+- Tăng bảo mật.
+- Không ảnh hưởng.
+= Ảnh lớn cần tối ưu.
+? Việc làm trước tiên khi chuẩn bị xây dựng website?
++ Xác định mục tiêu và đối tượng người xem.
+- Chọn màu nút bấm.
+- Xuất bản site.
+- Tạo favicon.
+= Mục tiêu định hướng các bước sau.
+
+=== 24
+@goals
+- Tạo được website mới bằng Google Sites.
+- Xây dựng phần đầu trang: tiêu đề, logo, favicon, kiểu đầu trang, ảnh nền.
+- Xem trước trên nhiều thiết bị, chia sẻ và xuất bản website.
+@sec Tạo site mới
+- Truy cập **sites.google.com** (đăng nhập tài khoản Google) → chọn **Trống** hoặc mẫu; hoặc từ **Google Drive → Mới → Khác → Google Sites**.
+- Site là **một tệp trên Google Drive**; Google Sites **tự động lưu** bản nháp.
+- **Tên tệp** (góc trên trái) và **tiêu đề site** có thể khác nhau.
+@sec Phần đầu trang
+- **Tiêu đề trang** chỉnh trực tiếp trên vùng đầu trang; nên ngắn gọn (tiêu đề dài dễ bị cắt).
+- **Kiểu đầu trang** (Header type) – 4 kiểu:
+| Kiểu | Đặc điểm |
+| Ảnh bìa (Cover) | Ảnh lớn chiếm gần toàn màn hình |
+| Biểu ngữ lớn (Large banner) | Biểu ngữ cao |
+| Biểu ngữ (Banner) | Biểu ngữ vừa – phổ biến |
+| Chỉ tiêu đề (Title only) | Gọn, không ảnh |
+- Nút **Thay đổi hình ảnh** đổi ảnh nền đầu trang; cần **tương phản** giữa chữ tiêu đề và ảnh nền.
+- **Logo** và **favicon** đặt trong **Cài đặt (⚙) → Thương hiệu**: logo hiện ở thanh đầu cạnh tên site; favicon hiện trên tab trình duyệt (rất nhỏ, nên đơn giản, nền trong suốt).
+@sec Xem trước, chia sẻ, xuất bản
+:::flow Xem trước (điện thoại, máy tính bảng, máy tính) > Chia sẻ quyền chỉnh sửa cho thành viên > Xuất bản: đặt địa chỉ web > Kiểm tra trang công khai
+- **Xem trước** (biểu tượng màn hình) giả lập 3 kích thước: điện thoại, máy tính bảng, máy tính.
+- **Chia sẻ với người khác** để cùng chỉnh sửa (theo tài khoản cụ thể).
+- **Xuất bản**: đặt phần tên trong địa chỉ `sites.google.com/view/ten-site` (ngắn gọn, không dấu); chọn ai được xem. Sau khi sửa phải xuất bản lại; **Hủy xuất bản** để gỡ site khỏi web công khai.
+- Bản nháp chưa hiển thị công khai cho đến khi xuất bản.
+@remember
+- Tạo site từ sites.google.com hoặc Google Drive; site tự lưu, là một tệp trong Drive.
+- 4 kiểu đầu trang: ảnh bìa, biểu ngữ lớn, biểu ngữ, chỉ tiêu đề; logo, favicon ở Cài đặt → Thương hiệu.
+- Xem trước 3 thiết bị; xuất bản với địa chỉ sites.google.com/view/…; sửa xong phải xuất bản lại.
+@mistakes
+- Sửa site rồi nghĩ người xem thấy ngay => Phải nhấn Xuất bản để cập nhật bản công khai.
+- Dùng logo chi tiết, nhiều chữ làm favicon => Favicon rất nhỏ, cần đơn giản.
+- Đặt địa chỉ site dài, có dấu => Địa chỉ ngắn gọn, dễ nhớ, không dấu.
+@terms
+- Google Sites :: Công cụ tạo website trực tuyến miễn phí của Google.
+- Kiểu đầu trang :: Cách trình bày vùng đầu trang (ảnh bìa, biểu ngữ…).
+- Favicon :: Biểu tượng nhỏ hiện trên tab trình duyệt.
+- Xuất bản :: Đưa site lên web công khai với một địa chỉ.
+- Bản nháp :: Phiên bản đang chỉnh sửa, chưa công khai.
+@cards
+- Tạo Google Sites từ đâu? :: sites.google.com hoặc Google Drive → Mới → Khác → Google Sites.
+- Google Sites có tự lưu không? :: Có, tự lưu bản nháp.
+- Kể 4 kiểu đầu trang. :: Ảnh bìa, biểu ngữ lớn, biểu ngữ, chỉ tiêu đề.
+- Thêm logo, favicon ở đâu? :: Cài đặt → Thương hiệu (Brand images).
+- Favicon hiển thị ở đâu? :: Trên tab trình duyệt.
+- Xem trước mô phỏng thiết bị nào? :: Điện thoại, máy tính bảng, máy tính.
+- Địa chỉ site xuất bản có dạng? :: sites.google.com/view/ten-site
+- Sửa site sau khi xuất bản cần làm gì? :: Xuất bản lại để cập nhật.
+@check
+? Đã sửa nội dung site nhưng bạn bè mở link vẫn thấy bản cũ. Vì sao?
++ Chưa nhấn Xuất bản lại sau khi sửa.
+- Google Sites không lưu được.
+- Bạn bè dùng điện thoại.
+- Site bị xóa.
+= Bản nháp chỉ công khai sau khi xuất bản.
+? Muốn vùng đầu trang gọn, không có ảnh, chọn kiểu:
++ Chỉ tiêu đề.
+- Ảnh bìa.
+- Biểu ngữ lớn.
+- Biểu ngữ.
+= Chỉ tiêu đề cho vùng đầu nhỏ gọn.
+? Thêm favicon cho site ở đâu?
++ Cài đặt → Thương hiệu.
+- Chèn → Hộp văn bản.
+- Trang → Thêm trang.
+- Chủ đề → Phông chữ.
+= Logo và favicon nằm ở mục Thương hiệu.
+? Để bạn trong nhóm cùng chỉnh sửa site:
++ Chia sẻ quyền chỉnh sửa cho tài khoản của bạn đó.
+- Gửi ảnh chụp màn hình.
+- Xuất bản rồi gửi link xem.
+- Đổi tên tệp.
+= Chia sẻ quyền chỉnh sửa cho tài khoản cụ thể.
+
+=== 25
+@goals
+- Xây dựng được phần thân trang bằng các khối nội dung và bố cục dựng sẵn.
+- Chèn được hộp văn bản, ảnh, băng chuyền ảnh, video YouTube, bản đồ, tệp từ Drive, mã nhúng.
+- Tạo được chân trang dùng chung cho site.
+@sec Khối nội dung và bố cục
+- Phần thân trang gồm các **khối (section)** xếp theo chiều dọc.
+- Thẻ **Chèn** có **bố cục dựng sẵn** (ảnh + chữ) giúp sắp xếp nhanh; có thể **kéo thả** để di chuyển, đổi kích thước thành phần.
+- **Nhân bản** khối để tái sử dụng bố cục, bảo đảm nhất quán; đổi **nền khối** để phân biệt các khu vực.
+- **Ctrl + Z** hoàn tác khi thao tác nhầm.
+@sec Các thành phần thường chèn
+| Thành phần | Công dụng |
+| Hộp văn bản | Nội dung chữ, tiêu đề, danh sách |
+| Hình ảnh | Tải lên, chọn từ Drive, URL, tìm kiếm; thêm chú thích và văn bản thay thế (alt text) |
+| Băng chuyền hình ảnh | Hiển thị nhiều ảnh trong một khối, gọn |
+| Nút | Có nhãn và đường liên kết |
+| Đường phân cách | Tách các khu vực |
+| Mục lục | Tự lấy từ các tiêu đề trên trang |
+| Văn bản có thể thu gọn | Tiết kiệm không gian (hỏi đáp) |
+| YouTube | Nhúng video, giữ người xem ở lại site |
+| Bản đồ | Trực quan hóa vị trí |
+| Drive, Tài liệu, Trang tính, Trang trình bày, Biểu đồ, Lịch | Nhúng tệp Google (tự cập nhật) |
+| Nhúng (Embed) | Nhúng bằng URL hoặc mã HTML |
+:::note Luôn thêm **văn bản thay thế** cho ảnh và ghi nguồn tư liệu – vừa hỗ trợ người khiếm thị vừa thể hiện tôn trọng bản quyền.
+@sec Chân trang
+- Chân trang (footer) chứa thông tin bổ trợ: liên hệ, địa chỉ, bản quyền.
+- Chân trang **dùng chung cho toàn site**; có thể ẩn ở từng trang khi cần.
+:::flow Đầu trang > Các khối nội dung của phần thân > Chân trang dùng chung
+@remember
+- Phần thân gồm các khối; dùng bố cục dựng sẵn, kéo thả, nhân bản để nhất quán.
+- Chèn: văn bản, ảnh, băng chuyền, nút, mục lục, YouTube, bản đồ, tệp Drive, Lịch, Embed.
+- Chân trang dùng chung cho site, chứa thông tin liên hệ, bản quyền.
+@mistakes
+- Dán nhiều ảnh rời rạc làm trang rất dài => Dùng băng chuyền hình ảnh.
+- Bỏ qua alt text, không ghi nguồn ảnh => Thêm văn bản thay thế và chú thích nguồn.
+- Chép tay lịch hoạt động vào hộp văn bản => Nhúng Google Calendar để tự cập nhật.
+@terms
+- Khối (section) :: Vùng nội dung trên trang Google Sites.
+- Băng chuyền hình ảnh (carousel) :: Thành phần trình chiếu nhiều ảnh trong một khối.
+- Mục lục :: Thành phần tự tạo từ các tiêu đề trên trang.
+- Embed :: Nhúng nội dung bằng URL hoặc mã.
+- Alt text :: Văn bản thay thế cho ảnh.
+@cards
+- Hoàn tác thao tác nhầm? :: Ctrl + Z.
+- Tái sử dụng bố cục một khối? :: Nhân bản khối.
+- Hiển thị nhiều ảnh gọn trong một khối? :: Băng chuyền hình ảnh.
+- Mục lục lấy nội dung từ đâu? :: Từ các tiêu đề trên trang.
+- Nhúng video vào site? :: Chèn → YouTube.
+- Nhúng nội dung bất kì bằng URL/mã? :: Chèn → Nhúng (Embed).
+- Chân trang có tính chất gì? :: Dùng chung cho toàn site.
+- Lợi ích nhúng Google Calendar? :: Lịch tự cập nhật trên site.
+@check
+? Muốn hiển thị 10 ảnh hoạt động mà trang không quá dài, dùng:
++ Băng chuyền hình ảnh.
+- 10 hộp văn bản.
+- Đường phân cách.
+- Favicon.
+= Carousel gọn hơn.
+? Thành phần nào giúp người xem thấy vị trí phòng sinh hoạt câu lạc bộ?
++ Bản đồ.
+- Mục lục.
+- Nút trống.
+- Đường phân cách.
+= Bản đồ trực quan hóa vị trí.
+? Hỏi – đáp dài nhưng muốn gọn, chọn:
++ Văn bản có thể thu gọn.
+- Ảnh bìa.
+- Băng chuyền.
+- Favicon.
+= Khối thu gọn tiết kiệm không gian.
+? Thông tin liên hệ cần xuất hiện ở mọi trang. Đặt ở:
++ Chân trang.
+- Một hộp văn bản ở riêng trang chủ.
+- Tên tệp site.
+- Favicon.
+= Chân trang dùng chung cho site.
+
+=== 26
+@goals
+- Tổ chức được cấu trúc phân cấp các trang (trang cha – trang con).
+- Tạo, đổi tên, ẩn, sắp xếp được các trang và thanh điều hướng.
+- Tạo được liên kết nội bộ, liên kết ngoài, liên kết email.
+@sec Cấu trúc phân cấp và bảng Trang
+- **Trang chủ** là gốc; các trang khác là trang cấp 1, trang con nằm dưới trang cha.
+- Trong thẻ **Trang**: nút **+** tạo trang mới; nút **⋮** (tùy chọn) của mỗi trang để **đặt làm trang chủ, nhân bản, đổi tên, thêm trang con, ẩn khỏi điều hướng, xóa**.
+- Kéo thả trang để đổi thứ tự hoặc đặt làm trang con; thứ tự trong bảng Trang = **thứ tự trên menu**.
+- Phân cấp nên **nông và rõ** (thường không quá 2–3 cấp).
+:::stack Trang chủ | Giới thiệu · Hoạt động · Liên hệ | Hoạt động › Sự kiện · Thư viện ảnh
+@sec Thanh điều hướng
+- Tên trang tự động xuất hiện trên **menu**; trang con hiện dưới dạng menu thả xuống.
+- **Chế độ điều hướng** (Cài đặt → Điều hướng): **trên cùng** (Top) hoặc **bên cạnh** (Side).
+- **Ẩn khỏi điều hướng**: trang không hiện trên menu nhưng **vẫn truy cập được qua liên kết**.
+- Đổi tên trang có thể làm thay đổi đường dẫn của trang.
+@sec Tạo liên kết
+- Bôi đen chữ hoặc chọn ảnh, nút → biểu tượng liên kết hoặc **Ctrl + K**.
+| Loại liên kết | Cách tạo |
+| Nội bộ | Chọn trực tiếp một trang trong site |
+| Ngoài | Dán URL đầy đủ (https://…) |
+| Email | `mailto:dia-chi@email` – mở trình soạn thư |
+- Chữ liên kết nên **rõ nghĩa** (vd "Xem lịch hoạt động" thay vì "bấm vào đây").
+- **Gỡ liên kết** giữ nguyên chữ. Kiểm thử mọi liên kết sau khi tạo.
+@remember
+- Trang chủ là gốc; trang con dưới trang cha; thứ tự bảng Trang = thứ tự menu.
+- Điều hướng trên cùng hoặc bên cạnh; ẩn trang chỉ ảnh hưởng menu.
+- Liên kết nội bộ, ngoài (URL), email (mailto); Ctrl + K để chèn liên kết.
+@mistakes
+- Nghĩ ẩn trang khỏi điều hướng là xóa trang => Trang vẫn tồn tại và truy cập được qua link.
+- Phân cấp quá sâu (5–6 cấp) => Người xem khó tìm; giữ cấu trúc nông, rõ.
+- Viết chữ liên kết "bấm vào đây" => Dùng chữ mô tả đích đến.
+@terms
+- Trang con :: Trang nằm dưới một trang cha trong cấu trúc.
+- Thanh điều hướng (menu) :: Danh sách liên kết tới các trang của site.
+- Liên kết nội bộ :: Liên kết tới trang trong cùng site.
+- Liên kết ngoài :: Liên kết tới website khác.
+- mailto :: Liên kết mở trình soạn email.
+@cards
+- Tạo trang mới trong Google Sites? :: Thẻ Trang → nút +.
+- Đặt trang làm trang con? :: Kéo thả vào dưới trang cha hoặc ⋮ → Thêm trang con.
+- Thứ tự menu được quyết định bởi gì? :: Thứ tự các trang trong bảng Trang.
+- Hai chế độ điều hướng? :: Trên cùng và bên cạnh.
+- Ẩn khỏi điều hướng có xóa trang không? :: Không, vẫn truy cập qua liên kết.
+- Phím tắt chèn liên kết? :: Ctrl + K.
+- Liên kết mở trình soạn email? :: mailto:địa-chỉ.
+- Gỡ liên kết thì chữ thế nào? :: Chữ vẫn giữ nguyên.
+@check
+? Trang "Đáp án" không muốn hiện trên menu nhưng vẫn mở được qua link gửi riêng. Làm thế nào?
++ Ẩn trang khỏi điều hướng.
+- Xóa trang.
+- Hủy xuất bản site.
+- Đổi tên thành trang chủ.
+= Ẩn chỉ ảnh hưởng menu.
+? Menu đang hiện "Liên hệ" trước "Giới thiệu". Muốn đổi thứ tự:
++ Kéo thả trang trong bảng Trang.
+- Đổi màu chủ đề.
+- Đổi favicon.
+- Thêm băng chuyền ảnh.
+= Thứ tự menu theo bảng Trang.
+? Liên kết tới trang "Hoạt động" trong cùng site là:
++ Liên kết nội bộ.
+- Liên kết ngoài.
+- Liên kết email.
+- Không phải liên kết.
+= Nội bộ: trong cùng site.
+? Chữ liên kết nào rõ nghĩa nhất?
++ "Xem thư viện ảnh hoạt động"
+- "Bấm vào đây"
+- "Link"
+- "..."
+= Chữ liên kết cần mô tả đích đến.
+
+=== 27
+@goals
+- Tạo được biểu mẫu bằng Google Forms với các loại câu hỏi phù hợp.
+- Nhúng được biểu mẫu vào trang Google Sites.
+- Xem, xử lí được phản hồi (tóm tắt, Google Sheets).
+@sec Tạo biểu mẫu với Google Forms
+| Loại câu hỏi | Dùng khi |
+| Trả lời ngắn | Họ tên, lớp (một dòng) |
+| Đoạn | Câu trả lời dài, ý kiến |
+| Trắc nghiệm | Chọn **một** phương án |
+| Hộp kiểm | Chọn **nhiều** phương án |
+| Menu thả xuống | Danh sách dài, chọn một |
+| Tải tệp lên | Nhận tệp từ người trả lời |
+| Phạm vi tuyến tính | Thang đo mức độ (1–5) |
+| Ngày, giờ | Thời gian |
+- Bật **Bắt buộc** cho câu quan trọng (không gửi được nếu bỏ trống).
+- Thêm **mô tả** để người trả lời hiểu yêu cầu; chia **phần (section)** cho biểu mẫu dài; **đi tới phần dựa trên câu trả lời** để rẽ nhánh.
+- **Cài đặt**: giới hạn 1 phản hồi/tài khoản, chế độ **bài kiểm tra** (Quiz) chấm điểm tự động.
+:::note Câu hỏi khách quan, không dẫn dắt; các khoảng lựa chọn **không chồng lấn** (vd "0–2 giờ", "3–5 giờ"); chỉ thu thập thông tin **tối thiểu cần thiết**.
+@sec Nhúng biểu mẫu vào Google Sites
+:::flow Tạo và xem trước biểu mẫu > Sites: Chèn › Biểu mẫu (Forms) > Chọn biểu mẫu từ Drive > Xuất bản lại site > Gửi thử đầu – cuối
+- Ba cách gửi biểu mẫu: qua **email**, **đường liên kết**, **mã nhúng HTML**.
+- Trong Google Sites dùng thành phần **Biểu mẫu** ở thẻ Chèn (hoặc Nhúng bằng mã).
+@sec Xem và xử lí phản hồi
+- Thẻ **Câu trả lời**: xem dạng **Tóm tắt** (biểu đồ), **Câu hỏi**, **Cá nhân** (từng người).
+- Liên kết tới **Google Sheets** để lọc, sắp xếp, tính toán dữ liệu lớn.
+- Tắt **Chấp nhận phản hồi** để đóng biểu mẫu khi hết hạn.
+@remember
+- Chọn loại câu hỏi phù hợp: trắc nghiệm (một), hộp kiểm (nhiều), menu (danh sách dài), đoạn (dài).
+- Bắt buộc, mô tả, phần, rẽ nhánh; Quiz chấm điểm tự động.
+- Nhúng bằng Chèn › Biểu mẫu; phản hồi xem Tóm tắt/Câu hỏi/Cá nhân và xuất sang Google Sheets.
+@mistakes
+- Dùng trắc nghiệm cho câu "chọn các môn em thích" => Chọn nhiều phải dùng hộp kiểm.
+- Lựa chọn chồng lấn "1–3 giờ", "3–5 giờ" => Khoảng không chồng lấn để thống kê đúng.
+- Hỏi số CCCD, địa chỉ nhà khi không cần => Thu thập thông tin tối thiểu.
+@terms
+- Google Forms :: Công cụ tạo biểu mẫu, khảo sát trực tuyến.
+- Câu hỏi bắt buộc :: Câu phải trả lời mới gửi được biểu mẫu.
+- Phần (section) :: Nhóm câu hỏi trong biểu mẫu dài.
+- Phản hồi :: Câu trả lời người dùng gửi qua biểu mẫu.
+- Quiz :: Chế độ bài kiểm tra có chấm điểm tự động.
+@cards
+- Câu hỏi chọn nhiều đáp án dùng loại nào? :: Hộp kiểm.
+- Câu hỏi chọn một trong danh sách dài? :: Menu thả xuống.
+- Thang đo mức độ hài lòng 1–5? :: Phạm vi tuyến tính.
+- Nhận ảnh/tệp từ người trả lời? :: Tải tệp lên.
+- Ba cách gửi biểu mẫu? :: Email, đường liên kết, mã nhúng HTML.
+- Xử lí phản hồi số lượng lớn ở đâu? :: Google Sheets.
+- Ngừng nhận phản hồi? :: Tắt "Chấp nhận phản hồi".
+- Rẽ nhánh theo câu trả lời? :: Đi tới phần dựa trên câu trả lời.
+@check
+? Câu hỏi "Em quan tâm những lĩnh vực nào?" (nhiều lựa chọn) nên dùng:
++ Hộp kiểm.
+- Trắc nghiệm.
+- Trả lời ngắn.
+- Ngày.
+= Hộp kiểm cho chọn nhiều.
+? Bộ lựa chọn nào hợp lí cho "Thời gian dùng máy tính mỗi ngày"?
++ Dưới 1 giờ; 1–2 giờ; trên 2 giờ.
+- 0–2 giờ; 1–3 giờ; 2–4 giờ.
+- Ít; nhiều; rất nhiều; vừa đủ; khá nhiều.
+- Chỉ một lựa chọn "Có".
+= Khoảng lựa chọn không chồng lấn.
+? Muốn mỗi tài khoản chỉ gửi một lần:
++ Bật giới hạn 1 phản hồi trong cài đặt.
+- Thêm câu hỏi "Bạn đã gửi chưa?".
+- Đổi màu biểu mẫu.
+- Xóa phần mô tả.
+= Giới hạn 1 phản hồi theo tài khoản.
+? Đưa biểu mẫu vào trang Google Sites bằng cách:
++ Chèn › Biểu mẫu, chọn biểu mẫu từ Drive.
+- Chụp màn hình biểu mẫu rồi chèn ảnh.
+- Gửi biểu mẫu qua Bluetooth.
+- Đặt tên site trùng biểu mẫu.
+= Sites có thành phần Biểu mẫu.
+
+=== 28
+@goals
+- Vận dụng kiến thức Bài 23–27 để xây dựng hoàn chỉnh một website theo chủ đề.
+- Làm việc nhóm: lập kế hoạch, phân công, phối hợp chỉnh sửa.
+- Hoàn thiện, xuất bản, trình bày và đánh giá sản phẩm.
+@sec Quy trình dự án
+:::flow Chọn chủ đề > Lập kế hoạch, phân công > Chuẩn bị tư liệu > Xây dựng site > Kiểm tra, hoàn thiện > Xuất bản, trình bày, đánh giá
+- **Chủ đề** vừa sức, có đủ tư liệu (vd: giới thiệu trường, câu lạc bộ, du lịch địa phương, hướng nghiệp).
+- **Kế hoạch** có mốc thời gian; **phân công rõ ràng** để theo dõi tiến độ; thống nhất **quy ước chung** (màu, phông, cách đặt tên).
+@sec Xây dựng và phối hợp
+- Chia sẻ quyền chỉnh sửa cho thành viên nhóm (chỉ người cần thiết).
+- Dùng **Chủ đề (Theme)** để áp dụng màu, phông thống nhất cho toàn site.
+- Sắp xếp phân cấp trang gọn; menu rõ ràng; nhúng Google Forms để thu đăng kí/ý kiến.
+- **Lịch sử phiên bản** (Version history) giúp xem và khôi phục bản cũ khi chỉnh sửa nhầm.
+- Ghi nguồn mọi tư liệu – yêu cầu đạo đức và pháp lí.
+@sec Kiểm tra, trình bày, đánh giá
+| Tiêu chí | Câu hỏi kiểm tra |
+| Nội dung | Đúng mục tiêu? Chính xác, có nguồn, không lỗi chính tả? |
+| Cấu trúc | Menu dễ tìm? Liên kết hoạt động? |
+| Thẩm mĩ | Màu, phông thống nhất? Đủ tương phản? |
+| Thiết bị | Hiển thị tốt trên điện thoại, máy tính? |
+| Hợp tác | Các thành viên hoàn thành phần việc? |
+- Trình bày có trọng tâm: mục đích, cấu trúc, điểm nổi bật, tác giả.
+- **Đánh giá chéo** giữa các nhóm giúp có góc nhìn của người dùng để cải thiện.
+@remember
+- Chủ đề vừa sức → kế hoạch, phân công → tư liệu → xây dựng → kiểm tra → xuất bản, trình bày.
+- Theme thống nhất giao diện; Version history khôi phục bản cũ; chia sẻ quyền có giới hạn.
+- Đánh giá theo nội dung, cấu trúc, thẩm mĩ, đa thiết bị, hợp tác; đánh giá chéo.
+@mistakes
+- Cả nhóm cùng sửa một chỗ, không phân công => Phân công rõ, quy ước chung.
+- Chỉ kiểm tra trên máy tính => Xem trước và kiểm tra trên điện thoại.
+- Xóa nhầm nội dung rồi làm lại từ đầu => Dùng Lịch sử phiên bản để khôi phục.
+@terms
+- Dự án :: Công việc có mục tiêu, kế hoạch, sản phẩm cụ thể.
+- Theme (chủ đề) :: Bộ màu, phông áp dụng cho toàn site.
+- Version history :: Lịch sử phiên bản, cho phép khôi phục bản cũ.
+- Đánh giá chéo :: Các nhóm đánh giá sản phẩm của nhau.
+@cards
+- Bước đầu của dự án website? :: Chọn chủ đề vừa sức, có tư liệu.
+- Vì sao cần phân công rõ ràng? :: Theo dõi tiến độ, tránh chồng chéo.
+- Thống nhất màu, phông cho toàn site? :: Dùng Theme (Chủ đề).
+- Khôi phục bản cũ của site? :: Version history (Lịch sử phiên bản).
+- Vì sao phải ghi nguồn tư liệu? :: Yêu cầu đạo đức và pháp lí, tôn trọng bản quyền.
+- Đánh giá chéo có lợi gì? :: Có góc nhìn mới của người dùng để cải thiện.
+- Kiểm tra trước khi xuất bản gồm gì? :: Nội dung, liên kết, chính tả, hiển thị đa thiết bị.
+- Chia sẻ quyền chỉnh sửa thế nào cho an toàn? :: Chỉ cho thành viên cần thiết.
+@check
+? Một thành viên xóa nhầm cả trang "Hoạt động". Cách xử lí nhanh?
++ Dùng Lịch sử phiên bản để khôi phục.
+- Làm lại toàn bộ site.
+- Hủy xuất bản vĩnh viễn.
+- Đổi tên site.
+= Version history khôi phục bản cũ.
+? Muốn toàn site cùng tông màu và phông chữ:
++ Chọn một Theme cho site.
+- Đổi màu từng hộp văn bản thủ công.
+- Dùng nhiều Theme khác nhau.
+- Chèn ảnh nền khác nhau mỗi trang.
+= Theme áp dụng thống nhất.
+? Tiêu chí nào thuộc đánh giá "đa thiết bị"?
++ Site hiển thị tốt trên điện thoại.
+- Có nhiều thành viên.
+- Logo màu đỏ.
+- Có favicon.
+= Kiểm tra đa thiết bị.
+? Cách làm việc nhóm hiệu quả khi xây dựng site?
++ Lập kế hoạch, phân công, thống nhất quy ước chung.
+- Mỗi người tự làm một kiểu riêng.
+- Một người làm hết.
+- Không cần họp nhóm.
+= Phối hợp nhóm có kế hoạch, quy ước.

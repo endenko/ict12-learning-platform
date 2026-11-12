@@ -1,0 +1,269 @@
+=== 16
+@goals
+- Phân biệt được phần tử khối (block) và phần tử nội tuyến (inline).
+- Hiểu mô hình hộp CSS: content, padding, border, margin; định dạng được kích thước, viền, lề.
+- Sử dụng được bộ chọn class, id và bộ chọn thuộc tính.
+@sec Phần tử khối và phần tử nội tuyến
+| | Khối (block) | Nội tuyến (inline) |
+| Ví dụ | div, p, h1–h6, ul, li, table, form | span, a, b, strong, img, input |
+| Vị trí | Bắt đầu ở dòng mới, chiếm hết chiều rộng | Nằm trên cùng dòng với nội dung khác |
+| width/height | Đặt được | Không áp dụng (trừ img, input) |
+- Thuộc tính `display` thay đổi cách hiển thị: `block`, `inline`, `inline-block`, `none` (ẩn phần tử).
+- `<div>` (khối) và `<span>` (nội tuyến) là các thẻ "trung tính", thường dùng cùng class để định dạng.
+@sec Mô hình hộp (box model)
+:::stack margin (lề ngoài, trong suốt) | border (viền) | padding (vùng đệm, cùng màu nền) | content (nội dung: width × height)
+- `width`, `height`: kích thước vùng nội dung.
+- `padding`: khoảng cách từ nội dung tới viền.
+- `border: 2px solid #333;` → độ dày, kiểu (solid, dashed, dotted, double), màu. `border-radius` bo góc.
+- `margin`: khoảng cách giữa viền và các phần tử khác. `margin: 0 auto;` căn giữa khối có width.
+:::note Thứ tự viết tắt 4 giá trị: **trên – phải – dưới – trái** (theo chiều kim đồng hồ). Ví dụ `padding: 10px 20px;` = trên/dưới 10px, trái/phải 20px.
+Kích thước hiển thị (mặc định) = width + padding trái/phải + border trái/phải. Dùng `box-sizing: border-box;` để width tính cả padding và border.
+:::code html live
+<style>
+  .hop { width: 220px; padding: 12px; border: 3px dashed #2563eb; margin: 10px auto; border-radius: 10px; background: #eff6ff; }
+  #noibat { border-color: #dc2626; }
+  span.tag { display: inline-block; padding: 2px 8px; background: #fde68a; border-radius: 99px; }
+  input[type="text"] { border: 1px solid #16a34a; }
+</style>
+<div class="hop">Hộp dùng class <span class="tag">.hop</span></div>
+<div class="hop" id="noibat">Hộp có thêm id <span class="tag">#noibat</span></div>
+<p style="text-align:center"><input type="text" placeholder="bộ chọn thuộc tính"></p>
+:::end
+@sec Bộ chọn class, id và thuộc tính
+| Bộ chọn | Cú pháp | Đặc điểm |
+| class | `.ten-lop` | Nhiều phần tử dùng chung; một phần tử có thể có nhiều class |
+| id | `#ma-rieng` | Duy nhất trong trang |
+| thuộc tính | `[type="text"]`, `a[target]` | Chọn theo thuộc tính / giá trị thuộc tính |
+| phổ quát | `*` | Mọi phần tử |
+@remember
+- Khối: dòng mới, đặt được kích thước; nội tuyến: cùng dòng. display đổi kiểu hiển thị.
+- Hộp: content → padding → border → margin; viết tắt theo thứ tự trên-phải-dưới-trái.
+- .class dùng chung nhiều phần tử; #id duy nhất; [thuộc-tính] chọn theo thuộc tính.
+@mistakes
+- Đặt width cho span mà không thấy tác dụng => span là nội tuyến; đổi `display: inline-block` hoặc block.
+- Dùng cùng một id cho nhiều phần tử => id phải duy nhất; dùng class cho nhóm phần tử.
+- Nhầm padding với margin => padding nằm trong viền (có màu nền); margin nằm ngoài viền.
+@terms
+- Phần tử khối :: Phần tử bắt đầu dòng mới, chiếm hết chiều rộng.
+- Phần tử nội tuyến :: Phần tử nằm trên cùng dòng văn bản.
+- Mô hình hộp :: Cách CSS coi mỗi phần tử là hộp gồm content, padding, border, margin.
+- padding :: Vùng đệm giữa nội dung và viền.
+- margin :: Lề ngoài giữa viền và phần tử khác.
+- class / id :: Tên nhóm dùng chung / định danh duy nhất của phần tử.
+@cards
+- Kể 3 phần tử khối. :: div, p, h1 (ul, table…).
+- Kể 3 phần tử nội tuyến. :: span, a, strong (img, input…).
+- Thứ tự các lớp của mô hình hộp từ trong ra? :: content → padding → border → margin.
+- Ẩn phần tử bằng CSS? :: display: none.
+- Căn giữa một khối có width? :: margin: 0 auto.
+- Bộ chọn class viết thế nào? :: .ten-class
+- Bộ chọn id viết thế nào? :: #ten-id
+- padding: 5px 10px nghĩa là gì? :: Trên/dưới 5px, trái/phải 10px.
+@check
+? Hộp có width 200px, padding 10px, border 5px (box-sizing mặc định). Chiều rộng hiển thị là:
++ 230px
+- 200px
+- 215px
+- 210px
+= 200 + 2×10 + 2×5 = 230px.
+? Muốn nhiều đoạn văn cùng kiểu "chú ý", nên dùng:
++ class, ví dụ .chu-y
+- cùng một id cho tất cả
+- thẻ <title>
+- thuộc tính alt
+= class dùng chung cho nhiều phần tử.
+? margin: 10px 20px 30px 40px; thì lề trái là:
++ 40px
+- 10px
+- 20px
+- 30px
+= Thứ tự: trên, phải, dưới, trái.
+? Thuộc tính nào cho phép đặt width cho span mà span vẫn nằm cùng dòng?
++ display: inline-block
+- display: none
+- text-align: center
+- font-weight: bold
+= inline-block vừa cùng dòng vừa đặt được kích thước.
+
+=== 17
+@goals
+- Sử dụng được lớp giả (pseudo-class) và phần tử giả (pseudo-element).
+- Hiểu nguyên tắc xếp chồng (cascade): độ ưu tiên (trọng số) của bộ chọn và thứ tự khai báo.
+- Biết tác dụng của !important.
+@sec Lớp giả (pseudo-class)
+Lớp giả chọn phần tử theo **trạng thái** hoặc **vị trí**, viết sau dấu `:`.
+| Lớp giả | Ý nghĩa |
+| `a:link`, `a:visited` | Liên kết chưa / đã truy cập |
+| `:hover` | Khi di chuột lên phần tử |
+| `:active` | Khi đang nhấn chuột |
+| `:focus` | Khi ô nhập đang được chọn |
+| `:first-child`, `:last-child` | Phần tử con đầu / cuối |
+| `:nth-child(2n)` | Phần tử con ở vị trí chẵn |
+:::note Thứ tự nên viết cho liên kết: **:link → :visited → :hover → :active** (mẹo nhớ "LoVe HAte").
+@sec Phần tử giả (pseudo-element)
+Phần tử giả chọn **một phần** của phần tử, viết sau `::`.
+- `::first-letter`: chữ cái đầu; `::first-line`: dòng đầu.
+- `::before`, `::after`: chèn nội dung trước/sau phần tử bằng thuộc tính `content`.
+:::code html live
+<style>
+  li:nth-child(odd) { background: #e0f2fe; }
+  li:hover { background: #fde68a; }
+  p::first-letter { font-size: 2em; color: #dc2626; }
+  .moi::after { content: " MỚI"; color: #16a34a; font-weight: bold; }
+  p { color: gray; }
+  .ghi { color: blue; }
+  #dacbiet { color: purple; }
+</style>
+<ul><li>Bài 1</li><li class="moi">Bài 2</li><li>Bài 3</li><li>Bài 4</li></ul>
+<p class="ghi" id="dacbiet">Đoạn này có cả p, .ghi và #dacbiet – id thắng nên màu tím.</p>
+:::end
+@sec Độ ưu tiên của bộ chọn
+Khi nhiều quy tắc cùng định dạng một thuộc tính của một phần tử, trình duyệt chọn quy tắc có **trọng số cao hơn**:
+| Loại | Trọng số (a, b, c) |
+| CSS nội tuyến `style=""` | cao nhất (1, 0, 0, 0) |
+| Bộ chọn id `#a` | (1, 0, 0) |
+| class `.a`, thuộc tính `[x]`, lớp giả `:hover` | (0, 1, 0) |
+| Thẻ `p`, phần tử giả `::before` | (0, 0, 1) |
+- Trọng số được cộng theo từng loại: `#menu .muc a` = (1, 1, 1) mạnh hơn `.menu .muc a` = (0, 2, 1).
+- Nếu **trọng số bằng nhau**, quy tắc **viết sau** được áp dụng.
+- `!important` (vd `color: red !important;`) vượt lên trên mọi quy tắc thường – chỉ nên dùng khi thật cần.
+:::flow !important > Nội tuyến > #id > .class / :pseudo-class / [attr] > thẻ > Viết sau thắng nếu bằng nhau
+@remember
+- :hover, :focus, :first-child, :nth-child() là lớp giả; ::before, ::after, ::first-letter là phần tử giả.
+- Ưu tiên: !important > inline > id > class/thuộc tính/lớp giả > thẻ.
+- Trọng số bằng nhau thì quy tắc viết sau thắng.
+@mistakes
+- Nghĩ quy tắc viết sau luôn thắng => Chỉ đúng khi trọng số bằng nhau; bộ chọn mạnh hơn vẫn thắng.
+- Lạm dụng !important để sửa lỗi => Khó bảo trì; nên tăng độ cụ thể của bộ chọn.
+- Dùng ::before nhưng quên content => Phần tử giả ::before/::after cần thuộc tính content.
+@terms
+- Lớp giả :: Bộ chọn theo trạng thái/vị trí, viết với dấu :.
+- Phần tử giả :: Bộ chọn một phần của phần tử, viết với ::.
+- Cascade :: Nguyên tắc xếp chồng quyết định quy tắc nào được áp dụng.
+- Trọng số (specificity) :: Mức độ cụ thể của bộ chọn.
+- !important :: Từ khóa nâng ưu tiên của một khai báo.
+@cards
+- Đổi màu nút khi di chuột? :: Dùng lớp giả :hover.
+- Chọn các dòng chẵn của danh sách? :: li:nth-child(even) hoặc li:nth-child(2n).
+- Chèn chữ sau phần tử? :: ::after với content: "...".
+- Phóng to chữ cái đầu đoạn? :: p::first-letter.
+- id và class, cái nào ưu tiên hơn? :: id.
+- Trọng số bằng nhau thì sao? :: Quy tắc viết sau được áp dụng.
+- Thứ tự lớp giả cho liên kết? :: :link → :visited → :hover → :active.
+- !important có tác dụng gì? :: Nâng khai báo lên trên các quy tắc thường.
+@check
+? Cho p{color:red} .a{color:green} #b{color:blue}. Đoạn <p class="a" id="b"> có màu:
++ Xanh lam (blue)
+- Đỏ
+- Xanh lá
+- Đen
+= id có trọng số cao nhất.
+? Hai quy tắc .tieude{color:red} rồi .tieude{color:green} viết sau. Kết quả?
++ Màu xanh lá vì cùng trọng số, quy tắc viết sau thắng.
+- Màu đỏ vì viết trước.
+- Pha trộn thành màu nâu.
+- Báo lỗi.
+= Bằng trọng số thì quy tắc sau thắng.
+? Bộ chọn nào chọn ô nhập đang được người dùng gõ?
++ input:focus
+- input:visited
+- input::after
+- input:first-letter
+= :focus là trạng thái đang được chọn.
+? Trọng số nào lớn nhất?
++ #menu a
+- .menu a
+- ul li a
+- a
+= Có id nên trọng số cao nhất.
+
+=== 18
+@goals
+- Vận dụng HTML và CSS để xây dựng một website hoàn chỉnh (ví dụ: website câu lạc bộ).
+- Biết tổ chức thư mục, tệp của website và dùng chung tệp CSS.
+- Tạo được bố cục trang gồm đầu trang, thanh điều hướng, nội dung, chân trang.
+@sec Quy trình thực hiện
+:::flow Xác định mục tiêu, nội dung > Phác thảo bố cục > Tổ chức thư mục > Viết HTML > Viết CSS > Kiểm tra, chỉnh sửa
+- Xác định các trang: Trang chủ, Giới thiệu, Hoạt động, Liên hệ…
+- Tổ chức thư mục: `index.html`, `css/style.css`, `images/` chứa ảnh, các trang khác cùng cấp.
+- Mọi trang liên kết **cùng một tệp CSS** để giao diện thống nhất.
+@sec Bố cục trang bằng các thẻ ngữ nghĩa
+| Thẻ | Vai trò |
+| `<header>` | Đầu trang: logo, tên website |
+| `<nav>` | Thanh điều hướng (menu) |
+| `<main>` | Nội dung chính |
+| `<section>`, `<article>` | Phần, bài viết trong nội dung |
+| `<aside>` | Nội dung phụ bên cạnh |
+| `<footer>` | Chân trang: liên hệ, bản quyền |
+:::code html live
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; }
+  header { background: #1e3a8a; color: #fff; padding: 12px 16px; }
+  nav a { color: #fff; margin-right: 12px; text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 12px 16px; }
+  .the { border: 1px solid #ddd; border-radius: 8px; padding: 8px 12px; margin-bottom: 8px; }
+  footer { background: #f1f5f9; text-align: center; padding: 8px; font-size: 13px; }
+</style>
+<header>
+  <h2 style="margin:0">CLB Tin học</h2>
+  <nav><a href="#">Trang chủ</a><a href="#">Hoạt động</a><a href="#">Liên hệ</a></nav>
+</header>
+<main>
+  <section class="the"><h3>Giới thiệu</h3><p>Nơi cùng nhau học lập trình và thiết kế web.</p></section>
+  <section class="the"><h3>Lịch sinh hoạt</h3><p>Chiều thứ Năm, phòng máy 2.</p></section>
+</main>
+<footer>© 2026 CLB Tin học</footer>
+:::end
+@sec Kiểm tra và hoàn thiện
+- Kiểm tra mọi liên kết, ảnh (đường dẫn tương đối đúng chưa).
+- Xem trên nhiều trình duyệt và kích thước màn hình.
+- Kiểm tra chính tả, độ tương phản màu, văn bản thay thế của ảnh.
+@remember
+- Quy trình: mục tiêu → phác thảo → thư mục → HTML → CSS → kiểm tra.
+- Dùng header, nav, main, section, footer để bố cục rõ ràng.
+- Một tệp CSS chung cho mọi trang giúp giao diện thống nhất, dễ sửa.
+@mistakes
+- Để ảnh và trang lẫn lộn, đặt tên có dấu, dấu cách => Tổ chức thư mục rõ ràng; tên tệp không dấu, dùng gạch nối.
+- Viết CSS riêng trong từng trang => Dùng tệp CSS bên ngoài dùng chung.
+- Chỉ kiểm tra trên một trình duyệt => Kiểm tra nhiều trình duyệt, nhiều kích thước màn hình.
+@terms
+- Bố cục (layout) :: Cách sắp xếp các vùng trên trang.
+- header / footer :: Đầu trang / chân trang.
+- nav :: Vùng điều hướng.
+- main :: Nội dung chính của trang.
+- Thẻ ngữ nghĩa :: Thẻ thể hiện vai trò của vùng nội dung.
+@cards
+- Thẻ chứa thanh điều hướng? :: <nav>.
+- Thẻ chứa nội dung chính? :: <main>.
+- Thẻ chân trang? :: <footer>.
+- Vì sao dùng một tệp CSS chung? :: Giao diện thống nhất, sửa một lần cho mọi trang.
+- Trang chủ thường đặt tên tệp là gì? :: index.html.
+- Nên đặt tên tệp thế nào? :: Không dấu, không dấu cách, dùng gạch nối (vd lien-he.html).
+- Bước đầu tiên khi làm website? :: Xác định mục tiêu và nội dung.
+- Thẻ dùng cho một phần nội dung có tiêu đề? :: <section>.
+@check
+? Tên tệp nào phù hợp cho trang liên hệ?
++ lien-he.html
+- Liên hệ.html
+- lien he.html
+- LIÊN HỆ!.htm
+= Tên không dấu, không dấu cách.
+? Thẻ nào phù hợp chứa logo và tên website ở đầu trang?
++ <header>
+- <footer>
+- <aside>
+- <td>
+= header là đầu trang.
+? Website có 5 trang, cách tổ chức CSS hợp lí:
++ Một tệp css/style.css liên kết vào cả 5 trang.
+- Năm tệp CSS khác nhau, mỗi trang một kiểu.
+- Viết inline cho mọi thẻ.
+- Không cần CSS.
+= Dùng chung một tệp để thống nhất.
+? Sau khi hoàn thành, việc nào cần làm trước khi công bố?
++ Kiểm tra liên kết, ảnh và hiển thị trên nhiều thiết bị.
+- Xóa tất cả thẻ alt.
+- Đổi tên mọi tệp thành chữ hoa có dấu.
+- Gộp tất cả vào một dòng.
+= Kiểm tra kĩ trước khi công bố.

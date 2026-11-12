@@ -1,0 +1,312 @@
+{
+  "title": "Tin học 12 – Chủ đề A: Máy tính và xã hội tri thức",
+  "orientation": "Tin học ứng dụng (ICT)",
+  "source": "SGK Tin học 12, Kết nối tri thức với cuộc sống, định hướng Tin học ứng dụng, Bài 1–2, trang in 5–13 (trang PDF 7–15).",
+  "notice": "Đề ôn tập theo dạng câu hỏi của kỳ thi tốt nghiệp THPT; không phải đề thi chính thức. Cấu trúc 18 câu chọn đáp án và 2 câu đúng/sai theo yêu cầu riêng.",
+  "mcq": [
+    {
+      "id": 1,
+      "level": "NB",
+      "question": "Phát biểu nào mô tả đúng khái niệm trí tuệ nhân tạo (AI)?",
+      "options": [
+        "Khả năng máy thực hiện những công việc mang tính trí tuệ.",
+        "Khả năng máy lưu dữ liệu trong những thiết bị dung lượng lớn.",
+        "Khả năng máy truyền dữ liệu qua những đường kết nối tốc độ cao.",
+        "Khả năng máy cấp năng lượng cho những thiết bị hoạt động."
+      ],
+      "answer": 0,
+      "explanation": "AI hướng tới thực hiện những công việc mang tính trí tuệ như học, hiểu ngôn ngữ, suy luận và ra quyết định."
+    },
+    {
+      "id": 2,
+      "level": "NB",
+      "question": "Khả năng học của AI được thể hiện trực tiếp ở hoạt động nào?",
+      "options": [
+        "Chép dữ liệu sang thiết bị lưu trữ đúng theo lệnh đã nhận.",
+        "Điều chỉnh hành vi nhờ thông tin thu được từ dữ liệu mới.",
+        "Bật đèn báo khi công tắc nguồn chuyển sang trạng thái mở.",
+        "In tài liệu thành nhiều bản giống hệt nội dung đã nhận."
+      ],
+      "answer": 1,
+      "explanation": "Khả năng học là nắm bắt thông tin từ dữ liệu và điều chỉnh hành vi dựa trên thông tin mới."
+    },
+    {
+      "id": 3,
+      "level": "NB",
+      "question": "Khả năng suy luận của AI chủ yếu dựa trên yếu tố nào?",
+      "options": [
+        "Dung lượng lưu trữ để sao chép những tệp dữ liệu đầu vào.",
+        "Tốc độ đường truyền để gửi đi những tệp dữ liệu đầu vào.",
+        "Logic và tri thức để đưa ra những kết luận từ dữ liệu.",
+        "Nguồn điện ổn định để bảo quản những tệp dữ liệu đầu vào."
+      ],
+      "answer": 2,
+      "explanation": "Suy luận là vận dụng logic và tri thức để đưa ra quyết định hoặc kết luận."
+    },
+    {
+      "id": 4,
+      "level": "NB",
+      "question": "Khả năng nhận thức của AI được minh họa rõ nhất bởi hoạt động nào?",
+      "options": [
+        "Máy in tạo thêm bản sao của tài liệu theo số lượng đã chọn.",
+        "Ổ cứng lưu thêm bản sao của tài liệu vào thư mục đã chọn.",
+        "Bộ hẹn giờ bật bóng đèn vào đúng thời điểm đã đặt trước.",
+        "Xe tự lái nhận ra người đi bộ từ hình ảnh của camera."
+      ],
+      "answer": 3,
+      "explanation": "Nhận thức là cảm nhận và hiểu môi trường qua cảm biến và dữ liệu đầu vào, chẳng hạn nhận ra người đi bộ."
+    },
+    {
+      "id": 5,
+      "level": "NB",
+      "question": "Nhiệm vụ nào trực tiếp thể hiện khả năng hiểu ngôn ngữ của AI?",
+      "options": [
+        "Hiểu yêu cầu tìm kiếm được người dùng nói bằng tiếng Việt.",
+        "Lưu tệp ghi âm của người dùng vào một thư mục trên máy.",
+        "Truyền tệp ghi âm của người dùng qua một mạng nội bộ.",
+        "Đổi tên tệp ghi âm của người dùng theo một mẫu cố định."
+      ],
+      "answer": 0,
+      "explanation": "Hiểu ngôn ngữ gồm hiểu và xử lí ngôn ngữ tự nhiên dưới dạng văn bản hoặc tiếng nói."
+    },
+    {
+      "id": 6,
+      "level": "NB",
+      "question": "AI hẹp được thiết kế chủ yếu nhằm mục đích nào?",
+      "options": [
+        "Thực hiện mọi công việc trí tuệ như một người trưởng thành.",
+        "Thực hiện một nhiệm vụ cụ thể trong phạm vi đã xác định.",
+        "Thay thế mọi hoạt động xã hội mà không cần người giám sát.",
+        "Chuyển sang mọi lĩnh vực mới mà không cần dữ liệu bổ sung."
+      ],
+      "answer": 1,
+      "explanation": "AI hẹp hay AI yếu được thiết kế cho một nhiệm vụ cụ thể như nhận dạng khuôn mặt hoặc dự báo thời tiết."
+    },
+    {
+      "id": 7,
+      "level": "NB",
+      "question": "Đặc điểm nào gắn với mục tiêu phát triển AI tổng quát?",
+      "options": [
+        "Chỉ thực hiện một thao tác cố định trong dây chuyền lắp ráp.",
+        "Chỉ xử lí một kiểu dữ liệu trong nhiệm vụ nhận dạng ảnh.",
+        "Tự thích nghi và thực hiện nhiều công việc như con người.",
+        "Chỉ làm đúng một nhiệm vụ trong phạm vi được thiết kế."
+      ],
+      "answer": 2,
+      "explanation": "AI tổng quát hướng tới năng lực tự học, tự thích nghi và thực hiện nhiều công việc, không chỉ một nhiệm vụ hẹp. Đây là mục tiêu nghiên cứu, không đồng nhất với các ứng dụng hiện hành trong sách."
+    },
+    {
+      "id": 8,
+      "level": "NB",
+      "question": "Hệ chuyên gia MYCIN trong sách giáo khoa được xây dựng chủ yếu để làm gì?",
+      "options": [
+        "Hỗ trợ nhận dạng các khuôn mặt và đề xuất cách gắn nhãn.",
+        "Hỗ trợ dịch tự động văn bản và đề xuất cách dùng từ ngữ.",
+        "Hỗ trợ phân tích luồng xe cộ và đề xuất cách phân luồng.",
+        "Hỗ trợ chẩn đoán nhiễm khuẩn và đề xuất dùng kháng sinh."
+      ],
+      "answer": 3,
+      "explanation": "MYCIN là hệ chuyên gia y học dùng luật suy diễn để hỗ trợ xác định vi khuẩn gây nhiễm trùng và đề xuất kháng sinh."
+    },
+    {
+      "id": 9,
+      "level": "NB",
+      "question": "Robot Asimo là ví dụ điển hình của ứng dụng AI trong lĩnh vực nào?",
+      "options": [
+        "Điều khiển robot thông minh tương tác với môi trường.",
+        "Nén các tệp dữ liệu thành những gói dung lượng nhỏ.",
+        "Cấp nguồn điện ổn định cho thiết bị trong gia đình.",
+        "Truyền tín hiệu số giữa các thiết bị trong mạng."
+      ],
+      "answer": 0,
+      "explanation": "Asimo minh họa ứng dụng AI trong điều khiển robot, với các khả năng như đi lại, nhận dạng và giao tiếp."
+    },
+    {
+      "id": 10,
+      "level": "NB",
+      "question": "Chức năng nào thuộc ứng dụng dịch máy sử dụng AI?",
+      "options": [
+        "Chuyển một trang văn bản thành tệp nén để giảm kích thước.",
+        "Chuyển một đoạn văn bản sang ngôn ngữ khác theo yêu cầu.",
+        "Chuyển một tệp văn bản sang thư mục khác theo yêu cầu.",
+        "Chuyển một trang văn bản sang máy in để tạo bản giấy."
+      ],
+      "answer": 1,
+      "explanation": "Dịch máy xử lí ngôn ngữ tự nhiên để chuyển nội dung giữa các ngôn ngữ."
+    },
+    {
+      "id": 11,
+      "level": "NB",
+      "question": "Ứng dụng nhận dạng chữ viết tay có chức năng chính nào?",
+      "options": [
+        "Chuyển dữ liệu văn bản thành âm thanh để người dùng nghe.",
+        "Chuyển dữ liệu văn bản thành bản in để người dùng đọc.",
+        "Chuyển hình ảnh chữ viết thành văn bản máy xử lí được.",
+        "Chuyển tệp chứa hình ảnh sang thư mục người dùng chọn."
+      ],
+      "answer": 2,
+      "explanation": "Nhận dạng chữ viết tay chuyển hình ảnh chữ viết thành dữ liệu văn bản có thể xử lí."
+    },
+    {
+      "id": 12,
+      "level": "NB",
+      "question": "Cảnh báo nào liên quan trực tiếp đến quyền riêng tư khi dùng AI?",
+      "options": [
+        "Thiết bị xử lí có thể tiêu thụ điện khi chạy mô hình lớn.",
+        "Một số nghề nghiệp có thể thay đổi do tự động hóa công việc.",
+        "Quyết định của mô hình có thể khó giải thích cho người dùng.",
+        "Dữ liệu cá nhân có thể bị thu thập và sử dụng sai mục đích."
+      ],
+      "answer": 3,
+      "explanation": "Nguy cơ về quyền riêng tư gắn với việc thu thập dữ liệu cá nhân và khả năng dữ liệu bị lạm dụng."
+    },
+    {
+      "id": 13,
+      "level": "TH",
+      "question": "Ấm điện tự ngắt khi nước sôi chưa đủ để được coi là ứng dụng AI. Giải thích nào phù hợp nhất?",
+      "options": [
+        "Nó chỉ phản ứng theo cơ chế cố định, chưa thể hiện học hay suy luận.",
+        "Nó phải dùng nguồn điện liên tục, chưa thể dùng năng lượng mặt trời.",
+        "Nó chỉ có kích thước nhỏ gọn, chưa thể phục vụ nhiều người cùng lúc.",
+        "Nó phải có người đổ nước vào, chưa thể tự di chuyển trong căn bếp."
+      ],
+      "answer": 0,
+      "explanation": "Tự động hóa không đồng nghĩa với AI. Cơ chế tự ngắt cố định không tự nó thể hiện những đặc trưng trí tuệ."
+    },
+    {
+      "id": 14,
+      "level": "TH",
+      "question": "Nền tảng video điều chỉnh gợi ý dựa trên lịch sử xem của từng người. Vì sao đây là biểu hiện của khả năng học?",
+      "options": [
+        "Hệ thống luôn hiển thị cùng danh sách video cho mọi tài khoản.",
+        "Hệ thống khai thác dữ liệu đã có để điều chỉnh nội dung gợi ý.",
+        "Hệ thống chỉ tăng tốc đường truyền để video phát ít gián đoạn.",
+        "Hệ thống sao chép nguyên danh sách video từ một thư mục cố định."
+      ],
+      "answer": 1,
+      "explanation": "Việc rút thông tin từ lịch sử xem rồi thay đổi gợi ý theo người dùng minh họa khả năng học từ dữ liệu."
+    },
+    {
+      "id": 15,
+      "level": "TH",
+      "question": "Một hệ thống AI đưa ra quyết định nhưng người dùng khó biết căn cứ của quyết định. Tình huống này minh họa cảnh báo nào?",
+      "options": [
+        "Nguy cơ thiếu minh bạch khi cần giải thích quyết định của AI.",
+        "Nguy cơ thất nghiệp khi máy móc thay đổi cơ cấu nghề nghiệp.",
+        "Nguy cơ riêng tư khi dữ liệu cá nhân bị dùng sai mục đích.",
+        "Nguy cơ an ninh khi kẻ xấu xâm nhập để sửa dữ liệu của AI."
+      ],
+      "answer": 0,
+      "explanation": "Đặc tính hộp đen khiến khó hiểu quá trình ra quyết định, liên quan trực tiếp đến tính minh bạch."
+    },
+    {
+      "id": 16,
+      "level": "TH",
+      "question": "Vì sao việc kẻ xấu sửa dữ liệu đầu vào của AI y tế có thể gây nguy hiểm?",
+      "options": [
+        "Dữ liệu bị sửa khiến hệ thống tự chuyển thành AI tổng quát.",
+        "Dữ liệu bị sửa có thể làm hệ thống đưa ra chẩn đoán sai.",
+        "Dữ liệu bị sửa khiến mọi kết luận luôn dễ giải thích hơn.",
+        "Dữ liệu bị sửa có thể làm mọi thông tin cá nhân biến mất."
+      ],
+      "answer": 1,
+      "explanation": "Tấn công làm thay đổi dữ liệu hoặc mô hình có thể dẫn tới quyết định sai, gây hại trực tiếp cho người bệnh."
+    },
+    {
+      "id": 17,
+      "level": "VD",
+      "question": "Một phòng khám thử AI hỗ trợ đọc ảnh X-quang. Trước khi áp dụng, lựa chọn nào phù hợp nhất để hạn chế rủi ro?",
+      "options": [
+        "Dùng ngay với mọi bệnh nhân và bỏ bước bác sĩ kiểm tra kết quả.",
+        "Chỉ chọn mô hình có giao diện đẹp và bỏ bước thử nghiệm thực tế.",
+        "Thử trên dữ liệu phù hợp và để bác sĩ kiểm tra trước quyết định.",
+        "Đưa toàn bộ hồ sơ lên mạng và bỏ bước xin phép người liên quan."
+      ],
+      "answer": 2,
+      "explanation": "Cần đánh giá mô hình trong bối cảnh sử dụng và duy trì giám sát chuyên môn; AI hỗ trợ chứ không mặc nhiên thay thế bác sĩ."
+    },
+    {
+      "id": 18,
+      "level": "VD",
+      "question": "Trang trại có dữ liệu độ ẩm đất, thời tiết và lịch sử tưới. Giải pháp nào khai thác AI phù hợp nhất để tiết kiệm nước?",
+      "options": [
+        "Đặt máy bơm chạy cùng số phút mỗi ngày và bỏ qua các dữ liệu đo.",
+        "Tăng lượng nước tưới cho mọi khu đất và bỏ qua dự báo thời tiết.",
+        "Sao chép bảng số liệu sang ổ đĩa khác và giữ nguyên lịch tưới cũ.",
+        "Dự đoán nhu cầu nước từ dữ liệu đo để điều chỉnh lịch tưới cây."
+      ],
+      "answer": 3,
+      "explanation": "Mô hình dự báo dựa trên dữ liệu môi trường có thể hỗ trợ tối ưu lịch tưới, phù hợp ứng dụng AI trong nông nghiệp thông minh."
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": 19,
+      "scenario": "Trường Minh An thử nghiệm trợ lí học tập AI. Hệ thống trả lời câu hỏi bằng tiếng Việt và dùng lịch sử làm bài để gợi ý nội dung ôn tập riêng cho từng học sinh. Một số lời giải do hệ thống tạo ra có thể chưa chính xác. Nhà trường đang xây dựng quy trình sử dụng và bảo vệ dữ liệu.",
+      "statements": [
+        {
+          "label": "a",
+          "level": "TH",
+          "text": "Trả lời câu hỏi bằng tiếng Việt thể hiện khả năng xử lí ngôn ngữ tự nhiên của hệ thống AI.",
+          "answer": true,
+          "explanation": "Hiểu và tạo câu trả lời bằng ngôn ngữ của con người là ứng dụng xử lí ngôn ngữ tự nhiên."
+        },
+        {
+          "label": "b",
+          "level": "TH",
+          "text": "Gợi ý nội dung dựa trên lịch sử làm bài chứng tỏ hệ thống đã có trí tuệ tổng quát như con người.",
+          "answer": false,
+          "explanation": "Cá nhân hóa từ dữ liệu thể hiện khả năng học trong một nhiệm vụ hẹp, không đủ chứng minh AI tổng quát."
+        },
+        {
+          "label": "c",
+          "level": "VD",
+          "text": "Khi AI giải khác sách giáo khoa, học sinh nên chọn ngay lời giải AI mà không cần kiểm tra lại.",
+          "answer": false,
+          "explanation": "Cần đối chiếu lập luận với nguồn tin cậy hoặc hỏi giáo viên vì đầu ra của AI có thể sai."
+        },
+        {
+          "label": "d",
+          "level": "VD",
+          "text": "Khi triển khai hệ thống, trường nên giới hạn dữ liệu thu thập và phân quyền truy cập hồ sơ học tập.",
+          "answer": true,
+          "explanation": "Giới hạn thu thập và phân quyền là những biện pháp phù hợp để giảm nguy cơ lạm dụng dữ liệu cá nhân."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "scenario": "Hợp tác xã Bình Minh dùng camera nhận dạng dấu hiệu sâu bệnh và mô hình dự báo nhu cầu nước từ độ ẩm đất, thời tiết. Sau đợt thay cảm biến, mô hình liên tục đề xuất tưới dù đất còn ẩm. Một đơn vị bên ngoài xin nhận toàn bộ ảnh có khuôn mặt công nhân để cải thiện mô hình mà chưa nêu mục đích sử dụng chi tiết.",
+      "statements": [
+        {
+          "label": "a",
+          "level": "TH",
+          "text": "Camera nhận dạng sâu bệnh chỉ lưu ảnh theo giờ cố định, không thể hiện khả năng nhận thức của AI.",
+          "answer": false,
+          "explanation": "Nhận dạng dấu hiệu sâu bệnh từ ảnh là xử lí và hiểu dữ liệu thị giác, minh họa khả năng nhận thức."
+        },
+        {
+          "label": "b",
+          "level": "TH",
+          "text": "Dự báo nhu cầu nước từ dữ liệu môi trường là một ứng dụng AI trong sản xuất nông nghiệp thông minh.",
+          "answer": true,
+          "explanation": "SGK nêu AI có thể phân tích dữ liệu môi trường để hợp lí hóa tưới tiêu và chăm sóc cây trồng."
+        },
+        {
+          "label": "c",
+          "level": "VD",
+          "text": "Với đề xuất tưới bất thường, nên kiểm tra cảm biến và đối chiếu thực tế trước khi cho hệ thống tưới.",
+          "answer": true,
+          "explanation": "Cần kiểm tra chất lượng dữ liệu đầu vào và giám sát quyết định thay vì thi hành máy móc kết quả bất thường."
+        },
+        {
+          "label": "d",
+          "level": "VD",
+          "text": "Với yêu cầu chia sẻ ảnh, nên gửi ngay bản gốc có khuôn mặt mà không cần làm rõ mục đích sử dụng.",
+          "answer": false,
+          "explanation": "Ảnh khuôn mặt liên quan đến dữ liệu cá nhân; cần làm rõ mục đích, cơ sở chia sẻ và bảo vệ hoặc ẩn danh phù hợp."
+        }
+      ]
+    }
+  ]
+}

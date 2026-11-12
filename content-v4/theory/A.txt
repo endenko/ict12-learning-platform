@@ -1,0 +1,303 @@
+=== 1
+@goals
+- Nêu được khái niệm trí tuệ nhân tạo (AI) và một số đặc trưng của AI.
+- Phân biệt được AI hẹp (AI yếu) và AI tổng quát (AI mạnh).
+- Kể được một số ứng dụng tiêu biểu của AI trong cuộc sống.
+@sec Trí tuệ nhân tạo là gì?
+**Trí tuệ nhân tạo** (Artificial Intelligence – AI) là khả năng của máy tính thực hiện những công việc mang tính trí tuệ của con người như học, suy luận, nhận thức môi trường, hiểu ngôn ngữ và giải quyết vấn đề.
+Thuật ngữ "trí tuệ nhân tạo" được **John McCarthy** dùng tại hội thảo Dartmouth năm **1956**. Trước đó, năm **1950**, Alan Turing đề xuất **phép thử Turing**: nếu người hỏi khó phân biệt câu trả lời của máy với của người thì có thể coi máy "thông minh".
+:::note AI không "có ý thức" như con người. Hệ thống AI hiện nay hoạt động nhờ dữ liệu, thuật toán và khả năng tính toán của máy tính.
+@sec Các đặc trưng của AI
+| Đặc trưng | Ý nghĩa | Ví dụ |
+| Khả năng học | Rút ra quy luật từ dữ liệu, kinh nghiệm để làm tốt hơn | Hệ thống lọc thư rác ngày càng chính xác |
+| Khả năng suy luận | Dùng tri thức, luật để rút ra kết luận mới | Hệ chuyên gia gợi ý chẩn đoán |
+| Khả năng nhận thức | Thu nhận, xử lí thông tin từ môi trường (hình ảnh, âm thanh) | Nhận dạng khuôn mặt, biển số xe |
+| Hiểu ngôn ngữ | Hiểu và tạo ra ngôn ngữ tự nhiên | Trợ lí ảo, dịch máy |
+| Giải quyết vấn đề | Tìm cách đạt mục tiêu trong tình huống mới | Robot tìm đường, chơi cờ |
+:::flow Dữ liệu > Học (huấn luyện) > Mô hình > Dự đoán / quyết định
+@sec AI hẹp và AI tổng quát
+- **AI hẹp (AI yếu – Narrow AI):** chỉ giải quyết tốt một loại nhiệm vụ cụ thể, ví dụ nhận dạng giọng nói, gợi ý phim. Hầu hết AI hiện nay là AI hẹp.
+- **AI tổng quát (AI mạnh – General AI):** có khả năng học và giải quyết nhiều loại vấn đề khác nhau như con người. Đây vẫn là mục tiêu nghiên cứu, chưa trở thành hiện thực.
+| Tiêu chí | AI hẹp | AI tổng quát |
+| Phạm vi | Một nhiệm vụ cụ thể | Nhiều loại nhiệm vụ |
+| Hiện trạng | Đã phổ biến | Đang nghiên cứu |
+| Ví dụ | Dịch máy, lọc thư rác | Chưa có hệ thống thực tế |
+@sec Một số ứng dụng của AI
+- **Nhận dạng và xử lí ảnh:** mở khóa bằng khuôn mặt, đọc biển số, hỗ trợ đọc ảnh X-quang.
+- **Xử lí ngôn ngữ tự nhiên:** trợ lí ảo, chatbot, dịch máy, chuyển giọng nói thành văn bản.
+- **Hệ thống gợi ý:** gợi ý video, sản phẩm, bài hát theo sở thích người dùng.
+- **Robot và xe tự lái:** cảm nhận môi trường bằng cảm biến, tự lập kế hoạch di chuyển.
+- **Hệ chuyên gia:** dùng tri thức của chuyên gia để tư vấn, chẩn đoán.
+@remember
+- AI là khả năng của máy thực hiện các công việc mang tính trí tuệ của con người.
+- 5 đặc trưng: học, suy luận, nhận thức, hiểu ngôn ngữ, giải quyết vấn đề.
+- Hầu hết AI hiện nay là AI hẹp; AI tổng quát vẫn đang được nghiên cứu.
+@mistakes
+- Cho rằng mọi chương trình máy tính đều là AI => Chỉ những hệ thống thể hiện khả năng học, suy luận, nhận thức… mới được xem là AI.
+- Nhầm AI hẹp là "AI kém chất lượng" => AI hẹp có thể rất giỏi, chỉ là giới hạn ở một loại nhiệm vụ.
+- Nghĩ rằng phép thử Turing đo tốc độ tính toán => Phép thử đánh giá việc người hỏi có phân biệt được máy với người hay không.
+@terms
+- Trí tuệ nhân tạo (AI) :: Khả năng của máy tính thực hiện các công việc mang tính trí tuệ của con người.
+- Phép thử Turing :: Phép thử do Alan Turing đề xuất năm 1950 để đánh giá máy có "thông minh" như người không.
+- AI hẹp :: AI chỉ giải quyết một loại nhiệm vụ cụ thể (AI yếu).
+- AI tổng quát :: AI có thể học và giải quyết nhiều loại vấn đề như con người (AI mạnh).
+- Hệ chuyên gia :: Hệ thống dùng tri thức chuyên gia và luật suy diễn để tư vấn, chẩn đoán.
+@cards
+- AI là viết tắt của gì? :: Artificial Intelligence – trí tuệ nhân tạo.
+- Ai đặt ra thuật ngữ "trí tuệ nhân tạo"? Năm nào? :: John McCarthy, tại hội thảo Dartmouth năm 1956.
+- Phép thử Turing đánh giá điều gì? :: Người hỏi có phân biệt được câu trả lời của máy với của người hay không.
+- Kể 5 đặc trưng của AI. :: Học, suy luận, nhận thức, hiểu ngôn ngữ, giải quyết vấn đề.
+- AI hẹp còn gọi là gì? :: AI yếu – chỉ làm tốt một loại nhiệm vụ.
+- AI tổng quát còn gọi là gì? :: AI mạnh – học và giải quyết nhiều loại vấn đề như con người.
+- Mở khóa điện thoại bằng khuôn mặt thể hiện đặc trưng nào? :: Khả năng nhận thức (nhận dạng hình ảnh).
+- Trợ lí ảo trả lời câu hỏi bằng giọng nói thể hiện đặc trưng nào? :: Khả năng hiểu ngôn ngữ tự nhiên.
+@check
+? Hệ thống nào sau đây là ví dụ của AI hẹp?
++ Ứng dụng chỉ chuyên nhận dạng biển số xe.
+- Một hệ thống có thể học mọi việc như con người.
+- Máy tính bỏ túi thực hiện phép cộng.
+- Bàn phím gõ văn bản.
+= AI hẹp giải quyết tốt một loại nhiệm vụ cụ thể như nhận dạng biển số.
+? Bộ lọc thư rác ngày càng chính xác hơn sau khi người dùng đánh dấu thư rác. Đó là đặc trưng nào?
++ Khả năng học.
+- Khả năng lưu trữ.
+- Khả năng hiển thị.
+- Khả năng in ấn.
+= Hệ thống rút ra quy luật từ dữ liệu mới để cải thiện kết quả – đó là học.
+? Phát biểu nào đúng về AI tổng quát?
++ Vẫn đang là mục tiêu nghiên cứu, chưa thành hiện thực.
+- Đã có trong mọi điện thoại thông minh.
+- Chỉ làm được một nhiệm vụ.
+- Là tên gọi khác của AI yếu.
+= AI tổng quát (AI mạnh) chưa tồn tại trong thực tế.
+? Năm 1950, Alan Turing đề xuất điều gì?
++ Phép thử để đánh giá máy có hành xử thông minh như người.
+- Thuật ngữ "Artificial Intelligence".
+- Mạng Internet đầu tiên.
+- Ngôn ngữ lập trình đầu tiên.
+= Thuật ngữ AI do John McCarthy dùng năm 1956; Turing đề xuất phép thử năm 1950.
+
+=== 2
+@goals
+- Nêu được ví dụ AI góp phần phát triển các lĩnh vực khoa học và đời sống.
+- Nhận biết được một số nguy cơ, cảnh báo khi sử dụng AI.
+- Có ý thức sử dụng AI có trách nhiệm.
+@sec AI thúc đẩy nhiều lĩnh vực
+| Lĩnh vực | Ứng dụng AI tiêu biểu |
+| Y tế | Hỗ trợ đọc ảnh X-quang, CT; dự đoán bệnh; nghiên cứu thuốc mới |
+| Giáo dục | Hệ thống học tập cá nhân hóa, chấm bài tự động, trợ lí học tập |
+| Nông nghiệp | Giám sát cây trồng bằng ảnh, dự báo thời tiết, tưới tiêu thông minh |
+| Giao thông | Xe tự lái, điều khiển đèn tín hiệu, tìm đường tối ưu |
+| Tài chính | Phát hiện giao dịch gian lận, đánh giá rủi ro tín dụng |
+| Sản xuất | Robot công nghiệp, kiểm tra lỗi sản phẩm bằng thị giác máy tính |
+| Khoa học | Phân tích dữ liệu lớn, dự đoán cấu trúc protein, mô phỏng khí hậu |
+AI giúp tự động hóa công việc lặp lại, xử lí lượng dữ liệu rất lớn và hỗ trợ con người ra quyết định nhanh, chính xác hơn.
+@sec Một vài cảnh báo về AI
+- **Việc làm:** một số công việc lặp lại có thể bị thay thế; người lao động cần học kĩ năng mới.
+- **Quyền riêng tư:** AI cần nhiều dữ liệu; dữ liệu cá nhân có thể bị thu thập, lạm dụng.
+- **Thiên lệch (bias):** dữ liệu huấn luyện thiếu cân bằng khiến AI đưa ra quyết định không công bằng.
+- **Thông tin giả, deepfake:** AI có thể tạo ảnh, video, giọng nói giả rất giống thật để lừa đảo.
+- **An ninh và trách nhiệm:** khó xác định ai chịu trách nhiệm khi AI gây sai sót; AI có thể bị dùng để tấn công mạng.
+- **Phụ thuộc:** lạm dụng AI làm giảm khả năng tự suy nghĩ, sáng tạo.
+:::note Kết quả do AI tạo ra có thể sai. Hãy kiểm chứng thông tin quan trọng từ nguồn đáng tin cậy.
+@sec Sử dụng AI có trách nhiệm
+:::flow Kiểm chứng thông tin > Bảo vệ dữ liệu cá nhân > Ghi rõ khi dùng AI > Tuân thủ pháp luật
+- Không đưa thông tin cá nhân, mật khẩu, dữ liệu nhạy cảm vào công cụ AI.
+- Dùng AI để hỗ trợ học tập chứ không sao chép làm bài thay mình.
+- Cảnh giác với cuộc gọi, video có dấu hiệu giả mạo người quen để vay tiền.
+@remember
+- AI giúp phát triển y tế, giáo dục, nông nghiệp, giao thông, tài chính, sản xuất, khoa học.
+- Cảnh báo chính: việc làm, quyền riêng tư, thiên lệch, deepfake, an ninh – trách nhiệm, sự phụ thuộc.
+- Luôn kiểm chứng kết quả của AI và bảo vệ dữ liệu cá nhân.
+@mistakes
+- Tin tuyệt đối vào câu trả lời của AI => AI có thể "bịa" thông tin; cần đối chiếu nguồn tin cậy.
+- Nghĩ deepfake chỉ là trò vui => Deepfake có thể được dùng để lừa đảo, bôi nhọ, gây hại nghiêm trọng.
+- Cho rằng AI luôn khách quan => AI có thể thiên lệch nếu dữ liệu huấn luyện thiên lệch.
+@terms
+- Deepfake :: Ảnh, video, âm thanh giả được tạo bằng AI, trông như thật.
+- Thiên lệch dữ liệu :: Dữ liệu không đại diện đầy đủ khiến mô hình AI đưa ra kết quả không công bằng.
+- Học tập cá nhân hóa :: Lộ trình học được điều chỉnh theo năng lực từng người học.
+- Dữ liệu lớn :: Tập dữ liệu rất lớn, đa dạng, cần công cụ đặc biệt để phân tích.
+@cards
+- Nêu một ứng dụng của AI trong y tế. :: Hỗ trợ đọc ảnh X-quang/CT, dự đoán bệnh, nghiên cứu thuốc.
+- Nêu một ứng dụng của AI trong tài chính. :: Phát hiện giao dịch gian lận, đánh giá rủi ro tín dụng.
+- Deepfake là gì? :: Nội dung ảnh, video, âm thanh giả tạo bằng AI trông như thật.
+- Vì sao AI có thể thiên lệch? :: Vì dữ liệu huấn luyện thiếu cân bằng hoặc mang định kiến.
+- AI ảnh hưởng đến việc làm thế nào? :: Một số việc lặp lại bị thay thế; xuất hiện việc mới cần kĩ năng mới.
+- Nguy cơ về quyền riêng tư khi dùng AI? :: Dữ liệu cá nhân có thể bị thu thập, lạm dụng.
+- Khi nhận cuộc gọi video của "người quen" hỏi vay tiền gấp, nên làm gì? :: Xác minh qua kênh khác trước khi chuyển tiền – có thể là deepfake.
+- Nguyên tắc dùng AI trong học tập? :: Dùng để hỗ trợ hiểu bài, không sao chép làm thay; kiểm chứng kết quả.
+@check
+? Ứng dụng nào là AI trong nông nghiệp?
++ Phân tích ảnh chụp từ drone để phát hiện cây bị bệnh.
+- Dùng máy cày điều khiển bằng tay.
+- Bán nông sản trên chợ truyền thống.
+- In nhãn sản phẩm bằng máy in.
+= Phân tích ảnh để nhận biết cây bệnh là ứng dụng thị giác máy tính.
+? Hệ thống tuyển dụng dùng AI thường loại hồ sơ nữ vì dữ liệu cũ phần lớn là nam. Đây là vấn đề gì?
++ Thiên lệch do dữ liệu huấn luyện.
+- Lỗi phần cứng.
+- Thiếu dung lượng lưu trữ.
+- Mạng Internet chậm.
+= Dữ liệu huấn luyện thiếu cân bằng tạo ra thiên lệch.
+? Cách ứng xử đúng khi dùng chatbot AI để làm bài tập?
++ Dùng để hỏi gợi ý, rồi tự làm và kiểm chứng kết quả.
+- Sao chép nguyên văn câu trả lời để nộp.
+- Nhập mật khẩu tài khoản để chatbot tự nộp bài.
+- Tin hoàn toàn mọi số liệu chatbot đưa ra.
+= AI là công cụ hỗ trợ; người học phải tự làm và kiểm chứng.
+? Video giả giọng nói và khuôn mặt một người nổi tiếng được gọi là gì?
++ Deepfake.
+- Phishing.
+- Firewall.
+- Backup.
+= Deepfake là nội dung giả tạo bằng AI.
+
+=== 3
+@goals
+- Nhận biết được chức năng của một số thiết bị mạng thông dụng: modem, switch, router, access point, card mạng, cáp mạng.
+- Biết cách kết nối máy tính với các thiết bị mạng để tạo mạng cục bộ (LAN).
+@sec Các thiết bị mạng thông dụng
+| Thiết bị | Chức năng chính |
+| Card mạng (NIC) | Giúp máy tính kết nối vào mạng; mỗi card có một địa chỉ MAC |
+| Cáp mạng (cáp xoắn đôi + đầu RJ45) | Truyền tín hiệu giữa máy tính và thiết bị mạng |
+| Switch (bộ chuyển mạch) | Kết nối nhiều thiết bị trong cùng mạng LAN; chuyển dữ liệu đến đúng cổng dựa trên địa chỉ MAC |
+| Router (bộ định tuyến) | Kết nối các mạng khác nhau, chọn đường đi cho gói tin (ví dụ nối LAN với Internet) |
+| Access point (điểm truy cập không dây) | Cho phép thiết bị kết nối mạng bằng Wi-Fi |
+| Modem | Chuyển đổi tín hiệu giữa mạng của nhà cung cấp (cáp quang, DSL) và tín hiệu số của mạng trong nhà |
+:::note Thiết bị "modem Wi-Fi" của nhà mạng thường tích hợp nhiều chức năng trong một hộp: modem + router + switch + access point.
+@sec Sơ đồ mạng gia đình / lớp học điển hình
+:::flow Internet > Modem > Router > Switch / Access point > Máy tính, điện thoại
+- **Switch** làm việc trong một mạng LAN: các máy cắm vào switch có thể trao đổi dữ liệu với nhau.
+- **Router** nối mạng LAN với mạng khác (Internet), đồng thời thường cấp địa chỉ IP tự động (DHCP) cho các máy.
+- **Access point** mở rộng mạng LAN sang kết nối không dây.
+@sec Thực hành kết nối máy tính với thiết bị mạng
+- Bước 1: Cắm một đầu cáp mạng (đầu RJ45) vào cổng mạng của máy tính, đầu kia vào một cổng LAN của switch/router.
+- Bước 2: Kiểm tra đèn tín hiệu ở cổng mạng sáng/nhấp nháy.
+- Bước 3: Kiểm tra kết nối trong hệ điều hành (biểu tượng mạng, lệnh `ipconfig` trên Windows).
+- Với Wi-Fi: chọn tên mạng (SSID), nhập mật khẩu; nên dùng chuẩn bảo mật WPA2/WPA3.
+:::note Khi nối router với modem, cắm vào cổng **WAN/Internet** của router; các máy tính cắm vào cổng **LAN**.
+@remember
+- Switch kết nối thiết bị trong một LAN; router kết nối các mạng khác nhau.
+- Access point cung cấp kết nối Wi-Fi; modem chuyển đổi tín hiệu với nhà cung cấp dịch vụ.
+- Card mạng có địa chỉ MAC; cáp xoắn đôi dùng đầu nối RJ45.
+@mistakes
+- Nhầm switch với router => Switch nối các máy trong cùng mạng; router nối các mạng với nhau (ví dụ LAN với Internet).
+- Cắm cáp từ modem vào cổng LAN của router => Cáp từ modem phải cắm vào cổng WAN/Internet.
+- Nghĩ access point là nguồn Internet => Access point chỉ mở rộng kết nối không dây cho mạng sẵn có.
+@terms
+- LAN :: Mạng cục bộ, kết nối thiết bị trong phạm vi nhỏ như nhà, phòng học.
+- Switch :: Thiết bị chuyển mạch kết nối nhiều thiết bị trong một LAN.
+- Router :: Thiết bị định tuyến, kết nối các mạng khác nhau.
+- Access point :: Điểm truy cập không dây (Wi-Fi).
+- Modem :: Thiết bị điều chế/giải điều chế tín hiệu giữa mạng nhà cung cấp và mạng trong nhà.
+- Địa chỉ MAC :: Địa chỉ vật lí gắn với card mạng.
+- RJ45 :: Đầu nối dùng cho cáp mạng xoắn đôi.
+@cards
+- Thiết bị nào kết nối các máy trong cùng một mạng LAN? :: Switch (bộ chuyển mạch).
+- Thiết bị nào kết nối LAN với Internet và chọn đường cho gói tin? :: Router (bộ định tuyến).
+- Access point dùng để làm gì? :: Cung cấp kết nối không dây Wi-Fi cho mạng.
+- Modem có chức năng gì? :: Chuyển đổi tín hiệu giữa mạng nhà cung cấp và tín hiệu số trong nhà.
+- Card mạng có loại địa chỉ nào gắn sẵn? :: Địa chỉ MAC.
+- Đầu nối của cáp mạng xoắn đôi tên là gì? :: RJ45.
+- Cáp từ modem cắm vào cổng nào của router? :: Cổng WAN (Internet).
+- SSID là gì? :: Tên của mạng Wi-Fi.
+@check
+? Phòng máy có 30 máy cần kết nối với nhau trong một mạng LAN. Thiết bị trung tâm phù hợp là gì?
++ Switch.
+- Modem.
+- Máy in.
+- Loa.
+= Switch kết nối nhiều thiết bị trong cùng một LAN.
+? Thiết bị nào cần có để mạng LAN trong nhà truy cập được Internet?
++ Router (kết hợp modem của nhà mạng).
+- Chỉ cần thêm chuột.
+- Chỉ cần thêm cáp HDMI.
+- Ổ cứng gắn ngoài.
+= Router nối LAN với mạng của nhà cung cấp (Internet), thường đi kèm modem.
+? Điện thoại muốn vào mạng LAN không dây cần kết nối với thiết bị nào?
++ Access point (điểm truy cập Wi-Fi).
+- Switch không có Wi-Fi.
+- Máy chiếu.
+- Card âm thanh.
+= Access point cung cấp kết nối Wi-Fi.
+? Đèn ở cổng mạng không sáng sau khi cắm cáp. Nên kiểm tra gì trước?
++ Cáp và đầu RJ45 đã cắm chắc chắn chưa.
+- Cài lại toàn bộ hệ điều hành.
+- Thay màn hình.
+- Đổi trình duyệt web.
+= Đi từ nguyên nhân đơn giản nhất: cáp, đầu nối, cổng.
+
+=== 4
+@goals
+- Giải thích được khái niệm giao thức mạng và vai trò của giao thức.
+- Nêu được vai trò của bộ giao thức TCP/IP, giao thức IP và TCP.
+- Biết cấu trúc địa chỉ IPv4 và vai trò của tên miền, DNS.
+@sec Giao thức mạng là gì?
+**Giao thức mạng** là tập hợp các quy tắc thống nhất về khuôn dạng dữ liệu và cách thức trao đổi dữ liệu giữa các thiết bị trong mạng. Nhờ giao thức, các thiết bị của nhiều hãng khác nhau vẫn "hiểu" được nhau.
+:::note Giống như hai người cần dùng chung một ngôn ngữ và phép lịch sự khi trò chuyện, các máy tính cần dùng chung giao thức.
+@sec Bộ giao thức TCP/IP
+Internet hoạt động dựa trên bộ giao thức **TCP/IP**, gồm nhiều giao thức xếp theo các tầng:
+:::stack Ứng dụng: HTTP, HTTPS, SMTP, FTP, DNS | Giao vận: TCP, UDP | Liên mạng: IP | Truy cập mạng: Ethernet, Wi-Fi
+- **IP (Internet Protocol):** định địa chỉ và định tuyến, đưa gói tin từ máy gửi đến máy nhận qua nhiều mạng.
+- **TCP (Transmission Control Protocol):** chia dữ liệu thành các gói, đánh số thứ tự, kiểm tra và yêu cầu gửi lại gói bị mất để bảo đảm dữ liệu đến **đầy đủ, đúng thứ tự**.
+- **UDP:** truyền nhanh, không bảo đảm gói đến đủ – phù hợp gọi video, trò chơi trực tuyến.
+:::flow Dữ liệu > TCP chia thành gói, đánh số > IP định tuyến qua mạng > TCP bên nhận ghép lại, kiểm tra
+@sec Địa chỉ IP và tên miền
+- **Địa chỉ IPv4** gồm 32 bit, viết thành 4 số thập phân (0–255) cách nhau dấu chấm, ví dụ `192.168.1.10`.
+- **IPv6** dùng 128 bit, viết dạng thập lục phân, ra đời vì IPv4 không đủ địa chỉ.
+- **Tên miền** (ví dụ `moet.gov.vn`) dễ nhớ hơn địa chỉ IP. Hệ thống **DNS** chuyển tên miền thành địa chỉ IP.
+| Giao thức | Dùng để |
+| HTTP / HTTPS | Truyền trang web (HTTPS có mã hóa) |
+| SMTP | Gửi thư điện tử |
+| FTP | Truyền tệp |
+| DNS | Phân giải tên miền thành địa chỉ IP |
+@remember
+- Giao thức = quy tắc chung để các thiết bị trao đổi dữ liệu.
+- IP lo địa chỉ và định tuyến; TCP bảo đảm dữ liệu đến đầy đủ, đúng thứ tự.
+- IPv4: 32 bit, 4 số 0–255; DNS chuyển tên miền thành địa chỉ IP.
+@mistakes
+- Cho rằng TCP/IP chỉ là một giao thức => TCP/IP là một bộ gồm nhiều giao thức ở nhiều tầng.
+- Viết địa chỉ IPv4 có số lớn hơn 255 (vd 192.168.1.300) => Mỗi phần chỉ từ 0 đến 255.
+- Nghĩ HTTP và HTTPS giống hệt nhau => HTTPS mã hóa dữ liệu, an toàn hơn.
+@terms
+- Giao thức :: Tập quy tắc về khuôn dạng và cách trao đổi dữ liệu trong mạng.
+- TCP/IP :: Bộ giao thức nền tảng của Internet.
+- Gói tin :: Một phần dữ liệu nhỏ được truyền độc lập trong mạng.
+- Địa chỉ IP :: Địa chỉ logic xác định thiết bị trong mạng.
+- DNS :: Hệ thống phân giải tên miền thành địa chỉ IP.
+- HTTPS :: Giao thức truyền trang web có mã hóa.
+@cards
+- Giao thức mạng là gì? :: Tập quy tắc thống nhất về khuôn dạng và cách trao đổi dữ liệu giữa các thiết bị.
+- Giao thức IP đảm nhận việc gì? :: Định địa chỉ và định tuyến gói tin qua các mạng.
+- Giao thức TCP bảo đảm điều gì? :: Dữ liệu đến đầy đủ, đúng thứ tự (gửi lại gói bị mất).
+- Địa chỉ IPv4 dài bao nhiêu bit? :: 32 bit, viết thành 4 số 0–255.
+- Địa chỉ IPv6 dài bao nhiêu bit? :: 128 bit.
+- DNS dùng để làm gì? :: Chuyển tên miền thành địa chỉ IP.
+- Giao thức gửi thư điện tử? :: SMTP.
+- Khác nhau giữa HTTP và HTTPS? :: HTTPS có mã hóa dữ liệu khi truyền.
+@check
+? Địa chỉ nào là địa chỉ IPv4 hợp lệ?
++ 172.16.0.25
+- 192.168.1.256
+- 10.0.0
+- 300.1.1.1
+= Mỗi phần của IPv4 nằm trong khoảng 0–255 và có đúng 4 phần.
+? Khi tải tệp, một số gói tin bị mất. Giao thức nào yêu cầu gửi lại các gói đó?
++ TCP.
+- DNS.
+- HTML.
+- SMTP.
+= TCP kiểm tra và yêu cầu gửi lại gói bị mất.
+? Gõ tên miền vào trình duyệt, hệ thống nào tìm ra địa chỉ IP của máy chủ?
++ DNS.
+- FTP.
+- Switch.
+- UDP.
+= DNS phân giải tên miền thành địa chỉ IP.
+? Vì sao các thiết bị của nhiều hãng khác nhau vẫn trao đổi dữ liệu được?
++ Vì cùng tuân theo các giao thức chung.
+- Vì dùng cùng một loại màn hình.
+- Vì cùng một nhà sản xuất chip.
+- Vì đều cài cùng trò chơi.
+= Giao thức là quy tắc chung giúp các thiết bị hiểu nhau.
